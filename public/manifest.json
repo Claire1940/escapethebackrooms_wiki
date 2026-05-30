@@ -1,12 +1,15 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Escape The Backrooms Wiki - Levels, Entities & Walkthrough",
+  "short_name": "ETB Wiki",
+  "description": "Escape The Backrooms Wiki with level walkthroughs, entity counters, items, endings, achievements, co-op tips, and platform guides for PC, PS5, and Xbox.",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
-  "background_color": "#0a0a0a",
+  "lang": "en-US",
+  "theme_color": "#dfbc1d",
+  "background_color": "#0f0d05",
+  "categories": ["games", "entertainment", "reference"],
   "icons": [
     {
       "src": "/android-chrome-192x192.png",
