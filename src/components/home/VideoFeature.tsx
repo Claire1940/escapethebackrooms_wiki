@@ -1,7 +1,7 @@
 "use client";
 
-import { useMemo } from "react";
-import { ExternalLink } from "lucide-react";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { Play, ExternalLink } from "lucide-react";
 
 interface VideoFeatureProps {
   videoId: string;
@@ -9,28 +9,59 @@ interface VideoFeatureProps {
 }
 
 export function VideoFeature({ videoId, title }: VideoFeatureProps) {
-  const watchUrl = useMemo(
-    () => `https://www.youtube.com/watch?v=${videoId}`,
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const [isActivated, setIsActivated] = useState(false);
+
+  const watchUrl = useMemo(() => `https://www.youtube.com/watch?v=${videoId}`, [videoId]);
+  const idleUrl = useMemo(() => `https://www.youtube.com/embed/${videoId}?mute=1&playsinline=1&rel=0`, [videoId]);
+  const autoplayUrl = useMemo(
+    () => `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&loop=1&playlist=${videoId}&playsinline=1&rel=0`,
     [videoId],
   );
 
-  const embedUrl = useMemo(
-    () =>
-      `https://www.youtube.com/embed/${videoId}?autoplay=1&mute=1&playsinline=1&rel=0`,
-    [videoId],
-  );
+  useEffect(() => {
+    const node = containerRef.current;
+    if (!node || isActivated) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsActivated(true);
+            observer.disconnect();
+          }
+        });
+      },
+      { threshold: 0.35 },
+    );
+
+    observer.observe(node);
+    return () => observer.disconnect();
+  }, [isActivated]);
 
   return (
-    <div className="space-y-4">
+    <div className="space-y-4" ref={containerRef}>
       <div className="relative w-full overflow-hidden rounded-lg" style={{ paddingBottom: "56.25%" }}>
         <iframe
           className="absolute top-0 left-0 w-full h-full"
-          src={embedUrl}
+          src={isActivated ? autoplayUrl : idleUrl}
           title={title}
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
           allowFullScreen
         />
+        {!isActivated && (
+          <button
+            type="button"
+            onClick={() => setIsActivated(true)}
+            className="absolute inset-0 flex items-center justify-center bg-black/30 hover:bg-black/20 transition-colors"
+            aria-label={`Play ${title}`}
+          >
+            <span className="inline-flex items-center gap-2 rounded-full px-4 py-2 bg-[hsl(var(--nav-theme))] text-white font-semibold">
+              <Play className="w-4 h-4" /> Play Video
+            </span>
+          </button>
+        )}
       </div>
 
       <div className="flex justify-center">
