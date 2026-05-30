@@ -1,0 +1,245 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Walkthrough: Full Game Guide & Endings",
+  description: "Navigate every terrifying level of Escape the Backrooms with our comprehensive walkthrough, including puzzle solutions, entity avoidance, and all endings.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/800080/fff?text=Escape+Backrooms+Walkthrough",
+  date: "2026-05-30",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Master **Escape the Backrooms walkthrough** to navigate all levels.
+- Prioritize **sanity management** using Almond Water and other consumables.
+- Learn **entity avoidance tactics** like hiding, blinding, and speed boosts.
+- Solve complex **puzzles and environmental challenges** in each unique level.
+- Unlock all **five distinct endings** for 100% completion.
+</Callout>
+
+<Section icon={Map} title="Navigating Level 0: The Beginning of the Nightmare">
+Your journey in **Escape the Backrooms** begins in Level 0, a deceptively simple yet critical starting point. The primary goal here is to find a ladder, a key, and ultimately, the exit. Beware, as spending too long can introduce a new threat: the bacteria.
+
+<Callout type="warning" title="Bacteria Threat">
+If you spend more than 3 minutes in Level 0, a **bacteria entity** will spawn. It's crucial to locate the ladder pieces and key quickly to avoid this threat.
+</Callout>
+
+**Video Highlights:**
+- Demonstrates initial spawn and ladder piece locations.
+- Shows how to find the key and unlock the exit door.
+- Highlights the balance mini-game across pits.
+
+<YouTubeEmbed videoId="DO6Q74MoSbk" title="Escape The Backrooms Walkthrough - Full Game Guide" />
+
+<Steps>
+  <Step num="1" title="Find Ladder Pieces">
+    Upon spawning, head right to locate scattered **ladder pieces**. Collect all of them.
+  </Step>
+  <Step num="2" title="Retrieve the Key">
+    Once the ladder is complete, climb it to reach a cubby containing the **exit key**.
+  </Step>
+  <Step num="3" title="Unlock the Exit">
+    Use the key on a nearby door. If you die before using it, the key will be consumed, and the door will remain open upon respawn.
+  </Step>
+  <Step num="4" title="Cross the Pits">
+    Beyond the door, navigate a room with pits, maintaining your balance. If you fall, follow the arrows to an alternate exit.
+  </Step>
+</Steps>
+
+<CardGrid cols={2}>
+  <Card title="Key Items in Level 0">
+    - **Ladder Pieces**: Required to reach the key.
+    - **Exit Key**: Unlocks the main exit door.
+    - **Flashlight**: May spawn in one of the rooms, useful for subsequent levels.
+  </Card>
+  <Card title="Survival Tips for Level 0">
+    - **Speed is essential**: Avoid the bacteria by moving fast.
+    - **Co-op advantage**: Ropes can be used by teammates if someone falls into a pit.
+    - **Note reading**: Pay attention to wall notes for hints.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Progressing Through Advanced Levels: Hub, Office, and Hotel">
+After Level 0, you'll encounter more complex environments like Level 1 (The Habitable Zone), the Hub, Abandoned Office, and Terror Hotel. These levels introduce new entities, sanity mechanics, and intricate puzzles.
+
+<Callout type="tip" title="Sanity Management is Key">
+Your sanity drains passively in most levels and rapidly in danger. **Almond Water** restores 50% sanity, while **Energy Bars** and **Juice** restore 25% and provide temporary stamina boosts. Always keep a stock!
+</Callout>
+
+### Level 1: The Habitable Zone
+Find a four-digit color-based elevator code from cars in the parking lot. This code is randomized. Once entered, proceed to the second floor.
+
+### Abandoned Office (Level 4)
+This level features the "Strangler" entity, visible through windows. Avoid direct contact. A key puzzle involves counting objects in a room (water coolers, books, chairs, tables) and inputting the numbers into vending machines.
+
+### Terror Hotel (Level 5)
+The Terror Hotel is split into multiple sections.
+
+<Steps>
+  <Step num="1" title="Lobby Puzzle">
+    Solve a painting puzzle by pressing buttons in ascending order of the subjects' age. Collect **Bug Spray** for later use.
+  </Step>
+  <Step num="2" title="Moth Jelly Collection">
+    Use Bug Spray on male Death Moths to obtain **Moth Jelly**, which can be fed to a dumbwaiter to get keys.
+  </Step>
+  <Step num="3" title="Hotel Rooms Challenge">
+    Collect letters from nightstands in various rooms while avoiding **Skin Stealers** (left side) and **Hounds** (right side). The letters spell out a code (e.g., 17564, 89472, 05938) for the exit door.
+  </Step>
+  <Step num="4" title="Boiler Room Maze">
+    Navigate a maze filled with female Death Moths. Use a **thermometer** to detect them and crouch to avoid detection. Turn red valves to scare them off if chased.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Co-op Strategy for Terror Hotel">
+In co-op, one player can bait a Skin Stealer while others collect keys. Remember, Skin Stealers cannot open doors, so use this to your advantage by closing doors behind you.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Confronting Entities and Environmental Hazards">
+Many levels in **Escape the Backrooms** are designed around specific entities and environmental challenges. Understanding their behaviors is crucial for survival.
+
+<Callout type="info" title="Entity Encounter Guide">
+- **Smilers**: Avoid direct light from flickering zones. Run and jump to conserve stamina.
+- **Hounds**: Can be stunned with a flashlight. Close doors behind you to deter them.
+- **Skin Stealers**: Mimic wanderers. Check ID cards in co-op. Close doors to slow them down.
+- **Wretch**: Blind, but highly sensitive to sound. Crouch to avoid detection in dark areas.
+- **Partygoers**: Avoid getting too close; they will chase you. Hide under tables.
+</Callout>
+
+### Entity Behavior Comparison
+| Entity | Primary Threat | Avoidance Tactic | Sanity Impact | Speed |
+| :----- | :------------- | :--------------- | :------------ | :---- |
+| **Bacteria** | Proximity detection | Quick movement | Moderate drain | Fast |
+| **Smiler** | Flickering lights | Stay in light/run | High drain | Very Fast |
+| **Hound** | Direct chase | Flashlight blind | High drain | Fast |
+| **Skin Stealer** | Mimicry/Chase | Check ID/Close doors | High drain | Moderate |
+| **Wretch** | Sound detection | Crouch/Stealth | Moderate drain | Slow |
+| **Partygoer** | Proximity chase | Hide under tables | High drain | Fast |
+| **Death Moth** | Heat/Proximity | Thermometer/Crouch | Moderate drain | Slow |
+
+<Callout type="tip" title="Mastering the Pipe Dreams and Electrical Station">
+In Level 2, "Pipe Dreams," follow the "Station" sign to the left. The Electrical Station requires activating 9 fuse boxes across three substations. Hounds guard the West Substation and Generator Zone; use your flashlight to blind them. Watch out for electric puddles in the Generator Zone – they are instant death.
+</Callout>
+
+<Checklist
+  id="survival-tactics"
+  title="Essential Survival Tactics:"
+  items={[
+    "Always check notes for entity hints.",
+    "Conserve stamina for critical escapes.",
+    "Utilize environmental hiding spots (tables, lockers).",
+    "Cooperate with teammates by sharing information and items.",
+    "Prioritize puzzles to minimize exposure to threats."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Solving Complex Puzzles and Level Mechanics">
+**Escape the Backrooms** is filled with unique puzzles that require keen observation and logical thinking. From color codes to object counting, each level presents a distinct challenge.
+
+### Level 0.2: Residential Area (No-Clipping)
+This level requires you to activate 5 switches scattered in smaller rooms. The rooms are locked from the safe side, so you must **no-clip** into "The Red Rooms" below. Traffic lights indicate danger levels (red/yellow for danger, green for safe).
+
+<Steps>
+  <Step num="1" title="Identify No-Clip Zones">
+    Locate areas marked with yellow tape that allow you to no-clip into the Red Rooms.
+  </Step>
+  <Step num="2" title="Check Traffic Lights">
+    Before jumping, check the traffic lights. Green means safe, red/yellow means danger (Smilers and Skin Stealers present).
+  </Step>
+  <Step num="3" title="Open Doors Below">
+    Once in the Red Rooms, find and open the corresponding doors from below.
+  </Step>
+  <Step num="4" title="Activate Breaker Boxes">
+    No-clip back to the safe side and activate the electrical boxes by clicking when the arrow is in the green zone. Repeat for all 5 switches.
+  </Step>
+  <Step num="5" title="Sprint to the Elevator">
+    After activating all switches, a gate will lower, temporarily blocking a Bone Thief. Sprint across to the elevator.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="No-Clip Disorientation">
+No-clipping is not always 1:1; your position may shift. The layout of the Red Rooms differs from the safe side, so memorizing above-ground landmarks won't help below.
+</Callout>
+
+### Level Fun+ (Party Games)
+This level is a series of mini-games to collect four keys.
+
+| Sector | Puzzle Type | Entity | Key Item |
+| :----- | :---------- | :----- | :------- |
+| **Pink Hall** | Simon Says (Balloons) | None | VHS Tape |
+| **Blue Hall** | Party Hosts | Party Hosts, Partygoers | Firecrackers |
+| **Red Hall** | Symbol Matching | Partygoer | Glow Sticks |
+| **Cloud Hall** | Balloon Popping | Partygoers | None |
+
+</Section>
+
+<Section icon={Trophy} title="Achieving All Endings and Nightmare Mode">
+**Escape the Backrooms** features multiple endings, each unlocking unique achievements. Completing them all, including the daunting Nightmare mode, is the ultimate goal for 100% completion.
+
+<Callout type="tip" title="Nightmare Mode Preparation">
+In Nightmare difficulty, a single death means restarting the entire game. Master all levels in normal mode first, understand entity patterns, and utilize item duplication glitches if available to maximize your chances.
+</Callout>
+
+### Understanding the Endings
+There are five distinct endings to discover:
+
+1.  **The Wrong Door Ending (Ending A)**: Typically the first ending encountered. After completing Level 55.1 (the photo collection level), you'll proceed through a door that leads to this ending.
+2.  **The Pink House Ending (Ending B)**: Located in Level 974 (Kitty's House). This ending involves collecting 12 teddy bears while being pursued by the entity "Kitty," who can only be deterred by constant eye contact.
+3.  **The Suburbs Ending (Ending C)**: Accessed via Level 922 (Infinite Staircase). Instead of climbing to the top, you must jump down from floor 94 or higher.
+4.  **The Empty City Ending (Ending D)**: Found after completing the "Overgrowth" and "Grassrooms" levels. This involves guiding wanderers down slides and navigating a knife-based puzzle.
+5.  **The True Ending**: Achieved by unlocking all previous endings (A, B, C, and D). Once all are complete, return to Level 3999 (Arcade) and interact with the final arcade machine.
+
+<Callout type="success" title="Exploiting Nightmare Mode">
+For Nightmare runs, consider using glitches like freezing entities in Level 1 or skipping sections (e.g., the cave section by climbing out of bounds) to streamline your progress. Item duplication can also alleviate sanity drain challenges.
+</Callout>
+
+<YouTubeEmbed videoId="gLxfJaDpyvc" title="We Played 100% of Escape The Backrooms Multiplayer" />
+
+<Checklist
+  id="ending-completion"
+  title="Ending Checklist:"
+  items={[
+    "Unlock The Wrong Door Ending (A).",
+    "Unlock The Pink House Ending (B).",
+    "Unlock The Suburbs Ending (C).",
+    "Unlock The Empty City Ending (D).",
+    "Achieve The True Ending by collecting all others."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the primary goal of Escape the Backrooms walkthrough?",
+    answer: "The primary goal is to navigate through various levels, solve puzzles, avoid hostile entities, and ultimately find a way to escape the Backrooms, unlocking all available endings."
+  },
+  {
+    question: "How do I restore sanity in Escape the Backrooms?",
+    answer: "Sanity can be restored using consumables like Almond Water (50%), Energy Bars (25%), and Juice (25%). Some levels also passively restore sanity."
+  },
+  {
+    question: "Are there any tips for playing Nightmare difficulty in Escape the Backrooms?",
+    answer: "Nightmare difficulty means one death resets the entire game. It's recommended to master all levels and puzzles on normal difficulty first, learn entity patterns, and consider using known glitches or exploits to your advantage."
+  },
+  {
+    question: "How many endings are there in Escape the Backrooms?",
+    answer: "There are five distinct endings: The Wrong Door, The Pink House, The Suburbs, The Empty City, and The True Ending, which requires unlocking all four others."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms: Guía del Puzzle de la Válvula de Agua en el Nivel 37.2",
+  description: "Domina los puzzles de la válvula de agua en Escape the Backrooms Nivel 37.2 con esta guía completa, incluyendo estrategias y exploits de errores.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Water+Valve+Puzzle",
+  date: "2026-05-30",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **puzzle de la válvula de agua de Escape the Backrooms** en el Nivel 37.2 requiere una acción rápida para evitar que las válvulas se reinicien.
+- Ten cuidado con las **Bacterias Hidraúlicas** y otras entidades como Paperaton y Gitoan mientras operas las válvulas.
+- Utiliza **saltos agachados** y características del entorno para navegar por las áreas inundadas de manera eficiente.
+- Varios **exploits de errores** pueden acelerar significativamente la progresión y omitir secuencias de válvulas tediosas.
+- El trabajo en equipo es crucial para las secciones con **múltiples válvulas** que necesitan ser giradas simultáneamente.
+</Callout>
+
+<Section icon={Map} title="Navegando el Nivel 37.2: Poolrooms y Válvulas Iniciales">
+El Nivel 37.2, a menudo conocido como los Poolrooms, presenta desafíos únicos, principalmente centrados en la navegación acuática y los infames puzzles de las válvulas de agua. El área está llena de Bacterias Hidraúlicas, lo que hace que el contacto directo con el agua sea peligroso. Los jugadores deben emplear técnicas de movimiento inteligentes y comprender la mecánica de las válvulas para progresar.
+
+**Puntos destacados del video:**
+- Demuestra cómo navegar por las Bacterias Hidraúlicas con saltos agachados.
+- Muestra la ubicación de las seis válvulas iniciales (tres arriba, tres abajo).
+- Explica el límite de tiempo para girar las válvulas y evitar que se aflojen.
+
+<YouTubeEmbed videoId="LVHeNjt0XQ0" title="Guía de Escape the Backrooms Nivel 37.2: Fallos en Poolrooms y Salto de Válvula" />
+
+El primer conjunto de válvulas es crucial para liberar agua y permitir un mayor paso. Estas válvulas a menudo requieren una acción rápida, especialmente cuando se juega solo.
+
+<Callout type="tip" title="Técnica de Salto Agachado">
+Para minimizar el contacto con las Bacterias Hidraúlicas en el agua, utiliza constantemente la **técnica de salto agachado**. Esto te permite "saltar" sobre las bacterias, reduciendo el riesgo de daño o efectos adversos. Practica este movimiento para una navegación eficiente.
+</Callout>
+
+### Ubicaciones Iniciales de las Válvulas
+
+| Ubicación | Número de Válvulas | Presencia de Entidades | Estrategia |
+| :------- | :--------------- | :-------------- | :------- |
+| Sección Superior | 3 | Ninguna | Gira rápidamente, manejable en solitario |
+| Sección Inferior | 3 | Paperaton | Prioriza girar, evita el aggro |
+
+### Interacción con Entidades Durante el Giro de Válvulas
+
+Al interactuar con las válvulas, entidades como Paperaton pueden representar una amenaza significativa. Comprender su comportamiento es clave para la supervivencia.
+
+<CardGrid cols={2}>
+  <Card title="Comportamiento de Paperaton">
+    - Aparece en áreas verdes y cubiertas de hierba.
+    - Si te detecta *antes* de que empieces a girar una válvula, te atacará.
+    - Si te detecta *mientras* estás girando una válvula, podría ignorarte (el juego te considera "muerto" durante la interacción).
+    - Evita el aggro antes de acercarte a las válvulas.
+  </Card>
+  <Card title="Comportamiento de Gitoan">
+    - Aparece en áreas verdes con hojas y setas.
+    - Generalmente menos agresivo si estás interactuando con objetos.
+    - A menudo se puede ignorar si mantienes la distancia y te concentras en la tarea.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Secuencias de Válvulas Avanzadas y Exploits de Errores">
+A medida que te adentras en el Nivel 37.2, los puzzles de válvulas se vuelven más complejos, involucrando más válvulas y plazos más ajustados. Sin embargo, existen varios exploits de errores conocidos que pueden eludir significativamente estos desafíos, ahorrando tiempo y esfuerzo valiosos.
+
+### Puzzle de Válvulas del Tanque de Combustible
+
+Después de la sección inicial, encontrarás un tanque de combustible que requiere que se giren cuatro válvulas para llenarlo. Esto a menudo desencadena la aparición de entidades.
+
+<Steps>
+  <Step num="1" title="Localiza el Tanque de Combustible">
+    Encuentra el área del tanque de combustible. Hay cuatro válvulas a su alrededor que deben activarse para llenar el tanque.
+  </Step>
+  <Step num="2" title="Gira la Primera Válvula">
+    Comienza a girar la primera válvula. Ten en cuenta que un Paperaton a menudo aparece detrás de ti cerca del buzón que acabas de visitar.
+  </Step>
+  <Step num="3" title="Navega y Gira las Válvulas Restantes">
+    Muévete rápidamente hacia las otras válvulas. Recuerda que los puntos de aparición de Paperaton suelen estar en áreas verdes y cubiertas de hierba.
+  </Step>
+  <Step num="4" title="Confirma que el Tanque Está Lleno">
+    Una vez que las cuatro válvulas estén giradas, el tanque de combustible estará lleno y el nivel del agua subirá, permitiéndote continuar.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Mecánica de Reinicio de Válvulas">
+Si no giras todas las válvulas en una secuencia lo suficientemente rápido, las primeras que giraste podrían aflojarse y reiniciarse. Esto significa que tendrás que empezar toda la secuencia de nuevo. La coordinación es clave en el modo multijugador, o la velocidad extrema para los jugadores en solitario.
+</Callout>
+
+### Exploits de Errores que Ahorran Tiempo
+
+Varios fallos pueden permitir a los jugadores omitir secciones enteras de puzzles de válvulas. Estos son particularmente útiles para speedrunning o para evitar encuentros frustrantes.
+
+| Exploit de Error | Descripción | Beneficio |
+| :---------- | :---------- | :------ |
+| **Recorte en Modo Ventana** | Al saltar a secciones de agua que requieren girar válvulas, alterna rápidamente el modo ventana (F11) justo antes de tocar el agua. Esto puede permitirte atravesar el agua sin girar válvulas. | Omite toda la secuencia de válvulas, ahorra mucho tiempo. |
+| **Atravesar con V-Sync** | En ciertas áreas, con V-Sync activado, puedes caminar lentamente por huecos o a través del agua que normalmente requeriría la activación de válvulas o un movimiento complejo. | Evita obstáculos específicos, reduce el tiempo de interacción. |
+| **Salto Agachado en Micro Puente** | En puentes pequeños específicos, un salto agachado preciso puede permitirte pasar por alto secciones que conducen a más válvulas. | Evita girar válvulas adicionales, travesía más rápida. |
+
+<Checklist
+  id="bug-exploit-checklist"
+  title="Preparación para el Exploit:"
+  items={[
+    "Comprender el momento de alternancia del modo ventana F11",
+    "Asegurarse de que V-Sync esté activado para ciertos atravesamientos",
+    "Practicar saltos agachados precisos para saltos ambientales",
+    "Confirmar que el error sigue activo en la versión actual del juego (a partir de 2026)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Desafío de Siete Válvulas y Encuentros con Entidades">
+La secuencia de válvulas más desafiante involucra siete válvulas, a menudo acompañada de apariciones agresivas de entidades. Esta sección realmente pone a prueba la capacidad de un jugador para realizar múltiples tareas y gestionar amenazas mientras completa los objetivos.
+
+### Estrategia de Siete Válvulas
+
+Esta sección es conocida por su duración y la presencia de entidades Gitoan.
+
+<Steps>
+  <Step num="1" title="Descenso Inicial">
+    Desciende a la zona donde se encuentran las siete válvulas. Identifica inmediatamente los puntos de aparición de Gitoan.
+  </Step>
+  <Step num="2" title="Prioriza las Válvulas del Lado Derecho">
+    Comienza girando las válvulas del lado derecho, empezando por la más lejana. Esto a menudo te da más espacio para maniobrar.
+  </Step>
+  <Step num="3" title="Circunvala a Gitoan">
+    Da la vuelta para evitar la detección de Gitoan. A menudo patrullan en patrones específicos. Si te detectan, intenta usar el agua como refugio temporal.
+  </Step>
+  <Step num="4" title="Completa las Válvulas Restantes">
+    Gira sistemáticamente las válvulas restantes, siempre atento a la proximidad de Gitoan. En el modo multijugador, asigna jugadores a diferentes lados para mayor eficiencia.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Evasión de Gitoan">
+Los Gitoan suelen aparecer en zonas verdes con hojas y setas. Mientras giras una válvula, si un Gitoan aún no te ha agredido, podría ignorarte. Si te agrede, considera saltar al agua si está a salvo de las Bacterias Hidraúlicas, ya que los Gitoan pueden tener dificultades en el agua.
+</Callout>
+
+### Tiempos de Giro de Válvulas
+
+El tiempo que se tarda en girar cada válvula puede variar, lo que hace que las secuencias sean desafiantes bajo presión.
+
+| Secuencia de Válvulas | Número de Válvulas | Tiempo de Giro Típico (por válvula) | Tiempo Total en Solitario (aprox.) |
+| :------------- | :--------------- | :---------------------------- | :------------------------ |
+| Conjunto Inicial (Tanque de Combustible) | 4 | ~10-15 segundos | 40-60 segundos |
+| Conjunto Intermedio | 3 | ~10-15 segundos | 30-45 segundos |
+| Desafío Final | 7 | ~10-15 segundos | 70-105 segundos |
+
+Estos tiempos no tienen en cuenta la evasión de entidades ni el movimiento entre válvulas. En el modo multijugador, tener a varios jugadores girando válvulas simultáneamente reduce drásticamente el tiempo total.
+
+</Section>
+
+<Section icon={Trophy} title="Optimizando tu Experiencia con los Puzzles de Válvulas">
+Aunque los puzzles de las válvulas de agua son una mecánica central del Nivel 37.2, hay formas de optimizar tu experiencia, ya sea a través de un juego eficiente o utilizando atajos conocidos.
+
+### Planificación Estratégica
+
+Antes de enfrentarte a cualquier puzzle de válvulas, tómate un momento para evaluar el entorno.
+
+<CardGrid cols={3}>
+  <Card title="Explora por Adelantado">
+    - Identifica las ubicaciones de las válvulas.
+    - Anota las rutas de patrulla de las entidades.
+    - Planifica tu ruta para una exposición mínima.
+  </Card>
+  <Card title="Gestión de Recursos">
+    - Asegúrate de tener objetos de salud si esperas recibir daño.
+    - Considera las mejoras de movimiento (si están disponibles) para un desplazamiento más rápido.
+  </Card>
+  <Card title="Comunicación (Multijugador)">
+    - Asigna roles para girar las válvulas.
+    - Designa a un explorador para advertencias de entidades.
+    - Coordina el tiempo para giros simultáneos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ventaja Cooperativa">
+En el modo multijugador, los puzzles de las válvulas se vuelven significativamente más fáciles. Asigna a los jugadores a diferentes válvulas para girarlas simultáneamente, reduciendo drásticamente la posibilidad de que se reinicien y minimizando la exposición a las entidades.
+</Callout>
+
+### Progresión Post-Puzzle
+
+Una vez que las válvulas de agua se manipulan con éxito y los niveles de agua cambian, se abren nuevos caminos. Estos a menudo implican nadar, correr o usar interacciones ambientales específicas. Siempre estate atento al siguiente marcador de objetivo o a un camino claro hacia adelante.
+
+</Section>
+
+<Section icon={Target} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el principal desafío del puzzle de la válvula de agua de Escape the Backrooms en el Nivel 37.2?",
+    answer: "El principal desafío es girar múltiples válvulas dentro de un límite de tiempo estricto antes de que se reinicien, todo mientras navegas por peligrosas Bacterias Hidraúlicas y evades entidades como Paperaton y Gitoan."
+  },
+  {
+    question: "¿Puedo saltarme los puzzles de la válvula de agua en Escape the Backrooms Nivel 37.2?",
+    answer: "Sí, existen varios exploits de errores, como el recorte en modo ventana F11 y el atravesamiento con V-Sync, que pueden permitir a los jugadores omitir secuencias completas de válvulas y ahorrar mucho tiempo."
+  },
+  {
+    question: "¿Qué debo hacer si un Paperaton me detecta mientras estoy girando una válvula?",
+    answer: "Si un Paperaton te detecta *mientras* ya estás interactuando con una válvula, podría ignorarte porque el código del juego te considera en un estado 'muerto' durante la interacción con objetos. Sin embargo, si te detecta *antes* de que empieces a girar la válvula, es probable que te ataque."
+  },
+  {
+    question: "¿Cómo puedo lidiar eficazmente con las Bacterias Hidraúlicas en las secciones de agua?",
+    answer: "Para minimizar el contacto con las Bacterias Hidraúlicas, utiliza la técnica de salto agachado. Esto te permite 'saltar' sobre las bacterias, reduciendo el riesgo de daño o efectos negativos."
+  }
+]} />
+
+</Section>

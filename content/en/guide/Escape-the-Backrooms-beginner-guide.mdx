@@ -1,0 +1,212 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Lightbulb, AlertCircle, Info, CheckCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Beginner Guide: Essential Tips & Level Walkthrough",
+  description: "Navigate the terrifying Backrooms with our beginner guide, covering essential tips, entity survival, and a comprehensive level walkthrough.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/800080/fff?text=Backrooms+Beginner+Guide",
+  date: "2026-05-30",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Mastering **Escape the Backrooms beginner guide** essentials is crucial for survival.
+- Learn **entity behaviors** and counter-strategies for each level.
+- Utilize **consumables** like Almond Water for sanity and stamina.
+- Team up for multiplayer achievements and easier navigation.
+- Always be aware of your surroundings and **plan your escape routes**.
+</Callout>
+
+<Section icon={Lightbulb} title="Starting Your Journey: Level 0 Essentials">
+Welcome to the infamous Level 0, the starting point of your terrifying journey in Escape the Backrooms. This level is characterized by its endless yellow walls, fluorescent lights, and the lurking Bacteria entity. Understanding the mechanics and objectives here is crucial for your initial survival.
+
+**Video Highlights:**
+- Detailed walkthrough of Level 0 objectives.
+- Strategies for finding ladder pieces and the key.
+- Tips for navigating pitfalls and avoiding the Bacteria.
+
+<YouTubeEmbed videoId="KUUS9Mi9bWs" title="Escape the Backrooms Full Release Guide" />
+
+Your primary goal on Level 0 is to locate a locked door and its corresponding key. This involves repairing a ladder to reach a cubby where the key is hidden. Once you have the key, you'll need to cross a treacherous room filled with pitfalls. Communication is key if playing in multiplayer, as teammates can assist with ropes if someone falls.
+
+<Callout type="tip" title="Survivalist Achievement">
+To earn the "Survivalist" achievement, simply remain on Level 0 for 50 minutes. It's advisable to attempt this near an exit to quickly escape if the Bacteria entity gets too close.
+</Callout>
+
+The Bacteria entity will begin to roam Level 0 after a few minutes. You'll hear distinct knocking sounds as it approaches. If spotted, make sharp turns around corners to lose it, as it's relatively easy to outmaneuver.
+
+### Level 0 Objectives Checklist
+<Checklist
+  id="level0-objectives"
+  title="Level 0 Progression:"
+  items={[
+    "Collect all ladder pieces",
+    "Build the ladder by the vent to retrieve the key",
+    "Unlock the door with the key",
+    "Navigate the pitfall room to the exit",
+    "Avoid or escape the Bacteria entity"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Navigating the Habitable Zone: Entities and Keys">
+The Habitable Zone presents new challenges and introduces more formidable entities. This level is divided into several sections, each with unique objectives and threats.
+
+### Habitable Zone Progression
+| Section           | Objective                                     | Primary Entity   | Survival Tactic                       |
+|-------------------|-----------------------------------------------|------------------|---------------------------------------|
+| Parking Garage    | Find 4 colored cars for an elevator code      | None             | Exploration, consumable gathering     |
+| Elevator Down     | Locate 4 keys for a central lock              | Skin Stealers    | Hide behind doors, use closed doors   |
+| Dark Garage       | Find the exit elevator across three levels    | Skin Stealers    | Explore cautiously, hide from sight   |
+| Hub Detour        | Unlock the MEG Base gate                      | Smilers          | Stay in light, move between lit areas |
+
+<Callout type="warning" title="Beware of Skin Stealers">
+Skin Stealers can mimic other players. If playing multiplayer, use the ID feature to verify who is real to avoid being caught off guard. When alone, always hide behind doors or under beds/wardrobes if spotted.
+</Callout>
+
+The MEG Base section requires you to solve a code puzzle to enter, then find a computer password to open a gate back to the Habitable Zone. Once through the gate, you'll encounter Smilers. These entities appear in darkness and disappear in light. Always stick to lit areas and move quickly when lights flicker off.
+
+</Section>
+
+<Section icon={Swords} title="Entity Survival Strategies: Know Your Foe">
+Understanding each entity's behavior is paramount to surviving the Backrooms. Different levels introduce different threats, each requiring a specific approach.
+
+**Video Highlights:**
+- In-depth look at various entities and their characteristics.
+- Practical tips for escaping chases and utilizing environmental cover.
+- How to manage sanity and physical resources effectively.
+
+<YouTubeEmbed videoId="IEpMPSevCbA" title="Escape the Backrooms: Entity Survival Guide" />
+
+### Key Entities and Counter-Strategies
+| Entity           | Location         | Behavior                                    | Counter-Strategy                                  |
+|------------------|------------------|---------------------------------------------|---------------------------------------------------|
+| **Bacteria**     | Level 0, 0.11    | Roams, chases if seen, identified by knocking | Run, make sharp turns to lose line of sight         |
+| **Skin Stealers**| Habitable Zone, Terror Hotel, Caves | Mimics players, chases aggressively | Hide behind doors/under beds/in wardrobes          |
+| **Smilers**      | Habitable Zone, Pipe Dreams | Appears in dark, disappears in light, chases | Stay in lit areas, run to next light source         |
+| **Hounds**       | Electrical Station, Terror Hotel | Chases players, fast-moving                 | Stun with flashlight (3 stuns on normal), then run/hide |
+| **Death Moths**  | Terror Hotel     | Male: spray with bug spray; Female: motion-sensitive, temperature rise indicates presence | Male: spray; Female: crouch, move slowly, use steam valves if chased |
+| **Partygoers**   | Level Fun!, Fun+ | See/hear nearby, chase if aggro'd           | Sneak, hide under tables if chased                 |
+| **Crawler**      | Level The End    | Blind, relies on sound, moves randomly      | Crouch, move slowly, use fire alarms to distract    |
+| **Animations**   | Level 94         | Appear at night, hunt players               | Hide inside houses (turn off lights), use closets |
+| **Animated King**| Level 94 (Castle)| Hunts if not looked at, spawns behind       | Constantly look around, use flashlight to banish  |
+| **Wretch**       | Lights Out, Level 9 | Blind, relies on sound, slow-moving         | Crouch, move slowly, use LIDAR to track           |
+
+<Callout type="info" title="Consumable Management">
+Always keep Almond Water on hand to restore sanity, Energy Bars for stamina boosts, and Juice for speed. These are vital for escaping entities and traversing long levels.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Beyond the Basics: Mid-Game Level Breakdown">
+As you delve deeper into the Backrooms, levels become more complex, requiring puzzle-solving, stealth, and quick reflexes.
+
+### Abandoned Office: Puzzle & Stealth
+This level is a mix of item collection and stealth. You'll need to count furniture items to solve a vending machine puzzle and then sneak past cameras without being detected.
+<Steps>
+  <Step num="1" title="Furniture Count Puzzle">
+    Locate a room with various furniture items. Count the number of each item and input these numbers into corresponding vending machines to unlock a door.
+  </Step>
+  <Step num="2" title="Camera Stealth Section">
+    Navigate through a series of rooms equipped with cameras. Avoid their line of sight to prevent the exit door from locking. Use vents for shortcuts if detected.
+  </Step>
+</Steps>
+
+### Terror Hotel: Moth Jelly & Mazes
+The Terror Hotel is a multi-part level involving a painting puzzle, collecting Moth Jelly, and navigating a dangerous crawlspace.
+<Callout type="success" title="Moth Jelly Benefits">
+Moth Jelly, obtained by spraying male Death Moths, provides significant stamina and speed boosts. Collect as much as you can for future levels.
+</Callout>
+
+### Pipe Dreams & Electrical Station: Hounds & Fuses
+Pipe Dreams involves a chase sequence with a Smiler, leading into the Electrical Station where you must activate nine fuse boxes while avoiding Hounds.
+<CardGrid cols={2}>
+  <Card title="Pipe Dreams Strategy">
+    - Run down the hallway.
+    - Crouch under bursting pipes.
+    - Outrun the Smiler to the exit.
+  </Card>
+  <Card title="Electrical Station Strategy">
+    - Activate 9 fuse boxes (3 per section).
+    - Use flashlight to stun Hounds.
+    - Listen for Hound proximity through walls.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Map} title="Advanced Levels and Endings: The Path to Escape">
+The later stages of Escape the Backrooms introduce unique challenges and multiple endings, pushing your survival skills to the limit.
+
+### Level Fun! and Poolrooms
+Level Fun! is infested with Partygoers, requiring careful sneaking and hiding under tables. The Poolrooms offer a brief respite with no direct entities, focusing on exploration to find the red exit door.
+
+### Level Run For Your Life!
+As the name suggests, this level is a pure adrenaline rush, requiring constant running and dodging obstacles while being chased by multiple entities. It's a trial-and-error level where persistence pays off.
+
+### Level The End: Crawler & Tapes
+In Level The End, you must collect a specific number of tapes (depending on player count) while avoiding the blind Crawler. Use fire alarms to distract it and hide under tables if necessary.
+
+### Level 94: Village & Animated King
+This expansive level features a day/night cycle. During the day, traverse the village to reach the castle, utilizing vans for faster travel and supplies. At night, hide indoors from the Animations. Inside the castle, solve a block puzzle before facing the Animated King, who only attacks if you're not looking at him.
+
+<Callout type="warning" title="Animated King Encounter">
+During the Animated King fight, constantly look around and shine your flashlight at him if you see him. If playing solo, position yourself with your back to the roller coaster cart to maintain a clear view.
+</Callout>
+
+### Lights Out & Thalassophobia
+Lights Out is a maze where your flashlight is useless. You'll rely on a LIDAR tool to navigate and avoid the Wretch. Thalassophobia involves navigating a flooded village by boat, then diving into the depths to find a cave exit after an encounter with a large creature.
+
+</Section>
+
+<Section icon={Trophy} title="Achieving True Escape: Endings and Replayability">
+Escape the Backrooms offers multiple endings, each unlocking new paths and challenges. The true ending requires you to experience all alternative conclusions.
+
+### Unlocking Alternate Endings
+- **Splat Ending (Ending A)**: Achieved after completing Level 55.1, where you fall to your death, but "escape" the Backrooms.
+- **All Alone Ending (Ending B)**: Obtained by escaping The Grassrooms, a level accessed from the MEG Base after the first ending. This involves navigating dangerous grass, solving switch puzzles, and parkour.
+- **I'm Home, But Not Really (Ending C)**: Accessed via a hidden MEG door on Level 1, leading to Level 922. Climb the stairs until the counter reaches 94, then jump down.
+- **I Guess I Live Here Now (Ending D)**: Found by backtracking from Level 7 to Level 6, then using a keycard to enter Kitty's House (Level 974). Collect 12 teddy bears while keeping Kitty in sight.
+
+<Callout type="tip" title="MEG Base Hub">
+The MEG Base acts as a central hub after your first escape, allowing you to access various levels and pursue different ending paths. Use your keycard to unlock new areas.
+</Callout>
+
+### The True Ending
+After unlocking all four alternate endings (A, B, C, and D), return to Level 3999 in the MEG Base. Interacting with the arcade machine there will reveal the true ending, freeing you from the Backrooms.
+
+### Replayability & Difficulties
+The game encourages replayability through different difficulty settings (Normal, Hard, Nightmare) and multiplayer modes. Nightmare difficulty requires a full team to survive, as a single death means restarting the entire game.
+
+</Section>
+
+<Section icon={Info} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the main objective of Escape the Backrooms beginner guide?",
+    answer: "The main objective is to survive and navigate through various levels of the Backrooms, solve puzzles, avoid dangerous entities, and ultimately find a way to escape. There are multiple endings to discover."
+  },
+  {
+    question: "How do I deal with entities in Escape the Backrooms?",
+    answer: "Each entity has specific behaviors and weaknesses. Generally, running and making sharp turns works for Bacteria, hiding is essential for Skin Stealers, staying in light for Smilers, and stunning with a flashlight for Hounds. Always refer to specific level guides for detailed strategies."
+  },
+  {
+    question: "Are there any safe zones in the game?",
+    answer: "While most levels are dangerous, some offer temporary safe zones or areas with fewer threats. The Poolrooms, for instance, are relatively safe if you stick to the white tiled areas. The MEG Base also serves as a safe hub after your first escape."
+  },
+  {
+    question: "Can I play Escape the Backrooms with friends?",
+    answer: "Yes, Escape the Backrooms supports multiplayer. Playing with friends can make certain challenges easier and is required for some achievements, especially on higher difficulties like Nightmare where teamwork is crucial."
+  }
+]} />
+
+</Section>

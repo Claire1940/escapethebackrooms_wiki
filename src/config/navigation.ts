@@ -1,4 +1,5 @@
 import type { LucideIcon } from 'lucide-react'
+import { BookOpen, Hammer, Package, Mountain, Building2, LifeBuoy } from 'lucide-react'
 
 export interface NavigationItem {
 	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
@@ -7,7 +8,44 @@ export interface NavigationItem {
 	isContentType: boolean // 是否对应 content/ 目录
 }
 
-export const NAVIGATION_CONFIG: NavigationItem[] = []
+export const NAVIGATION_CONFIG: NavigationItem[] = [
+	{
+		key: 'guides',
+		path: '/guides',
+		icon: BookOpen,
+		isContentType: true,
+	},
+	{
+		key: 'crafting',
+		path: '/crafting',
+		icon: Hammer,
+		isContentType: true,
+	},
+	{
+		key: 'items',
+		path: '/items',
+		icon: Package,
+		isContentType: true,
+	},
+	{
+		key: 'biomes',
+		path: '/biomes',
+		icon: Mountain,
+		isContentType: true,
+	},
+	{
+		key: 'building',
+		path: '/building',
+		icon: Building2,
+		isContentType: true,
+	},
+	{
+		key: 'support',
+		path: '/support',
+		icon: LifeBuoy,
+		isContentType: true,
+	},
+]
 
 // 从配置派生内容类型列表（用于路由和内容加载）
 export const CONTENT_TYPES = NAVIGATION_CONFIG.filter((item) => item.isContentType).map(

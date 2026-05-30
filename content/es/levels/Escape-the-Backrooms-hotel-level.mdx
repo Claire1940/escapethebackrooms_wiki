@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Nivel del hotel de Escape the Backrooms: Guía de The Terror Hotel (Nivel 5)",
+  description: "Navega por el aterrador Nivel 5, también conocido como The Terror Hotel, en Escape the Backrooms. Aprende objetivos, encuentros con entidades y estrategias de salida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Backrooms+Terror+Hotel",
+  date: "2026-05-30",
+  author: "Equipo de la Wiki de Escape the Backrooms",
+  keywords: "Escape the Backrooms, Nivel 5, Terror Hotel, guía, hotel, polillas de la muerte, salida"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Nivel del hotel de Escape the Backrooms**: Navega por el **Nivel 5**, el Terror Hotel, a través de tres zonas distintas.
+- **Objetivo del Salón Principal**: Recolecta **Moth Jelly** (Jalea de Polilla) de las Male Deathmoths para obtener las llaves del ascensor.
+- **Desafío del Piso del Hotel**: Encuentra **7 papeles** en habitaciones numeradas para revelar un código de 5 dígitos para la Habitación 235.
+- **Supervivencia en el Cuarto de Calderas**: Usa un **Termómetro** para evitar a las Female Deathmoths y localizar la salida verdadera al Nivel 2.
+- **Encuentros con entidades**: Ten cuidado con los **Skin-Stealers** y **Hounds** en la sección del Hotel.
+</Callout>
+
+<Section icon={Map} title="Explorando el Nivel 5: Descripción General de The Terror Hotel">
+El Nivel 5, comúnmente conocido como **The Terror Hotel**, es un nivel extenso y de temática vintage dentro de Escape the Backrooms. Este nivel es famoso por su estética de los años 30 y es actualmente uno de los más largos del juego, segmentado en tres áreas únicas y desafiantes: El Salón Principal (Main Hall), El Hotel y El Cuarto de Calderas (Boiler Room). Cada sección presenta objetivos y amenazas distintas, lo que requiere que los jugadores adapten sus estrategias para sobrevivir.
+
+<Callout type="tip" title="Curiosidades del Nivel 5">
+The Terror Hotel está dividido en tres áreas grandes, lo que lo convierte en el nivel más largo del juego. También comparte con el Nivel 1 la distinción de tener tres notas dispersas por sus entornos.
+</Callout>
+
+**Puntos destacados del video:**
+- Recorrido visual de la estética vintage del hotel.
+- Vistazo de las diferentes secciones: Salón Principal, Hotel y Cuarto de Calderas.
+- Descripción general de los objetos clave y entidades que se encuentran en el Nivel 5.
+
+<YouTubeEmbed videoId="VIDEO_ID_HERE" title="Recorrido del Nivel 5 de Escape the Backrooms" /> {/* No se encontraron videos relevantes en las fuentes. */}
+
+El viaje por el Nivel 5 comienza en el Salón Principal, un área grandiosa pero inquietante llena de muebles de época. Avanzar más lleva al Hotel, un laberinto de habitaciones numeradas, y finalmente, al Cuarto de Calderas industrial, infestado de entidades peligrosas. Comprender el diseño y las mecánicas únicas de cada área es crucial para un escape exitoso.
+
+### Desglose del Diseño del Nivel 5
+
+| Sección | Apariencia | Características Clave | Entidades Primarias | Enfoque del Objetivo |
+| :--- | :--- | :--- | :--- | :--- |
+| **Salón Principal** | Vestíbulo de hotel vintage de los años 30, grandioso. | Candelabros, sofás, cafetería, Beverly Room. | Male Deathmoths | Recolección de llaves para el ascensor. |
+| **El Hotel** | Suelos alfombrados, habitaciones numeradas, bar. | Buzones, áreas oscuras, habitaciones de hotel estándar. | Skin-Stealer, Hound, Male Deathmoths | Recolección de papeles para el código. |
+| **Cuarto de Calderas** | Industrial, paredes de piedra, tuberías, calderas. | Puntos de control, válvulas de Bug Spray, áreas calientes. | Female Deathmoths, Male Deathmoths | Navegar hacia la salida, evitar nidos. |
+
+</Section>
+
+<Section icon={Target} title="Objetivos del Salón Principal: Desbloqueando el Ascensor">
+Tu primera tarea en el **nivel del hotel de Escape the Backrooms** comienza en el Salón Principal. Aquí, encontrarás una puerta de vidrio cerrada que conduce a un ascensor, asegurada por tres cerraduras distintas. Para obtener las llaves, debes interactuar con el peculiar ecosistema de las Male Deathmoths.
+
+<Steps>
+  <Step num="1" title="Localizar grupos de polillas">
+    Busca en el Salón Principal tres grupos de **Male Deathmoths**. Estos se encuentran generalmente en varias habitaciones ramificadas como la cafetería o The Beverly Room.
+  </Step>
+  <Step num="2" title="Utilizar Bug Spray">
+    Usa **Bug Spray** (Insecticida) en cada grupo de Male Deathmoths. Morirán y se transformarán en **Moth Jelly**. Necesitarás tres porciones de esta jalea.
+  </Step>
+  <Step num="3" title="Alimentar al Montacargas">
+    Encuentra el **Dumbwaiter** (Montacargas) en el pasillo izquierdo. Una nota dice: "_SI LOS ALIMENTAS, TE RECOMPENSARÁN_". Coloca una Moth Jelly en el montacargas y envíalo hacia abajo. Regresará con una **Llave**. Repite este proceso tres veces para obtener las tres llaves.
+  </Step>
+  <Step num="4" title="Desbloquear el Ascensor">
+    Aplica las tres llaves a las cerraduras de la puerta de vidrio. Una vez desbloqueada, se abrirá un pasillo que conduce a un ascensor que te transporta al piso del Hotel.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Gestión de la Moth Jelly">
+Si consumes accidentalmente una Moth Jelly, no entres en pánico. Otra Male Deathmoth aparecerá en otro lugar del piso, permitiéndote recolectar la cantidad requerida. Prioriza siempre la obtención de tres Moth Jellies.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="El Piso del Hotel: Búsqueda del Código y Evasión de Entidades">
+Al llegar al piso del Hotel, el ambiente cambia y comienza el verdadero terror del **nivel del hotel de Escape the Backrooms**. Esta sección requiere una navegación cuidadosa y la resolución de acertijos mientras evitas entidades peligrosas.
+
+### Encontrando el Código para la Habitación 235
+
+| Paso | Acción | Detalles |
+| :--- | :--- | :--- |
+| 1 | Identificar buzones abiertos | Localiza el buzón con compartimentos para cada habitación. Siete buzones estarán abiertos, indicando las habitaciones objetivo. |
+| 2 | Recolectar papeles | Visita las habitaciones correspondientes a los buzones abiertos. Encuentra un **papel** sobre un cajón en cada habitación. |
+| 3 | Depositar papeles | Regresa al buzón y coloca cada papel recolectado en su compartimento respectivo. |
+| 4 | Revelar el código | Una vez colocados todos los papeles, aparecerá la frase "LOOK UP" (Mira hacia arriba) y se mostrará un código de 5 dígitos en el techo. |
+| 5 | Acceder a la Habitación 235 | Introduce el código revelado en la cerradura numérica de la puerta de la **Habitación 235** para proceder al Cuarto de Calderas. |
+
+<Callout type="success" title="Códigos Posibles para la Habitación 235">
+Solo hay tres códigos posibles de 5 dígitos para la cerradura numérica de la Habitación 235:
+- **17564**
+- **05938**
+- **89472**
+</Callout>
+
+### Encuentros con Entidades en el Hotel
+
+El piso del Hotel no está desierto. Encontrarás dos amenazas principales:
+- **Skin-Stealer (1)**: Una entidad formidable que se puede evadir temporalmente escondiéndose debajo de las camas o en los armarios, aunque un error conocido puede hacer que se quede atascado.
+- **Hound (1)**: Otra entidad peligrosa que deambula por los pasillos. Mantente alerta de tu entorno para evitar ser detectado.
+
+</Section>
+
+<Section icon={Sparkles} title="Navegación del Cuarto de Calderas: Escapando al Nivel 2">
+El Cuarto de Calderas es un marcado contraste con las áreas anteriores, con paredes y suelos de piedra, y un laberinto de tuberías. Esta sección final del **nivel del hotel de Escape the Backrooms** está infestada de Female Deathmoths y requiere una navegación precisa para encontrar la salida.
+
+<Steps>
+  <Step num="1" title="Entrar al Cuarto de Calderas">
+    Después de introducir el código de la Habitación 235, avanza por la puerta y sube las escaleras para entrar al Cuarto de Calderas. Encontrarás una mesa con cuatro **Termómetros** y una nota al inicio.
+  </Step>
+  <Step num="2" title="Detectar Peligro con Termómetros">
+    Equipa un termómetro. Si marca algo distinto a **72 grados**, hay peligro cerca. Las áreas más cálidas indican mayores concentraciones de **Female Deathmoths** y sus nidos.
+  </Step>
+  <Step num="3" title="Evadir Female Deathmoths">
+    Navega con cuidado, evitando las áreas cálidas y los charcos de Moth Jelly en el suelo. Usa el **Bug Spray** de las válvulas para ahuyentar a las polillas si es necesario.
+  </Step>
+  <Step num="4" title="Localizar la Salida Verdadera">
+    El Cuarto de Calderas tiene cuatro puertas, pero solo una es la salida de regreso al Nivel 2. Busca la puerta con una **señal de salida** (exit sign) encima. Ignora cualquier puerta morada, ya que estas ocultan colmenas de polillas.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Puntos de Control en el Cuarto de Calderas">
+El Cuarto de Calderas cuenta con tres puntos de control estratégicamente ubicados a lo largo del nivel. Estos proporcionan un respiro muy necesario, permitiéndote reaparecer más cerca de tu progreso en caso de caer víctima de los muchos peligros.
+</Callout>
+
+### Objetos y Entidades en el Cuarto de Calderas
+
+| Categoría | Objeto/Entidad | Descripción |
+| :--- | :--- | :--- |
+| **Objetos** | Termómetro | Esencial para detectar áreas cálidas y la presencia de Female Deathmoths. |
+| | Válvulas de Bug Spray | Liberan grandes cantidades de insecticida para disuadir temporalmente a las polillas. |
+| **Entidades** | Female Deathmoth | Amenaza principal, se encuentra en áreas cálidas, a menudo con nidos y charcos de Moth Jelly. |
+| | Male Deathmoth | Menos numerosas en comparación con las Female Deathmoths, pero aún presentes. |
+
+</Section>
+
+<Section icon={Trophy} title="Logros y Recompensas">
+Escapar con éxito del Nivel 5, The Terror Hotel, en modo de un solo jugador te otorgará un logro específico. Este desafío pone a prueba tu sigilo, resolución de acertijos y habilidades de supervivencia contra las entidades y entornos únicos de esta pesadilla vintage.
+
+<Checklist
+  id="level5-rewards"
+  title="Lista de Verificación para Completar el Nivel 5:"
+  items={[
+    "Recolectar las tres Moth Jellies para las llaves del Salón Principal.",
+    "Reunir con éxito los 7 papeles en el Hotel e introducir el código.",
+    "Navegar por el Cuarto de Calderas, evitando las polillas y sus nidos.",
+    "Localizar y salir por la puerta correcta de regreso al Nivel 2.",
+    "Desbloquear el logro 'Escape Level 5'."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ: Nivel del Hotel de Escape the Backrooms">
+
+<FAQ items={[
+  {
+    question: "¿Qué es el Nivel 5 en Escape the Backrooms?",
+    answer: "El Nivel 5 también es conocido como **The Terror Hotel**, un nivel de temática vintage en Escape the Backrooms, dividido en el Salón Principal, el Hotel y el Cuarto de Calderas. Actualmente es el nivel más largo del juego."
+  },
+  {
+    question: "¿Cómo obtengo las llaves en el Salón Principal del nivel del hotel de Escape the Backrooms?",
+    answer: "Necesitas encontrar tres grupos de Male Deathmoths, usar Bug Spray en ellos para recolectar Moth Jelly y luego colocar la Moth Jelly en un montacargas. El montacargas regresará con una llave por cada jalea que entregues."
+  },
+  {
+    question: "¿De qué entidades debo cuidarme en la sección del Hotel?",
+    answer: "En la sección del Hotel, debes tener cuidado con un **Skin-Stealer** y un **Hound** que deambulan por los pasillos. También se pueden encontrar Male Deathmoths allí."
+  },
+  {
+    question: "¿Cómo encuentro la salida en el Cuarto de Calderas?",
+    answer: "Usa un termómetro para detectar áreas cálidas peligrosas donde las Female Deathmoths son frecuentes. La salida verdadera está marcada con una **señal de salida** encima; ignora cualquier puerta morada."
+  }
+]} />
+
+</Section>

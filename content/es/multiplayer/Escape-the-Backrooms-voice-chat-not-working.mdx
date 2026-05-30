@@ -1,0 +1,186 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "El chat de voz de Escape the Backrooms no funciona: solución de problemas y correcciones",
+  description: "Una guía completa para solucionar problemas de chat de voz en Escape the Backrooms, que cubre la configuración de Windows, Steam y el juego para una comunicación fluida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Backrooms+Voice+Fix",
+  date: "2026-05-30",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Asegúrate de que tu problema de **chat de voz de Escape the Backrooms no funciona** se resuelva revisando la configuración de sonido de Windows.
+- Configura tu **dispositivo de entrada de voz de Steam** a tu micrófono específico.
+- Desactiva todos los demás **micrófonos innecesarios** en la configuración de sonido de tu PC.
+- Verifica la **configuración de privacidad del micrófono** en Windows para el acceso al juego.
+- Prueba la funcionalidad de tu micrófono dentro de Steam antes de iniciar el juego.
+</Callout>
+
+<Section icon={Shield} title="Solución de problemas inicial del chat de voz en Escape the Backrooms">
+Experimentar problemas con tu **chat de voz de Escape the Backrooms que no funciona** puede ser frustrante, especialmente en un juego de terror cooperativo donde la comunicación es clave. Esta sección detalla los primeros pasos esenciales para diagnosticar y resolver problemas comunes del micrófono, asegurando que puedas coordinarte con tus compañeros de equipo de manera efectiva.
+
+**Aspectos destacados del vídeo:**
+- Verificación de la configuración del micrófono en la configuración de sonido de Windows.
+- Selección del dispositivo de entrada correcto para tu micrófono.
+- Asegurarse de que tu micrófono no esté silenciado y muestre actividad.
+
+<YouTubeEmbed videoId="5IUYidb5odg" title="Cómo arreglar el micrófono de Escape the Backrooms que no funciona" />
+
+La causa principal de los fallos del chat de voz a menudo se encuentra fuera del juego en sí. Es crucial confirmar que tu micrófono está correctamente reconocido y configurado dentro de tu sistema operativo Windows. Muchos jugadores pasan por alto esta verificación inicial, lo que lleva a una resolución de problemas prolongada.
+
+<Callout type="tip" title="Verificación de la configuración de sonido del sistema">
+Siempre comienza verificando el estado de tu micrófono en la Configuración de sonido de Windows. Esta es la base para todas las demás funcionalidades del chat de voz.
+</Callout>
+
+### Razones comunes para el fallo del chat de voz
+
+Varios factores pueden contribuir a que tu micrófono no funcione en Escape the Backrooms. Comprender estos puede ayudarte a identificar el problema exacto.
+
+| Causa Potencial           | Descripción                                                                 | Impacto en el Juego                                  |
+| :------------------------ | :-------------------------------------------------------------------------- | :---------------------------------------------- |
+| **Dispositivo de Entrada Incorrecto** | Windows o Steam selecciona el micrófono equivocado (p. ej., micrófono de cámara web en lugar de auriculares). | No se detecta entrada de audio del micrófono deseado.       |
+| **Micrófono Silenciado**       | El micrófono está silenciado en Windows, Steam o físicamente.                       | Chat de voz completamente deshabilitado.                 |
+| **Configuración de Privacidad**       | La configuración de privacidad de Windows bloquea el acceso de las aplicaciones al micrófono.          | El juego no puede acceder al hardware del micrófono.         |
+| **Controladores Obsoletos**       | Los controladores de audio son antiguos o están corruptos, lo que provoca problemas de entrada.                | Función de micrófono inconsistente o inexistente. |
+| **Antivirus/Cortafuegos**     | El software de seguridad interfiere con el acceso del juego al hardware o la red.     | Bloquea la transmisión de datos de voz.                 |
+| **Configuración de Voz de Steam**   | La configuración de voz específica de Steam está mal configurada (p. ej., entrada predeterminada).    | El juego no recibe ninguna entrada del canal de audio de Steam. |
+
+</Section>
+
+<Section icon={Target} title="Configuración de Windows y Steam para el chat de voz">
+Una vez que hayas identificado posibles problemas, el siguiente paso es ajustar sistemáticamente la configuración de tu sistema y de Steam para asegurarte de que tu micrófono sea detectado y utilizado correctamente por Escape the Backrooms. Esto implica algunos pasos clave para asegurarte de que tu micrófono preferido sea el dispositivo de entrada activo.
+
+<Steps>
+  <Step num="1" title="Verificar la entrada de sonido de Windows">
+    Ve a **Configuración** > **Sistema** > **Sonido**. En la sección "Entrada", selecciona el micrófono que deseas usar para el juego. Asegúrate de que haya movimiento en el indicador de nivel de entrada cuando hables, y de que el micrófono no esté silenciado.
+  </Step>
+  <Step num="2" title="Ajustar la configuración de voz de Steam">
+    Abre tu cliente de Steam. Navega a **Steam** (arriba a la izquierda) > **Configuración** > **Voz**. En el menú desplegable "Dispositivo de entrada de voz", selecciona explícitamente tu micrófono deseado en lugar de "Predeterminado". También puedes usar la opción "Iniciar prueba de micrófono" para confirmar que funciona.
+  </Step>
+  <Step num="3" title="Desactivar otros micrófonos">
+    En la Configuración de sonido de Windows, en la pestaña "Grabación" (accesible a través de "Más configuraciones de sonido" o "Panel de control de sonido"), haz clic derecho y desactiva cualquier otro micrófono que no estés usando activamente. Esto evita conflictos y asegura que el juego use tu dispositivo principal por defecto.
+  </Step>
+  <Step num="4" title="Verificar la configuración de privacidad de Windows">
+    Ve a **Configuración** > **Privacidad y seguridad** > **Micrófono**. Asegúrate de que el "Acceso al micrófono" esté activado y de que "Permitir que las aplicaciones de escritorio accedan a tu micrófono" también esté habilitado. Desplázate hacia abajo para encontrar "Escape the Backrooms" y asegúrate de que su acceso esté activado.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Conflictos potenciales">
+Tener varios dispositivos de micrófono activos puede confundir al sistema y al juego. Desactivar los micrófonos no utilizados es un paso crítico para asegurar que tu dispositivo principal funcione correctamente.
+</Callout>
+
+### Comparación de dispositivos de entrada de micrófono
+
+Elegir el dispositivo de entrada correcto es crucial para una comunicación clara. Aquí tienes una comparación de los tipos de micrófonos comunes y su rendimiento típico.
+
+| Tipo de Micrófono     | Ventajas                                      | Desventajas                                          | Caso de Uso Ideal                               |
+| :------------------ | :---------------------------------------- | :-------------------------------------------- | :------------------------------------------- |
+| **Micrófono de Auriculares**     | Conveniente, integrado, generalmente claro.    | Puede captar la respiración, menor calidad que los independientes. | Juegos, llamadas casuales.                        |
+| **Micrófono USB Independiente** | Alta calidad de audio, personalizable.         | Requiere espacio en el escritorio, puede captar ruido ambiental. | Streaming, llamadas profesionales, juegos serios. |
+| **Micrófono de Cámara Web**      | Siempre disponible, sin configuración adicional.         | Mala calidad de audio, capta el eco de la habitación.       | Uso de emergencia, videollamadas básicas.            |
+| **Micrófono Integrado del Portátil** | Siempre disponible, sin hardware adicional.      | Muy mala calidad de audio, mucho ruido de fondo. | Último recurso, uso muy casual.                |
+
+</Section>
+
+<Section icon={Map} title="Soluciones avanzadas y ajustes en el juego">
+Si los pasos de solución de problemas estándar no han resuelto tu problema de **chat de voz de Escape the Backrooms que no funciona**, es hora de profundizar en soluciones más avanzadas. Estos métodos abordan problemas menos comunes pero igualmente impactantes, como configuraciones específicas del juego o conflictos de software.
+
+Una solución a menudo pasada por alto implica usar el Mezclador de volumen de Windows mientras el juego está en ejecución. Esto te permite asignar específicamente tu micrófono a la entrada de audio del juego.
+
+<Steps>
+  <Step num="1" title="Acceder al Mezclador de volumen">
+    Inicia **Escape the Backrooms** y luego minimízalo. Haz clic derecho en el icono del altavoz en la bandeja del sistema y selecciona "Abrir configuración de sonido" o "Panel de control de sonido". Navega a "Sonido" y luego a "Mezclador de volumen".
+  </Step>
+  <Step num="2" title="Configurar la entrada del juego">
+    En el Mezclador de volumen, localiza **Escape the Backrooms**. Asegúrate de que el dispositivo de entrada para el juego esté configurado explícitamente en tu micrófono de auriculares deseado o equivalente, no en "Predeterminado".
+  </Step>
+  <Step num="3" title="Reiniciar el juego">
+    Después de realizar cualquier cambio, siempre reinicia Escape the Backrooms para asegurarte de que la nueva configuración se aplique correctamente.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Verificación de antivirus y cortafuegos">
+A veces, el software de seguridad puede bloquear erróneamente los procesos del juego para que no accedan a tu micrófono. Deshabilita temporalmente tu antivirus o añade Escape the Backrooms a su lista de excepciones para ver si esto resuelve el problema. Recuerda volver a habilitarlo después.
+</Callout>
+
+### Otras posibles soluciones
+
+<CardGrid cols={2}>
+  <Card title="Desinstalar Steam VR">
+    Algunos usuarios informaron que desinstalar Steam VR resolvió sus problemas de micrófono, lo que sugiere un posible conflicto con Oculus u otro hardware de realidad virtual. Si tienes Steam VR instalado y no lo estás usando activamente, considera desinstalarlo temporalmente.
+  </Card>
+  <Card title="Prueba de micrófono abierto">
+    Dentro de la configuración de voz de Steam, intenta seleccionar la opción "Micrófono abierto" durante la prueba para ver si permite el paso del audio. Aunque no es una solución permanente, puede ayudar a diagnosticar si el problema está relacionado con las configuraciones de pulsar para hablar.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Historia de éxito">
+Muchos jugadores han resuelto con éxito sus problemas de micrófono revisando y configurando sistemáticamente la configuración de sonido de Windows, las opciones de voz de Steam y deshabilitando dispositivos en conflicto. La paciencia y la resolución de problemas metódica son clave.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Garantizar una comunicación óptima en el juego">
+Más allá de simplemente solucionar el problema de **chat de voz de Escape the Backrooms que no funciona**, mantener una comunicación clara y consistente es vital para una experiencia de terror cooperativa inmersiva. Esta sección se centra en las mejores prácticas y verificaciones para mantener tu chat de voz funcionando de manera óptima.
+
+### Lista de verificación de mejores prácticas
+
+<Checklist
+  id="voice-chat-optimality"
+  title="Mantener una comunicación clara:"
+  items={[
+    "Actualiza regularmente los controladores de audio para tu micrófono y auriculares.",
+    "Realiza una prueba de micrófono en Steam antes de iniciar las sesiones de juego.",
+    "Mantén el ruido de fondo al mínimo para asegurar la claridad.",
+    "Asegúrate de que tu conexión a Internet sea estable para evitar retrasos o caídas de voz.",
+    "Comunica información crítica de manera concisa a tus compañeros de equipo."
+  ]}
+/>
+
+<Callout type="tip" title="Calidad del chat de voz">
+Si bien arreglar el micrófono es el primer paso, optimizar la calidad de tu audio asegura que tus compañeros de equipo puedan entenderte claramente, lo cual es primordial en un juego como Escape the Backrooms.
+</Callout>
+
+### Diagrama de flujo para la solución de problemas del chat de voz
+
+| Paso | Acción                                | Punto de control                                          | Resultado                                         |
+| :--- | :------------------------------------ | :-------------------------------------------------- | :---------------------------------------------- |
+| **1** | Verificar la configuración de sonido de Windows         | Micrófono correcto seleccionado, no silenciado, el nivel de entrada se mueve. | Funciona: Procede al juego. No funciona: Soluciona problemas de Windows. |
+| **2** | Configurar la configuración de voz de Steam        | Micrófono correcto seleccionado, prueba exitosa.              | Funciona: Procede al juego. No funciona: Vuelve a verificar Steam/Windows. |
+| **3** | Desactivar otros micrófonos                    | Solo el micrófono principal activo en Windows.                 | Funciona: Procede al juego. No funciona: Verifica conflictos. |
+| **4** | Verificar la privacidad de Windows                 | Escape the Backrooms tiene acceso al micrófono.                | Funciona: Procede al juego. No funciona: Ajusta la privacidad. |
+| **5** | Ajustar el mezclador de volumen (juego abierto)       | La entrada del juego configurada en un micrófono específico.                   | Funciona: Problema resuelto. No funciona: Considera opciones avanzadas. |
+| **6** | Reiniciar el juego y el sistema                 | Configuración aplicada, inicio fresco.                      | Funciona: Problema resuelto. No funciona: Investiga el software. |
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre el chat de voz">
+
+<FAQ items={[
+  {
+    question: "¿Por qué mi chat de voz de Escape the Backrooms no funciona incluso después de verificar la configuración de Windows?",
+    answer: "Si la configuración de Windows es correcta, el problema podría estar en la selección específica del dispositivo de entrada de voz de Steam. Asegúrate de haber seleccionado manualmente tu micrófono en la configuración de voz de Steam en lugar de dejarlo en 'Predeterminado'."
+  },
+  {
+    question: "Mi micrófono funciona en Discord pero no en Escape the Backrooms. ¿Cuál podría ser el problema?",
+    answer: "Esto a menudo apunta a la configuración de voz de Steam o a la configuración de privacidad de Windows. Discord podría tener acceso directo, mientras que Steam o el juego en sí podrían estar bloqueados o configurados para usar una entrada diferente. Vuelve a verificar el dispositivo de entrada de voz de Steam y la configuración de Windows 'Permitir que las aplicaciones de escritorio accedan a tu micrófono'."
+  },
+  {
+    question: "¿Existen configuraciones de micrófono dentro del juego para Escape the Backrooms?",
+    answer: "Según los informes de los jugadores, Escape the Backrooms tiene configuraciones de micrófono limitadas dentro del juego. La mayoría de las configuraciones deben realizarse a través de la Configuración de sonido de Windows y las opciones de voz de Steam. El juego depende en gran medida de estas configuraciones externas."
+  },
+  {
+    question: "¿Podría mi software antivirus estar bloqueando el chat de voz de Escape the Backrooms?",
+    answer: "Sí, es una posibilidad. Algunos programas antivirus o cortafuegos pueden interferir con la capacidad de un juego para acceder a hardware como tu micrófono o transmitir datos de voz. Intenta deshabilitar temporalmente tu antivirus o añadir Escape the Backrooms a su lista de excepciones."
+  }
+]} />
+
+</Section>

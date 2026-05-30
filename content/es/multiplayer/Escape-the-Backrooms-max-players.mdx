@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Users, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms max players: Guía de configuración de lobby para 16 jugadores",
+  description: "Aprende a eludir el límite de 4 jugadores en Escape the Backrooms. Instrucciones paso a paso para lobbies de 16 jugadores usando mods y herramientas de memoria.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=16+Player+Lobby+Guide",
+  date: "2026-05-30",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="tip" title="Guía Rápida">
+- **Escape the Backrooms max players** admite oficialmente hasta **4 jugadores** en modo cooperativo.
+- Los **mods de la comunidad** y las herramientas de edición de memoria permiten un máximo de **16 jugadores** por lobby.
+- **Interpose Mod Loader** es el requisito principal para instalar mods que evitan el límite de jugadores.
+- **Cheat Engine** sirve como una alternativa temporal si los mods específicos se rompen después de las actualizaciones del juego.
+- Los **límites técnicos** del Unreal Engine actualmente impiden lobbies estables que superen los 16 participantes.
+</Callout>
+
+<Section icon={Users} title="Límites Oficiales vs. Expansión de la Comunidad">
+
+Aunque la lista oficial de Steam para **Escape the Backrooms max players** especifica una experiencia cooperativa de 1 a 4 jugadores, la comunidad ha buscado durante mucho tiempo expandir esto para grupos más grandes. El juego está diseñado en torno a una experiencia de horror atmosférico intensa donde el chat de voz de proximidad y el trabajo en equipo son esenciales. Sin embargo, la gran escala de algunos niveles hace que las fiestas más grandes sean altamente deseables para la exploración y la recolección de recursos.
+
+**Puntos destacados del video:**
+- Demostración de la compatibilidad de la actualización Gen 5 / 1.0 para 16 jugadores.
+- Cómo usar la modificación de memoria para engañar al sistema de lobby.
+- Solución de problemas de mods rotos después de los parches recientes del juego.
+
+<YouTubeEmbed videoId="EwR1r_KjpQI" title="¡¡¡¡¡16 Jugadores!!!!! (Gen 5 / 1.0) | Escape the Backrooms" />
+
+A partir de mayo de 2026, existen dos métodos principales para lograr un lobby de 16 jugadores. El primero implica un enfoque de modding tradicional utilizando el cargador Interpose, mientras que el segundo utiliza la edición de memoria para ajustar la variable de conteo de jugadores en tiempo real.
+
+| Característica | Modo Oficial | Lobby Modificado/Editado |
+| :--- | :--- | :--- |
+| **Jugadores Máx.** | 4 Jugadores | 16 Jugadores |
+| **Dificultad** | Escalada para 4 | Extremadamente fácil (entidades abrumadas) |
+| **Estabilidad** | Alta | Moderada (mayor probabilidad de caídas) |
+| **Chat de Voz** | Proximidad Estable | Caótico/Superpuesto |
+| **Tiempo de Configuración** | Instantáneo | 5-10 Minutos |
+
+<Callout type="info">
+Aumentar el número de jugadores más allá de cuatro altera significativamente el equilibrio del juego. Entidades como las Bacterias o los Sabuesos pueden ser fácilmente distraídas por grandes grupos, haciendo que el aspecto de supervivencia sea menos castigador pero la exploración más social.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Método 1: El Enfoque del Cargador de Mods Interpose">
+
+La forma más estable de aumentar el recuento de **Escape the Backrooms max players** es a través de un mod dedicado. Esto requiere una estructura de archivo específica y un cargador de mods secundario para funcionar correctamente. Este método es preferible para sesiones de juego a largo plazo, ya que no requiere volver a editar la memoria cada vez que se inicia un nuevo lobby.
+
+**Puntos destacados del video:**
+- Encontrar el directorio de juego correcto para la instalación de mods.
+- Extracción paso a paso de los archivos del paquete Interpose.
+- Lanzamiento de un servidor multijugador con el límite de 16 jugadores activo.
+
+<YouTubeEmbed videoId="CZx7JgmPfxw" title="(Gen 4/5) ¿Necesitas más jugadores? | Tutorial de Escape the Backrooms" />
+
+<Steps>
+  <Step num="1" title="Descargar Archivos Requeridos">
+    Navega a un sitio de modding de confianza (como Nexus Mods) y descarga el **Interpose Mod Loader** y el mod **16 Player Max Lobby**. Asegúrate de tener las versiones compatibles con la actualización Gen 5 de 2026.
+  </Step>
+  <Step num="2" title="Localizar Directorio del Juego">
+    Haz clic derecho en el juego en tu biblioteca de Steam, selecciona **Administrar**, luego **Explorar archivos locales**. Navega a `EscapeTheBackrooms > Content > Paks`.
+  </Step>
+  <Step num="3" title="Crear Carpeta de Mods">
+    Dentro de la carpeta `Paks`, crea una nueva carpeta llamada `~mods` (la tilde a menudo es necesaria para que el motor priorice estos archivos).
+  </Step>
+  <Step num="4" title="Instalar Paquetes">
+    Extrae los archivos `.pak` descargados tanto para Interpose como para el mod de 16 jugadores en esta nueva carpeta.
+  </Step>
+  <Step num="5" title="Verificar Instalación">
+    Inicia el juego. Al crear un servidor multijugador, ahora deberías ver que el deslizador o campo de entrada permite hasta 16 jugadores.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Compatibilidad de Mods">
+Cada vez que los desarrolladores lanzan un parche importante, el cargador Interpose puede romperse. Si tu juego se bloquea al iniciar después de una actualización, elimina la carpeta `~mods` y espera una actualización del mod.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Método 2: Modificación de Memoria a través de Cheat Engine">
+
+Si los mods están actualmente rotos debido a una actualización reciente, puedes anular manualmente el recuento de **Escape the Backrooms max players** utilizando la edición de memoria. Este método funciona encontrando el valor específico en tu RAM que controla el tamaño del lobby y cambiándolo antes de que el servidor se inicialice por completo.
+
+| Paso de Escaneo | Acción | Valor a Buscar |
+| :--- | :--- | :--- |
+| **Escaneo Inicial** | Establecer lobby en 4 jugadores | 4 |
+| **Segundo Escaneo** | Cambiar lobby a 2 jugadores | 2 |
+| **Tercer Escaneo** | Cambiar lobby de nuevo a 4 | 4 |
+| **Paso Final** | Modificar direcciones restantes | 16 |
+
+<Callout type="success">
+Este método no modifica los archivos del juego, lo que lo convierte en una forma "más limpia" de eludir los límites sin preocuparse por las comprobaciones de integridad de archivos. Sin embargo, debes repetir el proceso cada vez que reinicies el cliente del juego.
+</Callout>
+
+1. Abre **Cheat Engine** y adjúntalo al proceso `Backrooms-Win64-Shipping.exe`.
+2. En el menú multijugador del juego, establece el número de jugadores en 4 y realiza un "Primer Escaneo" para el valor 4.
+3. Cambia el número a 2 en el juego y realiza un "Siguiente Escaneo" para 2.
+4. Repite esto hasta que solo queden unas pocas direcciones.
+5. Selecciona las direcciones restantes y cambia su valor a **16**.
+6. Crea el lobby inmediatamente. El juego ahora permitirá que otros 15 jugadores se unan a tu sesión.
+
+</Section>
+
+<Section icon={Shield} title="Limitaciones Técnicas y Rendimiento">
+
+Aunque es posible tener 16 jugadores, la implementación del Unreal Engine en *Escape the Backrooms* tiene cuellos de botella específicos. El juego utiliza un modelo de red peer-to-peer (P2P), lo que significa que el hardware y la conexión a Internet del anfitrión determinan la estabilidad para todos los demás.
+
+<CardGrid cols={3}>
+  <Card title="Impacto en la CPU">
+    El anfitrión debe procesar la IA de las entidades y las ubicaciones de los jugadores para 16 clientes diferentes, lo que lleva a un alto uso de la CPU en niveles como el Hub.
+  </Card>
+  <Card title="Ancho de Banda">
+    Los datos del chat de voz de proximidad escalan exponencialmente. Con 16 jugadores hablando a la vez, se requieren altas velocidades de carga para el anfitrión.
+  </Card>
+  <Card title="Diseño de Nivel">
+    Algunos rompecabezas, como las secuencias del ascensor o los pasillos estrechos, no son físicamente lo suficientemente grandes como para acomodar 16 modelos de personajes.
+  </Card>
+</CardGrid>
+
+| Número de Jugadores | Impacto en el Rendimiento | Recomendación |
+| :--- | :--- | :--- |
+| **1-4 Jugadores** | Insignificante | Juego estándar |
+| **5-8 Jugadores** | Pequeños tartamudeos | Ideal para grupos grandes de amigos |
+| **9-12 Jugadores** | Picos de lag frecuentes | Requiere PC de anfitrión de gama alta |
+| **13-16 Jugadores** | Desincronización pesada | Solo para partidas sociales/caóticas |
+
+<Callout type="warning">
+Ejecutar un lobby de 16 jugadores en un anfitrión con menos de 16 GB de RAM o un procesador de cuatro núcleos probablemente resultará en el bloqueo del servidor una vez que los jugadores comiencen a moverse entre diferentes zonas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Configuración para Lobbies Grandes">
+
+Antes de invitar a 15 amigos a tu juego, asegúrate de que tu entorno esté preparado. Los lobbies grandes a menudo fallan no por el mod, sino por simples errores de configuración.
+
+<Checklist
+  id="lobby-prep"
+  title="Lista de Verificación de Preparación del Anfitrión:"
+  items={[
+    "Asegúrate de que todos los jugadores tengan la misma versión del mod instalada (si usas el Método 1)",
+    "Deshabilita el Firewall de Windows o añade una excepción para el ejecutable del juego",
+    "Verifica los archivos del juego en Steam para asegurarte de que no haya paks corruptos",
+    "Establece tu Región de Descarga de Steam en la misma ubicación que tus amigos para reducir el ping",
+    "Cierra aplicaciones en segundo plano como Chrome para liberar ciclos de CPU para el anfitrión"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo Profesional">
+Si juegas con 16 personas, designa un "Explorador Maestro" para liderar el grupo. Tener 16 personas dispersas en el Nivel 0 (El Lobby) hace que sea casi imposible reagruparse debido a la naturaleza procedural de las paredes.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el límite oficial de jugadores en Escape the Backrooms?",
+    answer: "El límite oficial admitido por los desarrolladores es de 4 jugadores. Cualquier número superior a este requiere el uso de mods de terceros o herramientas de edición de memoria."
+  },
+  {
+    question: "¿Puedo ser baneado por usar el mod de 16 jugadores?",
+    answer: "Actualmente, no hay un sistema anti-trampas en Escape the Backrooms que banee a los jugadores por aumentar el tamaño de los lobbies. Es un juego cooperativo, por lo que no se obtiene ninguna ventaja competitiva sobre otros."
+  },
+  {
+    question: "¿Necesitan todos los 16 jugadores instalar el mod?",
+    answer: "Para el método Interpose, es muy recomendable que todos tengan el mod para evitar la desincronización. Para el método Cheat Engine, solo el anfitrión necesita modificar sus valores de memoria."
+  },
+  {
+    question: "¿Por qué no puedo superar los 16 jugadores?",
+    answer: "Esta es una limitación codificada dentro de la versión específica de Unreal Engine utilizada por el juego. Intentar forzar valores superiores a 16 generalmente resulta en un bloqueo inmediato o que el servidor no aparezca en el navegador de lobbies."
+  }
+]} />
+
+</Section>

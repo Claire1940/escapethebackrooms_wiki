@@ -1,0 +1,248 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms: Comprehensive Escape Guide",
+  description: "A complete guide to escaping the various levels of Escape the Backrooms, including tips, strategies, and entity avoidance.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/800080/fff?text=Escape+The+Backrooms+Guide",
+  date: "2026-05-30",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- Mastering **Escape the Backrooms** requires understanding each level's unique mechanics and entities.
+- Utilize **consumables** like Almond Water for sanity and Energy Bars for stamina boosts.
+- **Hiding spots** such as under tables or in closets are crucial for evading pursuing entities.
+- Complete **multiplayer achievements** first to gain valuable map and puzzle knowledge.
+- Always be aware of your **sanity meter**, as it decreases rapidly in dangerous situations.
+</Callout>
+
+<Section icon={Map} title="Navigating the Backrooms: Essential Strategies">
+Escape the Backrooms is a co-op horror experience that challenges players to traverse a multitude of unsettling levels, each with its own unique entities and puzzles. Successfully escaping requires keen observation, strategic planning, and quick reflexes. Understanding the core mechanics and available resources is paramount to survival.
+
+**Video Highlights:**
+- Discover how entities like The Howler are spawned and behave in Level 0.
+- Get an aerial view of various levels, revealing their true scale and hidden details.
+- Learn about cut content and out-of-bounds areas that offer insights into game design.
+
+<YouTubeEmbed videoId="jDmh6lNxAAI" title="Everything Hidden in Escape the Backrooms (Out of Bounds + Cut Content)" />
+
+The game features several consumables that can significantly aid your escape:
+
+| Item Type      | Effect                                       | Usage                                     |
+| :------------- | :------------------------------------------- | :---------------------------------------- |
+| **Almond Water** | Restores sanity                              | Crucial for maintaining mental stability  |
+| **Energy Bar**   | Provides a stamina boost                     | Essential for escaping chases             |
+| **Juice**        | Grants a temporary speed boost               | Useful for quick escapes or traversing    |
+| **Liquid Pain**  | Causes significant damage                    | **Avoid at all costs**, detrimental effect |
+
+<Callout type="tip" title="Sanity Management">
+Your sanity meter is a critical resource. It decreases over time and dramatically faster when you are in danger or near entities. Keep an eye on it and use Almond Water proactively to prevent hallucinations and potential death.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Level-by-Level Escape Guide for Escape the Backrooms">
+Each level in Escape the Backrooms presents distinct challenges and entities. A structured approach to each one can significantly improve your chances of escape.
+
+### Level 0: The Lobby
+This is your first trial, a seemingly endless maze of faded yellow walls. Your objective is to find a broken ladder, repair it, obtain a key, and unlock the exit. The Howler entity will appear after a few minutes, giving chase.
+
+<Steps>
+  <Step num="1" title="Locate the Ladder Pieces">
+    Wander through the winding halls until you find the scattered pieces of a ladder. Collect them to repair it.
+  </Step>
+  <Step num="2" title="Obtain the Key">
+    Use the repaired ladder to reach a cubby where the key is located.
+  </Step>
+  <Step num="3" title="Find the Locked Door">
+    Search for the locked door, which often leads to a room with square pitfalls.
+  </Step>
+  <Step num="4" title="Cross the Pitfalls">
+    Carefully cross the pitfalls without losing your balance. Falling will lead you to a second layer with a separate exit.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Beware The Howler">
+The Howler will begin appearing on the map after a few minutes. It can spot you through walls if not contained properly (as seen in out-of-bounds observations). Maintain distance and use hiding spots.
+</Callout>
+
+### Level 1: The Habitable Zone
+This level features a large parking lot and introduces the Skin-Stealer. You'll need to find a code for an elevator and collect four keys to open a vault door.
+
+| Phase                | Objective                                      | Entity               | Key Tip                                                              |
+| :------------------- | :--------------------------------------------- | :------------------- | :------------------------------------------------------------------- |
+| **Parking Garage**   | Find the elevator code (from colored cars).    | None (initially)     | Note car positions; they indicate the code.                          |
+| **Down the Elevator**| Collect **4 keys** scattered in rooms.         | **Skin-Stealer**     | Skin-Stealers cannot open doors; use them to your advantage for evasion. |
+| **The Dark Garage**  | Navigate to the next elevator.                 | **Skin-Stealer**     | Darkness makes detection hard; listen for sounds.                    |
+
+</Section>
+
+<Section icon={Shield} title="Advanced Evasion and Survival Techniques">
+Surviving in Escape the Backrooms requires more than just knowing the objectives; it demands mastery of evasion and resource management.
+
+### Hiding from Entities
+Most entities in the Backrooms can be evaded by using the environment to your advantage.
+
+<CardGrid cols={2}>
+  <Card title="Closets & Under Tables">
+    These are universal hiding spots. When a monster gives chase, quickly duck into a closet or under a table to break their line of sight.
+  </Card>
+  <Card title="Closing Doors">
+    Many entities cannot open doors. Closing doors behind you can buy precious seconds or even cause the entity to despawn if they lose track of you.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Multiplayer Advantage">
+Playing with friends can significantly ease the difficulty. One player can distract an entity while others complete objectives, or revive fallen teammates if equipped with a rope in Level 0.
+</Callout>
+
+### Entity-Specific Strategies
+
+| Entity           | Level(s)                 | Key Behavior                                     | Evasion Strategy                                                              |
+| :--------------- | :----------------------- | :----------------------------------------------- | :---------------------------------------------------------------------------- |
+| **The Howler**   | Level 0, Level 0.11      | Appears after time, teleports near player.       | Find hiding spots quickly; use cover to break line of sight.                  |
+| **Skin-Stealer** | Level 1, Level 8, Level 55.1 | Patrols areas, cannot open doors.                | Use doors as barriers; move silently to avoid detection.                      |
+| **Smilers**      | The Hub, Pipe Dreams, Run For Your Life | Appear in darkness, can be numerous.             | Stay in lit areas; for chases, sprint through obstacles (e.g., in Run For Your Life). |
+| **Hounds**       | Electrical Station, Terror Hotel | Aggressive, can be stunned by flashlight.        | Flash them with your flashlight 3 times to make them run away.                |
+| **Partygoers**   | Level Fun, Level Fun+    | Motion and sound sensitive, hide under tables.   | Move silently; use tables for cover; bait them to face away.                  |
+| **The Wretch**   | Lights Out, Level 9      | Roams dark mazes, can be observed via LIDAR.     | Use LIDAR scanner to map path; avoid their patrol routes.                     |
+| **Scratcher**    | Level The End            | Blind but excellent hearing, distracted by alarms. | Use fire alarms to distract; collect tapes quietly.                           |
+| **Animations**   | Level 94                 | Appear at night, break into houses with lights on. | Hide in closets/under beds; turn off lights; use trucks for safe passage.     |
+| **Facelings**    | Level 10                 | Appear in wheatfields, leave if spotted.         | Move quickly through fields; spot them to make them retreat. Chainsaw Facelings chase. |
+
+</Section>
+
+<Section icon={Sparkles} title="Mastering Puzzles and Progression">
+Puzzles are an integral part of escaping the Backrooms. From simple number codes to environmental challenges, understanding how to approach them is key.
+
+### Key Puzzle Types
+
+<Checklist
+  id="puzzle-types"
+  title="Common Puzzle Mechanics:"
+  items={[
+    "Environmental Interaction: Using objects like ladders or switches.",
+    "Code Decryption: Solving riddles or observation puzzles for numerical codes.",
+    "Entity Manipulation: Using entities' behaviors to unlock paths.",
+    "Resource Management: Utilizing consumables and tools effectively.",
+    "Navigation Challenges: Finding exits in mazes or dark areas."
+  ]}
+/>
+
+### Level Progression Flow
+The game features a semi-linear progression, often looping back to "The Hub" or introducing alternative paths.
+
+| Level Name             | Primary Objective                                   | Connection Points                                       |
+| :--------------------- | :-------------------------------------------------- | :------------------------------------------------------ |
+| **Level 0 (The Lobby)** | Find key, open exit.                                | Leads to Level 1.                                       |
+| **Level 1 (Habitable Zone)** | Find elevator code, collect keys, open vault.       | Leads to The Hub.                                       |
+| **The Hub**            | Access M.E.G. base, open garage door.               | Leads to Pipe Dreams 1 (Exit A) or Level 922 (Exit B).  |
+| **Electrical Station** | Activate 9 fuse boxes.                              | Leads to Abandoned Office.                              |
+| **Abandoned Office**   | Solve vending machine puzzle, avoid cameras.        | Leads to Terror Hotel.                                  |
+| **Terror Hotel**       | Obtain Moth Jelly, collect papers, solve padlock.   | Leads to Pipe Dreams 2.                                 |
+| **Pipe Dreams 2**      | Navigate tunnel, escape Smiler chase.               | Leads to Level Fun.                                     |
+| **Level Fun**          | Sneak past Partygoers.                              | Leads to Poolrooms.                                     |
+| **Poolrooms**          | Explore corridors, find exit.                       | Leads to Run For Your Life.                             |
+| **Run For Your Life**  | Sprint through hospital hallway, dodge obstacles.   | Leads to Level The End.                                 |
+| **Level The End**      | Collect VHS tapes, use computer.                    | Leads to Escherian Stairwell.                           |
+| **Escherian Stairwell**| Climb to floor 94, jump down center.                | Leads to Level 94: Motion.                              |
+| **Level 94: Motion**   | Reach floating castle, defeat Animated King.        | Leads to Lights Out.                                    |
+| **Lights Out**         | Navigate dark maze with LIDAR scanner.              | Leads to Thalassophobia (Exit A) or Kitty's House (Exit B). |
+| **Thalassophobia**     | Traverse flooded village, dive into cave system.    | Leads to Level 8.                                       |
+| **Level 8**            | Navigate moth caves, avoid Skin-Stealers.           | Leads to Level 0.11.                                    |
+| **Level 0.11 & 188**   | Solve light puzzle, use chainsaw, pull levers.      | Leads to Level 9.                                       |
+| **Level 9**            | Activate security terminals, cure Wretch.           | Leads to Level 10.                                      |
+| **Level 10**           | Navigate wheatfields, activate turbines.            | Leads to Level 3999 (True Ending).                      |
+
+<Callout type="warning" title="Procedural Generation">
+Some levels, particularly Level 0, may feature procedural generation, meaning layout and item placements can vary between playthroughs. Be adaptable and rely on sound cues and environmental clues.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer and Achievement Hunting">
+Playing Escape the Backrooms with friends can enhance the experience and simplify achievement hunting. Certain achievements are specifically designed for multiplayer.
+
+### Multiplayer Advantages
+
+<CardGrid cols={3}>
+  <Card title="Increased Survivability">
+    Teammates can distract entities, allowing others to complete objectives or escape.
+  </Card>
+  <Card title="Revival Mechanic">
+    In some levels (e.g., Level 0), a fallen player can be revived by a teammate with a rope.
+  </Card>
+  <Card title="Shared Knowledge">
+    More players mean more eyes and brains to solve puzzles and spot dangers.
+  </Card>
+</CardGrid>
+
+### Achievement Strategies
+Many achievements are tied to completing specific levels or performing unique actions. Prioritizing multiplayer achievements can be a good starting point.
+
+<Checklist
+  id="achievements-checklist"
+  title="Achievement Tips:"
+  items={[
+    "Complete multiplayer achievements first for easier progression.",
+    "Survive Level 0 for 15 minutes for the 'Survived Level 0' achievement.",
+    "Unlock all endings (A, B, C, D) to reach the 'True Ending'.",
+    "Familiarize yourself with maps and entity behaviors in single-player before tackling Nightmare difficulty."
+  ]}
+/>
+
+<Callout type="tip" title="Nightmare Difficulty">
+On Nightmare difficulty, if even one teammate dies, the entire game restarts. This emphasizes the importance of teamwork and prior knowledge of all levels.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Endings and Replayability">
+Escape the Backrooms features multiple endings, encouraging replayability and exploration of different paths. Discovering all endings is key to achieving the "True Ending."
+
+### Understanding the Endings
+
+| Ending Type        | How to Achieve                                                                                                     | Significance                                         |
+| :----------------- | :----------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------- |
+| **Ending A**       | Complete Level 55.1 (The Elevator) after normal progression.                                                       | The "standard" escape route.                         |
+| **Ending B**       | Navigate through The Grassrooms after completing "Overgrowth" from the Extended MEG Base.                          | A more challenging escape with unique puzzles.       |
+| **Ending C**       | From The Hub, take the ramp to Level 922 (a series of identical rooms), climb to floor 94, and jump down.          | A hidden, non-entity escape.                         |
+| **Ending D**       | (Information not provided in sources, typically unlocked by specific actions or other endings).                    | Often involves a unique sequence or hidden area.     |
+| **The True Ending**| Collect Endings A, B, C, and D, then play the arcade machine in Level 3999.                                        | The ultimate escape, returning to the frontrooms.    |
+
+<Callout type="info" title="Extended MEG Base">
+After completing Ending A, you'll gain access to the Extended MEG Base. This area connects to new levels and alternative routes, offering further challenges and paths to other endings.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ: Escape the Backrooms">
+
+<FAQ items={[
+  {
+    question: "How do I escape Level 0 in Escape the Backrooms?",
+    answer: "To escape Level 0, you need to find pieces of a broken ladder, repair it to get a key, locate a locked door, and then carefully cross a room with pitfalls to reach the exit. Be mindful of The Howler."
+  },
+  {
+    question: "What are consumables used for in Escape the Backrooms?",
+    answer: "Consumables like Almond Water restore sanity, Energy Bars boost stamina, and Juice provides a speed boost. Liquid Pain, however, should be avoided as it causes damage."
+  },
+  {
+    question: "Can I play Escape the Backrooms with friends?",
+    answer: "Yes, Escape the Backrooms is a co-op horror experience. Playing with friends can make levels easier due to shared objectives, distractions for entities, and the ability to revive teammates."
+  },
+  {
+    question: "What happens if my sanity drops too low?",
+    answer: "If your sanity drops too low, you will begin to hallucinate, making the game significantly harder and increasing your risk of death. Use Almond Water to restore it."
+  }
+]} />
+
+</Section>

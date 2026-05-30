@@ -1,0 +1,151 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Camera } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Nivel 4: Guía de la Oficina Abandonada",
+  description: "Navega por Escape the Backrooms Nivel 4, la Oficina Abandonada. Resuelve el rompecabezas inicial, recolecta recursos esenciales y evade la vigilancia de las cámaras para escapar.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/800080/fff?text=Backrooms+Level+4",
+  date: "2026-05-30",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida para Escapar del Nivel 4">
+- **Escape the Backrooms Nivel 4** requiere resolver un **rompecabezas de conteo** en la habitación inicial.
+- Recolecta **Agua de Almendras** y **Barras Energéticas**; son cruciales para los próximos niveles.
+- Navega el sistema de **vigilancia de cámaras** cuidadosamente para evitar ser detectado y reinicios.
+- El nivel es relativamente seguro, centrándose en la recolección de recursos y rompecabezas ambientales.
+- Prepárate para el significativamente más difícil y aterrador **Nivel 5: El Hotel del Terror**.
+</Callout>
+
+<Section icon={Map} title="Navegando Escape the Backrooms Nivel 4: La Oficina Abandonada">
+Bienvenido a **Escape the Backrooms Nivel 4**, a menudo conocido como la Oficina Abandonada. Este nivel sirve como un punto crucial para la recolección de recursos antes de que los jugadores se enfrenten a desafíos más desalentadores. Aunque generalmente es más seguro que los niveles subsiguientes, introduce rompecabezas ambientales y mecánicas de sigilo que requieren una observación aguda y una ejecución cuidadosa.
+
+La Oficina Abandonada está diseñada para poner a prueba tus habilidades de observación y gestión de recursos. Encontrarás abundantes suministros de Agua de Almendras y Barras Energéticas, vitales para mantener la cordura y la salud en los aterradores niveles que te esperan. El objetivo principal es resolver un rompecabezas de conteo único para desbloquear el camino a seguir, seguido de la navegación de un sistema de vigilancia.
+
+**Puntos destacados del video:**
+- Demuestra el recorrido completo del Nivel 4, incluyendo el rompecabezas.
+- Muestra las ubicaciones de varios recursos como el Agua de Almendras.
+- Guía a los jugadores a través de cómo esquivar las cámaras de vigilancia.
+
+<YouTubeEmbed videoId="OuFmxZeOheY" title="Nivel 4 | Escape the Backrooms [ACTUALIZACIÓN 3] Recorrido COMPLETO" />
+
+<Callout type="tip" title="La gestión de recursos es clave">
+Siempre prioriza recolectar **Agua de Almendras** y **Barras Energéticas** en el Nivel 4. Estos ítems son indispensables para mantener tu cordura y resistencia en los niveles mucho más desafiantes y peligrosos que siguen. No dejes ningún cubículo o habitación sin revisar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Resolviendo el Rompecabezas Inicial de Conteo">
+El primer obstáculo importante en Escape the Backrooms Nivel 4 es un rompecabezas de conteo único en la habitación inicial. Los números para este rompecabezas se aleatorizan con cada partida, lo que significa que tendrás que contar activamente los elementos tú mismo.
+
+<Steps>
+  <Step num="1" title="Localiza las Bombas de Agua">
+    Al entrar en la primera habitación, busca inmediatamente las bombas de agua. Cuenta cada bomba que encuentres. Este número será una de las entradas para el rompecabezas.
+  </Step>
+  <Step num="2" title="Cuenta los Libros">
+    A continuación, escanea sistemáticamente la habitación en busca de libros. Asegúrate de contar todos los libros visibles, ya que pueden estar esparcidos en estanterías, escritorios o incluso en el suelo. Introduce este total en la interfaz del rompecabezas.
+  </Step>
+  <Step num="3" title="Suma las Sillas">
+    Procede a contar todas las sillas en la habitación. Sé minucioso; a veces las sillas pueden estar parcialmente ocultas o escondidas en las esquinas.
+  </Step>
+  <Step num="4" title="Identifica las Mesas">
+    Finalmente, cuenta las mesas dentro de la habitación. Una vez que tengas los cuatro números (bombas, libros, sillas, mesas), introdúcelos en el mecanismo del rompecabezas designado.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Alerta de Aleatorización del Rompecabezas">
+Los números exactos para las bombas de agua, libros, sillas y mesas **cambian con cada partida**. No confíes en intentos anteriores o guías externas para los conteos específicos. Debes realizar el conteo tú mismo cada vez.
+</Callout>
+
+</Section>
+
+<Section icon={Camera} title="Navegando el Sistema de Vigilancia por Cámaras">
+Después de resolver con éxito el rompecabezas de conteo y recolectar recursos, te encontrarás con un pasillo con un sistema de vigilancia por cámaras. Esto requiere un enfoque sigiloso para evitar la detección. Ser atrapado te obligará a regresar a un interruptor de reinicio, lo que te costará un tiempo valioso.
+
+<CardGrid cols={2}>
+  <Card title="Detección de Cámara">
+    - **Activador**: Ser visto por cualquiera de las cuatro cámaras.
+    - **Consecuencia**: La puerta de salida final se cerrará, requiriendo un reinicio.
+    - **Evitación**: Mantente fuera de su línea de visión directa.
+  </Card>
+  <Card title="Mecanismo de Reinicio">
+    - **Ubicación**: Un botón de reinicio dedicado que se encuentra después de la sala del rompecabezas.
+    - **Función**: Reabre la puerta final si eres detectado.
+    - **Estrategia**: Aprende los patrones de las cámaras para evitar la necesidad de reiniciar.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Estrategia de Reinicio de Cámara">
+Si eres detectado por una cámara, retrocede inmediatamente al interruptor de reinicio de la cámara. Es mejor reiniciar temprano que luchar más adelante en el pasillo con la salida cerrada. Aprende las rutas de las cámaras para anticipar sus movimientos.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Esquiva la Primera Cámara">
+    Al entrar en el área de las cámaras, la primera cámara será visible. Sigue la ruta hacia la izquierda, pegado a la pared para pasarla sin ser visto.
+  </Step>
+  <Step num="2" title="Evita la Segunda Cámara">
+    La segunda cámara suele estar posicionada para monitorear un área más amplia. Camina alrededor de cualquier obstáculo o estantería, asegurándote de no entrar en áreas que te expongan.
+  </Step>
+  <Step num="3" title="Navega las Cámaras Tercera y Cuarta">
+    Estas cámaras a menudo están posicionadas en un pasillo de puertas. Gira a la derecha en el cruce apropiado y continúa por el pasillo, asegurándote de mantenerte fuera de su vista.
+  </Step>
+  <Step num="4" title="Alcanza la Puerta de Salida">
+    Una vez pasadas las cámaras, continúa a través del último conjunto de puertas. La salida estará al final de esta ruta.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="Artículos Esenciales y Próximos Pasos">
+El Nivel 4 está diseñado para equiparte para los desafíos futuros. Abastecerse de artículos específicos es primordial para la supervivencia en los entornos más hostiles de los Backrooms.
+
+| Tipo de Artículo | Importancia | Uso                                            | Cantidad (Aprox.) |
+| :------------- | :-------------- | :--------------------------------------------- | :---------------- |
+| **Agua de Almendras** | Alta            | Restauración de cordura, curación menor       | 5-10 botellas     |
+| **Barra Energética** | Media           | Regeneración de resistencia, energía rápida   | 3-5 barras        |
+| **Palanca**      | Situacional     | Romper ciertos obstáculos, salida de emergencia | 1 (si disponible) |
+| **Linterna**     | Esencial        | Iluminación en áreas oscuras (Nivel 5)         | 1 (si disponible) |
+
+<Callout type="success" title="Preparación para el Nivel 5">
+El Nivel 5, conocido como "El Hotel del Terror", es significativamente más peligroso y largo que el Nivel 4. Asegúrate de que tu inventario esté lleno de Agua de Almendras y Barras Energéticas antes de continuar. La gestión de la cordura se vuelve crítica.
+</Callout>
+
+| Comparación de Niveles | Nivel 4: Oficina Abandonada                  | Nivel 5: El Hotel del Terror                      |
+| :------------------- | :----------------------------------------- | :------------------------------------------------ |
+| **Nivel de Peligro** | Bajo-Medio (peligros ambientales)          | Alto (entidades hostiles, drenaje de cordura)     |
+| **Desafío Principal** | Resolución de rompecabezas, sigilo, recolección de recursos | Evitación de entidades, gestión de cordura, navegación |
+| **Recursos Clave**   | Agua de Almendras, Barras Energéticas      | Agua de Almendras, artículos para restaurar la cordura |
+| **Duración**         | Corta-Media                                | Larga                                             |
+| **Entidades**        | Ninguna conocida                           | Muchas, muy agresivas                             |
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes sobre Escape the Backrooms Nivel 4">
+
+<FAQ items={[
+  {
+    question: "¿Es peligroso Escape the Backrooms Nivel 4?",
+    answer: "El Nivel 4, la Oficina Abandonada, se considera relativamente seguro en comparación con niveles posteriores. Sus desafíos principales implican rompecabezas ambientales y sigilo en lugar de encuentros directos con entidades. Sin embargo, fallar la secuencia de la cámara puede hacerte retroceder."
+  },
+  {
+    question: "¿Qué elementos debo concentrarme en recolectar en el Nivel 4?",
+    answer: "Tu enfoque principal debe ser recolectar **Agua de Almendras** y **Barras Energéticas**. Estos recursos son vitales para mantener tu cordura y resistencia, especialmente al prepararte para el mucho más desafiante Nivel 5."
+  },
+  {
+    question: "¿Cómo resuelvo el rompecabezas en la primera habitación del Nivel 4?",
+    answer: "El rompecabezas requiere que cuentes elementos específicos en la habitación: bombas de agua, libros, sillas y mesas. Los números se aleatorizan para cada partida, por lo que debes contarlos con precisión tú mismo para introducir los valores correctos."
+  },
+  {
+    question: "¿Qué sucede si una cámara me detecta en el Nivel 4?",
+    answer: "Si una cámara te detecta, la puerta de salida final se cerrará. Tendrás que retroceder a un interruptor de reinicio de cámara designado para reabrir la puerta e intentar la sección de sigilo nuevamente."
+  }
+]} />
+
+</Section>

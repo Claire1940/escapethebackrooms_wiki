@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Home } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Level 9: Darkened Suburbs Walkthrough",
+  description: "Navigate Level 9's Neighborhood and M.E.G. base in Escape the Backrooms with this step-by-step guide.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Level+9+Walkthrough",
+  date: "2026-05-30",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Level 9** is split into two main sections: the **Neighborhood** and the **Abandoned M.E.G. Base**.
+- Your primary objective in the Neighborhood is to **activate three computers** in specific houses.
+- Watch out for the **Neighborhood Watch** entity on the roads and **Wretches** inside houses.
+- Utilize **door locks** to prevent Wretches from reaching you inside houses.
+- Completing the M.E.G. base section unlocks the path to **Level 10**.
+</Callout>
+
+<Section icon={Home} title="Understanding Level 9: Darkened Suburbs">
+Level 9, known as the Darkened Suburbs, presents players with a unique blend of exploration, puzzle-solving, and entity evasion. This level is distinctly divided into two primary zones: a sprawling, eerie neighborhood and a desolate, abandoned M.E.G. base. Success in **Escape the Backrooms Level 9** hinges on understanding these distinct areas and their respective challenges.
+
+The Neighborhood serves as your initial entry point, requiring careful navigation and interaction with its environment. The M.E.G. base, while connected, presents a different set of objectives and dangers, culminating in your progression to the next level.
+
+<Callout type="tip" title="Level 9 Overview">
+The key to surviving Level 9 is adapting your strategy to each section. The Neighborhood demands stealth and quick reflexes, while the M.E.G. base requires a more direct approach once unlocked. Always prioritize safety and objective completion.
+</Callout>
+
+**Video Highlights:**
+- Visual guide for navigating the Neighborhood.
+- Demonstrations of avoiding the Neighborhood Watch.
+- Tips for dealing with Wretches inside houses.
+
+</Section>
+
+<Section icon={Target} title="Navigating the Neighborhood: Objectives and Threats">
+Your journey in the Neighborhood begins by locating a virtual map near the metal gate of the abandoned M.E.G. base. This map will highlight several houses in red, indicating your targets. Your main goal is to enter these flashing houses and activate something on the computers found within. There are typically three computers you need to interact with.
+
+The Neighborhood is not without its dangers. A formidable entity known as the **Neighborhood Watch** patrols the roads, characterized by its extreme speed. If detected, your best course of action is to quickly seek refuge inside a nearby house and secure the door. Inside the houses, you'll encounter **Wretches**. Fortunately, most doors within the houses have locks, which you can use to prevent Wretches from pursuing you.
+
+<Callout type="warning" title="Entity Encounters">
+The Neighborhood Watch is incredibly fast and will chase you relentlessly. Your only defense is to break line of sight and secure yourself within a house. Wretches inside houses can be locked out, but be quick and decisive.
+</Callout>
+
+Here's a breakdown of the Neighborhood's challenges:
+
+| Threat             | Description                                          | Strategy                                                | Speed     |
+| :----------------- | :--------------------------------------------------- | :------------------------------------------------------ | :-------- |
+| **Neighborhood Watch** | Extremely fast entity roaming roads.                 | Run into a house, close the door immediately.           | Very High |
+| **Wretch**         | Found inside houses.                                 | Use door locks to secure rooms or block pursuit.        | Medium    |
+| **Flashing Houses** | Indicates target houses with computers.              | Prioritize these; enter carefully, activate computers.  | N/A       |
+
+</Section>
+
+<Section icon={Shield} title="Strategy for Computer Activation and Safe Houses">
+Activating the three computers requires a methodical approach. The game often generates houses with varying levels of danger. Some houses might be "safe," meaning they won't contain Wretches, offering a free computer activation. Others will be "dangerous," hosting Wretches that you'll need to evade or lock away.
+
+It's highly recommended to prioritize any house marked as "safe" on your virtual map first. This guarantees one computer activation without the immediate threat of a Wretch. While luck plays a role in how many safe houses you receive, typically at least one is provided.
+
+<CardGrid cols={2}>
+  <Card title="Safe House Strategy">
+    - **No Wretches present**.
+    - Quickly enter and activate the computer.
+    - Ideal for securing an objective without risk.
+    - Prioritize these houses when available.
+  </Card>
+  <Card title="Dangerous House Strategy">
+    - **Wretches are present**.
+    - Enter cautiously, identify Wretch location.
+    - Use door locks to isolate or block Wretch.
+    - Activate computer quickly and proceed.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+The virtual map is your most valuable tool in the Neighborhood. Always consult it to identify flashing houses and plan your route. Knowing which houses are potentially safe can significantly reduce stress and risk.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="M.E.G. Base Access and Progression">
+Once all three computers in the Neighborhood houses are activated, the metal gate to the abandoned M.E.G. base will unlock. Head inside and follow the arrows painted on the walls, which will guide you to the basement. This marks the transition from the open-ended exploration of the Neighborhood to a more linear path within the M.E.G. base.
+
+The M.E.G. base section, often referred to as the Abandoned Outpost, has its own set of challenges and objectives. Upon successful completion of this outpost, you will acquire a keycard. This keycard is crucial for your final exit from Level 9. Proceed to the back gate of the M.E.G. base and use the keycard at the terminal to open it, granting you access to Level 10.
+
+<Callout type="success" title="Path to Level 10">
+Successfully navigating the M.E.G. base and obtaining the keycard is the final hurdle in Level 9. The keycard terminal at the back gate is your gateway to the next level of the Backrooms.
+</Callout>
+
+<Checklist
+  id="level9-objectives"
+  title="Level 9 Completion Checklist:"
+  items={[
+    "Approach M.E.G. base metal gate.",
+    "Locate and use the virtual map.",
+    "Activate 3 computers in flashing red houses.",
+    "Evade Neighborhood Watch on roads.",
+    "Lock out Wretches inside houses.",
+    "Enter the unlocked M.E.G. base.",
+    "Follow arrows to the M.E.G. base basement.",
+    "Complete the Abandoned Outpost section.",
+    "Obtain the keycard from the outpost.",
+    "Use keycard at the back gate terminal.",
+    "Proceed to Level 10."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Tips for Surviving Escape the Backrooms Level 9">
+Level 9 can be challenging, but with the right tactics, you can navigate it successfully. Here are some essential tips to help you survive and progress:
+
+<Steps>
+  <Step num="1" title="Map Awareness">
+    Constantly refer to your virtual map to track flashing houses and plan your route. Avoid aimless wandering, as this increases your chances of encountering the Neighborhood Watch.
+  </Step>
+  <Step num="2" title="Door Management">
+    Inside houses, always be aware of doors. Use locks immediately if a Wretch is detected or if you want to secure a room while activating a computer. Doors are your primary defense against Wretches.
+  </Step>
+  <Step num="3" title="Stealth and Speed">
+    When outside, try to stay aware of your surroundings to spot the Neighborhood Watch before it spots you. If a chase begins, run directly to the nearest house and close the door. Don't try to outrun it in the open.
+  </Step>
+  <Step num="4" title="Resourcefulness">
+    While not explicitly resource-heavy, Level 9 requires quick thinking and adaptability. Be prepared for unexpected Wretch appearances or sudden encounters with the Neighborhood Watch.
+  </Step>
+  <Step num="5" title="Patience">
+    Rushing through the Neighborhood can lead to mistakes. Take your time to observe entity patterns and secure objectives methodically. Patience is key to successful navigation.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+Consider turning down your in-game volume slightly when navigating the Neighborhood roads to better hear the distinct sounds of the Neighborhood Watch approaching, giving you precious seconds to react.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions about Level 9">
+
+<FAQ items={[
+  {
+    question: "How many computers do I need to activate in the Neighborhood?",
+    answer: "You need to activate three computers located in the houses highlighted in red on your virtual map. These are your primary objectives in the Neighborhood section of **Escape the Backrooms Level 9**."
+  },
+  {
+    question: "What should I do if the Neighborhood Watch chases me?",
+    answer: "If the Neighborhood Watch starts chasing you, immediately run into the nearest house and close the door behind you. It is extremely fast, and houses offer the only reliable refuge."
+  },
+  {
+    question: "Are Wretches always in every house?",
+    answer: "No, some houses are marked as 'safe' and will not contain Wretches. However, most target houses ('dangerous' houses) will have Wretches inside, so always be prepared to use door locks."
+  },
+  {
+    question: "How do I get to Level 10 from Level 9?",
+    answer: "After activating all three computers and completing the Abandoned Outpost section of the M.E.G. base, you will obtain a keycard. Use this keycard at the terminal by the back gate of the M.E.G. base to unlock the path to Level 10."
+  }
+]} />
+
+</Section>

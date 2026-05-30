@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms: Max Players & Lobby Limits",
+  description: "Discover how many players can join Escape the Backrooms, including the official limits and how to increase them with mods or tools.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/800080/fff?text=Backrooms+Players",
+  date: "2026-05-30",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Official Limit**: **Escape the Backrooms** officially supports **1-4 players** for co-op exploration.
+- **Technical Limit**: The game's Unreal Engine has a technical limitation of **16 players**.
+- **Modded Lobbies**: Players can use **Cheat Engine** or specific mods to increase the lobby size up to 16 players.
+- **Optimization Impact**: Larger lobbies can lead to **performance issues** and may reduce the game's horror atmosphere.
+- **Restart Required**: Mods often require a **game restart** to load correctly.
+</Callout>
+
+<Section icon={Map} title="Understanding Escape the Backrooms Player Limits">
+Escape the Backrooms is a co-op horror exploration game designed to immerse players in its eerie, labyrinthine levels. Officially, the game is built for a specific group size, but the community has found ways to push these boundaries.
+
+The core gameplay experience is crafted around a smaller team dynamic, emphasizing tension and reliance on a few teammates. However, for those seeking a more chaotic or social experience, methods exist to expand the player count beyond the default.
+
+<Callout type="warning" title="Modding Risks">
+Modifying game files or using external tools like Cheat Engine to alter player limits can sometimes lead to instability, crashes, or an unintended game experience. Always proceed with caution and back up your game files if necessary.
+</Callout>
+
+**Video Highlights:**
+- Demonstrates how to use Cheat Engine to increase player count.
+- Shows the process of modifying in-game values for player limits.
+- Confirms the technical limit of 16 players in the current game version.
+
+<YouTubeEmbed videoId="EwR1r_KjpQI" title="16 Players!!!!! (Gen 5 / 1.0) | Escape the Backrooms" />
+
+### Official Player Count
+
+The standard version of Escape the Backrooms supports a maximum of **4 players** in co-op mode. This design choice is intentional, aimed at preserving the game's atmospheric horror and ensuring optimal performance. Exploring the vast, unsettling levels with a small, tight-knit group enhances the feeling of vulnerability and isolation, which are central to the Backrooms experience.
+
+| Feature         | Official Limit | Modded Limit (Technical) | Impact on Atmosphere | Optimization |
+| :-------------- | :------------- | :----------------------- | :------------------- | :----------- |
+| **Player Count** | 4              | 16                       | High (4 players)     | High (4 players) |
+| **Co-op Focus** | Intense horror | Social/Chaos             | Reduced (16 players) | Variable     |
+| **Experience**  | Survival       | Group exploration        |                      |              |
+
+</Section>
+
+<Section icon={Sparkles} title="Increasing Player Count with Mods and Tools">
+For players who desire a larger group experience, the community has developed methods to bypass the default 4-player limit. These typically involve using third-party tools or installing specific game modifications. It's important to note that these methods are not officially supported and may affect game stability or performance.
+
+### Using Cheat Engine
+
+One common method to increase the player count is by using a tool called Cheat Engine. This program allows users to modify memory values in running applications, effectively tricking the game into accepting more players.
+
+<Steps>
+  <Step num="1" title="Download Cheat Engine">
+    Navigate to `cheatengine.org` and download the latest version of Cheat Engine. Install it on your computer following the on-screen instructions.
+  </Step>
+  <Step num="2" title="Launch Escape the Backrooms">
+    Start the game and navigate to the multiplayer lobby creation screen. Set the initial player count to **4**.
+  </Step>
+  <Step num="3" title="Attach Cheat Engine to Game">
+    Open Cheat Engine. Click the "Select a process to open" icon (usually a computer monitor with a magnifying glass) and select the "Escape the Backrooms" process.
+  </Step>
+  <Step num="4" title="Scan and Modify Value">
+    In Cheat Engine, enter `4` in the "Value" field and click "First Scan". Then, change the in-game player count to `2` and perform a "Next Scan" with `2` in the "Value" field. Repeat this by changing the in-game value to `1` and scanning for `1`. This process helps isolate the correct memory address.
+  </Step>
+  <Step num="5" title="Set New Player Limit">
+    Once you have a few results, double-click them to move them to the bottom list. Change their values to `16`. This will set your lobby to a 16-player maximum. You can now close Cheat Engine.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+After changing the values in Cheat Engine, you can close the program. The changes will persist for that game session. However, you'll likely need to repeat these steps every time you launch the game, as the memory addresses can change.
+</Callout>
+
+### Modding the Game Files
+
+Another approach involves installing mods specifically designed to increase the player limit. These mods often require a mod loader, such as Interpose, to function correctly. This method is generally more involved but can offer a more permanent solution for increasing player counts.
+
+| Mod/Tool       | Method            | Max Players | Requires Mod Loader | Ease of Use | Persistence |
+| :------------- | :---------------- | :---------- | :------------------ | :---------- | :---------- |
+| **Cheat Engine** | Memory editing    | 16          | No                  | Medium      | Per session |
+| **Player Limit Mod** | Game file modification | 16          | Yes (Interpose)     | Medium      | Permanent   |
+
+<Callout type="success" title="Community Created Mods">
+Many dedicated community members create and maintain mods that enhance the Escape the Backrooms experience. Always ensure you download mods from reputable sources to avoid malicious software.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Impact of Increased Player Counts">
+While playing with more friends might sound appealing, increasing the player count in Escape the Backrooms can significantly alter the game's intended experience and performance.
+
+### Performance Considerations
+
+The game's engine, Unreal Engine, has a technical limit for active players that, when pushed, can strain system resources. More players mean more data to process, which can lead to:
+
+- **Lower Frame Rates**: Especially in visually complex areas or during intense entity encounters.
+- **Increased Latency**: Server performance can degrade with a higher number of connected clients.
+- **Game Instability**: Higher player counts might trigger bugs or crashes that are not present in standard 4-player lobbies.
+
+| Player Count | Performance Impact | Server Stability | Horror Atmosphere | Team Coordination |
+| :----------- | :----------------- | :--------------- | :---------------- | :---------------- |
+| **1-4**      | Minimal            | High             | Intense           | Crucial           |
+| **5-8**      | Moderate           | Good             | Moderate          | Important         |
+| **9-16**     | Significant        | Variable         | Reduced           | Challenging       |
+
+### Altered Atmosphere
+
+Escape the Backrooms thrives on its psychological horror elements, which are often amplified by the feeling of isolation and vulnerability. With more players:
+
+- **Reduced Fear Factor**: The presence of many teammates can diminish the sense of dread and loneliness.
+- **Increased Chaos**: Large groups might turn the horror experience into a more chaotic, less scary adventure.
+- **Proximity Chat Challenges**: While proximity chat is a feature, managing communications with many players can become difficult, especially when trying to stay quiet.
+
+<Checklist
+  id="large-lobby-considerations"
+  title="Before Expanding Your Lobby:"
+  items={[
+    "Assess your hardware's capability to handle more players.",
+    "Be prepared for potential performance drops and instability.",
+    "Understand that the horror element may be lessened.",
+    "Ensure all players are aware of the unofficial nature of larger lobbies."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the official player limit for Escape the Backrooms?",
+    answer: "The official player limit for Escape the Backrooms is 4 players in co-op mode. This is designed to maintain the game's horror atmosphere and optimize performance."
+  },
+  {
+    question: "Can I play with more than 4 players in Escape the Backrooms?",
+    answer: "Yes, it is possible to play with more than 4 players, typically up to 16, by using third-party tools like Cheat Engine or installing community-made mods. However, these methods are unofficial and may affect game performance or stability."
+  },
+  {
+    question: "What are the risks of using mods or Cheat Engine to increase the player count?",
+    answer: "Using unofficial methods can lead to potential game instability, crashes, reduced frame rates, increased latency, and a diminished horror atmosphere. Always proceed with caution."
+  },
+  {
+    question: "Why does the game have a 4-player limit if it can technically support more?",
+    answer: "The 4-player limit is primarily for optimization and to preserve the game's intended psychological horror experience. More players can detract from the sense of isolation and make the game less scary, while also demanding more from system resources."
+  }
+]} />
+
+</Section>

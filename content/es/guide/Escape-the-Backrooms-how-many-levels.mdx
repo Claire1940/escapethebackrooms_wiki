@@ -1,0 +1,177 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms: Guía de Niveles y Finales",
+  description: "Descubre el número total de niveles, desafíos únicos y múltiples finales disponibles en Escape the Backrooms.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/800080/fff?text=Escape+the+Backrooms+Levels",
+  date: "2026-05-30",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Escape the Backrooms** cuenta con **33 niveles únicos** para explorar.
+- El juego incluye **cinco finales distintos**, cada uno requiere acciones específicas.
+- Los niveles se categorizan por **clases de dificultad** desde Habitable hasta Clase 5.
+- Los jugadores pueden obtener **34 logros** completando varios desafíos.
+- La **dificultad Pesadilla** ofrece una prueba definitiva de supervivencia y conocimiento.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo los Niveles de Escape the Backrooms">
+Escape the Backrooms es una emocionante experiencia de terror multijugador que sumerge a los jugadores en un laberinto de entornos espeluznantes. Una pregunta clave tanto para jugadores nuevos como veteranos es: "¿Cuántos niveles tiene Escape the Backrooms?" El juego cuenta con **33 niveles únicos**, cada uno presentando su propio conjunto de desafíos, entidades y horrores atmosféricos. Estos niveles están diseñados para mantener a los jugadores en vilo, buscando constantemente una salida mientras evitan los peligros que acechan en cada esquina.
+
+**Aspectos destacados del video:**
+- Demuestra la jugabilidad a través de varios niveles únicos.
+- Resalta los desafíos y monstruos encontrados en diferentes entornos.
+- Muestra a los jugadores progresando a través de las diversas etapas del juego.
+
+<YouTubeEmbed videoId="gLxfJaDpyvc" title="Jugamos el 100% de Escape The Backrooms Multijugador" />
+
+Cada nivel dentro de Escape the Backrooms se clasifica por su dificultad, que va desde "Habitable" (el más fácil) hasta "Clase 5" (el más mortal). Este sistema de clasificación ayuda a los jugadores a comprender el nivel de amenaza y a elaborar estrategias en consecuencia. La progresión a menudo implica resolver acertijos, encontrar llaves y navegar por complejos laberintos, todo mientras se gestiona la cordura y se evitan las entidades hostiles.
+
+<Callout type="tip">
+Presta siempre atención a la **clase de dificultad** de cada nivel. Las clases más altas significan entidades más agresivas y desafíos más difíciles, lo que requiere un enfoque más cauteloso y trabajo en equipo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Progresión de Niveles y Desafíos">
+Navegar por Escape the Backrooms requiere más que solo correr; exige pensamiento crítico, gestión de recursos y, a veces, un poco de suerte. Los jugadores se encontrarán con una amplia gama de entornos, desde las familiares paredes amarillas del Nivel 0 hasta ubicaciones más surrealistas y peligrosas como la Sala de Calderas o el Nivel Divertido. Cada nivel introduce nuevas mecánicas y amenazas, asegurando que no haya dos experiencias exactamente iguales.
+
+<CardGrid cols={3}>
+  <Card title="Nivel 0: El Vestíbulo">
+    - **Punto de aparición inicial**
+    - Introduce mecánicas básicas
+    - Amenazas mínimas, pero establece el tono
+  </Card>
+  <Card title="Nivel 1: Zona Habitable">
+    - **Primer verdadero desafío**
+    - Requiere acertijos con tarjetas de identificación
+    - Introduce a los "Smilers"
+  </Card>
+  <Card title="Nivel Divertido: Fiesteros">
+    - **Estructura tipo laberinto**
+    - Evita a las entidades "Fiesteros"
+    - Es clave esconderse debajo de las mesas
+  </Card>
+</CardGrid>
+
+El juego también incorpora una mecánica de cordura, donde tu cordura se agota pasivamente en la mayoría de los niveles. Si cae a cero, puede llevar a la muerte. Elementos como el agua de almendras son cruciales para mantener la cordura y prolongar tu supervivencia.
+
+<Callout type="warning" title="Gestión de la Cordura">
+Tu cordura es un recurso vital. Mantén un ojo en ella, especialmente en niveles más oscuros o intensos. El **agua de almendras** es tu mejor amigo para la recuperación de la cordura.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Finales y Logros">
+Escape the Backrooms ofrece **cinco finales diferentes**, lo que añade una rejugabilidad y profundidad significativas al juego. Lograr el 100% de la finalización no solo significa sobrevivir a todos los niveles, sino también desbloquear estos diversos finales y completar los **34 logros**. Cada final se activa por acciones o elecciones específicas realizadas durante tu partida, a menudo requiriendo que los jugadores revisiten niveles o exploren caminos alternativos.
+
+| Nombre del Final   | Condiciones de Activación                                       | Logros Desbloqueados        |
+|--------------------|-----------------------------------------------------------------|-----------------------------|
+| La Puerta Equivocada | Completa el juego en dificultad normal.                         | "Escapado en Normal"        |
+| La Casa Rosa       | Interactúa con el Sr. Kitty y resuelve el rompecabezas del osito. | "Fiesta en la Casa Rosa"    |
+| Los Suburbios      | Da un salto de fe desde el Nivel 922337203685477587.             | "Escape Suburbano"          |
+| La Ciudad Vacía    | Progresa a través del Sobrecrecimiento y derrota al Miserable.   | "Explorador Urbano"         |
+| El Verdadero Escape | Completa el juego en dificultad Pesadilla.                      | "Superviviente de Pesadilla" |
+
+<Checklist
+  id="achievement-checklist"
+  title="Logros Clave a Perseguir:"
+  items={[
+    "Completa los 33 niveles únicos",
+    "Desbloquea los cinco finales distintos",
+    "Supera el juego en dificultad Pesadilla",
+    "Recoge todas las notas y objetos dispersos",
+    "Domina el arte de evitar a todas las entidades"
+  ]}
+/>
+
+<Callout type="success">
+Para desbloquear todos los logros, tendrás que explorar cada rincón, resolver cada rompecabezas y enfrentarte a cada entidad. No temas experimentar con diferentes enfoques para descubrir secretos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Dificultad Pesadilla: La Prueba Definitiva">
+Para aquellos que realmente desean dominar Escape the Backrooms, la **dificultad Pesadilla** presenta el desafío definitivo. Este modo aumenta significativamente las apuestas: una sola muerte significa regresar al Nivel 0, perdiendo todo el progreso de esa partida. Obliga a los jugadores a utilizar cada truco, explotación y pieza de conocimiento adquiridos en partidas anteriores.
+
+| Aspecto del Desafío | Dificultad Normal                                   | Dificultad Pesadilla                               |
+|--------------------|-----------------------------------------------------|----------------------------------------------------|
+| Muertes            | Reaparece en el punto de control o al inicio del nivel. | **Una muerte significa un reinicio completo al Nivel 0.** |
+| Agresión de Entidades | Patrones moderados y predecibles.                   | **Altamente agresivas, comportamiento impredecible.** |
+| Escasez de Recursos | Disponibilidad moderada de agua de almendras y objetos. | **Muy escasos, gestión cuidadosa esencial.**         |
+| Drenaje de Cordura | Drenaje gradual, manejable.                         | **Drenaje más rápido, amenaza constante de locura.** |
+| Rompecabezas       | Soluciones sencillas.                               | **A menudo requiere ejecución precisa bajo presión.** |
+
+<Steps>
+  <Step num="1" title="Domina los Diseños de Niveles">
+    Memoriza las rutas más eficientes y las ubicaciones de los objetos clave en cada nivel. El conocimiento es tu mejor arma contra los reinicios.
+  </Step>
+  <Step num="2" title="Explota Glitches y Mecánicas">
+    Algunos niveles tienen pequeños glitches o puntos seguros que pueden ser explotados para eludir secciones o entidades peligrosas. Utilízalos a tu favor.
+  </Step>
+  <Step num="3" title="Prioriza la Cordura y los Recursos">
+    Cada gota de agua de almendras cuenta. Evita riesgos innecesarios que lleven a la pérdida de cordura y conserva todos los recursos.
+  </Step>
+  <Step num="4" title="Trabajo en Equipo (si es multijugador)">
+    En multijugador, coordina roles: un jugador distrae, otros completan objetivos. La comunicación es fundamental.
+  </Step>
+</Steps>
+
+Completar con éxito el juego en dificultad Pesadilla no solo te otorga el logro "Superviviente de Pesadilla", sino que también desbloquea el verdadero final, ofreciendo una comprensión más profunda de los misterios de los Backrooms. Este modo no es para los débiles de corazón, pero la satisfacción de conquistarlo es inigualable.
+
+<Callout type="info">
+Considera practicar niveles individuales en dificultad normal antes de intentar una partida completa en Pesadilla. Comprender el movimiento de las entidades y las soluciones de los rompecabezas es crucial para la supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navegando por Entornos Diversos">
+Los 33 niveles en Escape the Backrooms son increíblemente diversos, cada uno presentando un tema y un conjunto de desafíos únicos. Desde el zumbido interminable del Nivel 0 hasta el inquietante silencio de la Biblioteca, los jugadores deben adaptar sus estrategias constantemente.
+
+| Tipo de Nivel      | Descripción                                                      | Niveles de Ejemplo           | Entidades Comunes           |
+|--------------------|------------------------------------------------------------------|--------------------------|---------------------------|
+| Espacios de Oficina | Pasillos y cubículos tipo laberinto, a menudo con rompecabezas. | Nivel 1, Oficina         | Smilers, Skin-Stealers    |
+| Zonas Industriales | Áreas oscuras y metálicas con maquinaria y peligros eléctricos. | Estación Eléctrica       | Hounds, Spiders           |
+| Paisajes Surrealistas | Entornos poco convencionales que desafían la lógica, requiriendo enfoques únicos. | Nivel Divertido, Piscinas | Partygoers, Facelings     |
+| Áreas Residenciales | Casas y suburbios, a menudo con entidades agresivas y territoriales. | Los Suburbios            | Wretches                  |
+| Espacios Abstractos | Áreas altamente desorientadoras y a menudo visualmente desafiantes. | Luces Apagadas, Tasofobia | Stalkers, Teleporters     |
+
+Los desarrolladores del juego han hecho un excelente trabajo al crear una sensación de pavor y misterio a lo largo de estos variados niveles. Cada entorno se siente distinto, contribuyendo a la experiencia aterradora general.
+
+<Callout type="tip">
+Al entrar en un nuevo entorno, tómate un momento para observar tu alrededor. Busca notas, pistas ambientales y posibles escondites antes de lanzarte al peligro.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes: Niveles de Escape the Backrooms">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos niveles únicos hay en Escape the Backrooms?",
+    answer: "Escape the Backrooms cuenta con 33 niveles únicos, cada uno con su propio diseño, desafíos y entidades."
+  },
+  {
+    question: "¿Cuántos finales tiene Escape the Backrooms?",
+    answer: "El juego tiene cinco finales distintos: La Puerta Equivocada, La Casa Rosa, Los Suburbios, La Ciudad Vacía y El Verdadero Escape."
+  },
+  {
+    question: "¿Cuál es la dificultad más alta en Escape the Backrooms?",
+    answer: "La dificultad Pesadilla es la más difícil, requiriendo que los jugadores completen el juego entero sin una sola muerte, de lo contrario se reinician al Nivel 0."
+  },
+  {
+    question: "¿Hay logros relacionados con la finalización de todos los niveles de Escape the Backrooms?",
+    answer: "Sí, hay 34 logros en total, incluyendo aquellos por completar todos los niveles, desbloquear todos los finales y superar el juego en dificultad Pesadilla."
+  }
+]} />
+
+</Section>

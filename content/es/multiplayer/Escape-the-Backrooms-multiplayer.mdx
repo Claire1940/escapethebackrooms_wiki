@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Multijugador: Guía de Progresión y Consejos de Supervivencia 2026",
+  description: "Domina Escape the Backrooms multijugador con nuestra guía de 2026. Aprende estrategias de nivel, gestión de la cordura, exploits de pesadilla y cómo desbloquear los 5 finales.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Multiplayer+Survival+Guide",
+  date: "2026-05-30",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Escape the Backrooms multijugador** soporta hasta 4 jugadores en cooperativo online, con chat de voz por proximidad que las entidades pueden escuchar.
+- La **gestión de la cordura** es crítica; los jugadores deben consumir Agua de Almendras para evitar que la cordura caiga a cero, lo que resulta en muerte instantánea.
+- Se requiere **coordinación de equipo** para puzles como las Subestaciones del Nivel 3 y las cargas de ordenador del Suburbio.
+- La **Dificultad Pesadilla** reinicia toda la partida si un solo jugador muere, lo que requiere el uso de exploits de movimiento como el bunny hopping.
+- Hay **cinco finales únicos** disponibles, cada uno requiere acciones específicas a través de los más de 30 niveles del juego para lograr el 100% de completitud.
+</Callout>
+
+<Section icon={Users} title="Mecánicas Multijugador y Dinámicas de Equipo">
+
+Escape the Backrooms multijugador transforma el temor solitario de la creepypasta en una experiencia cooperativa de alto riesgo. El juego utiliza gráficos realistas y una interfaz de usuario mínima para sumergir hasta a cuatro jugadores en un entorno de terror atmosférico. El éxito depende en gran medida de la comunicación a través del chat de voz por proximidad, aunque los jugadores deben permanecer en silencio cerca del peligro, ya que las entidades pueden rastrear el ruido.
+
+**Puntos Destacados del Video:**
+- **Guía Completa**: Cobertura exhaustiva de los 33 niveles únicos y 34 logros.
+- **Modo Pesadilla**: Estrategias para superar el juego sin una sola muerte.
+- **Soluciones de Puzles**: Desgloses detallados de la escalera del Nivel 0, los fusibles del Nivel 3 y los códigos del Hotel.
+- **Guía de Finales**: Cómo activar los cinco finales distintos del juego.
+
+<YouTubeEmbed videoId="gLxfJaDpyvc" title="Jugamos el 100% de Escape The Backrooms Multijugador" />
+
+En un entorno multijugador, la dificultad no solo aumenta con las entidades, sino también con el desafío logístico de mantener al equipo unido. Si un compañero de equipo se sale de los límites a un área diferente, el resto del grupo debe localizarlo o avanzar al siguiente punto de transición. El juego presenta una política de "Ningún Vagabundo se Queda Atrás": cada miembro vivo del equipo debe alcanzar el punto de salida simultáneamente para progresar.
+
+<Callout type="tip" title="Consejo Profesional">
+Usa el comando de tecla "VV" para reiniciar tu chat de voz si falla. Muchos jugadores encuentran que cambiar a comunicación externa como Discord es más seguro para planificar, aunque reduce la inmersión de la mecánica de chat por proximidad.
+</Callout>
+
+| Característica | Especificación Multijugador | Impacto en el Juego |
+| :--- | :--- | :--- |
+| **Número de Jugadores** | 1-4 Jugadores | Aumenta la eficiencia de los puzles pero eleva el riesgo de detección. |
+| **Chat de Voz** | Basado en Proximidad | Las entidades pueden escuchar la entrada de tu micrófono. |
+| **Reanimación** | Transiciones de Nivel | Los jugadores muertos suelen reaparecer al inicio del siguiente nivel. |
+| **Cordura** | Medidores Individuales | Los jugadores deben gestionar su propio suministro de Agua de Almendras. |
+| **Regla Pesadilla** | Pozo de Vida Compartido | Una muerte resulta en una aniquilación total del grupo y reinicio. |
+
+</Section>
+
+<Section icon={Map} title="Progresión Temprana de Nivel y Puzles">
+
+El viaje comienza en el Nivel 0, el icónico laberinto de paredes amarillas. En el modo multijugador, la primera prioridad es localizar a tus compañeros de equipo. Los puzles iniciales están diseñados para enseñar mecánicas básicas: gestión de la resistencia, interacción y navegación ambiental.
+
+<Steps>
+  <Step num="1" title="Nivel 0: La Primera Salida">
+    Localiza la escalera rota y encuentra la llave en la parte superior. Usa la llave en la puerta cercana para llegar a la sala del pozo. Un jugador debe navegar por la viga de equilibrio (usando Q y E para inclinarse) y lanzar una cuerda para los demás.
+  </Step>
+  <Step num="2" title="El Garaje de Estacionamiento">
+    Revisa las tarjetas de identificación de todos en busca de discrepancias. Anota los colores de los cuatro coches en el estacionamiento; estos colores corresponden al código del ascensor del piso 4. Recoge linternas y Agua de Almendras de los maleteros.
+  </Step>
+  <Step num="3" title="Nivel 3: Estación Eléctrica">
+    Este nivel de dificultad Clase 4 requiere que el equipo active nueve fusibles en las Subestaciones Este y Oeste. Usa linternas para cegar a los Sabuesos y corre en la dirección opuesta.
+  </Step>
+  <Step num="4" title="El Complejo de Oficinas">
+    Resuelve el puzle de la máquina expendedora contando elementos específicos en la habitación (mesas, sillas, dispensadores de agua, libros). Usa la sala de vigilancia para rastrear los movimientos de las entidades antes de correr hacia la salida.
+  </Step>
+</Steps>
+
+El Nivel 3 a menudo actúa como un cuello de botella para equipos descoordinados. El puzle de la subestación requiere que los jugadores seleccionen botones basándose en el color, lo que puede ser un desafío para jugadores daltónicos. La coordinación es clave aquí: un jugador debe actuar como cebo para los Sabuesos mientras los demás interactúan con las cajas de fusibles.
+
+<Callout type="warning" title="Alerta de Entidad">
+En los niveles de Oficina, ten cuidado con las ventanas. Acercarse a una ventana puede activar una trampa que resulta en una muerte instantánea. Mantén siempre la distancia de las superficies de cristal a menos que una nota te indique explícitamente lo contrario.
+</Callout>
+
+| Nivel | Objetivo Clave | Amenaza Principal |
+| :--- | :--- | :--- |
+| **Nivel 0** | Viga de Equilibrio y Cuerda | Las Bacterias (Dullers) |
+| **Estacionamiento** | Código de Color de Coche | El Sonriente |
+| **Nivel 3** | Restauración de 9 Fusibles | Sabuesos y Charcos Eléctricos |
+| **Oficina** | Conteo de Máquina Expendedora | Cámaras de Vigilancia y Trampas |
+
+</Section>
+
+<Section icon={Shield} title="Gestión de la Cordura y Supervivencia de Entidades">
+
+La cordura es una mecánica de drenaje pasivo que sirve como temporizador secundario para cada nivel. Si tu cordura llega a cero, mueres instantáneamente. Los equipos multijugador deben distribuir el Agua de Almendras de manera uniforme, aunque los "Chicos del Puzle Necesitados" (jugadores que tardan más en los puzles) pueden requerir una porción mayor.
+
+<CardGrid cols={2}>
+  <Card title="Mantenimiento de la Cordura">
+    - **Agua de Almendras**: El recurso principal para restaurar la cordura. Se encuentra en cajas y máquinas expendedoras.
+    - **Monstruo Blanco**: Una variante rara que proporciona un mayor impulso de cordura y regeneración de resistencia.
+    - **Zonas Seguras**: El Hub y ciertas salas de transición pausan el drenaje de cordura.
+  </Card>
+  <Card title="Contramedidas de Entidades">
+    - **Skin Stealers**: Pueden imitar a los jugadores. Revisa las tarjetas de identificación o usa contraseñas preestablecidas para verificar a los compañeros de equipo.
+    - **Sabuesos**: Ciégalos con linternas para forzar una retirada temporal.
+    - **Fiesteros**: Evita la línea de visión. Si la música se detiene, te han detectado. Escóndete debajo de las mesas.
+  </Card>
+</CardGrid>
+
+El nivel "Hotel" introduce al Skin Stealer, una entidad que puede tomar la forma de tus compañeros de equipo. En Escape the Backrooms multijugador, esto crea una dinámica de "No Confíes en Nadie". Una estrategia común es hacer que todos los jugadores salten o se agachen simultáneamente; el mímico a menudo no logra replicar estos movimientos específicos en tiempo real.
+
+<Callout type="info" title="Mecánicas de Cordura">
+La cordura se agota más rápido en niveles más oscuros como "Luces Apagadas" o "Talassofobia". Asegúrate de que tu equipo tenga al menos dos linternas funcionales antes de entrar en estas zonas para mantener la visibilidad y los niveles de cordura.
+</Callout>
+
+| Entidad | Nivel de Peligro | Estrategia de Escape |
+| :--- | :--- | :--- |
+| **Bacteria** | Alto | Rompe la línea de visión y escóndete en taquillas. |
+| **Sonriente** | Extremo | Mantén tu linterna APAGADA y retrocede lentamente. |
+| **Bibliotecario** | Moderado | Quédate en silencio; el sonido provoca su agresión. |
+| **Desdichado** | Alto | Cierra las puertas detrás de ti; usa Concentrado de Almendras para curar. |
+
+</Section>
+
+<Section icon={Target} title="Desafíos de Final de Juego y Los Suburbios">
+
+A medida que avanzas hacia los finales, los niveles transicionan de Clase 1 (Habitable) a Clase 5 (Peligro Máximo). Los Suburbios (Nivel 9) es un obstáculo notorio para los grupos multijugador. Seis casas contienen Desdichados agresivos, y el equipo debe dividirse para activar cuatro ordenadores simultáneamente.
+
+<Checklist
+  id="suburb-objectives"
+  title="Pasos para Completar el Nivel 9:"
+  items={[
+    "Localiza la terminal al borde de la ciudad para identificar las casas activas.",
+    "Divídanse en parejas: un jugador ceba al Desdichado mientras el otro carga datos.",
+    "Recoge cuatro botellas de Concentrado de Almendras del vecindario.",
+    "Atrae al Desdichado central a la sala de trampas y activa la ducha.",
+    "Recupera la Tarjeta Llave del humano curado para desbloquear la puerta de salida."
+  ]}
+/>
+
+Los niveles "Divertidos" también regresan con desafíos remezclados. Los jugadores deben completar un juego de Simón Dice (reventando globos en orden), fuegos artificiales en el vestíbulo hacia los ojos en las paredes, y navegar por una discoteca llena de barras luminosas. Estos niveles ponen a prueba la capacidad del equipo para realizar tareas precisas bajo la presión de las entidades que los persiguen.
+
+<Callout type="success" title="Alerta de Exploit">
+En el Laberinto de Maíz, los jugadores pueden saltarse toda la sección corriendo por encima de las vallas perimetrales. Esto evita al Hombre de la Sierra completamente y ahorra un tiempo significativo durante las partidas de Pesadilla.
+</Callout>
+
+| Tipo de Puzle | Ubicación del Nivel | Requisito de Equipo |
+| :--- | :--- | :--- |
+| **Simón Dice** | Nivel Divertido (Rosa) | 1 Jugador (otros vigilan las entidades) |
+| **Tiro al Ojo** | Nivel Divertido (Azul) | 2 Jugadores (1 cebo, 1 tirador) |
+| **Combinación de Barras Luminosas** | Discoteca | 4 Jugadores (combinando colores con símbolos) |
+| **Carga de Ordenador** | Los Suburbios | 4 Jugadores (activación sincronizada) |
+
+</Section>
+
+<Section icon={Sparkles} title="Dificultad Pesadilla y Logros al 100%">
+
+Superar el juego en dificultad Pesadilla es el desafío definitivo en Escape the Backrooms multijugador. Debido a que una sola muerte reinicia todo el progreso al Nivel 0, los equipos deben utilizar todas las ventajas posibles, incluyendo exploits de movimiento y duplicación de objetos.
+
+**Tácticas Esenciales para Pesadilla:**
+- **Bunny Hopping**: Sincronizar saltos para mantener el impulso, permitiéndote superar a casi todas las entidades del juego.
+- **Duplicación de Objetos**: Soltar objetos en el momento exacto en que un nivel transiciona a veces puede resultar en duplicados, asegurando un excedente de Agua de Almendras.
+- **Saltos Fuera de Límites**: En las secciones de la Cueva, los jugadores pueden saltar agachados a repisas específicas para evitar todo el laberinto y alcanzar la zanja de salida de forma segura.
+- **Congelación de Entidades**: Ciertos disparadores permiten a los jugadores "congelar" entidades como la bacteria del Nivel 1 parándose en esquinas específicas, permitiendo al resto del equipo pasar libremente.
+
+<Callout type="warning" title="Riesgo de Pesadilla">
+La cordura se agota significativamente más rápido en el modo Pesadilla. No pases más de 5 minutos en una sola habitación. Si un puzle está tardando demasiado, haz que el equipo retroceda a una zona segura para reiniciar el temporizador de drenaje.
+</Callout>
+
+Los jugadores que buscan el 100% de completitud también deben desbloquear los cinco finales. Estos a menudo están ocultos detrás de disparadores de "No-Clip" o elecciones de nivel específicas. Por ejemplo, el final de "Los Suburbios" se activa saltando por el medio de la escalera infinita en el Nivel 9223372036854775807, en lugar de subir a la cima.
+
+| Nombre del Final | Disparador del Nivel | Logro Desbloqueado |
+| :--- | :--- | :--- |
+| **Puerta Equivocada** | Salida del Nivel 0.11 | Escapa de los Backrooms |
+| **Casa Rosa** | Casa del Sr. Gatito | La Habitación Rosa |
+| **Los Suburbios** | Salto en la Escalera Infinita | Escape Subterráneo |
+| **Ciudad Vacía** | Deslizamiento del Nivel Sobrecrecimiento | Explorador Urbano |
+| **De Vuelta a Casa** | Máquina Recreativa | 100% de Completitud |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos jugadores pueden jugar Escape the Backrooms multijugador?",
+    answer: "El juego soporta de 1 a 4 jugadores en cooperativo online. La coordinación es vital ya que el juego requiere que todos los jugadores supervivientes lleguen a las salidas juntos."
+  },
+  {
+    question: "¿Qué sucede si me quedo sin cordura?",
+    answer: "Tu pantalla se distorsionará, tus FPS pueden caer y eventualmente morirás. Usa Agua de Almendras para restaurar los niveles de cordura inmediatamente."
+  },
+  {
+    question: "¿Pueden las entidades oírme hablar en la vida real?",
+    answer: "Sí, si estás usando el chat de voz por proximidad en el juego, las entidades están programadas para detectar la entrada del micrófono y se moverán hacia la fuente del ruido."
+  },
+  {
+    question: "¿Hay alguna forma de revivir a los compañeros de equipo en multijugador?",
+    answer: "Los compañeros de equipo suelen reaparecer cuando el resto del grupo transiciona con éxito a un nuevo nivel. Sin embargo, en el modo Pesadilla, una sola muerte termina toda la partida para todos."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,158 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms: Máximo de Jugadores y Límites del Lobby",
+  description: "Descubre cuántos jugadores pueden unirse a Escape the Backrooms, incluyendo los límites oficiales y cómo aumentarlos con mods o herramientas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/800080/fff?text=Backrooms+Players",
+  date: "2026-05-30",
+  author: "Equipo del Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Límite Oficial**: **Escape the Backrooms** soporta oficialmente **1-4 jugadores** para la exploración cooperativa.
+- **Límite Técnico**: El motor Unreal Engine del juego tiene una limitación técnica de **16 jugadores**.
+- **Lobbies Modificados**: Los jugadores pueden usar **Cheat Engine** o mods específicos para aumentar el tamaño del lobby hasta 16 jugadores.
+- **Impacto en la Optimización**: Los lobbies más grandes pueden llevar a **problemas de rendimiento** y pueden reducir la atmósfera de terror del juego.
+- **Requiere Reinicio**: Los mods a menudo requieren un **reinicio del juego** para cargarse correctamente.
+</Callout>
+
+<Section icon={Map} title="Comprendiendo los Límites de Jugadores en Escape the Backrooms">
+Escape the Backrooms es un juego de exploración de terror cooperativo diseñado para sumergir a los jugadores en sus misteriosos y laberínticos niveles. Oficialmente, el juego está diseñado para un tamaño de grupo específico, pero la comunidad ha encontrado formas de superar estos límites.
+
+La experiencia de juego central está diseñada en torno a una dinámica de equipo más pequeña, enfatizando la tensión y la dependencia de unos pocos compañeros de equipo. Sin embargo, para aquellos que buscan una experiencia más caótica o social, existen métodos para expandir el número de jugadores más allá del predeterminado.
+
+<Callout type="warning" title="Riesgos de la Modificación">
+Modificar los archivos del juego o usar herramientas externas como Cheat Engine para alterar los límites de jugadores a veces puede provocar inestabilidad, bloqueos o una experiencia de juego no intencionada. Procede siempre con precaución y haz una copia de seguridad de tus archivos de juego si es necesario.
+</Callout>
+
+**Puntos Destacados del Video:**
+- Demuestra cómo usar Cheat Engine para aumentar el número de jugadores.
+- Muestra el proceso de modificación de valores dentro del juego para los límites de jugadores.
+- Confirma el límite técnico de 16 jugadores en la versión actual del juego.
+
+<YouTubeEmbed videoId="EwR1r_KjpQI" title="¡¡¡¡¡16 Jugadores!!!!! (Gen 5 / 1.0) | Escape the Backrooms" />
+
+### Recuento Oficial de Jugadores
+
+La versión estándar de Escape the Backrooms soporta un máximo de **4 jugadores** en modo cooperativo. Esta elección de diseño es intencional, con el objetivo de preservar el horror atmosférico del juego y asegurar un rendimiento óptimo. Explorar los vastos e inquietantes niveles con un grupo pequeño y unido mejora la sensación de vulnerabilidad y aislamiento, que son centrales para la experiencia de los Backrooms.
+
+| Característica         | Límite Oficial | Límite Modificado (Técnico) | Impacto en la Atmósfera | Optimización |
+| :-------------- | :------------- | :----------------------- | :------------------- | :----------- |
+| **Número de Jugadores** | 4              | 16                       | Alto (4 jugadores)     | Alto (4 jugadores) |
+| **Enfoque Cooperativo** | Terror Intenso | Social/Caos              | Reducido (16 jugadores) | Variable     |
+| **Experiencia**  | Supervivencia  | Exploración en grupo     |                      |              |
+
+</Section>
+
+<Section icon={Sparkles} title="Aumentando el Número de Jugadores con Mods y Herramientas">
+Para los jugadores que desean una experiencia de grupo más grande, la comunidad ha desarrollado métodos para eludir el límite predeterminado de 4 jugadores. Estos suelen implicar el uso de herramientas de terceros o la instalación de modificaciones específicas del juego. Es importante tener en cuenta que estos métodos no están oficialmente soportados y pueden afectar la estabilidad o el rendimiento del juego.
+
+### Usando Cheat Engine
+
+Un método común para aumentar el número de jugadores es usar una herramienta llamada Cheat Engine. Este programa permite a los usuarios modificar valores de memoria en aplicaciones en ejecución, engañando efectivamente al juego para que acepte más jugadores.
+
+<Steps>
+  <Step num="1" title="Descargar Cheat Engine">
+    Navega a `cheatengine.org` y descarga la última versión de Cheat Engine. Instálalo en tu ordenador siguiendo las instrucciones en pantalla.
+  </Step>
+  <Step num="2" title="Iniciar Escape the Backrooms">
+    Inicia el juego y navega a la pantalla de creación de lobby multijugador. Establece el número inicial de jugadores en **4**.
+  </Step>
+  <Step num="3" title="Adjuntar Cheat Engine al Juego">
+    Abre Cheat Engine. Haz clic en el icono "Seleccionar un proceso para abrir" (normalmente un monitor de ordenador con una lupa) y selecciona el proceso "Escape the Backrooms".
+  </Step>
+  <Step num="4" title="Escanear y Modificar Valor">
+    En Cheat Engine, introduce `4` en el campo "Valor" y haz clic en "Primer Escaneo". Luego, cambia el número de jugadores en el juego a `2` y realiza un "Siguiente Escaneo" con `2` en el campo "Valor". Repite esto cambiando el valor en el juego a `1` y escaneando `1`. Este proceso ayuda a aislar la dirección de memoria correcta.
+  </Step>
+  <Step num="5" title="Establecer Nuevo Límite de Jugadores">
+    Una vez que tengas algunos resultados, haz doble clic en ellos para moverlos a la lista inferior. Cambia sus valores a `16`. Esto establecerá tu lobby a un máximo de 16 jugadores. Ahora puedes cerrar Cheat Engine.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+Después de cambiar los valores en Cheat Engine, puedes cerrar el programa. Los cambios persistirán durante esa sesión de juego. Sin embargo, es probable que necesites repetir estos pasos cada vez que inicies el juego, ya que las direcciones de memoria pueden cambiar.
+</Callout>
+
+### Modificando los Archivos del Juego
+
+Otro enfoque implica instalar mods diseñados específicamente para aumentar el límite de jugadores. Estos mods a menudo requieren un cargador de mods, como Interpose, para funcionar correctamente. Este método es generalmente más complejo, pero puede ofrecer una solución más permanente para aumentar el número de jugadores.
+
+| Mod/Herramienta      | Método            | Máx. Jugadores | Requiere Cargador de Mods | Facilidad de Uso | Persistencia |
+| :------------- | :---------------- | :---------- | :------------------ | :---------- | :---------- |
+| **Cheat Engine** | Edición de memoria | 16          | No                  | Media       | Por sesión   |
+| **Mod de Límite de Jugadores** | Modificación de archivos del juego | 16          | Sí (Interpose)      | Media       | Permanente  |
+
+<Callout type="success" title="Mods Creados por la Comunidad">
+Muchos miembros dedicados de la comunidad crean y mantienen mods que mejoran la experiencia de Escape the Backrooms. Asegúrate siempre de descargar mods de fuentes fiables para evitar software malicioso.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Impacto del Aumento de Jugadores">
+Aunque jugar con más amigos pueda sonar atractivo, aumentar el número de jugadores en Escape the Backrooms puede alterar significativamente la experiencia y el rendimiento previstos del juego.
+
+### Consideraciones de Rendimiento
+
+El motor del juego, Unreal Engine, tiene un límite técnico para los jugadores activos que, al ser forzado, puede agotar los recursos del sistema. Más jugadores significan más datos que procesar, lo que puede llevar a:
+
+- **Tasas de Cuadros Inferiores**: Especialmente en áreas visualmente complejas o durante encuentros intensos con entidades.
+- **Mayor Latencia**: El rendimiento del servidor puede degradarse con un mayor número de clientes conectados.
+- **Inestabilidad del Juego**: Un mayor número de jugadores podría activar errores o bloqueos que no están presentes en los lobbies estándar de 4 jugadores.
+
+| Número de Jugadores | Impacto en el Rendimiento | Estabilidad del Servidor | Atmósfera de Terror | Coordinación del Equipo |
+| :----------- | :----------------- | :--------------- | :---------------- | :---------------- |
+| **1-4**      | Mínimo             | Alta             | Intensa           | Crucial           |
+| **5-8**      | Moderado           | Buena            | Moderada          | Importante        |
+| **9-16**     | Significativo      | Variable         | Reducida          | Desafiante        |
+
+### Atmósfera Alterada
+
+Escape the Backrooms se nutre de sus elementos de horror psicológico, que a menudo se amplifican por la sensación de aislamiento y vulnerabilidad. Con más jugadores:
+
+- **Factor de Miedo Reducido**: La presencia de muchos compañeros de equipo puede disminuir la sensación de pavor y soledad.
+- **Aumento del Caos**: Los grupos grandes pueden convertir la experiencia de terror en una aventura más caótica y menos aterradora.
+- **Desafíos del Chat de Proximidad**: Aunque el chat de proximidad es una característica, gestionar las comunicaciones con muchos jugadores puede volverse difícil, especialmente al intentar permanecer en silencio.
+
+<Checklist
+  id="large-lobby-considerations"
+  title="Antes de Expandir tu Lobby:"
+  items={[
+    "Evalúa la capacidad de tu hardware para manejar más jugadores.",
+    "Prepárate para posibles caídas de rendimiento e inestabilidad.",
+    "Comprende que el elemento de terror puede disminuir.",
+    "Asegúrate de que todos los jugadores estén al tanto de la naturaleza no oficial de los lobbies más grandes."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el límite oficial de jugadores para Escape the Backrooms?",
+    answer: "El límite oficial de jugadores para Escape the Backrooms es de 4 jugadores en modo cooperativo. Esto está diseñado para mantener la atmósfera de terror del juego y optimizar el rendimiento."
+  },
+  {
+    question: "¿Puedo jugar con más de 4 jugadores en Escape the Backrooms?",
+    answer: "Sí, es posible jugar con más de 4 jugadores, normalmente hasta 16, utilizando herramientas de terceros como Cheat Engine o instalando mods creados por la comunidad. Sin embargo, estos métodos no son oficiales y pueden afectar el rendimiento o la estabilidad del juego."
+  },
+  {
+    question: "¿Cuáles son los riesgos de usar mods o Cheat Engine para aumentar el número de jugadores?",
+    answer: "El uso de métodos no oficiales puede llevar a una potencial inestabilidad del juego, bloqueos, tasas de cuadros reducidas, mayor latencia y una atmósfera de terror disminuida. Procede siempre con precaución."
+  },
+  {
+    question: "¿Por qué el juego tiene un límite de 4 jugadores si técnicamente puede soportar más?",
+    answer: "El límite de 4 jugadores es principalmente por optimización y para preservar la experiencia de horror psicológico prevista del juego. Más jugadores pueden restar valor a la sensación de aislamiento y hacer que el juego sea menos aterrador, a la vez que exigen más recursos del sistema."
+  }
+]} />
+
+</Section>

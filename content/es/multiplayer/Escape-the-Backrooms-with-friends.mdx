@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms con amigos: Guía multijugador cooperativa paso a paso",
+  description: "Domina Escape the Backrooms con amigos usando nuestra guía de 2026. Aprende la configuración multijugador, tácticas de supervivencia en equipo y estrategias específicas de nivel para el juego cooperativo.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/facc15?text=Escape+With+Friends+Guide",
+  date: "2026-05-30",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Escape the Backrooms con amigos** admite hasta **4 jugadores en cooperativo** con chat de voz de proximidad.
+- **Supervivencia en equipo**: Cada miembro debe llegar a la salida con vida; los jugadores muertos espectan hasta el siguiente punto de control.
+- **Comunicación**: Usa la **tecla V** para el chat de proximidad, pero recuerda que las entidades pueden oírte.
+- **Gestión de la cordura**: Lleva siempre **Agua de Almendras** para restaurar la cordura y prevenir alucinaciones.
+- **Mecánicas clave**: Domina la **Mecánica de Inclinación (teclas E/Q)** para asomarte por las esquinas de forma segura.
+</Callout>
+
+<Section icon={Map} title="Configuración multijugador y conectividad">
+
+Configurar una sesión para jugar a **Escape the Backrooms con amigos** es el primer paso en la pesadilla liminal. El juego está diseñado para 1-4 jugadores, enfatizando la coordinación y el terror compartido. Ya sea que uses el sistema nativo de invitación de Steam o herramientas de terceros como Radmin VPN para jugar al estilo LAN, asegurar una conexión estable es vital para que el chat de voz de proximidad funcione correctamente.
+
+**Aspectos destacados del vídeo:**
+- Navegación básica y la importancia de permanecer juntos en el Nivel 0.
+- Cómo usar la mecánica de inclinación para explorar entidades sin exposición total.
+- Gestión de las reglas del grupo: "Quien encuentre la salida primero trae la fiesta."
+- Navegando por la "Sala de Fiestas" y las áreas de tablero de ajedrez.
+
+<YouTubeEmbed videoId="Rjda6rbfJHk" title="Escape The Backrooms - With Friends." />
+
+Para alojar un juego exitoso, sigue estos requisitos técnicos y pasos para asegurar que tu equipo pueda conectarse sin interrupciones de firewall.
+
+| Requisito | Especificación Mínima | Especificación Recomendada |
+| :--- | :--- | :--- |
+| **SO** | Windows 10/11 64-bit | Windows 11 64-bit |
+| **Procesador** | Intel/AMD de cuatro núcleos 2.5 GHz | Intel i5-10400 / Ryzen 5 3600 |
+| **Memoria** | 8 GB RAM | 16 GB RAM |
+| **Gráficos** | Compatible con DirectX 11/12 | RTX 2060 / Radeon RX 6600 |
+| **Almacenamiento** | 25 GB de espacio disponible | 25 GB de espacio disponible |
+
+<Callout type="tip" title="Consejo de Conexión">
+Si encuentras errores de "Servidor no encontrado", asegúrate de que "Escape the Backrooms" esté añadido a las excepciones de tu Firewall de Windows. Usar Radmin VPN también puede evitar tipos de NAT estrictos creando una red local virtual para tus amigos.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Mecánicas cooperativas centrales y roles del equipo">
+
+Al jugar a **Escape the Backrooms con amigos**, el juego pasa de ser una exploración solitaria a una experiencia táctica de terror de supervivencia. El chat de voz de proximidad añade una capa de realismo; tu voz se vuelve más silenciosa a medida que te alejas de tus compañeros y más fuerte si entras en pánico. Crucialmente, las entidades son sensibles al sonido: hablar demasiado alto cerca de un Sabueso o un Desollador los llevará directamente a tu ubicación.
+
+<CardGrid cols={3}>
+  <Card title="El Explorador">
+    - Utiliza la **Mecánica de Inclinación** (E/Q) para asomarse por las esquinas.
+    - Lleva la **Linterna** principal.
+    - Identifica primero las rutas de patrulla de las entidades.
+  </Card>
+  <Card title="El Médico">
+    - Gestiona el suministro de **Agua de Almendras**.
+    - Monitorea los niveles de cordura del equipo.
+    - Distribuye recursos durante los descansos en salas seguras.
+  </Card>
+  <Card title="El Navegante">
+    - Rastrea puntos de referencia como la "Alfombra Amarilla" o las "Tubos Aceitosos".
+    - Resuelve acertijos ambientales (Códigos/Palancas).
+    - Evita que el grupo se tope con callejones sin salida.
+  </Card>
+</CardGrid>
+
+La mecánica de espectador asegura que nadie se quede completamente fuera. Si un jugador es atrapado por una entidad, entra en modo espectador, siguiendo a los supervivientes restantes. Sin embargo, las apuestas siguen siendo altas: en muchos niveles, todo el equipo debe llegar a la salida para avanzar a la siguiente etapa de las trastiendas.
+
+| Mecánica | Tecla de Atajo | Beneficio para el Equipo |
+| :--- | :--- | :--- |
+| **Chat de Proximidad** | V (Alternar/Mantener) | Coordinación en tiempo real e inmersión. |
+| **Inclinarse** | Q / E | Asomarse de forma segura para evitar el contacto directo con entidades. |
+| **Interactuar** | F | Compartir objetos y abrir puertas para otros. |
+| **Inventario** | Tab | Revisar recursos como la cordura y el agua de almendras. |
+
+<Callout type="warning" title="Conciencia de las Entidades">
+Las entidades pueden escuchar la entrada de tu micrófono. Si te escondes debajo de una mesa en la Sala de Fiestas, mantente absolutamente en silencio en la vida real, o la IA detectará tu ubicación.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Estrategias de equipo específicas de nivel">
+
+Navegar por los más de 30 niveles requiere diferentes estrategias según el entorno. En las primeras etapas, como el Nivel 0, el objetivo es simplemente encontrar una escalera y una llave. A medida que avanzas al Nivel 1 y más allá, los rompecabezas se vuelven más complejos, requiriendo que varios jugadores interactúen con objetos simultáneamente.
+
+<Steps>
+  <Step num="1" title="Nivel 0: El Vestíbulo">
+    Sigue la estrategia de "Giro a la izquierda". Si el grupo se separa, describe tu entorno (por ejemplo, "piso de tablero de ajedrez" o "alfombra manchada"). Encuentra las partes de la escalera y la llave para desbloquear la salida de ventilación.
+  </Step>
+  <Step num="2" title="Nivel 1: Zona Habitable">
+    Este nivel introduce la mecánica de **Verificación de ID**. Debes encontrar un código de cuatro dígitos a menudo oculto en objetos ambientales como coches o hidrantes. Busca pistas codificadas por colores (Rojo/Azul/Amarillo) para introducirlas en el ascensor o el teclado.
+  </Step>
+  <Step num="3" title="La Sala de Fiestas">
+    Esta es un área de alto sigilo. Un jugador debe actuar como cebo para atraer a las entidades a un lado de la habitación mientras los demás corren hacia el Cubo de Rubik o la puerta de salida. Usa las mesas como cobertura.
+  </Step>
+  <Step num="4" title="El Centro y más allá">
+    Recoge cintas VHS dispersas por las áreas de oficinas. Estas cintas proporcionan el conocimiento y los códigos necesarios para desbloquear zonas restringidas. Coordina quién recoge cada cinta para evitar retrocesos.
+  </Step>
+</Steps>
+
+| Nombre del Nivel | Objetivo Principal | Peligro Clave |
+| :--- | :--- | :--- |
+| **Nivel 0** | Encontrar Escalera y Llave | Bacterias (El Aullador) |
+| **Nivel 1** | Verificación de ID / Código del Ascensor | Apagones / Robapieles |
+| **Sala de Fiestas** | Alcanzar el Cubo de Rubik | Fiesteros (Enfoque sigiloso) |
+| **Casa de Baños** | Encontrar las Escaleras de Salida | Separación del Grupo / Drenaje de Cordura |
+
+<Callout type="success" title="Solución de Rompecabezas">
+En el Nivel 1, si encuentras el terminal de computadora, puedes desbloquear "Zonas Restringidas". Esto a menudo abre caminos más cortos o proporciona Agua de Almendras adicional, pero aumenta la tasa de aparición de entidades en ese sector.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Supervivencia y Gestión de Recursos">
+
+La supervivencia al jugar a **Escape the Backrooms con amigos** depende en gran medida de cómo gestiones tus recursos compartidos. La cordura es una estadística oculta que se agota cuanto más tiempo permaneces en la oscuridad o cerca de entidades. Una vez que la cordura es baja, comenzarás a experimentar alucinaciones, lo que dificulta distinguir entre un compañero y un monstruo.
+
+<Checklist
+  id="survival-kit"
+  title="Lista de Verificación de Supervivencia en Equipo:"
+  items={[
+    "Al menos dos jugadores deben llevar linternas funcionales.",
+    "Comparte el Agua de Almendras; no dejes que la cordura de un jugador llegue a cero.",
+    "Designa un punto de referencia de 'Habitación Segura' en cada nuevo nivel.",
+    "Siempre verifica las identificaciones si ves a un compañero de equipo quieto en la oscuridad.",
+    "Ten un jugador 'Cebo' listo con alta resistencia para las distracciones."
+  ]}
+/>
+
+| Artículo | Uso | Ubicación |
+| :--- | :--- | :--- |
+| **Agua de Almendras** | Restaura la cordura | Se encuentra en escritorios y cajas. |
+| **Linterna** | Proporciona luz | Se encuentra en taquillas o áreas de inicio. |
+| **Cintas VHS** | Lore / Pistas de rompecabezas | Dispersas en niveles temáticos de oficina. |
+| **Tarjetas de Acceso** | Desbloquea puertas de seguridad | Se encuentran cerca de cadáveres o en escritorios. |
+
+<Callout type="info" title="Estrategia Experta">
+Si una entidad está persiguiendo a tu amigo, puedes usar tu linterna para "cegar" temporalmente a ciertos monstruos. Dirige el haz directamente a sus ojos mientras tu amigo rompe la línea de visión para esconderse.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Consejos avanzados para speedrunning con amigos">
+
+Una vez que hayas dominado los conceptos básicos de **Escape the Backrooms con amigos**, puedes intentar las carreras de "Todo el equipo sobrevive". Esto requiere una comprensión profunda de la estética "Dream Core" y "Weirdcore" del juego, así como los desencadenantes específicos para cada transición de nivel.
+
+<CardGrid cols={2}>
+  <Card title="La Estrategia de la Escalera Infinita">
+    - No dejes de subir hasta que veas la luz blanca.
+    - Si un compañero de equipo cae, puede activar un evento de "No-clip".
+    - Mantente en fila india para evitar caídas accidentales.
+  </Card>
+  <Card title="El Rompecabezas del Interruptor">
+    - En niveles industriales oscuros, busca las luces rojas.
+    - Asigna un jugador a cada interruptor.
+    - Actívalos simultáneamente para abrir la puerta principal rápidamente.
+  </Card>
+</CardGrid>
+
+| Táctica | Ejecución | Beneficio |
+| :--- | :--- | :--- |
+| **Carrera en cadena** | Correr en fila con resistencia escalonada. | Cubre distancia sin que todos se cansen a la vez. |
+| **Asomarse por las esquinas** | Uso constante de Q/E mientras se mueve. | Previene sustos y muertes. |
+| **Cebo de sonido** | Un jugador grita mientras otros se escabullen. | Despeja el camino a través de zonas de alta densidad de entidades. |
+
+<Callout type="tip" title="Nota de progresión final">
+El juego no siempre guarda automáticamente en el modo multijugador. Asegúrate de llegar a una "Zona Habitable" o una "Habitación Segura" con un icono de guardado antes de terminar tu sesión, o es posible que tengas que reiniciar desde el Nivel 0.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes sobre Multijugador">
+
+<FAQ items={[
+  {
+    question: "¿Cuántas personas pueden jugar Escape the Backrooms juntas?",
+    answer: "Puedes jugar Escape the Backrooms con amigos en un grupo de hasta 4 jugadores. El juego escala ligeramente en dificultad, pero tener más ojos en las esquinas siempre es una ventaja."
+  },
+  {
+    question: "¿El juego tiene chat de voz de proximidad?",
+    answer: "Sí, el juego cuenta con chat de voz de proximidad integrado. Puedes usar la tecla V para comunicarte. Ten en cuenta que las entidades pueden oírte si hablas demasiado alto cuando están cerca."
+  },
+  {
+    question: "¿Qué sucede si un amigo muere en el modo cooperativo?",
+    answer: "Si un jugador muere, entra en modo espectador y puede observar a sus compañeros de equipo jugar. Generalmente reaparecen al comienzo del siguiente nivel o cuando el equipo alcanza un punto de control designado."
+  },
+  {
+    question: "¿Podemos jugar Escape the Backrooms en una red local (LAN)?",
+    answer: "Aunque no hay un botón LAN nativo, puedes usar herramientas como Radmin VPN para crear una red virtual, lo que te permite alojar y unirte a juegos 'Multijugador' como si estuvieras en la misma conexión local."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms with Friends: Step-by-Step Co-op Multiplayer Guide",
+  description: "Master Escape the Backrooms with friends using our 2026 guide. Learn multiplayer setup, team survival tactics, and level-specific strategies for co-op play.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/facc15?text=Escape+With+Friends+Guide",
+  date: "2026-05-30",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Escape the Backrooms with friends** supports up to **4-player co-op** with proximity voice chat.
+- **Team Survival**: Every member must reach the exit alive; dead players spectate until the next checkpoint.
+- **Communication**: Use the **V key** for proximity chat, but remember that entities can hear you.
+- **Sanity Management**: Always carry **Almond Water** to restore sanity and prevent hallucinations.
+- **Key Mechanics**: Master the **Lean Mechanic (E/Q keys)** to peek around corners safely.
+</Callout>
+
+<Section icon={Map} title="Multiplayer Setup and Connectivity">
+
+Setting up a session to play **Escape the Backrooms with friends** is the first step into the liminal nightmare. The game is designed for 1-4 players, emphasizing coordination and shared terror. Whether you are using the native Steam invite system or third-party tools like Radmin VPN for LAN-style play, ensuring a stable connection is vital for the proximity voice chat to function correctly.
+
+**Video Highlights:**
+- Basic navigation and the importance of staying together in Level 0.
+- How to use the lean mechanic to scout entities without full exposure.
+- Managing group rules: "Whoever finds the exit first brings the party."
+- Navigating the "Party Room" and checkerboard areas.
+
+<YouTubeEmbed videoId="Rjda6rbfJHk" title="Escape The Backrooms - With Friends." />
+
+To host a successful game, follow these technical requirements and steps to ensure your squad can connect without firewall interruptions.
+
+| Requirement | Minimum Specification | Recommended Specification |
+| :--- | :--- | :--- |
+| **OS** | Windows 10/11 64-bit | Windows 11 64-bit |
+| **Processor** | Quad-core Intel/AMD 2.5 GHz | Intel i5-10400 / Ryzen 5 3600 |
+| **Memory** | 8 GB RAM | 16 GB RAM |
+| **Graphics** | DirectX 11/12 Compatible | RTX 2060 / Radeon RX 6600 |
+| **Storage** | 25 GB Available Space | 25 GB Available Space |
+
+<Callout type="tip" title="Connection Tip">
+If you encounter "Server Not Found" errors, ensure "Escape the Backrooms" is added to your Windows Firewall exceptions. Using Radmin VPN can also bypass strict NAT types by creating a virtual local network for your friends.
+</Callout>
+
+</Section>
+
+<Section icon={Users} title="Core Co-op Mechanics and Team Roles">
+
+When playing **Escape the Backrooms with friends**, the game shifts from a lonely exploration to a tactical survival horror experience. The proximity voice chat adds a layer of realism; your voice gets quieter as you move away from teammates, and louder if you panic. Crucially, entities are sensitive to sound—speaking too loudly near a Hound or a Skinner will lead them straight to your location.
+
+<CardGrid cols={3}>
+  <Card title="The Scout">
+    - Uses the **Lean Mechanic** (E/Q) to peek corners.
+    - Carries the primary **Flashlight**.
+    - Identifies entity patrol paths first.
+  </Card>
+  <Card title="The Medic">
+    - Manages the **Almond Water** supply.
+    - Monitors team sanity levels.
+    - Distributes resources during safe room breaks.
+  </Card>
+  <Card title="The Navigator">
+    - Tracks landmarks like the "Yellow Rug" or "Oily Pipes."
+    - Solves environmental puzzles (Codes/Levers).
+    - Keeps the group from running into dead ends.
+  </Card>
+</CardGrid>
+
+The spectate mechanic ensures that no one is left out entirely. If a player is caught by an entity, they enter a spectate mode, following the remaining survivors. However, the stakes remain high: in many levels, the entire team must reach the exit to progress to the next stage of the backrooms.
+
+| Mechanic | Key Bind | Team Benefit |
+| :--- | :--- | :--- |
+| **Proximity Chat** | V (Toggle/Hold) | Real-time coordination and immersion. |
+| **Lean** | Q / E | Safe peeking to avoid direct entity contact. |
+| **Interact** | F | Sharing items and opening doors for others. |
+| **Inventory** | Tab | Checking resources like Sanity and Almond Water. |
+
+<Callout type="warning" title="Entity Awareness">
+Entities can hear your microphone input. If you are hiding under a table in the Party Room, stay absolutely silent in real life, or the AI will detect your location.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Level-Specific Team Strategies">
+
+Navigating the 30+ levels requires different strategies depending on the environment. In the early stages like Level 0, the goal is simply to find a ladder and a key. As you progress into Level 1 and beyond, puzzles become more complex, requiring multiple players to interact with objects simultaneously.
+
+<Steps>
+  <Step num="1" title="Level 0: The Lobby">
+    Stick to the "Left Turn" strategy. If the group gets separated, describe your surroundings (e.g., "checkerboard floor" or "stained carpet"). Find the ladder parts and the key to unlock the vent exit.
+  </Step>
+  <Step num="2" title="Level 1: Habitable Zone">
+    This level introduces the **ID Check** mechanic. You must find a four-digit passcode often hidden on environmental objects like cars or hydrants. Look for color-coded clues (Red/Blue/Yellow) to input into the elevator or keypad.
+  </Step>
+  <Step num="3" title="The Party Room">
+    This is a high-stealth area. One player should act as bait to draw the entities to one side of the room while the others sprint for the Rubik's Cube or the exit door. Use the tables for cover.
+  </Step>
+  <Step num="4" title="The Hub & Beyond">
+    Collect VHS tapes scattered throughout the office areas. These tapes provide the lore and codes needed to unlock restricted zones. Coordinate who picks up which tape to avoid backtracking.
+  </Step>
+</Steps>
+
+| Level Name | Primary Objective | Key Hazard |
+| :--- | :--- | :--- |
+| **Level 0** | Find Ladder & Key | Bacteria (The Howler) |
+| **Level 1** | ID Check / Elevator Code | Light Outages / Skin-Stealers |
+| **Party Room** | Reach the Rubik's Cube | Partygoers (Stealth focus) |
+| **Bathhouse** | Find the Exit Stairs | Group Separation / Sanity Drain |
+
+<Callout type="success" title="Puzzle Solution">
+In Level 1, if you find the computer terminal, you can unlock "Restricted Zones." This often opens shorter paths or provides extra Almond Water, but it increases the entity spawn rate in that sector.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival and Resource Management">
+
+Survival when playing **Escape the Backrooms with friends** depends heavily on how you manage your shared resources. Sanity is a hidden stat that depletes the longer you stay in the dark or near entities. Once sanity is low, you will begin to experience hallucinations, making it harder to distinguish between a teammate and a monster.
+
+<Checklist
+  id="survival-kit"
+  title="Team Survival Checklist:"
+  items={[
+    "At least two players must carry functional flashlights.",
+    "Share Almond Water; don't let one player's sanity hit zero.",
+    "Designate a 'Safe Room' landmark in every new level.",
+    "Always check IDs if you see a teammate standing still in the dark.",
+    "Keep a 'Bait' player ready with high stamina for distractions."
+  ]}
+/>
+
+| Item | Usage | Location |
+| :--- | :--- | :--- |
+| **Almond Water** | Restores Sanity | Found on desks and in crates. |
+| **Flashlight** | Provides Light | Found in lockers or starting areas. |
+| **VHS Tapes** | Lore / Puzzle Clues | Scattered in office-themed levels. |
+| **Keycards** | Unlocks Security Doors | Found near corpses or in desks. |
+
+<Callout type="info" title="Expert Strategy">
+If an entity is chasing your friend, you can use your flashlight to "blind" certain monsters temporarily. Shine the beam directly at their eyes while your friend breaks the line of sight to hide.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Tips for Speedrunning with Friends">
+
+Once you have mastered the basics of **Escape the Backrooms with friends**, you can attempt "Full Team Survives" runs. This requires a deep understanding of the "Dream Core" and "Weirdcore" aesthetics of the game, as well as the specific triggers for each level transition.
+
+<CardGrid cols={2}>
+  <Card title="The Infinite Staircase Strategy">
+    - Don't stop climbing until you see the white light.
+    - If a teammate falls, they may trigger a "No-clip" event.
+    - Stay in a single file line to avoid accidental falls.
+  </Card>
+  <Card title="The Breaker Puzzle">
+    - In dark industrial levels, find the red lights.
+    - Assign one player to each breaker switch.
+    - Flip them simultaneously to open the main gate quickly.
+  </Card>
+</CardGrid>
+
+| Tactic | Execution | Benefit |
+| :--- | :--- | :--- |
+| **Chain Running** | Running in a line with staggered stamina. | Covers distance without everyone tiring at once. |
+| **Corner Peeking** | Constant use of Q/E while moving. | Prevents jump-scares and death. |
+| **Sound Baiting** | One player shouts while others sneak. | Clears path through high-density entity zones. |
+
+<Callout type="tip" title="Final Progression Note">
+The game does not always auto-save in multiplayer. Ensure you reach a "Habitable Zone" or a "Safe Room" with a save icon before ending your session, or you may have to restart from Level 0.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Multiplayer FAQ">
+
+<FAQ items={[
+  {
+    question: "How many people can play Escape the Backrooms together?",
+    answer: "You can play Escape the Backrooms with friends in a group of up to 4 players. The game scales slightly in difficulty, but having more eyes on corners is always an advantage."
+  },
+  {
+    question: "Does the game have proximity voice chat?",
+    answer: "Yes, the game features built-in proximity voice chat. You can use the V key to communicate. Note that entities can hear you if you speak too loudly when they are nearby."
+  },
+  {
+    question: "What happens if a friend dies in co-op mode?",
+    answer: "If a player is killed, they enter spectate mode and can watch their teammates play. They typically respawn at the start of the next level or when the team reaches a designated checkpoint."
+  },
+  {
+    question: "Can we play Escape the Backrooms on a local network (LAN)?",
+    answer: "While there is no native LAN button, you can use tools like Radmin VPN to create a virtual network, allowing you to host and join 'Multiplayer' games as if you were on the same local connection."
+  }
+]} />
+
+</Section>

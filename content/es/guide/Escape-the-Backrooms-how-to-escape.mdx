@@ -1,0 +1,249 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms: Guía Completa de Escape",
+  description: "Una guía completa para escapar de los diversos niveles de Escape the Backrooms, incluyendo consejos, estrategias y cómo evitar entidades.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/800080/fff?text=Escape+The+Backrooms+Guide",
+  date: "2026-05-30",
+  author: "Equipo de la Wiki de Escape the Backrooms",
+  keywords: "escape the backrooms, guía de escape, niveles, entidades, supervivencia"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Dominar **Escape the Backrooms** requiere entender las mecánicas y entidades únicas de cada nivel.
+- Utiliza **consumibles** como el Agua de Almendras para la cordura y las Barras Energéticas para aumentar la resistencia.
+- Los **escondites**, como debajo de las mesas o en armarios, son cruciales para evadir a las entidades que te persiguen.
+- Completa primero los **logros multijugador** para obtener valiosos conocimientos sobre los mapas y acertijos.
+- Estate siempre atento a tu **medidor de cordura**, ya que disminuye rápidamente en situaciones peligrosas.
+</Callout>
+
+<Section icon={Map} title="Navegando por los Backrooms: Estrategias Esenciales">
+Escape the Backrooms es una experiencia de terror cooperativa que desafía a los jugadores a atravesar una multitud de niveles inquietantes, cada uno con sus propias entidades y acertijos únicos. Escapar con éxito requiere una observación aguda, planificación estratégica y reflejos rápidos. Comprender las mecánicas principales y los recursos disponibles es fundamental para la supervivencia.
+
+**Puntos destacados del video:**
+- Descubre cómo se generan y se comportan entidades como The Howler en el Nivel 0.
+- Obtén una vista aérea de varios niveles, revelando su verdadera escala y detalles ocultos.
+- Aprende sobre el contenido eliminado y las áreas fuera de los límites que ofrecen información sobre el diseño del juego.
+
+<YouTubeEmbed videoId="jDmh6lNxAAI" title="Todo lo oculto en Escape the Backrooms (Fuera de los límites + Contenido eliminado)" />
+
+El juego cuenta con varios consumibles que pueden ayudar significativamente en tu escape:
+
+| Tipo de Objeto | Efecto | Uso |
+| :--- | :--- | :--- |
+| **Agua de Almendras** | Restaura la cordura | Crucial para mantener la estabilidad mental |
+| **Barra Energética** | Proporciona un aumento de resistencia | Esencial para escapar de persecuciones |
+| **Jugo** | Otorga un aumento de velocidad temporal | Útil para escapes rápidos o desplazamientos |
+| **Dolor Líquido** | Causa un daño significativo | **Evitar a toda costa**, efecto perjudicial |
+
+<Callout type="tip" title="Gestión de la Cordura">
+Tu medidor de cordura es un recurso crítico. Disminuye con el tiempo y mucho más rápido cuando estás en peligro o cerca de entidades. Vigílalo y usa Agua de Almendras de forma proactiva para evitar alucinaciones y una posible muerte.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Escape Nivel por Nivel para Escape the Backrooms">
+Cada nivel en Escape the Backrooms presenta desafíos y entidades distintos. Un enfoque estructurado para cada uno puede mejorar significativamente tus posibilidades de escape.
+
+### Nivel 0: El Vestíbulo (The Lobby)
+Esta es tu primera prueba, un laberinto aparentemente interminable de paredes amarillas desgastadas. Tu objetivo es encontrar una escalera rota, repararla, obtener una llave y desbloquear la salida. La entidad The Howler aparecerá después de unos minutos para perseguirte.
+
+<Steps>
+  <Step num="1" title="Localiza las piezas de la escalera">
+    Deambula por los pasillos serpenteantes hasta que encuentres las piezas dispersas de una escalera. Recógelas para repararla.
+  </Step>
+  <Step num="2" title="Obtén la llave">
+    Usa la escalera reparada para alcanzar un cubículo donde se encuentra la llave.
+  </Step>
+  <Step num="3" title="Encuentra la puerta cerrada">
+    Busca la puerta cerrada, que a menudo conduce a una habitación con pozos cuadrados.
+  </Step>
+  <Step num="4" title="Cruza los pozos">
+    Cruza con cuidado los pozos sin perder el equilibrio. Caer te llevará a una segunda capa con una salida independiente.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Cuidado con The Howler">
+The Howler comenzará a aparecer en el mapa después de unos minutos. Puede verte a través de las paredes si no se contiene adecuadamente. Mantén la distancia y usa los escondites.
+</Callout>
+
+### Nivel 1: La Zona Habitable (The Habitable Zone)
+Este nivel cuenta con un gran estacionamiento e introduce al Robapieles (Skin-Stealer). Necesitarás encontrar un código para un ascensor y recoger cuatro llaves para abrir la puerta de una bóveda.
+
+| Fase | Objetivo | Entidad | Consejo Clave |
+| :--- | :--- | :--- | :--- |
+| **Estacionamiento** | Encuentra el código del ascensor (de los coches de colores). | Ninguna (inicialmente) | Anota las posiciones de los coches; indican el código. |
+| **Bajar en el ascensor**| Recoge **4 llaves** dispersas por las habitaciones. | **Robapieles** | Los Robapieles no pueden abrir puertas; úsalas a tu favor para evadirlos. |
+| **El Garaje Oscuro** | Navega hasta el siguiente ascensor. | **Robapieles** | La oscuridad dificulta la detección; escucha los sonidos. |
+
+</Section>
+
+<Section icon={Shield} title="Técnicas Avanzadas de Evasión y Supervivencia">
+Sobrevivir en Escape the Backrooms requiere más que solo conocer los objetivos; exige el dominio de la evasión y la gestión de recursos.
+
+### Esconderse de las Entidades
+La mayoría de las entidades en los Backrooms pueden ser evadidas usando el entorno a tu favor.
+
+<CardGrid cols={2}>
+  <Card title="Armarios y Debajo de las Mesas">
+    Estos son escondites universales. Cuando un monstruo te persiga, métete rápidamente en un armario o debajo de una mesa para romper su línea de visión.
+  </Card>
+  <Card title="Cerrar Puertas">
+    Muchas entidades no pueden abrir puertas. Cerrar las puertas detrás de ti puede darte segundos preciosos o incluso hacer que la entidad desaparezca si te pierde el rastro.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Ventaja Multijugador">
+Jugar con amigos puede facilitar significativamente la dificultad. Un jugador puede distraer a una entidad mientras otros completan los objetivos, o reanimar a compañeros caídos si están equipados con una cuerda en el Nivel 0.
+</Callout>
+
+### Estrategias Específicas por Entidad
+
+| Entidad | Nivel(es) | Comportamiento Clave | Estrategia de Evasión |
+| :--- | :--- | :--- | :--- |
+| **The Howler** | Nivel 0, Nivel 0.11 | Aparece con el tiempo, se teleporta cerca del jugador. | Encuentra escondites rápido; usa cobertura para romper la visión. |
+| **Robapieles** | Nivel 1, Nivel 8, Nivel 55.1 | Patrulla áreas, no puede abrir puertas. | Usa puertas como barreras; muévete en silencio para evitar ser detectado. |
+| **Sonrientes (Smilers)** | The Hub, Pipe Dreams, Run For Your Life | Aparecen en la oscuridad, pueden ser numerosos. | Quédate en áreas iluminadas; en persecuciones, corre entre obstáculos. |
+| **Sabuesos (Hounds)** | Estación Eléctrica, Hotel Terror | Agresivos, pueden ser aturdidos por la linterna. | Alúmbralos con tu linterna 3 veces para que huyan. |
+| **Fiesteros (Partygoers)** | Level Fun, Level Fun+ | Sensibles al movimiento y sonido, escóndete bajo mesas. | Muévete en silencio; usa mesas como cobertura; haz que miren hacia otro lado. |
+| **The Wretch** | Lights Out, Nivel 9 | Deambula por laberintos oscuros, observable vía LIDAR. | Usa el escáner LIDAR para mapear el camino; evita sus rutas de patrulla. |
+| **Scratcher** | Nivel The End | Ciego pero con excelente oído, se distrae con alarmas. | Usa alarmas de incendio para distraerlo; recoge cintas en silencio. |
+| **Animaciones** | Nivel 94 | Aparecen de noche, entran en casas con luces encendidas. | Escóndete en armarios/bajo camas; apaga las luces; usa camiones para pasar. |
+| **Facelings** | Nivel 10 | Aparecen en campos de trigo, se van si los ves. | Muévete rápido por los campos; míralos para que se retiren. Los de la motosierra persiguen. |
+
+</Section>
+
+<Section icon={Sparkles} title="Dominando los Acertijos y la Progresión">
+Los acertijos son una parte integral de escapar de los Backrooms. Desde simples códigos numéricos hasta desafíos ambientales, entender cómo abordarlos es clave.
+
+### Tipos de Acertijos Clave
+
+<Checklist
+  id="puzzle-types"
+  title="Mecánicas Comunes de Acertijos:"
+  items={[
+    "Interacción Ambiental: Usar objetos como escaleras o interruptores.",
+    "Decodificación de Códigos: Resolver acertijos u observación para obtener códigos numéricos.",
+    "Manipulación de Entidades: Usar el comportamiento de las entidades para desbloquear caminos.",
+    "Gestión de Recursos: Utilizar consumibles y herramientas de manera efectiva.",
+    "Desafíos de Navegación: Encontrar salidas en laberintos o áreas oscuras."
+  ]}
+/>
+
+### Flujo de Progresión de Niveles
+El juego presenta una progresión semilineal, a menudo regresando a "The Hub" o introduciendo caminos alternativos.
+
+| Nombre del Nivel | Objetivo Principal | Puntos de Conexión |
+| :--- | :--- | :--- |
+| **Nivel 0 (El Vestíbulo)** | Encontrar llave, abrir salida. | Conduce al Nivel 1. |
+| **Nivel 1 (Zona Habitable)** | Código de ascensor, llaves, abrir bóveda. | Conduce a The Hub. |
+| **The Hub** | Acceder a base M.E.G., abrir puerta de garaje. | Conduce a Pipe Dreams 1 (Salida A) o Nivel 922 (Salida B). |
+| **Estación Eléctrica** | Activar 9 cajas de fusibles. | Conduce a la Oficina Abandonada. |
+| **Oficina Abandonada** | Acertijo de máquina expendedora, evitar cámaras. | Conduce al Hotel Terror. |
+| **Hotel Terror** | Obtener Jalea de Polilla, papeles, candado. | Conduce a Pipe Dreams 2. |
+| **Pipe Dreams 2** | Navegar túnel, escapar de persecución de Sonriente. | Conduce a Level Fun. |
+| **Level Fun** | Sigilo entre Fiesteros. | Conduce a Poolrooms. |
+| **Poolrooms** | Explorar pasillos, encontrar salida. | Conduce a Run For Your Life. |
+| **Run For Your Life** | Correr por pasillo de hospital, esquivar obstáculos. | Conduce al Nivel The End. |
+| **Nivel The End** | Recoger cintas VHS, usar computadora. | Conduce a Escherian Stairwell. |
+| **Escherian Stairwell**| Subir al piso 94, saltar por el centro. | Conduce al Nivel 94: Motion. |
+| **Nivel 94: Motion** | Llegar al castillo flotante, derrotar al Rey Animado. | Conduce a Lights Out. |
+| **Lights Out** | Navegar laberinto oscuro con escáner LIDAR. | Conduce a Thalassophobia (A) o Kitty's House (B). |
+| **Thalassophobia** | Atravesar aldea inundada, bucear en cuevas. | Conduce al Nivel 8. |
+| **Nivel 8** | Navegar cuevas de polillas, evitar Robapieles. | Conduce al Nivel 0.11. |
+| **Nivel 0.11 y 188** | Acertijo de luces, motosierra, palancas. | Conduce al Nivel 9. |
+| **Nivel 9** | Activar terminales de seguridad, curar a Wretch. | Conduce al Nivel 10. |
+| **Nivel 10** | Navegar campos de trigo, activar turbinas. | Conduce al Nivel 3999 (Final Verdadero). |
+
+<Callout type="warning" title="Generación Procedural">
+Algunos niveles, particularmente el Nivel 0, pueden presentar generación procedural, lo que significa que el diseño y la ubicación de los objetos pueden variar entre partidas. Sé adaptable y confía en las señales sonoras y pistas ambientales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Multijugador y Caza de Logros">
+Jugar Escape the Backrooms con amigos puede mejorar la experiencia y simplificar la obtención de logros. Ciertos logros están diseñados específicamente para el modo multijugador.
+
+### Ventajas del Multijugador
+
+<CardGrid cols={3}>
+  <Card title="Mayor Supervivencia">
+    Los compañeros pueden distraer a las entidades, permitiendo que otros completen objetivos o escapen.
+  </Card>
+  <Card title="Mecánica de Reanimación">
+    En algunos niveles (ej. Nivel 0), un jugador caído puede ser reanimado por un compañero con una cuerda.
+  </Card>
+  <Card title="Conocimiento Compartido">
+    Más jugadores significan más ojos y cerebros para resolver acertijos y detectar peligros.
+  </Card>
+</CardGrid>
+
+### Estrategias de Logros
+Muchos logros están ligados a completar niveles específicos o realizar acciones únicas. Priorizar los logros multijugador puede ser un buen punto de partida.
+
+<Checklist
+  id="achievements-checklist"
+  title="Consejos para Logros:"
+  items={[
+    "Completa primero los logros multijugador para una progresión más fácil.",
+    "Sobrevive al Nivel 0 durante 15 minutos para el logro 'Survived Level 0'.",
+    "Desbloquea todos los finales (A, B, C, D) para alcanzar el 'Final Verdadero'.",
+    "Familiarízate con los mapas y comportamientos de entidades en solitario antes de intentar la dificultad Pesadilla."
+  ]}
+/>
+
+<Callout type="tip" title="Dificultad Pesadilla">
+En la dificultad Pesadilla, si incluso un solo compañero muere, todo el juego se reinicia. Esto enfatiza la importancia del trabajo en equipo y el conocimiento previo de todos los niveles.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Finales y Rejugabilidad">
+Escape the Backrooms cuenta con múltiples finales, lo que fomenta la rejugabilidad y la exploración de diferentes caminos. Descubrir todos los finales es clave para lograr el "Final Verdadero".
+
+### Entendiendo los Finales
+
+| Tipo de Final | Cómo Lograrlo | Significado |
+| :--- | :--- | :--- |
+| **Final A** | Completa el Nivel 55.1 (El Ascensor) tras la progresión normal. | La ruta de escape "estándar". |
+| **Final B** | Navega a través de The Grassrooms tras completar "Overgrowth" desde la Base MEG Extendida. | Un escape más desafiante con acertijos únicos. |
+| **Final C** | Desde The Hub, toma la rampa al Nivel 922 (habitaciones idénticas), sube al piso 94 y salta. | Un escape oculto, sin entidades. |
+| **Final D** | (Información no proporcionada, típicamente desbloqueado por acciones específicas). | A menudo implica una secuencia única o área oculta. |
+| **El Final Verdadero**| Recoge los Finales A, B, C y D, luego juega a la máquina arcade en el Nivel 3999. | El escape definitivo, regresando a los Frontrooms. |
+
+<Callout type="info" title="Base MEG Extendida">
+Tras completar el Final A, obtendrás acceso a la Base MEG Extendida. Esta área conecta con nuevos niveles y rutas alternativas, ofreciendo más desafíos y caminos hacia otros finales.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="FAQ: Escape the Backrooms">
+
+<FAQ items={[
+  {
+    question: "¿Cómo escapo del Nivel 0 en Escape the Backrooms?",
+    answer: "Para escapar del Nivel 0, necesitas encontrar las piezas de una escalera rota, repararla para obtener una llave, localizar una puerta cerrada y luego cruzar con cuidado una habitación con pozos para llegar a la salida. Ten cuidado con The Howler."
+  },
+  {
+    question: "¿Para qué se usan los consumibles en Escape the Backrooms?",
+    answer: "Los consumibles como el Agua de Almendras restauran la cordura, las Barras Energéticas aumentan la resistencia y el Jugo proporciona un aumento de velocidad. El Dolor Líquido, sin embargo, debe evitarse ya que causa daño."
+  },
+  {
+    question: "¿Puedo jugar Escape the Backrooms con amigos?",
+    answer: "Sí, Escape the Backrooms es una experiencia de terror cooperativa. Jugar con amigos puede facilitar los niveles gracias a los objetivos compartidos, la distracción de entidades y la capacidad de reanimar compañeros."
+  },
+  {
+    question: "¿Qué pasa si mi cordura baja demasiado?",
+    answer: "Si tu cordura baja demasiado, comenzarás a tener alucinaciones, lo que hará que el juego sea significativamente más difícil y aumentará tu riesgo de morir. Usa Agua de Almendras para restaurarla."
+  }
+]} />
+
+</Section>

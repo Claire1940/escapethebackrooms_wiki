@@ -10,7 +10,14 @@
       "twitterDescription": "Escape The Backrooms Wiki covering levels, entities, achievements, endings, and co-op survival strategies."
     }
   },
-  "nav": {},
+  "nav": {
+    "guides": "Guides",
+    "crafting": "Crafting",
+    "items": "Items",
+    "biomes": "Biomes",
+    "building": "Building",
+    "support": "Support"
+  },
   "common": {
     "home": "Home",
     "more": "More",

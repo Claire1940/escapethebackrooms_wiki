@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Water Valve Puzzle: Level 37.2 Guide",
+  description: "Master the water valve puzzles in Escape the Backrooms Level 37.2 with this comprehensive guide, including strategies and bug exploits.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Water+Valve+Puzzle",
+  date: "2026-05-30",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Escape the Backrooms water valve puzzle** on Level 37.2 requires quick action to prevent valves from resetting.
+- Be aware of **Hydraytic Bacteria** and other entities like Paperaton and Gitoan while operating valves.
+- Utilize **squat jumps** and environmental features to navigate water-filled areas efficiently.
+- Several **bug exploits** can significantly speed up progression and skip tedious valve sequences.
+- Teamwork is crucial for sections with **multiple valves** that need simultaneous turning.
+</Callout>
+
+<Section icon={Map} title="Navigating Level 37.2: Poolrooms and Initial Valves">
+Level 37.2, often referred to as the Poolrooms, presents unique challenges, primarily centered around water navigation and the infamous water valve puzzles. The area is filled with Hydraytic Bacteria, making direct water contact dangerous. Players must employ clever movement techniques and understand the valve mechanics to progress.
+
+**Video Highlights:**
+- Demonstrates navigating Hydraytic Bacteria with squat jumps.
+- Shows the location of the initial six valves (three top, three bottom).
+- Explains the time limit for turning valves to prevent them from loosening.
+
+<YouTubeEmbed videoId="LVHeNjt0XQ0" title="Escape the Backrooms Level 37.2 Guide: Poolrooms Glitches & Valve Skip" />
+
+The first set of valves is crucial for releasing water and allowing further passage. These valves often require swift action, especially when playing solo.
+
+<Callout type="tip" title="Squat Jump Technique">
+To minimize contact with Hydraytic Bacteria in water, consistently use the **squat jump technique**. This allows you to "jump" over the bacteria, reducing the risk of damage or adverse effects. Practice this movement for efficient navigation.
+</Callout>
+
+### Initial Valve Locations
+
+| Location | Number of Valves | Entity Presence | Strategy |
+| :------- | :--------------- | :-------------- | :------- |
+| Upper Section | 3 | None | Turn quickly, solo manageable |
+| Lower Section | 3 | Paperaton | Prioritize turning, avoid aggro |
+
+### Entity Interaction During Valve Turning
+
+When interacting with valves, entities like Paperaton can pose a significant threat. Understanding their behavior is key to survival.
+
+<CardGrid cols={2}>
+  <Card title="Paperaton Behavior">
+    - Spawns in green, grassy areas.
+    - If it spots you *before* you start turning a valve, it will attack.
+    - If it spots you *while* you are turning a valve, it may ignore you (game considers you "dead" during interaction).
+    - Avoid aggro before approaching valves.
+  </Card>
+  <Card title="Gitoan Behavior">
+    - Spawns in green areas with leaves and mushrooms.
+    - Generally less aggressive if you're interacting with objects.
+    - Can often be ignored if you maintain distance and focus on the task.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Advanced Valve Sequences and Bug Exploits">
+As you delve deeper into Level 37.2, the valve puzzles become more complex, involving more valves and tighter time constraints. However, there are several known bug exploits that can significantly bypass these challenges, saving valuable time and effort.
+
+### Fuel Tank Valve Puzzle
+
+After the initial section, you'll encounter a fuel tank that requires four valves to be turned to fill it. This often triggers the appearance of entities.
+
+<Steps>
+  <Step num="1" title="Locate Fuel Tank">
+    Find the fuel tank area. There are four valves around it that need to be activated to fill the tank.
+  </Step>
+  <Step num="2" title="Turn First Valve">
+    Start turning the first valve. Be aware that a Paperaton often spawns behind you near the mailbox you just visited.
+  </Step>
+  <Step num="3" title="Navigate and Turn Remaining Valves">
+    Move quickly to the other valves. Remember Paperaton's spawn points are typically in green, grassy areas.
+  </Step>
+  <Step num="4" title="Confirm Tank Full">
+    Once all four valves are turned, the fuel tank will be full, and the water level will rise, allowing you to proceed.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Valve Reset Mechanic">
+If you don't turn all valves in a sequence fast enough, the first ones you turned might loosen and reset. This means you'll have to start the entire sequence over. Coordination is key in multiplayer, or extreme speed for solo players.
+</Callout>
+
+### Time-Saving Bug Exploits
+
+Several glitches can allow players to bypass entire sections of valve puzzles. These are particularly useful for speedrunning or avoiding frustrating encounters.
+
+| Bug Exploit | Description | Benefit |
+| :---------- | :---------- | :------ |
+| **Windowed Mode Clip** | When jumping into water sections that require valve turning, quickly toggle windowed mode (F11) just before hitting the water. This can allow you to clip through the water without turning valves. | Skips entire valve sequence, saves significant time. |
+| **V-Sync Walk-Through** | In certain areas, with V-Sync enabled, you can slowly walk across gaps or through water that would normally require valve activation or complex movement. | Bypasses specific obstacles, reduces interaction time. |
+| **Micro Bridge Crouch-Jump** | On specific small bridges, a precise crouch-jump can allow you to bypass sections that lead to more valves. | Avoids turning additional valves, faster traversal. |
+
+<Checklist
+  id="bug-exploit-checklist"
+  title="Exploit Readiness:"
+  items={[
+    "Understand F11 windowed mode toggle timing",
+    "Ensure V-Sync is enabled for specific walk-throughs",
+    "Practice precise crouch-jumps for environmental skips",
+    "Confirm bug still active in current game version (as of 2026)"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Seven-Valve Gauntlet and Entity Encounters">
+The most challenging valve sequence involves seven valves, often coupled with aggressive entity spawns. This section truly tests a player's ability to multitask and manage threats while completing objectives.
+
+### Seven Valves Strategy
+
+This section is notorious for its length and the presence of Gitoan entities.
+
+<Steps>
+  <Step num="1" title="Initial Descent">
+    Drop into the area where seven valves are located. Immediately identify the Gitoan spawn points.
+  </Step>
+  <Step num="2" title="Prioritize Right Side Valves">
+    Start by turning the valves on the right side, beginning with the farthest one. This often gives you more space to maneuver.
+  </Step>
+  <Step num="3" title="Circumvent Gitoan">
+    Circle around to avoid Gitoan detection. They often patrol in specific patterns. If spotted, try to use water as a temporary refuge.
+  </Step>
+  <Step num="4" title="Complete Remaining Valves">
+    Systematically turn the remaining valves, always being mindful of Gitoan's proximity. In multiplayer, assign players to different sides for efficiency.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Gitoan Evasion">
+Gitoans typically spawn in green areas with leaves and mushrooms. While turning a valve, if a Gitoan hasn't aggro'd you yet, it might ignore you. If it does aggro, consider jumping into the water if it's safe from Hydraytic Bacteria, as Gitoans can struggle in water.
+</Callout>
+
+### Valve Turning Times
+
+The time it takes to turn each valve can vary, making the sequences challenging under pressure.
+
+| Valve Sequence | Number of Valves | Typical Turn Time (per valve) | Total Solo Time (approx.) |
+| :------------- | :--------------- | :---------------------------- | :------------------------ |
+| Initial Set (Fuel Tank) | 4 | ~10-15 seconds | 40-60 seconds |
+| Intermediate Set | 3 | ~10-15 seconds | 30-45 seconds |
+| Final Gauntlet | 7 | ~10-15 seconds | 70-105 seconds |
+
+These times do not account for entity evasion or movement between valves. In multiplayer, having multiple players turn valves simultaneously drastically reduces the total time.
+
+</Section>
+
+<Section icon={Trophy} title="Optimizing Your Valve Puzzle Experience">
+While the water valve puzzles are a core mechanic of Level 37.2, there are ways to optimize your experience, whether through efficient gameplay or by utilizing known shortcuts.
+
+### Strategic Planning
+
+Before engaging with any valve puzzle, take a moment to assess the environment.
+
+<CardGrid cols={3}>
+  <Card title="Scout Ahead">
+    - Identify valve locations.
+    - Note entity patrol paths.
+    - Plan your route for minimal exposure.
+  </Card>
+  <Card title="Resource Management">
+    - Ensure you have health items if expecting damage.
+    - Consider movement buffs (if available) for faster traversal.
+  </Card>
+  <Card title="Communication (Multiplayer)">
+    - Assign roles for turning valves.
+    - Designate a scout for entity warnings.
+    - Coordinate timing for simultaneous turns.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Co-op Advantage">
+In multiplayer, the valve puzzles become significantly easier. Assign players to different valves to turn them simultaneously, drastically reducing the chance of them resetting and minimizing exposure to entities.
+</Callout>
+
+### Post-Puzzle Progression
+
+Once the water valves are successfully manipulated and the water levels change, new paths open up. These often involve swimming, running, or using specific environmental interactions. Always be on the lookout for the next objective marker or a clear path forward.
+
+</Section>
+
+<Section icon={Target} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the main challenge of the Escape the Backrooms water valve puzzle on Level 37.2?",
+    answer: "The main challenge is turning multiple valves within a strict time limit before they reset, all while navigating dangerous Hydraytic Bacteria and evading entities like Paperaton and Gitoan."
+  },
+  {
+    question: "Can I skip the water valve puzzles in Escape the Backrooms Level 37.2?",
+    answer: "Yes, there are several bug exploits, such as the F11 windowed mode clip and V-Sync walk-through, that can allow players to bypass entire valve sequences and save significant time."
+  },
+  {
+    question: "What should I do if a Paperaton spots me while I'm turning a valve?",
+    answer: "If a Paperaton spots you *while* you're already interacting with a valve, it might ignore you because the game's code considers you in a 'dead' state during object interaction. However, if it spots you *before* you start turning the valve, it will likely attack."
+  },
+  {
+    question: "How can I effectively deal with Hydraytic Bacteria in the water sections?",
+    answer: "To minimize contact with Hydraytic Bacteria, use the squat jump technique. This allows you to 'jump' over the bacteria, reducing the risk of damage or negative effects."
+  }
+]} />
+
+</Section>

@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Users, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms max players: 16-Player Lobby Setup Guide",
+  description: "Learn how to bypass the 4-player limit in Escape the Backrooms. Step-by-step instructions for 16-player lobbies using mods and memory tools.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=16+Player+Lobby+Guide",
+  date: "2026-05-30",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="tip" title="Quick Guide">
+- **Escape the Backrooms max players** officially supports up to **4 players** in co-op mode.
+- **Community mods** and memory editing tools allow for a maximum of **16 players** per lobby.
+- **Interpose Mod Loader** is the primary requirement for installing player-limit bypass mods.
+- **Cheat Engine** serves as a temporary alternative if specific mods are broken after game updates.
+- **Technical limits** of the Unreal Engine currently prevent stable lobbies exceeding 16 participants.
+</Callout>
+
+<Section icon={Users} title="Official Limits vs. Community Expansion">
+
+While the official Steam listing for **Escape the Backrooms max players** specifies a 1-4 player co-op experience, the community has long sought to expand this for larger groups. The game is designed around a tight, atmospheric horror experience where proximity voice chat and teamwork are essential. However, the sheer scale of some levels makes larger parties highly desirable for exploration and resource gathering.
+
+**Video Highlights:**
+- Demonstrating the Gen 5 / 1.0 update compatibility for 16 players.
+- How to use memory modification to trick the lobby system.
+- Troubleshooting broken mods after recent game patches.
+
+<YouTubeEmbed videoId="EwR1r_KjpQI" title="16 Players!!!!! (Gen 5 / 1.0) | Escape the Backrooms" />
+
+As of May 2026, there are two primary methods to achieve a 16-player lobby. The first involves a traditional modding approach using the Interpose loader, while the second utilizes memory editing to adjust the player count variable in real-time.
+
+| Feature | Official Mode | Modded/Edited Lobby |
+| :--- | :--- | :--- |
+| **Max Players** | 4 Players | 16 Players |
+| **Difficulty** | Scaled for 4 | Extremely easy (entities overwhelmed) |
+| **Stability** | High | Moderate (higher chance of crashes) |
+| **Voice Chat** | Stable Proximity | Chaotic/Overlapping |
+| **Setup Time** | Instant | 5-10 Minutes |
+
+<Callout type="info">
+Increasing the player count beyond four significantly alters the game's balance. Entities like the Bacteria or Hounds can be easily distracted by large groups, making the survival aspect less punishing but the exploration more social.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Method 1: The Interpose Mod Loader Approach">
+
+The most stable way to increase the **Escape the Backrooms max players** count is through a dedicated mod. This requires a specific file structure and a secondary mod loader to function correctly. This method is preferred for long-term play sessions as it does not require re-editing memory every time you launch a new lobby.
+
+**Video Highlights:**
+- Finding the correct game directory for mod installation.
+- Step-by-step extraction of the Interpose pack files.
+- Launching a multiplayer server with the 16-player limit active.
+
+<YouTubeEmbed videoId="CZx7JgmPfxw" title="(Gen 4/5) Need More Players? | Escape the Backrooms Tutorial" />
+
+<Steps>
+  <Step num="1" title="Download Required Files">
+    Navigate to a trusted modding site (like Nexus Mods) and download the **Interpose Mod Loader** and the **16 Player Max Lobby** mod. Ensure you have the versions compatible with the 2026 Gen 5 update.
+  </Step>
+  <Step num="2" title="Locate Game Directory">
+    Right-click the game in your Steam library, select **Manage**, then **Browse local files**. Navigate to `EscapeTheBackrooms > Content > Paks`.
+  </Step>
+  <Step num="3" title="Create Mods Folder">
+    Inside the `Paks` folder, create a new folder named `~mods` (the tilde is often required for the engine to prioritize these files).
+  </Step>
+  <Step num="4" title="Install Packs">
+    Extract the downloaded `.pak` files for both Interpose and the 16-player mod into this new folder.
+  </Step>
+  <Step num="5" title="Verify Installation">
+    Launch the game. When creating a multiplayer server, you should now see the slider or input field allow for up to 16 players.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Mod Compatibility">
+Every time the developers release a major patch, the Interpose loader may break. If your game crashes on startup after an update, remove the `~mods` folder and wait for a mod update.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Method 2: Memory Modification via Cheat Engine">
+
+If mods are currently broken due to a recent update, you can manually override the **Escape the Backrooms max players** count using memory editing. This method works by finding the specific value in your RAM that controls the lobby size and changing it before the server is fully initialized.
+
+| Scan Step | Action | Value to Search |
+| :--- | :--- | :--- |
+| **Initial Scan** | Set lobby to 4 players | 4 |
+| **Second Scan** | Change lobby to 2 players | 2 |
+| **Third Scan** | Change lobby back to 4 | 4 |
+| **Final Step** | Modify remaining addresses | 16 |
+
+<Callout type="success">
+This method does not modify game files, making it a "cleaner" way to bypass limits without worrying about file integrity checks. However, you must repeat the process every time you restart the game client.
+</Callout>
+
+1. Open **Cheat Engine** and attach it to the `Backrooms-Win64-Shipping.exe` process.
+2. In the game's multiplayer menu, set the player count to 4 and perform a "First Scan" for the value 4.
+3. Change the count to 2 in-game and perform a "Next Scan" for 2.
+4. Repeat this until only a few addresses remain.
+5. Select the remaining addresses and change their value to **16**.
+6. Create the lobby immediately. The game will now allow 15 other players to join your session.
+
+</Section>
+
+<Section icon={Shield} title="Technical Limitations and Performance">
+
+While having 16 players is possible, the Unreal Engine implementation in *Escape the Backrooms* has specific bottlenecks. The game uses a peer-to-peer (P2P) networking model, meaning the host's hardware and internet connection determine the stability for everyone else.
+
+<CardGrid cols={3}>
+  <Card title="CPU Impact">
+    The host must process entity AI and player locations for 16 different clients, leading to high CPU usage on levels like the Hub.
+  </Card>
+  <Card title="Bandwidth">
+    Proximity voice chat data scales exponentially. With 16 players talking at once, high upload speeds are required for the host.
+  </Card>
+  <Card title="Level Design">
+    Some puzzles, like the elevator sequences or narrow corridors, are not physically large enough to accommodate 16 character models.
+  </Card>
+</CardGrid>
+
+| Player Count | Performance Impact | Recommendation |
+| :--- | :--- | :--- |
+| **1-4 Players** | Negligible | Standard play |
+| **5-8 Players** | Minor stuttering | Best for large friend groups |
+| **9-12 Players** | Frequent lag spikes | Requires high-end host PC |
+| **13-16 Players** | Heavy desync | Only for social/chaos runs |
+
+<Callout type="warning">
+Running a 16-player lobby on a host with less than 16GB of RAM or a quad-core processor will likely result in the server crashing once players start moving between different zones.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Setup Checklist for Large Lobbies">
+
+Before inviting 15 friends to your game, ensure your environment is prepared. Large lobbies often fail not because of the mod, but because of simple configuration errors.
+
+<Checklist
+  id="lobby-prep"
+  title="Host Preparation Checklist:"
+  items={[
+    "Ensure all players have the same mod version installed (if using Method 1)",
+    "Disable Windows Firewall or add an exception for the game executable",
+    "Verify game files on Steam to ensure no corrupted paks are present",
+    "Set your Steam Download Region to the same location as your friends to reduce ping",
+    "Close background applications like Chrome to free up CPU cycles for the host"
+  ]}
+/>
+
+<Callout type="tip" title="Pro Tip">
+If you are playing with 16 people, designate one "Master Explorer" to lead the group. Having 16 people scatter in Level 0 (The Lobby) makes it nearly impossible to regroup due to the procedural nature of the walls.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the official Escape the Backrooms max players limit?",
+    answer: "The official limit supported by the developers is 4 players. Any count above this requires the use of third-party mods or memory editing tools."
+  },
+  {
+    question: "Can I get banned for using the 16-player mod?",
+    answer: "Currently, there is no anti-cheat system in Escape the Backrooms that bans players for increasing lobby sizes. It is a cooperative game, so there is no competitive advantage being gained over others."
+  },
+  {
+    question: "Do all 16 players need to install the mod?",
+    answer: "For the Interpose method, it is highly recommended that everyone has the mod to prevent desync. For the Cheat Engine method, only the host needs to modify their memory values."
+  },
+  {
+    question: "Why can't I go higher than 16 players?",
+    answer: "This is a hard-coded limitation within the specific version of Unreal Engine used by the game. Attempting to force values higher than 16 usually results in an immediate crash or the server failing to appear in the lobby browser."
+  }
+]} />
+
+</Section>

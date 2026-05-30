@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Eye, Ghost } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Nivel 1: Guía y Consejos Esenciales de Supervivencia",
+  description: "Domina el Nivel 1 de Escape the Backrooms con nuestra guía de 2026. Aprende códigos de coches, ubicaciones de llaves, cómo evitar a los Smilers y los puzles del terminal de la Base MEG.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Level+1+Habitable+Zone+Guide",
+  date: "2026-05-30",
+  author: "Equipo de Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- El **Nivel 1 de Escape the Backrooms** se conoce como "La Zona Habitable", un enorme garaje de hormigón.
+- La **Gestión de la Cordura** es crítica aquí; usa **Agua de Almendras** para prevenir alucinaciones y la muerte.
+- La **Estructura de Cinco Partes** implica desbloquear ascensores, encontrar llaves, navegar por laberintos de varios pisos y sobrevivir a base de luz.
+- Las **Entidades** a tener en cuenta incluyen a los **Skin-Stealers** (Piso 2/3) y a los **Smilers** (Piso 5).
+- El acceso al **Hub** es obligatorio en la Parte 4 para anular las puertas de seguridad.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Nivel 1: La Zona Habitable">
+
+El **Nivel 1 de Escape the Backrooms** marca un cambio significativo en la jugabilidad respecto a los pasillos amarillentos del Nivel 0. Comúnmente conocido como "La Zona Habitable", este nivel introduce la mecánica de cordura, obligando a los jugadores a gestionar su estado mental mientras navegan por una estructura de estacionamiento de hormigón en expansión. La atmósfera es húmeda, con poca luz y mucho más industrial que las áreas anteriores.
+
+| Atributo | Detalles |
+| :--- | :--- |
+| **Nombre Oficial** | Nivel 1: La Zona Habitable |
+| **Entorno** | Garaje de Estacionamiento Industrial / Oficinas |
+| **Drenaje de Cordura** | Activo (Requiere Agua de Almendras) |
+| **Objetos Clave** | Agua de Almendras, Linterna, Barras de Chocolate |
+| **Entidades Principales** | Skin-Stealers, Smilers |
+
+**Puntos Destacados del Video:**
+- Tutorial detallado del **Puzle de Coches Codificados por Colores**.
+- Ruta eficiente para la **Búsqueda de 4 Llaves** en el Piso 2.
+- Explicación del proceso de inicio de sesión del **Terminal de la Base MEG**.
+- Estrategias de supervivencia para el **Pasillo de los Smilers** en la Parte 5.
+
+<YouTubeEmbed videoId="g1WS5VfSNo0" title="Escape The Backrooms Level 1 FULL UPDATED WALKTHROUGH AND GUIDE" />
+
+<Callout type="tip" title="Supervivencia Inicial">
+Tan pronto como entres al Nivel 1, prioriza encontrar una **Linterna**. A diferencia del Nivel 0, la iluminación aquí es inconsistente, y muchas habitaciones con puzles están completamente a oscuras.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Parte 1 y 2: Ascensores y la Búsqueda de Llaves">
+
+El primer desafío en el **Nivel 1 de Escape the Backrooms** es un puzle de lógica. Encontrarás un ascensor bloqueado detrás de un panel codificado por colores. Para encontrar la combinación, navega a la "Sala de Coches", que contiene cuatro vehículos de diferentes colores.
+
+<CardGrid cols={2}>
+  <Card title="El Puzle del Coche">
+    Lee los colores de los coches de **izquierda a derecha**. Las combinaciones comunes incluyen Rojo, Rojo, Azul, Amarillo, pero estas pueden variar. Introduce esta secuencia en el ascensor para descender al Piso 2.
+  </Card>
+  <Card title="El Objetivo de la Llave">
+    En el Piso 2, debes localizar **cuatro llaves**. Estas están escondidas aleatoriamente en armarios, cajones de escritorio y taquillas. El mapa es un bucle, así que toma nota mental de las habitaciones que has despejado.
+  </Card>
+</CardGrid>
+
+<Steps>
+  <Step num="1" title="Localiza la Sala de Coches">
+    Sigue las puertas rojas hasta que encuentres el área del garaje con cuatro coches de colores distintos.
+  </Step>
+  <Step num="2" title="Anota la Secuencia">
+    Registra los colores desde la perspectiva de la entrada del garaje (de Izquierda a Derecha).
+  </Step>
+  <Step num="3" title="Desbloquea el Piso 2">
+    Regresa al ascensor y presiona los botones de colores correspondientes.
+  </Step>
+  <Step num="4" title="Busca en los Armarios">
+    En el Piso 2, revisa cada cajón. Las llaves emiten un tenue brillo metálico.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Alerta de Entidad: Skin-Stealers">
+El Piso 2 introduce a los **Skin-Stealers**. Si te persiguen, cierra las puertas detrás de ti para barricadearte. No pueden abrir puertas, y eventualmente perderán interés si te quedas en silencio.
+</Callout>
+
+| Tipo de Ubicación de Llave | Probabilidad de Aparición | Potencial de Saqueo |
+| :--- | :--- | :--- |
+| **Escritorios de Oficina** | Alta | Llaves, Agua de Almendras |
+| **Armarios de Pared** | Media | Llaves, Linternas |
+| **Cajones de Suelo** | Baja | Llaves, Barras Energéticas |
+
+</Section>
+
+<Section icon={Shield} title="Parte 3: El Laberinto de Tres Pisos">
+
+La Parte 3 es una de las secciones más frustrantes para los nuevos jugadores. Consiste en tres pisos idénticos (-1, -2 y -3). Tu objetivo es encontrar una puerta específica donde un ascensor tiene una probabilidad aleatoria de aparecer.
+
+**Desglose de los Pisos:**
+- **Piso -1**: Generalmente seguro sin entidades. Bueno para abastecerse de suministros.
+- **Piso -2**: Un Skin-Stealer deambula por los pasillos. Alta probabilidad de aparición de ascensores.
+- **Piso -3**: Extremadamente peligroso. Múltiples entidades pueden aparecer. Desciende solo si el ascensor no está en pisos superiores.
+
+<Callout type="info" title="RNG del Ascensor">
+La aparición del ascensor se aleatoriza por sesión. Si encuentras una puerta cerrada que no se abre, ese fue un posible punto de aparición que falló. Muévete al siguiente piso inmediatamente.
+</Callout>
+
+| Nivel del Piso | Calificación de Peligro | Presencia de Entidades | Densidad de Botín |
+| :--- | :--- | :--- | :--- |
+| **Piso -1** | ★☆☆☆☆ | Ninguna | Alta |
+| **Piso -2** | ★★★☆☆ | Skin-Stealer | Media |
+| **Piso -3** | ★★★★★ | Múltiples Skin-Stealers | Baja |
+
+</Section>
+
+<Section icon={Sparkles} title="Parte 4: El Hub y la Anulación de la Base MEG">
+
+Para avanzar a través de la puerta final del **Nivel 1 de Escape the Backrooms**, debes realizar una anulación de seguridad. Esto requiere entrar en **El Hub**, una zona interdimensional central.
+
+**Pasos del Puzle del Terminal:**
+1. Localiza el terminal de seguridad fuera de la Base MEG.
+2. Haz coincidir el código del lado derecho de la pantalla con la columna correspondiente del lado izquierdo.
+3. Una vez dentro, enciende los cuatro interruptores de luz de la pared derecha.
+4. Inicia sesión en el ordenador utilizando la contraseña que se encuentra en la nota cercana (normalmente "**it heard you**").
+5. Ejecuta `gate.exe` para abrir el camino de regreso al nivel principal.
+
+<Callout type="success" title="Beneficios de la Base MEG">
+La Base MEG es una zona segura. Utiliza este tiempo para reponer tu cordura y resistencia sin la amenaza de las entidades.
+</Callout>
+
+| Columna del Terminal | Requisito de Coincidencia de Código | Acción |
+| :--- | :--- | :--- |
+| **Columna A** | LD (HL) | Seleccionar si el código del lado derecho coincide |
+| **Columna B** | RX (02) | Seleccionar si el código del lado derecho coincide |
+| **Columna C** | TZ (99) | Seleccionar si el código del lado derecho coincide |
+
+</Section>
+
+<Section icon={Swords} title="Parte 5: Smilers y la Salida Final">
+
+El tramo final del nivel es una prueba de sincronización y nervios. Entrarás en un pasillo donde las luces parpadean rítmicamente. Cuando las luces están encendidas, estás a salvo. Cuando se apagan, los **Smilers** aparecen instantáneamente.
+
+**Reglas de Supervivencia:**
+- **El Parpadeo**: Cuando las luces parpadean, tienes exactamente **3 segundos** para llegar a una zona segura.
+- **Zonas Seguras**: Son pequeñas habitaciones con puertas dobles azules.
+- **La Salida**: Detrás de una de las puertas azules en una zona segura está la transición a **Pipe Dreams**.
+
+<CardGrid cols={3}>
+  <Card title="El Smiler">
+    Rápido, agresivo y letal. Solo aparecen en la oscuridad total. Nunca te quedes en el pasillo cuando las luces se cortan.
+  </Card>
+  <Card title="Estrategia de Movimiento">
+    Muévete solo entre un conjunto de puertas a la vez. No intentes correr por todo el pasillo en un solo ciclo de luz.
+  </Card>
+  <Card title="Salida a Pipe Dreams">
+    La puerta de salida es idéntica a las demás, pero conduce a un pasillo oscuro y lleno de tuberías. Este es tu billete para salir del Nivel 1.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Comprobación de Cordura">
+La oscuridad en la Parte 5 drena la cordura a un ritmo acelerado. Si tu pantalla comienza a distorsionarse, bebe Agua de Almendras inmediatamente o sucumbirás a los Smilers incluso en las zonas "seguras".
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Logros y Lista de Verificación">
+
+Completar el **Nivel 1 de Escape the Backrooms** desbloquea el logro "Escapa de la Zona Habitable". Para asegurar una carrera de finalización del 100%, sigue esta lista de verificación.
+
+<Checklist
+  id="level-1-milestones"
+  title="Objetivos de Finalización del Nivel 1:"
+  items={[
+    "Decodifica la secuencia del coche y llega al Piso 2",
+    "Recoge las 4 llaves de los armarios de la oficina",
+    "Localiza el ascensor en la sección del laberinto de 3 pisos",
+    "Ejecuta `gate.exe` con éxito en la Base MEG",
+    "Llega a la salida de Pipe Dreams sin morir a manos de un Smiler"
+  ]}
+/>
+
+| Nombre del Logro | Tipo | Dificultad |
+| :--- | :--- | :--- |
+| **Escapa de la Zona Habitable** | Progresión | Media |
+| **Puerta Equivocada (Final C)** | Secreto | Difícil |
+| **Cordura Restaurada** | Utilidad | Fácil |
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la mejor manera de lidiar con los Skin-Stealers en el Nivel 1?",
+    answer: "Los Skin-Stealers son sensibles al sonido. Si los escuchas cerca, camina agachado. Si te detectan, corre a una habitación y cierra la puerta. No pueden abrir puertas, así que puedes esperar hasta que desaparezcan o se alejen."
+  },
+  {
+    question: "¿Cómo sé en qué piso está el ascensor en la Parte 3?",
+    answer: "Es completamente aleatorio. Revisa el Piso -1 primero, ya que es seguro. Si la puerta está cerrada, muévete al -2. Si el -2 también está cerrado, se garantiza que estará en el Piso -3. Siempre lleva una linterna."
+  },
+  {
+    question: "¿Qué pasa si me quedo sin Agua de Almendras?",
+    answer: "Tu cordura disminuirá, lo que llevará a alucinaciones visuales, distorsiones auditivas y, finalmente, la muerte. Si te queda poca, revisa los cajones de las oficinas de la Parte 2; tienen la mayor tasa de aparición de suministros."
+  },
+  {
+    question: "¿Hay una salida secreta en el Nivel 1 de Escape the Backrooms?",
+    answer: "Sí, el final 'Puerta Equivocada' se puede acceder subiendo la rampa en la Parte 5 hasta el segundo piso. Necesitarás una tarjeta de identificación para abrir la puerta sellada de MEG, que conduce al Nivel 922."
+  }
+]} />
+
+</Section>

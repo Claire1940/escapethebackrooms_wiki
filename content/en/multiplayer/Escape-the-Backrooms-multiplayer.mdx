@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Users } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Multiplayer: 2026 Progression Guide & Survival Tips",
+  description: "Master Escape the Backrooms multiplayer with our 2026 guide. Learn level strategies, sanity management, nightmare exploits, and how to unlock all 5 endings.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Multiplayer+Survival+Guide",
+  date: "2026-05-30",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Escape the Backrooms multiplayer** supports up to 4 players in online co-op, featuring proximity voice chat that entities can hear.
+- **Sanity management** is critical; players must consume Almond Water to prevent sanity from dropping to zero, which results in instant death.
+- **Team coordination** is required for puzzles like the Level 3 Substations and the Suburb computer uploads.
+- **Nightmare Difficulty** resets the entire run if a single player dies, necessitating the use of movement exploits like bunny hopping.
+- **Five unique endings** are available, each requiring specific actions across the game's 30+ levels to achieve 100% completion.
+</Callout>
+
+<Section icon={Users} title="Multiplayer Mechanics and Team Dynamics">
+
+Escape the Backrooms multiplayer transforms the solitary dread of the creepypasta into a high-stakes cooperative experience. The game utilizes realistic graphics and a minimal UI to immerse up to four players in an atmospheric horror setting. Success depends heavily on communication via proximity voice chat, though players must remain silent when near danger, as entities can track noise.
+
+**Video Highlights:**
+- **Full Walkthrough**: Comprehensive coverage of all 33 unique levels and 34 achievements.
+- **Nightmare Mode**: Strategies for beating the game without a single death.
+- **Puzzle Solutions**: Detailed breakdowns of the Level 0 ladder, Level 3 fuses, and Hotel codes.
+- **Endings Guide**: How to trigger all five distinct game conclusions.
+
+<YouTubeEmbed videoId="gLxfJaDpyvc" title="We Played 100% of Escape The Backrooms Multiplayer" />
+
+In a multiplayer setting, the difficulty scales not just with the entities, but with the logistical challenge of keeping the team together. If a teammate no-clips into a different area, the rest of the group must locate them or proceed to the next transition point. The game features a "No Wanderer Left Behind" policy: every living member of the team must reach the exit trigger simultaneously to progress.
+
+<Callout type="tip" title="Pro Tip">
+Use the "VV" key command to reset your voice chat if it glitches. Many players find that switching to external communication like Discord is safer for planning, though it reduces the immersion of the proximity chat mechanic.
+</Callout>
+
+| Feature | Multiplayer Specification | Impact on Gameplay |
+| :--- | :--- | :--- |
+| **Player Count** | 1-4 Players | Increases puzzle efficiency but raises detection risk. |
+| **Voice Chat** | Proximity-based | Entities can hear your microphone input. |
+| **Revival** | Level Transitions | Dead players usually respawn at the start of the next level. |
+| **Sanity** | Individual Meters | Players must manage their own Almond Water supply. |
+| **Nightmare Rule** | Shared Life Pool | One death results in a total party wipe and reset. |
+
+</Section>
+
+<Section icon={Map} title="Early Level Progression and Puzzles">
+
+The journey begins in Level 0, the iconic yellow-walled labyrinth. In multiplayer, the first priority is locating your teammates. The initial puzzles are designed to teach basic mechanics: stamina management, interaction, and environmental navigation.
+
+<Steps>
+  <Step num="1" title="Level 0: The First Exit">
+    Locate the broken ladder and find the key atop it. Use the key on the nearby door to reach the pitfall room. One player must navigate the balance beam (using Q and E to lean) and drop a rope for the others.
+  </Step>
+  <Step num="2" title="The Parking Garage">
+    Check everyone's ID cards for discrepancies. Note the colors of the four cars in the lot; these colors correspond to the code for the floor 4 elevator. Collect flashlights and Almond Water from the trunks.
+  </Step>
+  <Step num="3" title="Level 3: Electrical Station">
+    This Class 4 difficulty level requires the team to activate nine fuses across the East and West Substations. Use flashlights to blind Hounds and run in the opposite direction.
+  </Step>
+  <Step num="4" title="The Office Complex">
+    Solve the vending machine puzzle by counting specific items in the room (tables, chairs, water coolers, books). Use the surveillance room to track entity movements before sprinting to the exit.
+  </Step>
+</Steps>
+
+Level 3 often acts as a bottleneck for uncoordinated teams. The substation puzzle requires players to select buttons based on color, which can be challenging for colorblind players. Coordination is key here—one player should act as bait for the Hounds while the others interact with the fuse boxes.
+
+<Callout type="warning" title="Entity Alert">
+In the Office levels, beware of windows. Approaching a window can trigger a trap that results in an instant kill. Always keep a distance from glass surfaces unless a note explicitly tells you otherwise.
+</Callout>
+
+| Level | Key Objective | Primary Threat |
+| :--- | :--- | :--- |
+| **Level 0** | Balance Beam & Rope | The Bacteria (Dullers) |
+| **Parking** | Car Color Code | The Smiler |
+| **Level 3** | 9-Fuse Restoration | Hounds & Electrical Puddles |
+| **Office** | Vending Machine Count | Surveillance Cameras & Traps |
+
+</Section>
+
+<Section icon={Shield} title="Sanity Management and Entity Survival">
+
+Sanity is a passive drain mechanic that serves as a secondary timer for every level. If your sanity hits zero, you die instantly. Multiplayer teams should distribute Almond Water evenly, though "Needy Puzzle Boys" (players who take longer on puzzles) may require a larger share.
+
+<CardGrid cols={2}>
+  <Card title="Sanity Maintenance">
+    - **Almond Water**: The primary resource for restoring sanity. Found in crates and vending machines.
+    - **White Monster**: A rare variant that provides a larger sanity boost and stamina regeneration.
+    - **Safe Zones**: The Hub and certain transition rooms pause sanity drain.
+  </Card>
+  <Card title="Entity Counter-Measures">
+    - **Skin Stealers**: Can mimic players. Check ID cards or use pre-set passphrases to verify teammates.
+    - **Hounds**: Blind them with flashlights to force a temporary retreat.
+    - **Partygoers**: Avoid line of sight. If the music stops, they have detected you. Hide under tables.
+  </Card>
+</CardGrid>
+
+The "Hotel" level introduces the Skin Stealer, an entity that can take the form of your teammates. In Escape the Backrooms multiplayer, this creates a "Trust No One" dynamic. A common strategy is to have all players jump or crouch simultaneously; the mimic often fails to replicate these specific movements in real-time.
+
+<Callout type="info" title="Sanity Mechanics">
+Sanity drains faster in darker levels like "Lights Out" or "Thalassophobia." Ensure your team has at least two functional flashlights before entering these zones to maintain visibility and sanity levels.
+</Callout>
+
+| Entity | Danger Level | Escape Strategy |
+| :--- | :--- | :--- |
+| **Bacteria** | High | Break line of sight and hide in lockers. |
+| **Smiler** | Extreme | Keep your flashlight OFF and back away slowly. |
+| **Librarian** | Moderate | Stay quiet; sound triggers his aggression. |
+| **Wretch** | High | Lock doors behind you; use Almond Concentrate to cure. |
+
+</Section>
+
+<Section icon={Target} title="Late-Game Challenges and The Suburbs">
+
+As you progress toward the endings, the levels transition from Class 1 (Habitable) to Class 5 (Maximum Danger). The Suburbs (Level 9) is a notorious hurdle for multiplayer groups. Six houses contain aggressive Wretches, and the team must split up to activate four computers simultaneously.
+
+<Checklist
+  id="suburb-objectives"
+  title="Level 9 Completion Steps:"
+  items={[
+    "Locate the terminal at the edge of town to identify active houses.",
+    "Split into pairs: one player baits the Wretch while the other uploads data.",
+    "Collect four bottles of Almond Concentrate from the neighborhood.",
+    "Lure the central Wretch into the trap room and activate the shower.",
+    "Retrieve the Key Card from the cured human to unlock the exit gate."
+  ]}
+/>
+
+The "Fun" levels also return with remixed challenges. Players must complete a game of Simon Says (popping balloons in order), lobby fireworks at eyeballs on the walls, and navigate a nightclub filled with glow sticks. These levels test the team's ability to perform precise tasks under the pressure of chasing entities.
+
+<Callout type="success" title="Exploit Alert">
+In the Corn Maze, players can skip the entire section by running along the top of the perimeter fences. This avoids the Chainsaw Man entirely and saves significant time during Nightmare runs.
+</Callout>
+
+| Puzzle Type | Level Location | Team Requirement |
+| :--- | :--- | :--- |
+| **Simon Says** | Level Fun (Pink) | 1 Player (others watch for entities) |
+| **Eye Sniping** | Level Fun (Blue) | 2 Players (1 bait, 1 shooter) |
+| **Glow Stick Match** | Nightclub | 4 Players (matching colors to symbols) |
+| **Computer Upload** | The Suburbs | 4 Players (synchronized activation) |
+
+</Section>
+
+<Section icon={Sparkles} title="Nightmare Difficulty and 100% Achievements">
+
+Beating the game on Nightmare difficulty is the ultimate challenge in Escape the Backrooms multiplayer. Because a single death resets the entire progress to Level 0, teams must utilize every possible advantage, including movement exploits and item duplication.
+
+**Essential Nightmare Tactics:**
+- **Bunny Hopping**: Timing jumps to maintain momentum, allowing you to outrun almost every entity in the game.
+- **Item Duplication**: Dropping items at the exact moment a level transitions can sometimes result in duplicates, ensuring a surplus of Almond Water.
+- **Out-of-Bounds Skips**: In the Cave sections, players can crouch-jump onto specific ledges to bypass the entire labyrinth and reach the exit ditch safely.
+- **Entity Freezing**: Certain triggers allow players to "freeze" entities like the Level 1 bacteria by standing in specific corners, allowing the rest of the team to pass freely.
+
+<Callout type="warning" title="Nightmare Risk">
+Sanity drains significantly faster in Nightmare mode. Do not spend more than 5 minutes in any single room. If a puzzle is taking too long, have the team retreat to a safe zone to reset the drain timer.
+</Callout>
+
+Players aiming for 100% completion must also unlock all five endings. These are often hidden behind "No-Clip" triggers or specific level choices. For example, the "Suburbs" ending is triggered by jumping down the middle of the infinite staircase in Level 9223372036854775807, rather than climbing to the top.
+
+| Ending Name | Level Trigger | Achievement Unlocked |
+| :--- | :--- | :--- |
+| **Wrong Door** | Level 0.11 Exit | Escape the Backrooms |
+| **Pink House** | Mr. Kitty's House | The Pink Room |
+| **The Suburbs** | Infinite Staircase Jump | Subterranean Escape |
+| **Empty City** | Level Overgrowth Slide | Urban Explorer |
+| **Back Home** | Arcade Machine | 100% Completion |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many players can play Escape the Backrooms multiplayer?",
+    answer: "The game supports 1 to 4 players in online co-op. Coordination is vital as the game requires all surviving players to reach exits together."
+  },
+  {
+    question: "What happens if I run out of sanity?",
+    answer: "Your screen will become distorted, your FPS may drop, and you will eventually die. Use Almond Water to restore sanity levels immediately."
+  },
+  {
+    question: "Can entities hear me talking in real life?",
+    answer: "Yes, if you are using the in-game proximity voice chat, entities are programmed to detect microphone input and will move toward the source of the noise."
+  },
+  {
+    question: "Is there a way to revive teammates in multiplayer?",
+    answer: "Teammates typically respawn when the rest of the group successfully transitions to a new level. However, in Nightmare mode, a single death ends the entire run for everyone."
+  }
+]} />
+
+</Section>
