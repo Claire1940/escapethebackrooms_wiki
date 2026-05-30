@@ -3,11 +3,7 @@
 import { Suspense, lazy } from "react";
 import {
   BookOpen,
-  Check,
-  Clock,
-  Monitor,
   Sparkles,
-  Users,
 } from "lucide-react";
 import { useMessages } from "next-intl";
 import { VideoFeature } from "@/components/home/VideoFeature";
@@ -186,7 +182,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.escapeTheBackroomsMultiplayerCrossplayVoiceChat.cards.map((item: any, i: number) => (
               <div key={i} className="p-6 bg-white/5 border border-border rounded-xl">
-                <div className="flex items-center gap-2 mb-2"><Users className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" /><h3 className="font-bold">{item.name}</h3></div>
+                <div className="flex items-center gap-2 mb-2"><DynamicIcon name={item.icon} className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" /><h3 className="font-bold">{item.name}</h3></div>
                 <p className="text-sm text-muted-foreground">{item.description}</p>
               </div>
             ))}
@@ -204,7 +200,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
                 <h3 className="font-bold mb-3">{group.name}</h3>
                 <ul className="space-y-2">
                   {group.items.map((it: string, j: number) => (
-                    <li key={j} className="flex items-start gap-2 text-sm text-muted-foreground"><Check className="w-4 h-4 mt-0.5 text-[hsl(var(--nav-theme-light))]" />{it}</li>
+                    <li key={j} className="flex items-start gap-2 text-sm text-muted-foreground"><DynamicIcon name={group.icon} className="w-4 h-4 mt-0.5 text-[hsl(var(--nav-theme-light))]" />{it}</li>
                   ))}
                 </ul>
               </div>
@@ -220,7 +216,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
             {t.modules.escapeTheBackroomsSystemRequirementsSettings.rows.map((row: any, i: number) => (
               <div key={i} className="p-6 border border-border rounded-xl bg-white/5">
-                <div className="flex items-center gap-2 mb-2"><Monitor className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" /><h3 className="font-bold">{row.name}</h3></div>
+                <div className="flex items-center gap-2 mb-2"><DynamicIcon name={row.icon} className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" /><h3 className="font-bold">{row.name}</h3></div>
                 <p className="text-sm text-muted-foreground">{row.description}</p>
               </div>
             ))}
@@ -235,7 +231,7 @@ export default function HomePageClient({ latestArticles, locale }: HomePageClien
           <div className="space-y-4">
             {t.modules.escapeTheBackroomsUpdatesRoadmapPatchNotes.entries.map((entry: any, i: number) => (
               <div key={i} className="p-6 border border-border rounded-xl bg-white/5">
-                <div className="flex items-center gap-2 mb-2"><Clock className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" /><p className="text-xs text-[hsl(var(--nav-theme-light))]">{entry.type}</p></div>
+                <div className="flex items-center gap-2 mb-2"><DynamicIcon name={entry.icon} className="w-4 h-4 text-[hsl(var(--nav-theme-light))]" /><p className="text-xs text-[hsl(var(--nav-theme-light))]">{entry.type}</p></div>
                 <h3 className="font-bold mb-2">{entry.title}</h3>
                 <p className="text-sm text-muted-foreground">{entry.description}</p>
               </div>
