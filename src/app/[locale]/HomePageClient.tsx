@@ -97,7 +97,7 @@ export default function HomePageClient({
         url: siteUrl,
         name: "Escape The Backrooms Wiki",
         description:
-          "Complete Escape The Backrooms Wiki covering crafting, biomes, creatures, items, achievements, lore, and survival tips for the liminal co-op horror experience on Steam.",
+          "Complete Escape The Backrooms Wiki covering levels, entities, endings, achievements, items, and co-op survival strategies.",
         image: {
           "@type": "ImageObject",
           url: `${siteUrl}/images/hero.webp`,
@@ -118,7 +118,7 @@ export default function HomePageClient({
         alternateName: "Escape The Backrooms",
         url: siteUrl,
         description:
-          "Complete Escape The Backrooms Wiki resource hub for crafting, biomes, creatures, items, achievements, and survival guides",
+          "Complete Escape The Backrooms Wiki resource hub for levels, entities, endings, achievements, and co-op survival guides.",
         logo: {
           "@type": "ImageObject",
           url: `${siteUrl}/android-chrome-512x512.png`,
@@ -142,12 +142,12 @@ export default function HomePageClient({
       {
         "@type": "VideoGame",
         name: "Escape The Backrooms",
-        gamePlatform: ["PC", "Steam"],
+        gamePlatform: ["PC", "Steam", "PlayStation 5", "Xbox Series X|S"],
         applicationCategory: "Game",
-        genre: ["Survival", "Sandbox", "Adventure", "Psychedelic"],
+        genre: ["Horror", "Co-op", "Adventure", "Survival"],
         numberOfPlayers: {
           minValue: 1,
-          maxValue: 1,
+          maxValue: 4,
         },
         offers: {
           "@type": "Offer",

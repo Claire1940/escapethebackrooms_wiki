@@ -34,27 +34,27 @@
     "articlesComingSoon": "Articles coming soon"
   },
   "hero": {
-    "badge": "Surreal Voxel Survival Sandbox",
-    "title": "Lucid Blocks Wiki",
-    "description": "Explore dreamlike biomes, fuse items with Apotheosis, build freely, and survive strange creatures in this surreal open-world sandbox on Steam.",
-    "getFreeCodesCTA": "Explore Crafting Guide",
+    "badge": "Co-op Liminal Horror Exploration",
+    "title": "Escape The Backrooms Wiki",
+    "description": "Escape The Backrooms is a 1-4 player co-op horror game where players explore 30+ eerie Backrooms levels, solve exit puzzles, manage sanity, and avoid deadly entities.",
+    "getFreeCodesCTA": "Start Walkthrough",
     "playOnSteamCTA": "Play on Steam",
     "stats": {
       "stat1": {
-        "value": "1,325",
-        "label": "Players Online"
+        "value": "30+",
+        "label": "Backrooms Levels"
       },
       "stat2": {
-        "value": "1,986",
-        "label": "Peak CCU"
+        "value": "1-4",
+        "label": "Online Co-op"
       },
       "stat3": {
-        "value": "97%",
-        "label": "Positive Reviews"
+        "value": "48,879",
+        "label": "Peak CCU"
       },
       "stat4": {
-        "value": "Mar 12, 2026",
-        "label": "Release Date"
+        "value": "90% / 139k+",
+        "label": "Steam Reviews"
       }
     }
   },
@@ -785,18 +785,18 @@
     ]
   },
   "cta": {
-    "title": "Ready to Explore Lucid Blocks?",
-    "description": "Join the Lucid Blocks community on Discord for guides, updates, and discussions!",
-    "joinCommunity": "Join Discord",
-    "joinGame": "Play on Steam"
+    "title": "Ready to Escape The Backrooms?",
+    "description": "Join the official Escape The Backrooms community for co-op tips, patch updates, and level walkthroughs.",
+    "joinCommunity": "Join Official Discord",
+    "joinGame": "Play Escape The Backrooms on Steam"
   },
   "footer": {
-    "title": "Lucid Blocks Wiki",
-    "description": "Your complete resource hub for Lucid Blocks crafting, biomes, creatures, achievements, and survival guides.",
+    "title": "Escape The Backrooms Wiki",
+    "description": "Your complete resource hub for Escape The Backrooms levels, entities, endings, co-op strategies, and survival guides.",
     "resources": "Resources",
     "community": "Community",
     "legal": "Legal",
-    "discord": "Discord",
+    "discord": "Official Discord",
     "twitter": "X / Twitter",
     "steamCommunity": "Steam Community",
     "steamStore": "Steam Store",
@@ -804,7 +804,7 @@
     "privacy": "Privacy Policy",
     "terms": "Terms of Service",
     "copyrightNotice": "Copyright",
-    "copyright": "© 2026 Lucid Blocks Wiki. Not affiliated with the developers of Lucid Blocks.",
+    "copyright": "© 2026 Escape The Backrooms Wiki. Not affiliated with Fancy Games or Secret Mode.",
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
