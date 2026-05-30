@@ -2,13 +2,13 @@ import { defineRouting } from 'next-intl/routing'
 
 export const routing = defineRouting({
 	// 支持的语言列表
-	locales: ['en', 'ru', 'pt', 'de', 'es', 'ja', 'tr', 'fr'],
+	locales: ['en', 'ru', 'ja', 'es'],
 
 	// 默认语言
 	defaultLocale: 'en',
 
 	// URL 前缀策略：默认语言无前缀
-	localePrefix: 'as-needed',
+	localePrefix: "as-needed",
 
 	// 启用自动语言检测
 	localeDetection: true,
