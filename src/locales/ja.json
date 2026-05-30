@@ -1,10 +1,477 @@
 {
+  "seo": {
+    "home": {
+      "title": "Escape The Backrooms Wiki - レベル、エンティティ、ウォークスルー",
+      "description": "Escape The Backrooms Wikiでは、レベルのウォークスルー、エンティティカウンター、アイテム、エンディング、実績、協力プレイのヒント、PC、PS5、Xboxのプラットフォームガイドを提供しています。",
+      "keywords": "Escape The Backrooms, Steam, PS5, Xbox, レベル, エンティティ, ウォークスルー, エンディング",
+      "ogTitle": "Escape The Backrooms Wiki - レベル、エンティティ、ウォークスルー",
+      "ogDescription": "Escape The Backrooms Wikiでは、レベルのウォークスルー、エンティティカウンター、アイテム、エンディング、実績、協力プレイのヒント、PC、PS5、Xboxのプラットフォームガイドを提供しています。",
+      "twitterTitle": "Escape The Backrooms Wiki - レベル、エンティティ、ウォークスルー",
+      "twitterDescription": "Escape The Backrooms Wikiでは、レベル、エンティティ、実績、エンディング、協力プレイのサバイバル戦略を網羅しています。"
+    }
+  },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
+    "guides": "ガイド",
+    "crafting": "クラフト",
+    "items": "アイテム",
+    "biomes": "バイオーム",
+    "building": "建築",
+    "support": "サポート"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Steamでプレイ",
+    "switchLanguage": "言語を切り替える",
+    "switchTheme": "テーマを切り替える",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "お探しのページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "続きを読む",
+    "articlesComingSoon": "記事は近日公開予定"
+  },
+  "hero": {
+    "badge": "協力プレイの境界ホラー探索",
+    "title": "Escape The Backrooms Wiki",
+    "description": "Escape The Backroomsは、1～4人用の協力ホラーゲームで、プレイヤーは30以上の不気味なBackroomsのLevelを探索し、脱出パズルを解き、正気を保ち、危険なEntityを避けます。",
+    "getFreeCodesCTA": "ウォークスルーを開始",
+    "playOnSteamCTA": "Steamでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "30+",
+        "label": "Backrooms Levels"
+      },
+      "stat2": {
+        "value": "1-4",
+        "label": "オンライン協力プレイ"
+      },
+      "stat3": {
+        "value": "48,879",
+        "label": "ピーク同時接続数"
+      },
+      "stat4": {
+        "value": "90% / 139k+",
+        "label": "Steamレビュー"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Escape The Backrooms ゲームプレイ",
+    "description": "Escape The Backroomsで、リミナルなLevelを探索し、パズルを解き、Entityを避け、協力チームと生き残りましょう。"
+  },
+  "tools": {
+    "title": "Escape The Backrooms",
+    "titleHighlight": "モジュールナビゲーション",
+    "subtitle": "Escape The Backroomsのすべての主要ホームページモジュールへのクイックジャンプ",
+    "cards": [
+      {
+        "icon": "Monitor",
+        "title": "Escape The Backrooms プラットフォームとゲームパス",
+        "description": "Steam、Xbox、PlayStation、およびクラウドでの利用可能性"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Escape The Backrooms 初心者ガイド",
+        "description": "基本的なルール、ペース配分、初回プレイでの生存"
+      },
+      {
+        "icon": "ListChecks",
+        "title": "Escape The Backrooms 全Levelウォークスルー",
+        "description": "Levelの流れ、目標、ルートの優先順位"
+      },
+      {
+        "icon": "Swords",
+        "title": "Escape The Backrooms Entityガイド",
+        "description": "Entityの行動と回避の基本"
+      },
+      {
+        "icon": "Users",
+        "title": "Escape The Backrooms マルチプレイヤークロスプレイ",
+        "description": "協力プレイの設定、ロビーコード、音声の使用"
+      },
+      {
+        "icon": "Shield",
+        "title": "Escape The Backrooms アチーブメントとトロフィー",
+        "description": "達成目標と効率的な追跡"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Escape The Backrooms システム要件",
+        "description": "PCのスペック、プラットフォームの注意事項、設定"
+      },
+      {
+        "icon": "Clock",
+        "title": "Escape The Backrooms アップデートとパッチノート",
+        "description": "バージョンタイムラインとロードマップのハイライト"
+      }
+    ]
+  },
+  "modules": {
+    "escapeTheBackroomsDownloadPlatformsGamePass": {
+      "title": "Escape The BackroomsのダウンロードプラットフォームとGame Pass",
+      "intro": "Steam、Xbox、PlayStationでEscape The Backroomsをプレイし、お使いのプラットフォームと協力グループに最適なエントリーポイントを選択してください。",
+      "cards": [
+        {
+          "name": "PC版 Steam",
+          "description": "Steamで購入してプレイし、完全なアップデートとコミュニティコンテンツを利用できます。"
+        },
+        {
+          "name": "Xbox Series X|S および Xbox アプリ",
+          "description": "最新のXbox機能とクロスプラットフォームマルチプレイヤーをサポートしています。"
+        },
+        {
+          "name": "PlayStation 5",
+          "description": "PS5版はオンラインセッションとクロスプラットフォームロビーをサポートしています。"
+        },
+        {
+          "name": "Game Passの利用可能性",
+          "description": "アクセスするために購読する前に、現在のGame Passカタログのステータスを確認してください。"
+        }
+      ]
+    },
+    "escapeTheBackroomsBeginnerGuide": {
+      "title": "Escape The Backrooms 初心者ガイド",
+      "intro": "長時間のプレイやより難しいLevelに挑戦する前に、協力サバイバルループを学びましょう。",
+      "steps": [
+        {
+          "title": "序盤はグループで行動する",
+          "description": "序盤の全滅や混乱を減らすために、チームメイトと視線を合わせ続けましょう。"
+        },
+        {
+          "title": "各Levelの目標を読む",
+          "description": "各エリアには特定の脱出ロジックがあります。走り出す前にそれを特定しましょう。"
+        },
+        {
+          "title": "スタミナとアイテムを温存する",
+          "description": "リソースの無駄を減らし、終盤のプレッシャーに対処しやすくしましょう。"
+        },
+        {
+          "title": "短いコールアウトを使用する",
+          "description": "追跡中に長い説明をするよりも、素早い位置のコールアウトの方が優れています。"
+        }
+      ],
+      "quickTips": [
+        "意図を持って移動し、行き止まりの探索は避けましょう。",
+        "1人のプレイヤーを目標追跡に集中させましょう。",
+        "各遭遇の後、パニック連鎖ミスを避けるために通信をリセットしましょう。"
+      ]
+    },
+    "escapeTheBackroomsAllLevelsWalkthrough": {
+      "title": "Escape The Backrooms 全Levelウォークスルー",
+      "intro": "主要なLevelの進行とペースコントロールのための実用的なルート概要。",
+      "items": [
+        {
+          "name": "Level 0 スタート",
+          "type": "オープニング",
+          "description": "経路の規律とランドマークの記憶を優先しましょう。"
+        },
+        {
+          "name": "ハブと中盤の連鎖",
+          "type": "進行",
+          "description": "ハブの移行を利用して再編成し、役割を再割り当てしましょう。"
+        },
+        {
+          "name": "Entityが多い廊下",
+          "type": "危険",
+          "description": "ゆっくりと進入し、ドアを確認することで、不意の排除を減らします。"
+        },
+        {
+          "name": "終盤の分岐",
+          "type": "終盤",
+          "description": "高リスクの引き返しを避けるために、1つのルート計画にコミットしましょう。"
+        }
+      ]
+    },
+    "escapeTheBackroomsEntitiesGuide": {
+      "title": "Escape The Backrooms エンティティガイド",
+      "intro": "各エンティティの基本的なパターンを理解し、遭遇時に明確な対応ができるようにしましょう。",
+      "cards": [
+        {
+          "name": "Bacteria",
+          "description": "開けたルートでの躊躇を罰するプレッシャーの脅威。"
+        },
+        {
+          "name": "Skin Stealer",
+          "description": "信頼できるチームメイトと一緒にいて、孤立した行動を避けましょう。"
+        },
+        {
+          "name": "Smiler",
+          "description": "避けられる死を防ぐために、暗闇と視界を管理しましょう。"
+        },
+        {
+          "name": "Level-specific threats",
+          "description": "各Levelのエンティティをユニークなものとして扱い、素早く適応しましょう。"
+        }
+      ]
+    },
+    "escapeTheBackroomsMultiplayerCrossplayVoiceChat": {
+      "title": "Escape The Backrooms マルチプレイヤー クロスプレイとボイスチャット",
+      "intro": "ロビーコード、クロスプレイ切り替え、よりクリアなコールアウトのために調整された近接ボイスチャットを使用して、ソロまたは協力プレイでプラットフォームを越えてプレイできます。",
+      "cards": [
+        {
+          "icon": "Gamepad2",
+          "name": "クロスプレイロビー",
+          "description": "公開またはプライベートセッションをホストし、ロビーコードを共有することで、PC、Xbox、PS5のフレンドが素早く参加できます。"
+        },
+        {
+          "icon": "Users",
+          "name": "役割分担",
+          "description": "高圧的なLevelで迅速な意思決定を維持するために、任務をパスファインダー、パズルリーダー、安全コール担当に分けましょう。"
+        },
+        {
+          "icon": "Mic",
+          "name": "ボイス規律",
+          "description": "短い近接チャットコールアウトを使用し、エンティティのパトロール中は雑談を減らして、避けられるワイプを減らしましょう。"
+        },
+        {
+          "icon": "ShieldCheck",
+          "name": "回復計画",
+          "description": "難しいセクションの前に再編成チェックポイントと後退ルートを設定し、失敗した試行からの回復を早めましょう。"
+        }
+      ]
+    },
+    "escapeTheBackroomsAchievementsTrophies": {
+      "title": "Escape The Backrooms アチーブメントとトロフィー",
+      "intro": "Steam版には34のアチーブメントがあり、ほとんどがLevelの出口、難易度、マルチプレイヤーの目標で、構造化された進行を報酬としています。",
+      "groups": [
+        {
+          "icon": "Route",
+          "name": "進行マイルストーン",
+          "items": [
+            "まずLevel脱出アチーブメントをクリアして、合計完了の大部分を確定させましょう。",
+            "各実行後に見逃したLevelトリガーを追跡し、クリーンアップセッションを短く保ちましょう。"
+          ]
+        },
+        {
+          "icon": "Flame",
+          "name": "チャレンジマイルストーン",
+          "items": [
+            "安定したルート記憶と役割規律を持つチームのために、ハードとナイトメアの目標を残しておきましょう。",
+            "グループがコアLevelを一貫してクリアできるようになった後にのみ、マルチプレイヤーチャレンジアチーブメントを実行しましょう。"
+          ]
+        }
+      ]
+    },
+    "escapeTheBackroomsSystemRequirementsSettings": {
+      "title": "Escape The Backroomsのシステム要件と設定",
+      "intro": "公式のPC要件とプラットフォームの注意事項を使用して、安定した設定、言語サポート、協力プレイに対応したパフォーマンスの基準を選択してください。",
+      "rows": [
+        {
+          "icon": "Cpu",
+          "name": "PCの基準",
+          "description": "最小要件: Windows 10/11 64ビット、8 GB RAM、DirectX 11サポート、25 GBの空きストレージ。"
+        },
+        {
+          "icon": "Gauge",
+          "name": "グラフィックのバランス",
+          "description": "推奨要件: Windows 11、16 GB RAM、RTX 2060またはRX 6600クラスのGPUで、より安定した協力プレイパフォーマンスを実現。"
+        },
+        {
+          "icon": "Languages",
+          "name": "オーディオと音声",
+          "description": "音声レベルを周囲のキューより低く保ち、地域をまたぐセッションの前に言語の利用可能性を確認してください。"
+        },
+        {
+          "icon": "MonitorSmartphone",
+          "name": "プラットフォームの確認",
+          "description": "クロスプレイの前にSteam、Xbox、PS5でバージョンの一貫性を確認し、ロビー参加と目標が同期されるようにしてください。"
+        }
+      ]
+    },
+    "escapeTheBackroomsUpdatesRoadmapPatchNotes": {
+      "title": "Escape The Backroomsのアップデートロードマップとパッチノート",
+      "intro": "早期アクセスから1.0までの公式リリーススケジュールと、協力プレイの流れを変えた最近のコンソール時代のクロスプレイアップデートを追跡します。",
+      "entries": [
+        {
+          "icon": "Rocket",
+          "type": "パッチ",
+          "title": "2025年正式リリースと安定化",
+          "description": "ゲームは2025年10月に早期アクセスを終了し、その後クラッシュと進行の安定性に焦点を当てたホットフィックスが続きました。"
+        },
+        {
+          "icon": "Network",
+          "type": "コンテンツ",
+          "title": "2026年クロスプラットフォームマッチメイキングの拡張",
+          "description": "ロードマップのアップデートにより、クロスプラットフォームマッチメイキング、ロビーコードフロー、およびより広範なボイスチャットサポートが導入されました。"
+        },
+        {
+          "icon": "CalendarCheck2",
+          "type": "ロードマップ",
+          "title": "最新パッチとコンソール発売期間",
+          "description": "最近のパッチサイクルでは、プラットフォームの安全ツール、自動保存メッセージ、およびSteam、Xbox、PS5間での発売調整が追加されました。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Escape The Backrooms FAQ",
+    "titleHighlight": "よくある質問",
+    "subtitle": "Escape The Backroomsプレイヤーのための主要な回答",
+    "questions": [
+      {
+        "question": "Escape The Backroomsはソロプレイ可能ですか？",
+        "answer": "はい、Escape The Backroomsはソロプレイをサポートしていますが、協力プレイは難しいルートでの一貫性を向上させます。"
+      },
+      {
+        "question": "Escape The Backroomsはクロスプレイをサポートしていますか？",
+        "answer": "はい、Escape The Backroomsはサポートされているプラットフォームでロビーコードを使用したクロスプラットフォームマッチメイキングをサポートしています。"
+      },
+      {
+        "question": "Escape The Backroomsの協力プレイには何人のプレイヤーが参加できますか？",
+        "answer": "Escape The Backroomsはオンライン協力セッションで最大4人のプレイヤーをサポートしています。"
+      },
+      {
+        "question": "Escape The Backroomsを始めるのに最適な方法は何ですか？",
+        "answer": "Escape The Backroomsは、初心者ルート、目標優先のペース配分、短いチームコールアウトで始めましょう。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Escape The Backrooms を脱出する準備はいいですか？",
+    "description": "協力プレイのヒント、パッチ更新、Level 攻略のために、公式 Escape The Backrooms コミュニティに参加しましょう。",
+    "joinCommunity": "公式 Discord に参加する",
+    "joinGame": "Steam で Escape The Backrooms をプレイする"
+  },
+  "footer": {
+    "title": "Escape The Backrooms Wiki",
+    "description": "Escape The Backrooms の Level、Entity、エンディング、協力プレイ戦略、サバイバルガイドを網羅した完全なリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的情報",
+    "discord": "公式 Discord",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Steam コミュニティ",
+    "steamStore": "Steam ストア",
+    "about": "このサイトについて",
+    "privacy": "プライバシーポリシー",
+    "terms": "利用規約",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Escape The Backrooms Wiki. Fancy Games または Secret Mode との提携はありません。",
+    "disclaimer": "非公式のファン作成リソースサイトです。"
+  },
+  "pages": {
+    "guides": {
+      "title": "Escape The Backrooms ガイド",
+      "description": "初心者向けの基本から、高度な Level ルーティング、Entity 回避、協力プレイの生存戦略までを網羅した完全なゲームプレイガイド。",
+      "metaTitle": "Escape The Backrooms ガイド - 初心者から上級者向けの戦略",
+      "metaDescription": "初心者向けのヒント、Level ルーティング、Entity 回避、安定したクリアのためのエキスパート協力プレイ戦術を網羅した Escape The Backrooms 完全ガイド。",
+      "categoryLabel": "ゲームガイド",
+      "whatIs": "ガイドとは？",
+      "whatIsDescription": "ゲームプレイの仕組み、Level の目的、Entity のパターン、初回の挑戦から高度なクリアまでのチーム生存戦術を網羅した包括的なガイド。",
+      "why": "なぜガイドを読むのか？",
+      "whySteps": {
+        "step1Title": "基本的な仕組みを学ぶ",
+        "step1Description": "基本的な Level の流れを理解し、初心者が陥りやすいミスを回避します。",
+        "step2Title": "迅速な進行",
+        "step2Description": "実証済みのルートに従い、リセット回数を減らして Level をクリアします。",
+        "step3Title": "戦略をマスターする",
+        "step3Description": "ソロおよび協力プレイでの生存のための高度な戦術を身につけます。"
+      },
+      "featured": "おすすめ・必須",
+      "all": "すべてのガイド"
+    },
+    "crafting": {
+      "title": "Escape The Backrooms クラフト",
+      "description": "一貫したLevelクリアのために、実用的なアイテムの使用法、物資計画、およびユーティリティの優先順位付けを学びましょう。",
+      "metaTitle": "Escape The Backrooms アイテム計画 - 物資とユーティリティの優先順位",
+      "metaDescription": "Escape The Backroomsのアイテム使用を、回復物資、ユーティリティツール、協力プレイの役割分担の実用的な優先順位で計画しましょう。",
+      "categoryLabel": "アイテム計画",
+      "whatIs": "クラフトとは？",
+      "whatIsDescription": "このセクションでは、実用的な装備計画に焦点を当てています。何を携帯するか、いつ使用するか、そしてチームがLevelのリスクに応じてユーティリティをどのように分配するか。",
+      "why": "なぜクラフトをマスターするのか？",
+      "whySteps": {
+        "step1Title": "強力なアイテムをアンロックする",
+        "step1Description": "ランの各段階で不可欠なツールと物資を特定する",
+        "step2Title": "エッセンスを理解する",
+        "step2Description": "終盤のLevelのプレッシャーのためにどのリソースを温存する価値があるかを知る",
+        "step3Title": "リソースを最適化する",
+        "step3Description": "すべての役割が明確なユーティリティカバーを持つようにチームのインベントリを最適化する"
+      },
+      "featured": "注目と必須",
+      "all": "すべてのクラフトガイド"
+    },
+    "items": {
+      "title": "Escape The Backrooms アイテム",
+      "description": "ツール、武器、移動ギア、ストレージソリューションをカバーする詳細なアイテムガイド。クラフトレシピと使用のヒントが含まれています。",
+      "metaTitle": "Escape The Backrooms アイテム - ツール、武器、ギアガイド",
+      "metaDescription": "Escape The Backroomsのツール、武器、移動ギア、ストレージを含む完全なアイテムデータベース。すべてのアイテムを効果的にクラフトして使用する方法を学びましょう。",
+      "categoryLabel": "アイテムと装備",
+      "whatIs": "アイテムとは？",
+      "whatIsDescription": "ツール、武器、移動ギア、機能的なアイテムに関する包括的なガイド。クラフトレシピ、使用戦略、最適な組み合わせを学びましょう。",
+      "why": "なぜアイテムガイドをチェックするのか？",
+      "whySteps": {
+        "step1Title": "クラフトレシピを学ぶ",
+        "step1Description": "不可欠なツールと物資をいつどこで使用するかを学ぶ",
+        "step2Title": "装備を最適化する",
+        "step2Description": "プレイスタイルと進行段階に最適なアイテムを選択する",
+        "step3Title": "サバイバルを向上させる",
+        "step3Description": "危険な世界をナビゲートするために移動ギアと武器を装備する"
+      },
+      "featured": "注目と必須",
+      "all": "すべてのアイテム"
+    },
+    "biomes": {
+      "title": "Escape The Backrooms バイオーム",
+      "description": "各バイオームの世界の地域、環境の特徴、資源の場所、およびサバイバルヒントを探索します。",
+      "metaTitle": "Escape The Backrooms バイオーム - 世界の地域と探索",
+      "metaDescription": "Escape The Backrooms のLevel環境、危険パターン、およびルート計画のメモを探索して、高リスクエリアをより安全にナビゲートします。",
+      "categoryLabel": "世界の地域",
+      "whatIs": "バイオームとは？",
+      "whatIsDescription": "さまざまな世界の地域、環境の特徴、資源の分布、および危険区域に関するガイド。各エリアで何を期待し、どのように準備するかを学びます。",
+      "why": "なぜバイオームを探索するのですか？",
+      "whySteps": {
+        "step1Title": "資源を見つける",
+        "step1Description": "各地域に固有の希少な材料とエッセンスを見つける",
+        "step2Title": "危険を避ける",
+        "step2Description": "環境の危険と敵対的なEntityを理解する",
+        "step3Title": "探索を計画する",
+        "step3Description": "各バイオームタイプに適したツールと装備を準備する"
+      },
+      "featured": "特集と必須",
+      "all": "すべてのバイオーム"
+    },
+    "building": {
+      "title": "Escape The Backrooms 建築",
+      "description": "困難なチャプターのために、チェックポイント計画、ルートメモ、および役割の責任を持つ反復可能なチームワークフローを構築します。",
+      "metaTitle": "Escape The Backrooms チームワークフロー - ルートと役割の計画",
+      "metaDescription": "安定した進行のために、チェックポイント計画、ルート記憶、および役割の割り当てを使用して、Escape The Backrooms の協力ワークフローを構築します。",
+      "categoryLabel": "建築と拠点",
+      "whatIs": "建築とは？",
+      "whatIsDescription": "反復可能なチーム構造のためのガイド：ルート計画、チェックポイント規律、およびリセットの多い試行を減らす役割の所有権。",
+      "why": "なぜ拠点を構築するのですか？",
+      "whySteps": {
+        "step1Title": "安全な場所を作る",
+        "step1Description": "保管およびクラフト作業のための安全な拠点を確立する",
+        "step2Title": "資源を管理する",
+        "step2Description": "保管ソリューションで材料を効率的に整理する",
+        "step3Title": "チームの役割を洗練する",
+        "step3Description": "コミュニケーションと回復を改善するために明確な責任を割り当てる"
+      },
+      "featured": "特集と必須",
+      "all": "すべての建築ガイド"
+    },
+    "support": {
+      "title": "Escape The Backrooms サポート",
+      "description": "技術サポート、プラットフォームの互換性、パフォーマンスの最適化、および一般的な問題のトラブルシューティング。",
+      "metaTitle": "Escape The Backrooms サポート - 技術的なヘルプと修正",
+      "metaDescription": "Steam Deck のセットアップ、クラッシュの修正、パフォーマンスの最適化、プラットフォームの互換性ガイドなど、Escape The Backrooms の技術サポートを受けられます。",
+      "categoryLabel": "テクニカルサポート",
+      "whatIs": "サポートとは？",
+      "whatIsDescription": "プラットフォームの互換性、パフォーマンスの最適化、クラッシュの修正、一般的な問題に関する技術ガイド。Steam Deck、マルチプレイヤーに関する質問、設定についてサポートを受けられます。",
+      "why": "なぜサポートを確認するのですか？",
+      "whySteps": {
+        "step1Title": "技術的な問題を修正する",
+        "step1Description": "クラッシュ、パフォーマンスの問題、互換性の問題を解決する",
+        "step2Title": "パフォーマンスを最適化する",
+        "step2Description": "お使いのプラットフォームで最高の体験を得るために設定を構成する",
+        "step3Title": "プラットフォームの互換性",
+        "step3Description": "Steam Deck、コントローラーのサポート、システム要件について学ぶ"
+      },
+      "featured": "注目と必須",
+      "all": "すべてのサポート記事"
+    }
   }
 }

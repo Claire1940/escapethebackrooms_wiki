@@ -1,10 +1,477 @@
 {
+  "seo": {
+    "home": {
+      "title": "Escape The Backrooms Wiki - Levels, Entities y Guía",
+      "description": "Escape The Backrooms Wiki con guías de levels, contadores de entities, objetos, finales, logros, consejos cooperativos y guías de plataformas para PC, PS5 y Xbox.",
+      "keywords": "Escape The Backrooms, Steam, PS5, Xbox, levels, entities, guía, finales",
+      "ogTitle": "Escape The Backrooms Wiki - Levels, Entities y Guía",
+      "ogDescription": "Escape The Backrooms Wiki con guías de levels, contadores de entities, objetos, finales, logros, consejos cooperativos y guías de plataformas para PC, PS5 y Xbox.",
+      "twitterTitle": "Escape The Backrooms Wiki - Levels, Entities y Guía",
+      "twitterDescription": "Escape The Backrooms Wiki que cubre levels, entities, logros, finales y estrategias de supervivencia cooperativa."
+    }
+  },
   "nav": {
-    "guides": "Guides",
-    "crafting": "Crafting",
-    "items": "Items",
-    "biomes": "Biomes",
-    "building": "Building",
-    "support": "Support"
+    "guides": "Guías",
+    "crafting": "Fabricación",
+    "items": "Objetos",
+    "biomes": "Biomas",
+    "building": "Construcción",
+    "support": "Soporte"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Artículos próximamente"
+  },
+  "hero": {
+    "badge": "Exploración de terror liminal cooperativo",
+    "title": "Escape The Backrooms Wiki",
+    "description": "Escape The Backrooms es un juego de terror cooperativo de 1 a 4 jugadores donde los jugadores exploran más de 30 inquietantes Backrooms levels, resuelven acertijos de salida, gestionan la cordura y evitan entities mortales.",
+    "getFreeCodesCTA": "Comenzar guía",
+    "playOnSteamCTA": "Jugar en Steam",
+    "stats": {
+      "stat1": {
+        "value": "30+",
+        "label": "Backrooms Levels"
+      },
+      "stat2": {
+        "value": "1-4",
+        "label": "Cooperativo en línea"
+      },
+      "stat3": {
+        "value": "48,879",
+        "label": "Pico de CCU"
+      },
+      "stat4": {
+        "value": "90% / 139k+",
+        "label": "Reseñas en Steam"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Jugabilidad de Escape The Backrooms",
+    "description": "Explora niveles liminales, resuelve acertijos, evita entidades y sobrevive con tu equipo cooperativo en Escape The Backrooms."
+  },
+  "tools": {
+    "title": "Escape The Backrooms",
+    "titleHighlight": "Navegación del Módulo",
+    "subtitle": "Saltos rápidos a cada módulo principal de la página de inicio de Escape The Backrooms",
+    "cards": [
+      {
+        "icon": "Monitor",
+        "title": "Plataformas y Game Pass de Escape The Backrooms",
+        "description": "Disponibilidad en Steam, Xbox, PlayStation y la nube"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para principiantes de Escape The Backrooms",
+        "description": "Reglas básicas, ritmo y supervivencia en la primera partida"
+      },
+      {
+        "icon": "ListChecks",
+        "title": "Guía completa de todos los Levels de Escape The Backrooms",
+        "description": "Flujo del Level, objetivos y prioridades de ruta"
+      },
+      {
+        "icon": "Swords",
+        "title": "Guía de Entities de Escape The Backrooms",
+        "description": "Comportamiento de las Entities y conceptos básicos para evitarlas"
+      },
+      {
+        "icon": "Users",
+        "title": "Multijugador multiplataforma de Escape The Backrooms",
+        "description": "Configuración cooperativa, códigos de sala y uso de voz"
+      },
+      {
+        "icon": "Shield",
+        "title": "Logros y Trofeos de Escape The Backrooms",
+        "description": "Objetivos de finalización y seguimiento eficiente"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Requisitos del sistema de Escape The Backrooms",
+        "description": "Especificaciones de PC, notas de plataforma y configuraciones"
+      },
+      {
+        "icon": "Clock",
+        "title": "Actualizaciones y notas del parche de Escape The Backrooms",
+        "description": "Cronología de versiones y aspectos destacados de la hoja de ruta"
+      }
+    ]
+  },
+  "modules": {
+    "escapeTheBackroomsDownloadPlatformsGamePass": {
+      "title": "Plataformas de descarga de Escape The Backrooms y Game Pass",
+      "intro": "Juega Escape The Backrooms en Steam, Xbox y PlayStation, y elige el mejor punto de entrada para tu plataforma y grupo cooperativo.",
+      "cards": [
+        {
+          "name": "Steam en PC",
+          "description": "Compra y juega en Steam con cadencia de actualización completa y contenido de la comunidad."
+        },
+        {
+          "name": "Xbox Series X|S y aplicación Xbox",
+          "description": "Incluye soporte multijugador multiplataforma con características modernas de Xbox."
+        },
+        {
+          "name": "PlayStation 5",
+          "description": "El lanzamiento de PS5 es compatible con sesiones en línea y lobbies multiplataforma."
+        },
+        {
+          "name": "Disponibilidad en Game Pass",
+          "description": "Verifica el estado actual del catálogo de Game Pass antes de suscribirte para acceder."
+        }
+      ]
+    },
+    "escapeTheBackroomsBeginnerGuide": {
+      "title": "Guía para principiantes de Escape The Backrooms",
+      "intro": "Aprende el ciclo de supervivencia cooperativa antes de abordar carreras largas y niveles más difíciles.",
+      "steps": [
+        {
+          "title": "Mantente agrupado al principio",
+          "description": "Mantén la línea de visión con tus compañeros de equipo para reducir las eliminaciones tempranas y la confusión."
+        },
+        {
+          "title": "Lee cada objetivo de Level",
+          "description": "Cada área tiene una lógica de escape específica; identifícala antes de correr."
+        },
+        {
+          "title": "Conserva la resistencia y los objetos",
+          "description": "Gasta menos recursos para que la presión al final del Level sea más fácil de manejar."
+        },
+        {
+          "title": "Usa avisos cortos",
+          "description": "Los avisos de ubicación rápidos son mejores que las explicaciones largas en medio de una persecución."
+        }
+      ],
+      "quickTips": [
+        "Muévete con intención y evita la exploración sin salida.",
+        "Mantén a un jugador enfocado en el seguimiento de objetivos.",
+        "Reinicia las comunicaciones después de cada encuentro para evitar errores en cadena por pánico."
+      ]
+    },
+    "escapeTheBackroomsAllLevelsWalkthrough": {
+      "title": "Guía de todos los Levels de Escape The Backrooms",
+      "intro": "Una descripción general de la ruta práctica para la progresión de Levels principales y el control del ritmo.",
+      "items": [
+        {
+          "name": "Inicio del Level 0",
+          "type": "Apertura",
+          "description": "Prioriza la disciplina del camino y la memoria de los puntos de referencia."
+        },
+        {
+          "name": "Cadena de Hub y juego intermedio",
+          "type": "Progresión",
+          "description": "Usa las transiciones del hub para reagruparte y reasignar roles."
+        },
+        {
+          "name": "Pasillos con muchas Entity",
+          "type": "Peligro",
+          "description": "Las entradas lentas y las comprobaciones de puertas reducen las eliminaciones por sorpresa."
+        },
+        {
+          "name": "Ramas del juego tardío",
+          "type": "Final del juego",
+          "description": "Comprométete con un plan de ruta para evitar el retroceso de alto riesgo."
+        }
+      ]
+    },
+    "escapeTheBackroomsEntitiesGuide": {
+      "title": "Guía de Entidades de Escape The Backrooms",
+      "intro": "Comprende los patrones centrales de las entidades para que cada encuentro tenga una respuesta clara.",
+      "cards": [
+        {
+          "name": "Bacteria",
+          "description": "Amenaza de presión que castiga la vacilación en rutas abiertas."
+        },
+        {
+          "name": "Skin Stealer",
+          "description": "Permanece con compañeros de equipo verificados y evita el movimiento aislado."
+        },
+        {
+          "name": "Smiler",
+          "description": "Gestiona la oscuridad y la visibilidad para prevenir muertes evitables."
+        },
+        {
+          "name": "Amenazas específicas de Level",
+          "description": "Trata a cada entidad de Level como única y adáptate rápidamente."
+        }
+      ]
+    },
+    "escapeTheBackroomsMultiplayerCrossplayVoiceChat": {
+      "title": "Escape The Backrooms Multijugador Crossplay y Chat de Voz",
+      "intro": "Juega solo o en cooperativo en todas las plataformas con códigos de sala, opciones de crossplay y chat de voz de proximidad ajustado para comunicaciones más claras.",
+      "cards": [
+        {
+          "icon": "Gamepad2",
+          "name": "Salas Crossplay",
+          "description": "Organiza sesiones públicas o privadas y comparte códigos de sala para que amigos en PC, Xbox y PS5 puedan unirse rápidamente."
+        },
+        {
+          "icon": "Users",
+          "name": "Asignación de roles",
+          "description": "Divide las tareas en explorador, líder de rompecabezas y encargado de seguridad para mantener las decisiones rápidas en Levels de alta presión."
+        },
+        {
+          "icon": "Mic",
+          "name": "Disciplina de voz",
+          "description": "Usa llamadas cortas de chat de proximidad y reduce la charla durante las ventanas de patrulla de entidades para reducir las eliminaciones evitables."
+        },
+        {
+          "icon": "ShieldCheck",
+          "name": "Plan de recuperación",
+          "description": "Establece puntos de reagrupamiento y rutas de escape antes de secciones difíciles para que los intentos fallidos se recuperen más rápido."
+        }
+      ]
+    },
+    "escapeTheBackroomsAchievementsTrophies": {
+      "title": "Logros y Trofeos de Escape The Backrooms",
+      "intro": "El conjunto de Steam tiene 34 logros, principalmente salidas de Level más objetivos de dificultad y multijugador que recompensan la progresión estructurada.",
+      "groups": [
+        {
+          "icon": "Route",
+          "name": "Hitos de progreso",
+          "items": [
+            "Completa primero los logros de salida de Level para asegurar la mayor parte de tu finalización total.",
+            "Rastrea los activadores de Level perdidos después de cada partida para que las sesiones de limpieza sean cortas."
+          ]
+        },
+        {
+          "icon": "Flame",
+          "name": "Hitos de desafío",
+          "items": [
+            "Deja los objetivos Difícil y Pesadilla para equipos con memoria de ruta estable y disciplina de roles.",
+            "Realiza los logros de desafío multijugador solo después de que tu grupo pueda superar los Levels principales de manera consistente."
+          ]
+        }
+      ]
+    },
+    "escapeTheBackroomsSystemRequirementsSettings": {
+      "title": "Requisitos del sistema y configuración de Escape The Backrooms",
+      "intro": "Utilice los requisitos oficiales de PC y las notas de la plataforma para elegir configuraciones estables, soporte de idiomas y bases de rendimiento listas para el modo cooperativo.",
+      "rows": [
+        {
+          "icon": "Cpu",
+          "name": "Línea base de PC",
+          "description": "Objetivo mínimo: Windows 10/11 de 64 bits, 8 GB de RAM, compatibilidad con DirectX 11 y 25 GB de almacenamiento libre."
+        },
+        {
+          "icon": "Gauge",
+          "name": "Equilibrio gráfico",
+          "description": "Objetivo recomendado: Windows 11, 16 GB de RAM y GPU de clase RTX 2060 o RX 6600 para un rendimiento cooperativo más estable."
+        },
+        {
+          "icon": "Languages",
+          "name": "Audio y voz",
+          "description": "Mantenga los niveles de voz por debajo de las señales ambientales y verifique la disponibilidad del idioma antes de las sesiones entre regiones."
+        },
+        {
+          "icon": "MonitorSmartphone",
+          "name": "Verificaciones de plataforma",
+          "description": "Confirme la paridad de versiones en Steam, Xbox y PS5 antes del juego cruzado para que las uniones de lobby y los objetivos permanezcan sincronizados."
+        }
+      ]
+    },
+    "escapeTheBackroomsUpdatesRoadmapPatchNotes": {
+      "title": "Hoja de ruta de actualizaciones y notas del parche de Escape The Backrooms",
+      "intro": "Siga la línea de tiempo de lanzamiento oficial desde el Acceso Anticipado hasta la versión 1.0 y las recientes actualizaciones de juego cruzado de la era de las consolas que cambiaron el flujo cooperativo.",
+      "entries": [
+        {
+          "icon": "Rocket",
+          "type": "Parche",
+          "title": "Lanzamiento completo y estabilización en 2025",
+          "description": "El juego salió del Acceso Anticipado en octubre de 2025, seguido de correcciones urgentes centradas en la estabilidad de los bloqueos y la progresión."
+        },
+        {
+          "icon": "Network",
+          "type": "Contenido",
+          "title": "Expansión del emparejamiento multiplataforma en 2026",
+          "description": "Las actualizaciones de la hoja de ruta introdujeron el emparejamiento multiplataforma, el flujo de códigos de lobby y un soporte más amplio para el chat de voz."
+        },
+        {
+          "icon": "CalendarCheck2",
+          "type": "Hoja de ruta",
+          "title": "Último parche y ventana de lanzamiento de la consola",
+          "description": "Los ciclos de parches recientes agregaron herramientas de seguridad de la plataforma, mensajes de guardado automático y alineación de lanzamiento en Steam, Xbox y PS5."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes de Escape The Backrooms",
+    "titleHighlight": "Preguntas",
+    "subtitle": "Respuestas clave para los jugadores de Escape The Backrooms",
+    "questions": [
+      {
+        "question": "¿Se puede jugar Escape The Backrooms en solitario?",
+        "answer": "Sí, Escape The Backrooms admite el juego en solitario, aunque el modo cooperativo mejora la consistencia en rutas difíciles."
+      },
+      {
+        "question": "¿Escape The Backrooms es compatible con el juego cruzado?",
+        "answer": "Sí, Escape The Backrooms admite el emparejamiento multiplataforma con códigos de lobby en plataformas compatibles."
+      },
+      {
+        "question": "¿Cuántos jugadores pueden unirse al modo cooperativo de Escape The Backrooms?",
+        "answer": "Escape The Backrooms admite hasta cuatro jugadores en sesiones cooperativas en línea."
+      },
+      {
+        "question": "¿Cuál es la mejor manera de empezar Escape The Backrooms?",
+        "answer": "Comience Escape The Backrooms con la ruta para principiantes, un ritmo centrado en los objetivos y llamadas de equipo cortas."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para Escape The Backrooms?",
+    "description": "Únete a la comunidad oficial de Escape The Backrooms para obtener consejos de cooperativo, actualizaciones de parches y guías de Level.",
+    "joinCommunity": "Únete al Discord oficial",
+    "joinGame": "Juega Escape The Backrooms en Steam"
+  },
+  "footer": {
+    "title": "Wiki de Escape The Backrooms",
+    "description": "Tu centro de recursos completo para Level, Entity, finales, estrategias de cooperativo y guías de supervivencia de Escape The Backrooms.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Discord oficial",
+    "twitter": "X / Twitter",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Escape The Backrooms Wiki. No afiliado con Fancy Games ni Secret Mode.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guides": {
+      "title": "Guías de Escape The Backrooms",
+      "description": "Guías completas de juego, desde conceptos básicos para principiantes hasta rutas avanzadas de Level, evasión de Entity y estrategias de supervivencia en cooperativo.",
+      "metaTitle": "Guías de Escape The Backrooms - Estrategias de principiante a avanzado",
+      "metaDescription": "Guías completas de Escape The Backrooms que cubren consejos para principiantes, rutas de Level, evasión de Entity y tácticas expertas de cooperativo para completar el juego con éxito.",
+      "categoryLabel": "GUÍAS DE JUEGO",
+      "whatIs": "¿Qué son las guías?",
+      "whatIsDescription": "Guías exhaustivas que cubren mecánicas de juego, objetivos de Level, patrones de Entity y tácticas de supervivencia en equipo, desde la primera partida hasta completar niveles avanzados.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende las mecánicas principales",
+        "step1Description": "Comprende el flujo principal de cada Level y evita errores comunes de principiante",
+        "step2Title": "Progresión rápida",
+        "step2Description": "Sigue rutas probadas para completar cada Level con menos reinicios",
+        "step3Title": "Domina las estrategias",
+        "step3Description": "Desarrolla tácticas avanzadas para la supervivencia en solitario y cooperativo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "crafting": {
+      "title": "Fabricación en Escape The Backrooms",
+      "description": "Aprende el uso práctico de objetos, planificación de suministros y priorización de utilidades para completar cada Level de forma consistente.",
+      "metaTitle": "Planificación de Objetos en Escape The Backrooms - Suministros y Prioridades de Utilidad",
+      "metaDescription": "Planifica el uso de objetos en Escape The Backrooms con prioridades prácticas para suministros de curación, herramientas de utilidad y distribución de roles en cooperativo.",
+      "categoryLabel": "PLANIFICACIÓN DE OBJETOS",
+      "whatIs": "¿Qué es la Fabricación?",
+      "whatIsDescription": "Esta sección se centra en la planificación práctica del equipo: qué llevar, cuándo usarlo y cómo los equipos distribuyen las utilidades según el riesgo del Level.",
+      "why": "¿Por qué dominar la fabricación?",
+      "whySteps": {
+        "step1Title": "Desbloquea Objetos Poderosos",
+        "step1Description": "Identifica herramientas y suministros esenciales para cada fase de una partida",
+        "step2Title": "Comprende las Esencias",
+        "step2Description": "Aprende qué recursos vale la pena conservar para la presión de los Levels finales",
+        "step3Title": "Optimiza Recursos",
+        "step3Description": "Optimiza el inventario del equipo para que cada rol tenga una cobertura de utilidad clara"
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Guías de Fabricación"
+    },
+    "items": {
+      "title": "Objetos de Escape The Backrooms",
+      "description": "Guías detalladas de objetos que cubren herramientas, armas, equipo de movilidad y soluciones de almacenamiento con recetas de fabricación y consejos de uso.",
+      "metaTitle": "Objetos de Escape The Backrooms - Guía de Herramientas, Armas y Equipo",
+      "metaDescription": "Base de datos completa de objetos para Escape The Backrooms, incluyendo herramientas, armas, equipo de movilidad y almacenamiento. Aprende a fabricar y usar cada objeto de manera efectiva.",
+      "categoryLabel": "OBJETOS Y EQUIPAMIENTO",
+      "whatIs": "¿Qué son los Objetos?",
+      "whatIsDescription": "Guías completas de herramientas, armas, equipo de movilidad y objetos funcionales. Aprende recetas de fabricación, estrategias de uso y combinaciones óptimas.",
+      "why": "¿Por qué consultar las guías de objetos?",
+      "whySteps": {
+        "step1Title": "Aprende Recetas de Fabricación",
+        "step1Description": "Aprende cuándo y dónde usar herramientas y suministros esenciales",
+        "step2Title": "Optimiza el Equipamiento",
+        "step2Description": "Elige los mejores objetos para tu estilo de juego y etapa de progresión",
+        "step3Title": "Mejora la Supervivencia",
+        "step3Description": "Equípate con equipo de movilidad y armas para navegar por el peligroso mundo"
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Objetos"
+    },
+    "biomes": {
+      "title": "Biomas de Escape The Backrooms",
+      "description": "Explora las regiones del mundo, las características ambientales, las ubicaciones de recursos y los consejos de supervivencia para cada bioma.",
+      "metaTitle": "Biomas de Escape The Backrooms - Regiones del Mundo y Exploración",
+      "metaDescription": "Explora los entornos de nivel de Escape The Backrooms, los patrones de peligro y las notas de planificación de rutas para navegar por áreas de alto riesgo de forma más segura.",
+      "categoryLabel": "REGIONES DEL MUNDO",
+      "whatIs": "¿Qué son los Biomas?",
+      "whatIsDescription": "Guías de diferentes regiones del mundo, características ambientales, distribución de recursos y zonas de peligro. Aprende qué esperar y cómo prepararte para cada área.",
+      "why": "¿Por qué explorar biomas?",
+      "whySteps": {
+        "step1Title": "Encontrar Recursos",
+        "step1Description": "Localiza materiales y esencias raras específicas de cada región",
+        "step2Title": "Evitar Peligros",
+        "step2Description": "Comprende los peligros ambientales y las criaturas hostiles",
+        "step3Title": "Planificar la Exploración",
+        "step3Description": "Prepara las herramientas y el equipo adecuados para cada tipo de bioma"
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todos los Biomas"
+    },
+    "building": {
+      "title": "Construcción en Escape The Backrooms",
+      "description": "Crea flujos de trabajo de equipo repetibles con planificación de puntos de control, notas de ruta y responsabilidades de roles para capítulos difíciles.",
+      "metaTitle": "Flujo de Trabajo en Equipo de Escape The Backrooms - Planificación de Rutas y Roles",
+      "metaDescription": "Estructura el flujo de trabajo cooperativo de Escape The Backrooms con planificación de puntos de control, memoria de ruta y asignación de roles para una progresión estable.",
+      "categoryLabel": "CONSTRUCCIÓN Y BASES",
+      "whatIs": "¿Qué es la Construcción?",
+      "whatIsDescription": "Guías para una estructura de equipo repetible: planificación de rutas, disciplina de puntos de control y propiedad de roles que reducen los intentos con muchos reinicios.",
+      "why": "¿Por qué construir bases?",
+      "whySteps": {
+        "step1Title": "Crear Espacios Seguros",
+        "step1Description": "Establece bases seguras para operaciones de almacenamiento y fabricación",
+        "step2Title": "Gestionar Recursos",
+        "step2Description": "Organiza los materiales de manera eficiente con soluciones de almacenamiento",
+        "step3Title": "Refinar Roles de Equipo",
+        "step3Description": "Asigna responsabilidades claras para mejorar la comunicación y la recuperación"
+      },
+      "featured": "Destacados y Esenciales",
+      "all": "Todas las Guías de Construcción"
+    },
+    "support": {
+      "title": "Soporte de Escape The Backrooms",
+      "description": "Soporte técnico, compatibilidad de plataforma, optimización del rendimiento y solución de problemas comunes.",
+      "metaTitle": "Soporte de Escape The Backrooms - Ayuda Técnica y Soluciones",
+      "metaDescription": "Obtén soporte técnico para Escape The Backrooms, incluyendo configuración de Steam Deck, soluciones a fallos, optimización del rendimiento y guías de compatibilidad de plataforma.",
+      "categoryLabel": "SOPORTE TÉCNICO",
+      "whatIs": "¿Qué es el Soporte?",
+      "whatIsDescription": "Guías técnicas que cubren la compatibilidad de la plataforma, la optimización del rendimiento, las soluciones a fallos y los problemas comunes. Obtén ayuda con Steam Deck, preguntas sobre el modo multijugador y configuraciones.",
+      "why": "¿Por qué consultar el soporte?",
+      "whySteps": {
+        "step1Title": "Solucionar Problemas Técnicos",
+        "step1Description": "Resolver fallos, problemas de rendimiento y problemas de compatibilidad",
+        "step2Title": "Optimizar el Rendimiento",
+        "step2Description": "Configurar los ajustes para la mejor experiencia en tu plataforma",
+        "step3Title": "Compatibilidad de Plataforma",
+        "step3Description": "Aprende sobre Steam Deck, soporte de controladores y requisitos del sistema"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Artículos de Soporte"
+    }
   }
 }
