@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "ガイド",
-    "crafting": "クラフト",
-    "items": "アイテム",
-    "biomes": "バイオーム",
-    "building": "建築",
-    "support": "サポート"
+    "guide": "ガイド",
+    "levels": "レベル",
+    "multiplayer": "マルチプレイ",
+    "platforms": "プラットフォーム",
+    "puzzles": "パズル",
+    "codes": "コード"
   },
   "common": {
     "home": "ホーム",

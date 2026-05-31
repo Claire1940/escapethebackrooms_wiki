@@ -1,48 +1,48 @@
 import type { LucideIcon } from 'lucide-react'
-import { BookOpen, Hammer, Package, Mountain, Building2, LifeBuoy } from 'lucide-react'
+import { BookOpen, KeyRound, Map, Monitor, Puzzle, Users } from 'lucide-react'
 
 export interface NavigationItem {
-	key: string // 用于翻译键，如 'codes' -> t('nav.codes')
-	path: string // URL 路径，如 '/codes'
-	icon: LucideIcon // Lucide 图标组件
-	isContentType: boolean // 是否对应 content/ 目录
+	key: string
+	path: string
+	icon: LucideIcon
+	isContentType: boolean
 }
 
 export const NAVIGATION_CONFIG: NavigationItem[] = [
 	{
-		key: 'guides',
-		path: '/guides',
+		key: 'guide',
+		path: '/guide',
 		icon: BookOpen,
 		isContentType: true,
 	},
 	{
-		key: 'crafting',
-		path: '/crafting',
-		icon: Hammer,
+		key: 'levels',
+		path: '/levels',
+		icon: Map,
 		isContentType: true,
 	},
 	{
-		key: 'items',
-		path: '/items',
-		icon: Package,
+		key: 'multiplayer',
+		path: '/multiplayer',
+		icon: Users,
 		isContentType: true,
 	},
 	{
-		key: 'biomes',
-		path: '/biomes',
-		icon: Mountain,
+		key: 'platforms',
+		path: '/platforms',
+		icon: Monitor,
 		isContentType: true,
 	},
 	{
-		key: 'building',
-		path: '/building',
-		icon: Building2,
+		key: 'puzzles',
+		path: '/puzzles',
+		icon: Puzzle,
 		isContentType: true,
 	},
 	{
-		key: 'support',
-		path: '/support',
-		icon: LifeBuoy,
+		key: 'codes',
+		path: '/codes',
+		icon: KeyRound,
 		isContentType: true,
 	},
 ]

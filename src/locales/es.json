@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Guías",
-    "crafting": "Fabricación",
-    "items": "Objetos",
-    "biomes": "Biomas",
-    "building": "Construcción",
-    "support": "Soporte"
+    "guide": "Guía",
+    "levels": "Niveles",
+    "multiplayer": "Multijugador",
+    "platforms": "Plataformas",
+    "puzzles": "Puzles",
+    "codes": "Códigos"
   },
   "common": {
     "home": "Inicio",

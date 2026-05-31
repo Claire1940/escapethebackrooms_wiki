@@ -11,12 +11,12 @@
     }
   },
   "nav": {
-    "guides": "Руководства",
-    "crafting": "Крафт",
-    "items": "Предметы",
-    "biomes": "Биомы",
-    "building": "Строительство",
-    "support": "Поддержка"
+    "guide": "Гайд",
+    "levels": "Уровни",
+    "multiplayer": "Мультиплеер",
+    "platforms": "Платформы",
+    "puzzles": "Головоломки",
+    "codes": "Коды"
   },
   "common": {
     "home": "Главная",
