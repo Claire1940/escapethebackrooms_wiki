@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Footprints, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Level 0: Full Walkthrough & Survival Guide",
+  description: "Master Escape the Backrooms Level 0 with our 2026 guide. Learn how to find the ladder pieces, escape the entity, and navigate the Lobby efficiently.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/facc15/000?text=Level+0+Walkthrough",
+  date: "2026-05-31",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Escape the Backrooms Level 0** is primarily a puzzle and navigation level known as "The Lobby."
+- **Core Objective**: Locate four ladder pieces to obtain the key, then navigate to the vent exit.
+- **Key Mechanic**: Use the balance system (Q/E) or edge-shimmying to cross narrow pipes in the pit area.
+- **Survival Tip**: Listen for door-knocking sounds, which indicate an entity is nearby in the lower sections.
+- **Multiplayer Benefit**: Only one player needs to collect the key for the entire team to progress.
+</Callout>
+
+<Section icon={Map} title="Level 0 Overview: Navigating The Lobby">
+
+Level 0, famously known as "The Lobby," serves as the introductory experience in Escape the Backrooms. It perfectly captures the liminal space aesthetic with its repetitive yellow wallpaper, damp carpets, and the constant hum of fluorescent lights. While it may seem empty at first, the level is designed to disorient players through non-Euclidean geometry and random spawn points.
+
+**Video Highlights:**
+- Identifying landmarks like the dark pillar room.
+- Locating all four ladder pieces in the Ladder Room.
+- Demonstrating the shimmy technique for the pipe section.
+- Navigating the alternate route using black arrows.
+
+<YouTubeEmbed videoId="62aMd7DrSu4" title="Level 0 | Escape the Backrooms [UPDATE 3] FULL Walkthrough" />
+
+Upon spawning, your first priority is to establish your bearings. Because the spawn location is randomized, look for the "dark room with pillars," which acts as a primary landmark. From this location, heading left is generally the most reliable way to find the critical path leading toward the Ladder Room.
+
+| Feature | Description | Danger Level |
+| :--- | :--- | :--- |
+| **Wallpaper** | Mono-yellow, repetitive patterns | Low (Disorientation) |
+| **Lighting** | Flickering fluorescent tubes | Low |
+| **Sound** | Constant electrical hum / distant knocks | Medium |
+| **Entities** | Rare in upper floors, common in pits | High |
+
+<Callout type="tip" title="Navigation Secret">
+If you feel completely lost, look for scattered papers on the floor. While they often contain lore, their placement sometimes hints at paths that players have previously explored.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="The Ladder Room and Key Collection">
+
+The first major puzzle in escape the backrooms level 0 involves repairing a broken ladder to reach a high-altitude storage area. This room is distinct from the rest of the yellow hallways and is essential for progression. In multiplayer sessions, coordination is key; while the whole team can search, only one person needs to interact with the final ladder to grant the key to everyone.
+
+| Item | Purpose | Location |
+| :--- | :--- | :--- |
+| **Ladder Piece (x4)** | Repairs the access ladder | Scattered within the Ladder Room |
+| **Storage Key** | Opens the exit door | Top shelf of the Ladder Room |
+| **Rope** | Saves fallen teammates | Near the pit/vent entrance |
+
+<Steps>
+  <Step num="1" title="Locate the Ladder Room">
+    Navigate from the pillar room landmark until you find a room with a tall, broken ladder leaning against a wall.
+  </Step>
+  <Step num="2" title="Scavenge the Pieces">
+    Search the immediate corners and behind crates in this room. There are four wooden pieces total. Press **F** to pick them up.
+  </Step>
+  <Step num="3" title="Assemble and Climb">
+    Interact with the base of the ladder to trigger the repair animation. Climb to the top to grab the silver key.
+  </Step>
+  <Step num="4" title="Unlock the Path">
+    Head back into the hallways and look for the heavy metal door. Use the key to unlock it and proceed to the pit section.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Multiplayer Sync">
+Ensure all players are nearby when the key is picked up. While the key is "shared," some updates may require players to be in the same zone for the door interaction to trigger correctly for everyone.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="The Pit Section and Balance Mechanics">
+
+After passing through the locked door, you will encounter the most mechanically challenging part of Level 0: the Pit. This area requires you to cross narrow pipes over a dark abyss. Falling isn't an instant death, but it leads to a much more dangerous sub-area filled with entities.
+
+<CardGrid cols={2}>
+  <Card title="The Balance Method">
+    - Use **Q** and **E** to tilt your body.
+    - Move slowly and watch the sway.
+    - Best for players with high mouse precision.
+  </Card>
+  <Card title="The Shimmy Method">
+    - Hug the left wall completely.
+    - Move sideways without looking down.
+    - Generally considered the safest "pro" strat.
+  </Card>
+</CardGrid>
+
+If you are playing with a team and someone falls, the **Rope** becomes your most valuable tool. The person who stayed above can drop the rope by holding the left-click button. The player in the pit must look up, find the rope, and press **F** to be pulled back to safety.
+
+| Action | Control | Result |
+| :--- | :--- | :--- |
+| **Lean Left** | Q | Counteracts right-side sway |
+| **Lean Right** | E | Counteracts left-side sway |
+| **Drop Rope** | Left Click (Hold) | Lowers rope to pit |
+| **Crouch/Vent** | Ctrl | Enters the final exit path |
+
+<Callout type="success" title="Safe Passage">
+If you are struggling with the dizziness effect (heart pumping sound), stop moving for 3 seconds. This allows your character to "calm down," reducing the camera sway significantly.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Survival in the Lower Levels">
+
+Falling into the pit in escape the backrooms level 0 isn't the end of the run, but it initiates a "survival horror" phase. The lower levels are dimly lit and house the level's only active entity. This creature is fast and reacts to sound, making stealth mandatory if you find yourself below the vents.
+
+**How to Escape the Pit:**
+1. **Follow the Arrows**: Look for black arrows painted on the walls. These are your only guide back to the exit.
+2. **Listen for the Knock**: A distinct "door knock" sound indicates the entity has spawned and is searching for you.
+3. **Keep Moving**: The entity's pathing is somewhat predictable, but it will eventually corner you if you stay in one room too long.
+4. **The Staircase**: The black arrows eventually lead to a staircase. Ascending these stairs will bring you back to the exit vent area.
+
+| Entity Cue | Meaning | Recommended Action |
+| :--- | :--- | :--- |
+| **Distant Knocking** | Entity Spawned | Stop running, move into a side room |
+| **Rapid Footsteps** | Entity is Aggroed | Sprint toward the nearest black arrow |
+| **Visual Distortion** | Entity is very close | Hide behind pillars or crates immediately |
+
+<Callout type="warning" title="Entity Danger">
+On "Hard" or "Nightmare" difficulty, the entity in the pit is significantly faster. Do not attempt the pit floor unless absolutely necessary on these settings.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progression Checklist & Mastery">
+
+To successfully complete Level 0 and move into Level 1, you must reach the final vent and climb the stairs. On higher difficulties, the exit will not trigger until every living member of the team has reached the final staircase area.
+
+<Checklist
+  id="level-0-completion"
+  title="Level 0 Completion Goals:"
+  items={[
+    "Identify the Pillar Room landmark from spawn",
+    "Collect all 4 ladder pieces in the Ladder Room",
+    "Acquire the Storage Key from the upper shelf",
+    "Cross the pipe section or navigate the arrow path",
+    "Reach the final staircase to transition to Level 1"
+  ]}
+/>
+
+<Callout type="info" title="Difficulty Scaling">
+On **Easy** difficulty, reaching the stairs ends the level instantly. On **Normal** or higher, you must wait for your teammates in the designated "exit zone" before the transition occurs.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What is the fastest way to find the Ladder Room in escape the backrooms level 0?",
+    answer: "The most consistent method is to find the 'Dark Pillar Room' first. From there, keep the darker walls to your right and navigate the left-hand corridors. Most spawns place the Ladder Room roughly 2-3 minutes away from this landmark."
+  },
+  {
+    question: "Can multiple people hold the key at once?",
+    answer: "The key is a shared inventory item. Once one player picks it up, the 'Key' icon will appear for everyone in the party, allowing anyone to interact with the locked door."
+  },
+  {
+    question: "What happens if everyone falls into the pit?",
+    answer: "If the whole team falls, the rope is useless. You must all follow the black arrows on the walls to find the alternate staircase exit. Be careful, as this is where the entity resides."
+  },
+  {
+    question: "Is there a jump scare at the end of Level 0?",
+    answer: "The exit itself is safe. However, if you are taking the lower route (the pit), there is a scripted event where the entity may knock on doors or appear suddenly if you linger too long."
+  }
+]} />
+
+</Section>

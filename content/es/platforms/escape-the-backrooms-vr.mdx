@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms VR: Tu Guía Esencial de Supervivencia",
+  description: "Sumérgete en el aterrador mundo de Escape the Backrooms en VR. Aprende sobre ventajas, desventajas y consejos cruciales para navegar la experiencia de realidad virtual.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Escape+Backrooms+VR",
+  date: "2026-05-31",
+  author: "Equipo de Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Escape the Backrooms VR** ofrece una experiencia inmersiva pero desafiante.
+- Prepárate para las **náuseas**; la RV no es recomendable para principiantes.
+- El **multijugador** con RV requiere lanzadores de terceros para una funcionalidad completa.
+- Artículos clave como **motosierras y walkie-talkies** pueden presentar errores en RV.
+- El **modo RV** fue eliminado, pero aún se puede acceder a través de archivos locales o lanzadores de terceros.
+</Callout>
+
+<Section icon={Map} title="Entendiendo Escape the Backrooms VR">
+**Escape the Backrooms VR** sumerge a los jugadores en una aterradora experiencia de realidad virtual, ofreciendo una perspectiva única de los espeluznantes niveles y las aterradoras entidades del juego. Si bien proporciona una inmersión incomparable, también viene con su propio conjunto de desafíos y peculiaridades. Originalmente eliminado debido a errores, el modo RV aún es accesible a través de métodos específicos y se ha confirmado que regresará en una futura actualización.
+
+**Puntos destacados del vídeo:**
+- Los jugadores a menudo aparecen por separado, lo que aumenta la tensión inicial y la necesidad de comunicación.
+- La experiencia de RV intensifica el miedo y la desorientación de los Backrooms.
+- Navegar por los puzles e interactuar con objetos puede ser un desafío con los controles de RV.
+
+<YouTubeEmbed videoId="lQ8tVQD03bY" title="Escape The Backrooms in VR - With Friends." />
+
+<Callout type="warning" title="Alerta de Mareo por Movimiento">
+La experiencia de RV en *Escape the Backrooms* es conocida por ser muy **mareante**. Si eres nuevo en la realidad virtual o propenso al mareo por movimiento, procede con precaución. Ajustar la configuración de RV y tomar descansos puede ayudar.
+</Callout>
+
+### Estado y Acceso al Modo RV
+El modo RV para *Escape the Backrooms* fue eliminado oficialmente el 31 de enero de 2024, debido a numerosos errores. Sin embargo, todavía es posible jugar el juego en RV.
+
+| Método de Acceso      | Un jugador   | Multijugador | Recomendado para    |
+| :-------------------- | :----------- | :---------- | :------------------ |
+| Archivos locales      | **Sí**       | No          | Exploradores solitarios |
+| Lanzador de terceros  | **Sí**       | **Sí**      | Juego en grupo      |
+| Cliente oficial de Steam | No           | No          | Actualmente no      |
+
+</Section>
+
+<Section icon={Target} title="Ventajas y Desventajas del Juego en RV">
+Jugar *Escape the Backrooms* en RV altera significativamente la experiencia de juego. Mejora el horror y la inmersión, pero introduce varias desventajas técnicas y de juego que los jugadores deben conocer.
+
+### Detalles de la RV a primera vista
+
+| Aspecto             | Modo de Escritorio                                | Modo RV (a partir de la Parte 4)                       |
+| :------------------ | :------------------------------------------------ | :----------------------------------------------------- |
+| **Inmersión**       | Alta, pero limitada por la pantalla               | **Extrema**, verdaderamente "dentro" del juego         |
+| **Náuseas**         | Mínimas                                         | **Muy Altas**, especialmente para nuevos usuarios de RV |
+| **Controles**       | Teclado/ratón o gamepad precisos                  | Problemas de seguimiento del controlador, manos rotas con objetos |
+| **Interactuables**  | Sin problemas                                    | Bloquea la cabeza en su lugar cuando se usa            |
+| **Escondites**      | Movimiento libre de la cámara                   | Bloquea la cabeza en su lugar                          |
+| **Optimización**    | Generalmente buena                              | **Sin optimizar**, requiere una PC potente, propenso a fallos |
+| **Chat multijugador** | Completamente funcional                           | **No disponible** para jugadores de RV                 |
+| **Espectar**        | Modo de espectador completo                       | Pantalla blanca brillante al morir                      |
+| **Glitches**        | Menores                                         | Frecuentes, incluyendo fallos de UI, sprint infinito, seguimiento de posición |
+
+<Callout type="tip">
+Para una experiencia de RV óptima, asegúrate de que tu PC cumpla con las especificaciones recomendadas para juegos de RV. Una tarjeta gráfica y un procesador potentes ayudarán a mitigar los problemas de rendimiento y reducir el posible mareo por movimiento.
+</Callout>
+
+### Diferencias clave en la jugabilidad en RV
+
+<CardGrid cols={2}>
+  <Card title="Ventajas de la RV">
+    - **Inmersión mejorada**: Siente verdaderamente la escala y el terror de los Backrooms.
+    - **Saltos de nivel**: En el Nivel 0, el equilibrio en los pozos no se añade, lo que permite el movimiento libre.
+    - **Saltos de puzles**: El puzle del Terminal de Seguridad en la Base M.E.G se omite.
+    - **Fallo de puerta**: A veces puede evitar puertas cerradas en The Hub, saltándose partes del juego.
+  </Card>
+  <Card title="Desventajas de la RV">
+    - **Experiencia nauseabunda**: No recomendada para principiantes en RV.
+    - **Problemas de control**: Seguimiento incorrecto del controlador, "manos rotas" con ciertos objetos.
+    - **Comportamiento de las entidades**: Los Smilers errantes no desaparecen al ser iluminados (bug), lo que dificulta algunos niveles.
+    - **Limitaciones multijugador**: No se puede leer el chat, pantalla blanca brillante forzada al morir.
+    - **Rendimiento**: Sin optimizar, requiere una PC potente, fallos frecuentes.
+    - **Puntería**: Más difícil apuntar fuegos artificiales debido a la falta de mira.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Superando los Desafíos Comunes de la RV">
+La naturaleza única de la RV introduce obstáculos específicos al intentar escapar de los Backrooms. Comprender estos desafíos y cómo mitigarlos es crucial para la supervivencia.
+
+### Superando errores de control y de objetos
+Los jugadores a menudo encuentran problemas con el seguimiento del controlador y la funcionalidad de los objetos en RV.
+
+<Steps>
+  <Step num="1" title="Recalibrar controladores">
+    Si la posición de tu controlador se rastrea incorrectamente, **recentra tu casco de RV y tus controladores** con frecuencia. Esto a menudo puede resolver fallos temporales de seguimiento.
+  </Step>
+  <Step num="2" title="Ten cuidado con los interactuables">
+    Al usar objetos interactivos o esconderte, tu cabeza quedará bloqueada en su lugar. **Planifica tus movimientos cuidadosamente** alrededor de las entidades, ya que esta restricción puede dejarte vulnerable.
+  </Step>
+  <Step num="3" title="Ajustar el uso de objetos">
+    Objetos como motosierras, walkie-talkies y repelente de insectos pueden hacer que tus manos virtuales se "rompan". Aunque son utilizables, ten en cuenta este error visual y **practica usarlos en áreas más seguras** si es posible. Apuntar fuegos artificiales sin una mira requiere una puntería más intuitiva.
+  </Step>
+</Steps>
+
+<Callout type="info">
+El error visual de "manos rotas" con ciertos objetos es un problema conocido en el modo RV. Aunque no siempre impide la funcionalidad, puede ser desorientador.
+</Callout>
+
+### Consideraciones multijugador
+El multijugador en RV tiene limitaciones significativas que afectan la comunicación y la jugabilidad.
+
+<Checklist
+  id="multiplayer-vr-prep"
+  title="Lista de verificación multijugador de RV:"
+  items={[
+    "Usa un lanzador de terceros para el acceso multijugador",
+    "Establece comunicación de voz externa (por ejemplo, Discord)",
+    "Ten en cuenta que no puedes leer el chat del juego",
+    "Prepárate para posibles fallos de interfaz de usuario y bloqueos suaves al unirte a lobbies",
+    "Utiliza el error de sprint infinito si ocurre, spameando el sprint"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Futuro de Escape the Backrooms VR">
+A pesar de su estado actual de deslistado y problemas conocidos, los desarrolladores tienen planes de reintroducir una experiencia de RV más pulida.
+
+<Callout type="success" title="Relanzamiento de RV confirmado">
+Fancy, uno de los desarrolladores, ha confirmado que el modo RV regresará en una actualización después de la Parte 5. Esto indica un compromiso para mejorar la experiencia de RV y abordar los errores existentes.
+</Callout>
+
+### Preparándose para el Relanzamiento
+Mientras esperas el relanzamiento oficial de la RV, aquí te explicamos cómo puedes mantenerte actualizado y prepararte:
+
+| Acción                 | Descripción                                                   | Beneficio                                                 |
+| :--------------------- | :------------------------------------------------------------ | :------------------------------------------------------ |
+| **Monitorear Noticias de Steam** | Sigue las [Noticias de Steam de Escape the Backrooms](https://store.steampowered.com/news/app/1943950/view/3728457570832903527) oficiales para anuncios. | Mantente informado sobre fechas de lanzamiento y notas de parche. |
+| **Optimizar Configuración de PC** | Asegúrate de que tu PC cumpla o supere las especificaciones de RV recomendadas. | Jugabilidad más fluida, menos fallos, menos mareo por movimiento. |
+| **Practicar lo Básico de RV** | Juega otros juegos de RV menos intensos para acostumbrarte al movimiento en RV. | Desarrolla "piernas de RV" para combatir el mareo por movimiento. |
+| **Únete a los Foros de la Comunidad** | Interactúa con otros jugadores en foros o Discord para obtener consejos y actualizaciones. | Aprende soluciones alternativas y comparte experiencias. |
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes: Escape the Backrooms VR">
+
+<FAQ items={[
+  {
+    question: "¿Escape the Backrooms VR sigue siendo compatible oficialmente?",
+    answer: "No, el modo RV fue retirado el 31 de enero de 2024, debido a errores. Sin embargo, se ha confirmado que regresará en una actualización después de la Parte 5."
+  },
+  {
+    question: "¿Cómo puedo jugar Escape the Backrooms en RV ahora mismo?",
+    answer: "Puedes jugar abriendo el juego directamente desde sus archivos locales o usando un lanzador de terceros con compatibilidad de Steam. Para el multijugador, un lanzador de terceros es actualmente la única forma."
+  },
+  {
+    question: "¿Cuáles son los principales problemas con la versión actual de RV?",
+    answer: "La versión actual de RV no está optimizada, es muy nauseabunda, propensa a fallos, tiene problemas con el seguimiento del controlador y ciertos elementos pueden causar errores visuales. El multijugador tampoco tiene chat en el juego para los jugadores de RV."
+  },
+  {
+    question: "¿Hay alguna ventaja en jugar Escape the Backrooms en RV?",
+    answer: "Sí, la RV ofrece una inmersión significativamente mejorada y a veces puede permitir a los jugadores eludir ciertas mecánicas de nivel o incluso puertas cerradas debido a fallos, saltándose efectivamente partes del juego."
+  }
+]} />
+
+</Section>

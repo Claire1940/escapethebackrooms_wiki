@@ -1,0 +1,156 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Droplet } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Poolrooms: Survival Guide & Level 37 Tips",
+  description: "Navigate and survive Level 37, 'The Poolrooms,' in Escape the Backrooms with our comprehensive guide, including entity avoidance and progression tips.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/36454F/fff?text=Poolrooms+Survival",
+  date: "2026-05-31",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Escape the Backrooms Poolrooms**: Focus on stealth and understanding environmental cues for survival.
+- **Level 37 Hazards**: Be aware of the unique entities and water-based threats in The Poolrooms.
+- **Key Navigation**: Look for anomalies or changes in the environment to find exits.
+- **Resource Management**: Conserve sanity and health items, as resources are scarce.
+- **Team Coordination**: If playing co-op, effective communication is vital for escaping this level.
+</Callout>
+
+<Section icon={Droplet} title="Understanding Escape the Backrooms Poolrooms (Level 37)">
+
+The Poolrooms, officially known as Level 37, presents a unique challenge in *Escape the Backrooms*. This level is characterized by vast, interconnected aquatic environments, often resembling abandoned indoor swimming facilities. Players must navigate submerged corridors and open water sections, all while dealing with the level's specific threats. Survival hinges on understanding the environment and reacting swiftly to its dangers.
+
+<Callout type="warning" title="Environmental Hazards">
+The water in The Poolrooms can be deceptive. While it appears harmless, prolonged exposure or venturing into deeper, darker sections can lead to unforeseen dangers and entity encounters. Always be cautious when entering new water areas.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Navigating the Watery Labyrinth">
+
+Navigating Level 37 requires more than just swimming; it demands careful observation and strategic movement. The layout can be disorienting, with similar-looking corridors and large, echoing pool areas. Players often find themselves lost without a clear sense of direction.
+
+**Navigation Strategies:**
+- **Visual Cues**: Pay attention to distinct architectural features or damaged tiles as potential landmarks.
+- **Sound Mapping**: Use sound to identify open areas or potential entity locations.
+- **Path Marking**: If playing with friends, consider marking paths with in-game items (if available) or verbally guiding each other.
+
+<Callout type="tip" title="Pro Tip: Stay Above Water When Possible">
+While much of Level 37 is water-filled, try to stay on dry ledges, platforms, or the shallow edges of pools as much as possible. This reduces your exposure to water-based entities and gives you a height advantage for spotting dangers.
+</Callout>
+
+The Poolrooms can be categorized into different zones, each with its own navigational challenges:
+
+| Zone Type         | Characteristics                                | Primary Challenge                   | Recommended Approach                 |
+| :---------------- | :--------------------------------------------- | :---------------------------------- | :----------------------------------- |
+| **Shallow Pools** | Clear water, visible floor, occasional obstacles | Entity patrols, limited cover       | Swift movement, observation          |
+| **Deep Pools**    | Murky water, poor visibility, submerged structures | Submerged entities, disorientation | Slow, cautious movement, light source |
+| **Corridors**     | Narrow, often flooded, echoing acoustics        | Ambush points, sound propagation    | Listen carefully, check corners      |
+| **Open Areas**    | Large, echoing spaces, central pool            | Multiple entity threats, long sightlines | Use cover, break line of sight       |
+
+</Section>
+
+<Section icon={Shield} title="Entity Encounters in The Poolrooms">
+
+The entities that inhabit The Poolrooms are uniquely adapted to its aquatic environment. While specific entity names aren't always detailed in general Backrooms lore for this level, their behaviors are consistent: they are drawn to sound, light, and disturbances in the water.
+
+<Callout type="info" title="Entity Behavior">
+Entities in Level 37 are often slower in the water but can be surprisingly agile. They rely heavily on sound and vibration to detect prey. Splashing or running through water will quickly draw their attention.
+</Callout>
+
+Here’s a comparison of common entity behaviors and how to counter them:
+
+| Entity Type (Behavior) | Detection Method       | Movement in Water     | Weaknesses/Counters          |
+| :--------------------- | :--------------------- | :-------------------- | :--------------------------- |
+| **"Lurker"**           | Sound, vibration       | Slow, deliberate      | Stealth, distraction         |
+| **"Hunter"**           | Light, sudden movement | Fast, agile           | Dark areas, breaking line of sight |
+| **"Ambusher"**         | Proximity              | Stationary, then burst | Anticipation, quick evasion    |
+
+</Section>
+
+<Section icon={Target} title="Escape the Backrooms Poolrooms: Progression Steps">
+
+Escaping Level 37 is not straightforward and often involves a series of objectives or finding specific anomalies. There is no single "exit door" but rather a process of identifying and interacting with environmental cues.
+
+<Steps>
+  <Step num="1" title="Initial Assessment">
+    Upon entering, take a moment to assess your surroundings. Identify any immediate threats, potential cover, and the general layout of your starting area. Listen for ambient sounds that might indicate entity presence or distant activity.
+  </Step>
+  <Step num="2" title="Cautious Exploration">
+    Begin exploring slowly. Prioritize staying on dry land or in very shallow water. Use a flashlight sparingly to avoid attracting attention, relying more on ambient light. Look for any structural inconsistencies or unusual objects.
+  </Step>
+  <Step num="3" title="Anomaly Detection">
+    The exit from The Poolrooms is rarely obvious. Look for subtle changes: a section of wall that looks different, an unusually placed drain, or a pool with a strange current. These anomalies often hint at the path forward.
+  </Step>
+  <Step num="4" title="Interaction and Escape">
+    Once an anomaly is identified, interact with it carefully. This might involve solving a simple environmental puzzle, finding a hidden switch, or simply entering a specific part of the water. This interaction will typically trigger the transition to the next level or an exit.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success Tip: Patience is Key">
+Rushing through The Poolrooms almost always leads to failure. Take your time, observe your surroundings, and plan your movements. Patience is your best weapon against the level's deceptive nature and its inhabitants.
+</Callout>
+
+<Checklist
+  id="poolrooms-survival"
+  title="Essential Poolrooms Survival Checklist:"
+  items={[
+    "Conserve flashlight battery",
+    "Minimize splashing and loud movements",
+    "Stay alert for environmental anomalies",
+    "Prioritize stealth over confrontation",
+    "Maintain high sanity levels"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Strategies for Level 37">
+
+For experienced players, mastering The Poolrooms involves more than just basic survival. Advanced strategies focus on exploiting the environment and understanding entity patterns to gain an advantage.
+
+<CardGrid cols={2}>
+  <Card title="Sound Manipulation">
+    Use thrown objects or deliberate, small sounds to lure entities away from your intended path, creating temporary safe zones. This requires precise timing and knowledge of entity patrol routes.
+  </Card>
+  <Card title="Water Current Exploitation">
+    Some areas of The Poolrooms may have subtle currents. Identifying and using these can allow for faster, quieter movement through water sections, reducing the risk of detection.
+  </Card>
+</CardGrid>
+
+<Callout type="tip">
+Consider the **"Flicker Strategy"** for your flashlight. Instead of keeping it constantly on, quickly flick it on and off to get brief glimpses of your surroundings without providing a continuous light source for entities to track.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions about The Poolrooms">
+
+<FAQ items={[
+  {
+    question: "What is the primary danger in Escape the Backrooms Poolrooms?",
+    answer: "The primary danger in Level 37 is the combination of disorientation, limited visibility in water, and the sound-sensitive entities that patrol the area. Loud noises and sudden movements are highly risky."
+  },
+  {
+    question: "Can I fight the entities in The Poolrooms?",
+    answer: "It is generally not recommended to engage entities in The Poolrooms directly. Their aquatic environment gives them an advantage, and resources for combat are usually scarce. Stealth and evasion are the preferred methods of survival."
+  },
+  {
+    question: "How do I know if I'm close to escaping Level 37?",
+    answer: "Signs of being close to escaping Level 37 often involve encountering increasingly unusual environmental features, changes in the water's appearance, or a shift in the ambient sounds. Look for anything that stands out from the repetitive pool architecture."
+  },
+  {
+    question: "Are there any safe zones in The Poolrooms?",
+    answer: "Permanent safe zones are rare in Level 37. Any area perceived as safe is usually temporary. Always remain vigilant, even when you believe you are secure, as entities can appear unexpectedly."
+  }
+]} />
+
+</Section>

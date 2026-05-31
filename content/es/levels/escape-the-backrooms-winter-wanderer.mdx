@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Winter Wanderer: Actualización Navideña y Nuevos Atuendos",
+  description: "Explora la actualización Winter Wanderer de Escape the Backrooms, que incluye atuendos festivos, cambios en el Modo Pesadilla y correcciones de errores para una experiencia navideña escalofriante.",
+  category: "Guía de Actualización",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Winter+Wanderer+Update",
+  date: "2026-05-31",
+  author: "Equipo de la Wiki de Escape the Backrooms",
+  keywords: "Escape the Backrooms, Winter Wanderer, actualización, atuendos, Modo Pesadilla"
+}
+
+<Callout type="info" title="Guía Rápida">
+- La actualización **Escape the Backrooms Winter Wanderer** introduce atuendos de temática festiva para la personalización de personajes.
+- El **Modo Pesadilla** ha sido modificado significativamente, eliminando los puntos de control y los archivos de guardado para una experiencia más desafiante.
+- Los jugadores ahora pueden seleccionar entre **11 nuevos atuendos**, incluyendo 8 opciones de temática navideña y versiones en color de las skins de Vagabundo predeterminadas.
+- Se han implementado correcciones de errores críticos que abordan problemas como entidades que se salen de los mapas y la detección de cámaras en niveles específicos.
+- La actualización tiene como objetivo mejorar la experiencia del jugador con nuevas opciones cosméticas y mecánicas de juego refinadas.
+</Callout>
+
+<Section icon={Sparkles} title="Descubriendo la actualización Winter Wanderer">
+La actualización Winter Wanderer de Escape the Backrooms trae un escalofrío festivo al aterrador laberinto, introduciendo una serie de nuevas características y correcciones de errores cruciales diseñadas para mejorar la experiencia del jugador. Esta actualización navideña, versión 1.1, se centra en la personalización del jugador y el refinamiento de las mecánicas de juego, particularmente para el desafiante Modo Pesadilla.
+
+**Puntos destacados del video:**
+- Muestra la nueva pantalla de selección de personajes y las skins festivas.
+- Presenta los atuendos "Vagabundo Alegre" (Jolly Wanderer), "Blitzen" y "Acogedor" (Cozy).
+- Destaca el tema navideño integrado en la atmósfera del juego.
+- Ofrece un vistazo al juego cooperativo con los nuevos objetos cosméticos.
+- Analiza el impacto de la actualización en la interacción y diversión de los jugadores.
+
+<YouTubeEmbed videoId="f-E5pzKFJuA" title="It's CHRISTMAS In Escape The Backrooms?! (WINTER UPDATE)" />
+
+Esta actualización no se trata solo de estética; también aborda varios problemas de larga data y ajusta la dificultad del juego para mantener a los jugadores alerta. Ya sea que busques explorar las trastiendas con estilo o busques un desafío más brutal, la actualización Winter Wanderer ofrece algo nuevo para cada jugador.
+
+<Callout type="tip" title="Acepta el miedo festivo">
+No dejes que la alegría navideña te distraiga de los peligros inherentes de los Backrooms. Si bien los nuevos atuendos añaden una capa divertida, recuerda mantenerte vigilante y coordinar con tu equipo. El tema festivo es un ingenioso disfraz para el horror persistente que te espera.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Nuevos atuendos y opciones de personalización">
+Una de las características más esperadas de la actualización Winter Wanderer es la ampliación de la personalización del jugador. El juego ahora ofrece una pantalla dedicada para seleccionar diferentes atuendos directamente desde el menú principal. Esto permite a los jugadores personalizar su experiencia antes de sumergirse en los niveles escalofriantes de los Backrooms.
+
+La actualización introduce un total de 11 nuevos atuendos para los jugadores. Estos incluyen ocho atuendos de temática festiva, perfectos para celebrar la temporada mientras intentas sobrevivir. Además, los jugadores ahora pueden elegir versiones en rojo, azul y verde del atuendo predeterminado de Vagabundo, ofreciendo más variedad para aquellos que prefieren un aspecto clásico con un toque de color.
+
+<CardGrid cols={3}>
+  <Card title="Atuendos festivos">
+    - **Vagabundo Alegre:** Un atuendo con temática navideña, posiblemente inspirado en Papá Noel.
+    - **Blitzen:** Probablemente un disfraz con temática de reno, que añade un toque de fantasía.
+    - **Vagabundo Acogedor:** Incluye gafas de Navidad, proporcionando una vibra cómoda pero inquietante.
+    - **Otras skins navideñas:** 5 diseños festivos únicos adicionales.
+  </Card>
+  <Card title="Variantes de Vagabundo predeterminado">
+    - **Vagabundo Rojo:** Una opción de color clásica y audaz.
+    - **Vagabundo Azul:** Una alternativa fresca y distintiva.
+    - **Vagabundo Verde:** Una elección vibrante y natural.
+  </Card>
+  <Card title="Beneficios de personalización">
+    - **Personalización:** Expresa tu estilo en los Backrooms.
+    - **Identificación del equipo:** Distingue fácilmente a tus compañeros con diferentes colores.
+    - **Juego de rol mejorado:** Sumérgete más con disfraces temáticos.
+  </Card>
+</CardGrid>
+
+Esta adición no solo añade una capa de diversión, sino que también permite una mejor identificación del equipo en sesiones multijugador, algo que los jugadores discutieron en los foros de Steam debido a la ausencia inicial de trajes de colores.
+
+<Callout type="success" title="Lista de verificación para la selección de atuendos">
+Asegúrate de revisar el menú de personalización para ver todas las nuevas opciones.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Revisión del Modo Pesadilla">
+Para aquellos que buscan el desafío definitivo, la actualización Winter Wanderer trae cambios significativos al Modo Pesadilla. Anteriormente, algunos jugadores notaron inconsistencias, pero el parche 1.1 asegura que el modo ahora funcione según lo previsto, brindando una experiencia verdaderamente implacable.
+
+El cambio principal en el Modo Pesadilla es la eliminación completa de los puntos de control y los archivos de guardado. Esto significa que si cualquier jugador muere en cualquier momento durante una partida, todos los jugadores deben reiniciar desde el principio. Este enfoque de alto riesgo exige una ejecución perfecta y un trabajo en equipo impecable, transformando el modo en una verdadera prueba de habilidad y resistencia.
+
+| Característica   | Antiguo Modo Pesadilla   | Nuevo Modo Pesadilla (1.1)  | Impacto en el juego                                    |
+| :--------------- | :----------------------- | :-------------------------- | :----------------------------------------------------- |
+| Puntos de control| Accesibles               | **Eliminados**              | Aumenta la dificultad, requiere completar la partida completa. |
+| Archivos de guardado | Accesibles            | **Eliminados**              | Sin guardados a mitad de partida, todo o nada.         |
+| Muerte del jugador | Reinicio/reaparición individual | **Todos los jugadores reinician** | Enfatiza el trabajo en equipo, un error puede terminar la partida. |
+| Dificultad       | Alta                     | **Extremadamente Alta**     | Diseñado para jugadores expertos y equipos coordinados. |
+| Recompensa       | Estándar                 | **Mayor sensación de logro**| La victoria es difícil de conseguir e increíblemente satisfactoria. |
+
+Este ajuste lleva a los jugadores a sus límites, haciendo que cada decisión y cada paso sean críticos. Es una experiencia diseñada para aquellos que realmente desean conquistar los Backrooms sin una red de seguridad.
+
+<Callout type="warning" title="Modo Pesadilla: Sin segundas oportunidades">
+Ten muy en cuenta que en el Modo Pesadilla actualizado, la muerte de un solo jugador resulta en el reinicio de todo el equipo. La comunicación y la progresión cautelosa son primordiales. Considera practicar los niveles en modos estándar antes de intentar el Modo Pesadilla.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Corrección de errores críticos y mejoras de rendimiento">
+Más allá del emocionante contenido nuevo, la actualización Winter Wanderer también ofrece correcciones de errores esenciales y mejoras de rendimiento para garantizar una experiencia de juego más fluida y estable. Abordar estos problemas técnicos ayuda a mantener la atmósfera de horror inmersiva de Escape the Backrooms.
+
+Varias áreas clave han recibido atención:
+
+<Steps>
+  <Step num="1" title="Fallos en los ajustes visuales">
+    Se corrigieron casos en los que los jugadores podían ver a través de las paredes después de ajustar la configuración visual. Esto rectifica exploits y mantiene la integridad visual prevista del juego.
+  </Step>
+  <Step num="2" title="Comportamiento de la entidad en el Nivel 0">
+    Se abordaron casos raros en los que la entidad Bacteria se salía del mapa en el Nivel 0. Esto asegura que los encuentros con esta entidad sean consistentes y desafiantes según lo diseñado.
+  </Step>
+  <Step num="3" title="Detección de cámara en el Nivel 4">
+    Se corrigió el comportamiento de la detección de cámara en el Nivel 4. Esta corrección asegura que los peligros ambientales y las mecánicas de detección funcionen correctamente, evitando fallos o evasiones inesperadas.
+  </Step>
+  <Step num="4" title="Notificación de discrepancia de versión">
+    Se añadió funcionalidad y mensajes en pantalla para informar a los jugadores si están emparejados con alguien que tiene una versión diferente del juego. Esto ayuda a prevenir problemas de conectividad y asegura que todos los jugadores tengan la misma actualización.
+  </Step>
+  <Step num="5" title="Anomalías en la visualización de objetos">
+    Se corrigieron casos raros en los que los objetos no aparecían correctamente cuando un jugador los sostenía, especialmente con ajustes visuales específicos aplicados. Esto mejora la consistencia visual y la interacción con los objetos.
+  </Step>
+</Steps>
+
+Estas correcciones contribuyen colectivamente a un entorno de juego más pulido y justo, permitiendo a los jugadores centrarse en el horror y la exploración sin verse obstaculizados por fallos técnicos.
+
+<Callout type="info" title="Actualizaciones sin interrupciones">
+La nueva notificación de discrepancia de versión es una adición bienvenida, ya que evita frustrantes problemas de conexión y asegura que todos los jugadores ejecuten la versión más actual y estable del juego. Asegúrate siempre de que tu juego esté actualizado para obtener la mejor experiencia.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preparándote para tu viaje en Winter Wanderer">
+Con la nueva actualización Winter Wanderer de Escape the Backrooms, los jugadores tienen contenido fresco para explorar y desafíos refinados que superar. Ya seas un explorador veterano o nuevo en los Backrooms, prepararte correctamente mejorará tus posibilidades de supervivencia y disfrute.
+
+Aquí tienes una lista de verificación para asegurarte de que estás listo para la experiencia actualizada:
+
+<Checklist
+  id="winter-wanderer-prep"
+  title="Lista de verificación previa a la actualización para vagabundos:"
+  items={[
+    "Actualiza Escape the Backrooms a la versión 1.1",
+    "Explora las nuevas opciones de personalización de personajes y pruébate los atuendos festivos",
+    "Familiarízate con los cambios del Modo Pesadilla (sin puntos de control ni guardados)",
+    "Revisa las discusiones de la comunidad para nuevas estrategias o detalles ocultos",
+    "Reúne a tu equipo y planifica estrategias para las partidas cooperativas en Modo Pesadilla"
+  ]}
+/>
+
+La temporada navideña suele traer calidez, pero en los Backrooms, simplemente significa nuevos horrores y desafíos envueltos en atuendos festivos. ¡Acepta el terror, disfruta de los nuevos cosméticos y buena suerte escapando!
+
+<Callout type="tip" title="Participación de la comunidad">
+Consulta las discusiones oficiales de la comunidad de Steam para Escape the Backrooms para obtener las últimas ideas, informes de errores y estrategias compartidas por los jugadores sobre la actualización Winter Wanderer. Muchos jugadores comparten sus experiencias y soluciones allí.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes sobre la actualización Winter Wanderer">
+
+<FAQ items={[
+  {
+    question: "¿Qué es la actualización Escape the Backrooms Winter Wanderer?",
+    answer: "La actualización Winter Wanderer, versión 1.1, es un parche de temática navideña para Escape the Backrooms que introduce nuevos atuendos para los jugadores, cambios significativos en el Modo Pesadilla y varias correcciones de errores."
+  },
+  {
+    question: "¿Cuántos atuendos nuevos se añadieron en la actualización?",
+    answer: "La actualización añadió 11 nuevos atuendos para los jugadores, incluyendo ocho opciones de temática festiva y variantes en rojo, azul y verde del atuendo predeterminado de Vagabundo."
+  },
+  {
+    question: "¿Cuáles son los cambios clave en el Modo Pesadilla?",
+    answer: "En el Modo Pesadilla actualizado, los puntos de control y los archivos de guardado ya no están accesibles. Si algún jugador muere, todos los jugadores deben reiniciar el nivel desde el principio, convirtiéndolo en una experiencia cooperativa mucho más desafiante."
+  },
+  {
+    question: "¿Dónde puedo encontrar las nuevas opciones de personalización de personajes?",
+    answer: "La nueva pantalla de personalización de personajes y la selección de atuendos están disponibles en el menú principal después de actualizar el juego a la versión 1.1."
+  }
+]} />
+
+</Section>

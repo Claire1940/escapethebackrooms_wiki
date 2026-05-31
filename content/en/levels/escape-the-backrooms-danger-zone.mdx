@@ -1,0 +1,149 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Danger Zone: Level 0.1 Survival Guide",
+  description: "Navigate Level 0.1, the Danger Zone, in Escape the Backrooms. Learn how to open doors, power electrical boxes, and evade entities like Skin Stealers and Smilers.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Danger+Zone+Survival",
+  date: "2026-05-31",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Level 0.1, The Danger Zone**, is a critical sub-level in *Escape the Backrooms*.
+- Players must **open doors** and **power electrical boxes** to progress.
+- Beware of **Skin Stealers** and **Smilers** patrolling the area.
+- Utilize the **no-clipping floors** to transition between levels 0.2 and 0.1.
+- Team coordination is essential for successfully navigating this perilous zone.
+</Callout>
+
+<Section icon={Map} title="Understanding Level 0.1: The Danger Zone">
+Level 0.1, aptly named "The Danger Zone," is a crucial sub-level within *Escape the Backrooms*, often accessed from Level 0.2, the Remodeled Mess. This area is characterized by its maze-like structure, locked doors, and a constant threat from various entities. Successfully navigating this level involves a combination of exploration, puzzle-solving, and quick reactions to evade lurking dangers. The primary objective is to open all necessary doors and power five electrical boxes to secure passage.
+
+**Video Highlights:**
+- Demonstrates the transition from Level 0.2 to 0.1 via no-clipping floors.
+- Showcases the process of opening doors within the Danger Zone.
+- Highlights the constant threat posed by Smilers and other entities.
+- Emphasizes the need for teamwork in multiplayer sessions.
+- Provides a visual overview of the level's layout and key objectives.
+
+<YouTubeEmbed videoId="DKKVyOuw3v0" title="Escape the Backrooms Level 0.1 The Danger Zone" />
+
+The design of Level 0.1 is intentionally disorienting, with similar layouts to Level 0.2 but with distinct differences in wall and hallway configurations. Players will often find themselves falling through "no-clipping floors" which act as seamless transitions to the Danger Zone below.
+
+<Callout type="warning" title="Entity Alert">
+The Danger Zone is heavily populated by **Skin Stealers** and **Smilers**. These entities are relentless and will chase players on sight. Always be vigilant and prepared to run or hide.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navigating the Remodeled Mess and Danger Zone">
+The journey to and through the Danger Zone begins in Level 0.2, the Remodeled Mess. After completing the initial tasks in the arcade area and accessing Level 0.2, players face the formidable Bone Thief. To bypass this entity, you must descend into Level 0.1.
+
+<Steps>
+  <Step num="1" title="Accessing Level 0.1 from Remodeled Mess">
+    From Level 0.2, navigate through the hallways until you find the large maze with locked doors. Look for the "no-clipping floors" – these static-like areas will transport you to Level 0.1.
+  </Step>
+  <Step num="2" title="Opening Doors in the Danger Zone">
+    Once in Level 0.1, your main task is to open several locked doors. These doors, once opened in the Danger Zone, will also unlock their corresponding counterparts in Level 0.2. This process requires thorough exploration and often involves triggering pressure plates or switches.
+  </Step>
+  <Step num="3" title="Powering Electrical Boxes">
+    After opening the doors, you must return to Level 0.2 via the no-clipping floors to power on five electrical boxes. This step cannot be completed in Level 0.1. Successfully powering all boxes will allow you to shut the gate and bypass the Bone Thief.
+  </Step>
+  <Step num="4" title="Evading Entities">
+    Throughout both Level 0.2 and 0.1, you will encounter the **Bone Thief**, **Skin Stealers**, and **Smilers**. The Bone Thief will lunge and grab you if you cross its sightline, while Skin Stealers and Smilers will chase you. Utilize infinite stamina when being chased and environmental elements to your advantage.
+  </Step>
+</Steps>
+
+<Callout type="tip">
+When in Level 0.1, prioritize finding and opening all doors. This makes the subsequent task of powering electrical boxes in Level 0.2 much smoother, as you won't need to re-enter the Danger Zone as frequently.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Entities and Threats in Level 0.1">
+The Danger Zone is aptly named due to the presence of multiple hostile entities. Understanding their behavior is key to survival.
+
+| Entity        | Appearance                                     | Behavior                                                                      | Counter-Strategy                                                               |
+|---------------|------------------------------------------------|-------------------------------------------------------------------------------|--------------------------------------------------------------------------------|
+| **Bone Thief**| Massive, whale-like creature with stubby legs and a large mouth, eyes hidden deep within jaws. | Lunges and grabs players on sight, slides across the floor. Relentless chase, clips through walls. | Avoid its sightline. Power electrical boxes and shut the gate to bypass it. Running is futile. |
+| **Skin Stealer**| Humanoid entity, often seen in the Danger Zone. | Chases players aggressively.                                                  | Maintain distance, use cover, and be prepared to run. Infinite stamina helps during chases. |
+| **Smiler**    | Usually identified by glowing eyes in the dark. | Appears in various hallways, will lunge and chase players.                     | Avoid direct line of sight. Use flashlights to deter, if applicable, and run in the opposite direction. |
+
+<Callout type="warning" title="Bug Awareness">
+Some players have reported issues with the power box mini-game in Level 0.2 affecting progression in Level 0.1. Ensure you are left-clicking to stop the arrow in the mini-game, as hitting 'F' might only exit the interface without completing the task.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Survival Strategies for the Danger Zone">
+Mastering Level 0.1 requires more than just basic evasion. Strategic thinking and understanding the game's mechanics can give you an edge.
+
+<CardGrid cols={2}>
+  <Card title="No-Clipping Floor Mechanics">
+    The "no-clipping floors" between Level 0.2 and 0.1 appear static-like. They are not direct passages but rather warp points. Stepping on them causes you to fall out of bounds, then instantly warp to the corresponding location in the sub-level. Use this to your advantage for quick transitions, but be aware of entities on both sides.
+  </Card>
+  <Card title="Team Coordination (Co-op)">
+    In multiplayer, designate roles. One player can focus on opening doors in Level 0.1 while others provide cover or scout ahead. Communicate entity locations and progress on electrical boxes. Splitting up can be risky but efficient if coordinated.
+  </Card>
+  <Card title="Flashlight Management">
+    While some entities like Smilers might be deterred by light, relying solely on your flashlight can be dangerous as it can reveal your position. Use it judiciously, especially in dark areas where Smilers are prevalent.
+  </Card>
+  <Card title="Map Layout Awareness">
+    Despite the disorienting nature, try to memorize key pathways and the location of locked doors and electrical boxes. Even small details, like the differing wall structures between 0.1 and 0.2, can be crucial for navigation.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Success Tip">
+After opening all doors in Level 0.1, the path to power the electrical boxes in Level 0.2 becomes much safer. Focus on completing the door objective first before tackling the power boxes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Danger Zone Progression Checklist">
+To ensure a smooth passage through the Danger Zone and beyond, follow this comprehensive checklist.
+
+<Checklist
+  id="danger-zone-progression"
+  title="Level 0.1 Objectives:"
+  items={[
+    "Successfully transition to Level 0.1 from Level 0.2.",
+    "Locate and open all locked doors within Level 0.1.",
+    "Evade or bypass Skin Stealers and Smilers.",
+    "Return to Level 0.2 via no-clipping floors.",
+    "Power on all five electrical boxes in Level 0.2.",
+    "Shut the gate to safely bypass the Bone Thief."
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions about the Danger Zone">
+
+<FAQ items={[
+  {
+    question: "What is the primary objective in Level 0.1, The Danger Zone?",
+    answer: "The primary objective in Level 0.1, the **Danger Zone**, is to open all the locked doors. Once these doors are opened, they will also unlock their counterparts in Level 0.2, facilitating further progression."
+  },
+  {
+    question: "Which entities will I encounter in the Danger Zone?",
+    answer: "In the **Danger Zone**, you will primarily encounter **Skin Stealers** and **Smilers**. Additionally, the **Bone Thief** in Level 0.2 influences your need to access and clear Level 0.1."
+  },
+  {
+    question: "How do I power the electrical boxes to bypass the Bone Thief?",
+    answer: "After opening all doors in Level 0.1, you must return to Level 0.2 to power on five electrical boxes. This action allows you to shut a gate, effectively bypassing the **Bone Thief** and progressing safely."
+  },
+  {
+    question: "Are there any known bugs or glitches in the Danger Zone?",
+    answer: "Some players have reported a 'bug' with the power box mini-game where the light remains red. This is often resolved by ensuring you use a left-click to stop the arrow in the mini-game, rather than pressing 'F' to exit."
+  }
+]} />
+
+</Section>

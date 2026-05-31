@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Quarantine: Level 9 Darkened Suburbs Guide",
+  description: "Navigate Level 9 Darkened Suburbs in Escape the Backrooms, focusing on computer locations, entity evasion, and exit strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/3498db/fff?text=Backrooms+Quarantine",
+  date: "2026-05-31",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Escape the Backrooms Quarantine**: Focus on finding computers in houses to unlock the exit.
+- **Entity Evasion**: Crouch to reduce detection range and use environmental elements for cover.
+- **Neighborhood Watch**: Avoid the large, one-eyed entity as it is extremely fast and cannot be outrun.
+- **Checkpoint System**: Completed computer downloads serve as checkpoints, allowing progress retention even after death.
+- **Hub Door**: Know the location of the Hub door for sanity replenishment and strategic retreats.
+</Callout>
+
+<Section icon={Map} title="Navigating Level 9: Darkened Suburbs">
+
+Level 9, known as the Darkened Suburbs, presents a significant challenge in **Escape the Backrooms Quarantine** with its vast map and aggressive entities. Your primary objective is to locate and interact with specific computers hidden within various houses. These computers, marked as red dots on your map, are crucial for unlocking the final exit gate. Understanding the layout and the behavior of the entities is key to survival.
+
+**Video Highlights:**
+- Entering Level 9 via the sewers after a short cave walk.
+- Initial strategy: head towards the map's center before entering houses.
+- Identifying houses with computers using the in-game map.
+- Encountering entities inside houses and their pursuit mechanics.
+
+<YouTubeEmbed videoId="2H_gneLswtM" title="Level 9 Darkened Suburbs | Escape the Backrooms | FULL Walkthrough" />
+
+Upon entering Level 9, resist the urge to explore random houses. Your first priority should be to orient yourself and find the center of the map. This central area often serves as a safe zone for item replenishment and acts as a respawn point if you perish. The map will display red dots indicating the houses containing the necessary computers. These dots are randomized with each playthrough, adding an element of unpredictability to every run.
+
+<Callout type="tip" title="Map Strategy">
+Always check your map first to identify the red-dotted houses. Prioritize these houses and plan your route to minimize encounters with the **Neighborhood Watch** entity.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Computer Acquisition & Entity Evasion">
+
+Each house marked with a red dot on your map will contain a computer you need to interact with. However, these houses are also home to aggressive entities that will hunt you down. Successfully downloading data from these computers is essential, and once completed, it acts as a checkpoint. This means if you die after a successful download, you won't need to re-download from that specific computer.
+
+<Steps>
+  <Step num="1" title="Locate the Target House">
+    Use your map to identify the nearest red-dotted house. Plan your approach carefully, keeping an eye out for the **Neighborhood Watch** entity.
+  </Step>
+  <Step num="2" title="Enter and Search for the Computer">
+    Once inside, move stealthily. Crouching can reduce your detection radius. Computers can be on any floor, sometimes in easily accessible spots, other times in more challenging locations.
+  </Step>
+  <Step num="3" title="Initiate Download and Evade">
+    Press 'F' to start the download. This process takes time, and entities inside the house will actively pursue you. If an entity spots you, try to create distance, use obstacles, or retreat to a safe area.
+  </Step>
+  <Step num="4" title="Utilize Checkpoints">
+    Once the download is complete, that computer is registered. If you die, you won't lose progress on that specific house. Move to the next red-dotted house.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Entity Behavior">
+Entities inside houses are relentless. While some may get 'stuck' or exhibit glitched behavior allowing temporary evasion, assume they will chase you. Always have an escape route planned, even if it means running to a different room or out of the house.
+</Callout>
+
+### Entity Threat Levels
+
+| Entity Type         | Characteristics                                | Evasion Strategy                                 | Threat Level |
+| :------------------ | :--------------------------------------------- | :----------------------------------------------- | :----------- |
+| **House Entity**    | Aggressive, confined to specific houses        | Crouching, using obstacles, running to other rooms | Medium       |
+| **Neighborhood Watch** | Large, one-eyed, extremely fast, map-roaming | Maintain distance, hide behind structures        | High         |
+| **Other Anomalies** | Varies, often environmental or minor threats   | Observe and adapt                                | Low          |
+
+</Section>
+
+<Section icon={Shield} title="Survival Strategies & Safe Zones">
+
+Survival in the Darkened Suburbs depends heavily on strategic movement and understanding the environment. While most houses contain entities, there are exceptions and tactics to exploit.
+
+<CardGrid cols={2}>
+  <Card title="Small Houses Advantage">
+    Some smaller houses on the map may not contain entities due to their size, making them ideal for safe computer downloads. Always prioritize these if your map shows them.
+  </Card>
+  <Card title="The Hub Door">
+    Located in a specific house (always to the right when coming from the initial cave), the Hub door allows you to replenish your sanity. There are no entities in this house, making it a safe haven for recovery.
+  </Card>
+</CardGrid>
+
+### Dealing with the Neighborhood Watch
+
+The **Neighborhood Watch** is a formidable entity in Level 9. This large, one-eyed monster patrols the entire suburb and is incredibly fast. If it spots you, outrunning it is nearly impossible.
+
+| Aspect                | Description                                                               | Countermeasures                                            |
+| :-------------------- | :------------------------------------------------------------------------ | :--------------------------------------------------------- |
+| **Appearance**        | Large, one-eyed creature, often described as spider-like.                 | Listen for heavy footsteps or vibrations, indicating proximity. |
+| **Speed**             | Extremely fast, capable of covering large distances quickly.             | Do not attempt to outrun it if spotted; focus on evasion.    |
+| **Detection**         | Wide field of vision.                                                     | Stay out of its line of sight, use buildings for cover.      |
+| **Patrol Route**      | Randomly roams the entire Darkened Suburbs map.                           | Observe its movement patterns from a safe distance.          |
+
+<Callout type="info" title="Hub Door Location">
+From the starting cave, instead of heading towards the middle, enter the house to your right. Follow a small loop inside, and you'll find the Hub door. This is a crucial location for managing your sanity.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Completing Level 9: Final Steps">
+
+Once you have successfully downloaded data from all the required computers, the main gate in the central area will unlock. This signifies your path to freedom from the Darkened Suburbs. The final stretch is usually straightforward, but vigilance is still required.
+
+<Checklist
+  id="level9-completion"
+  title="Level 9 Completion Checklist:"
+  items={[
+    "All red-dotted house computers downloaded.",
+    "Main gate in the central area is unlocked.",
+    "Follow the clear path to the exit door.",
+    "Avoid any remaining entities on the way out."
+  ]}
+/>
+
+The exit path is typically marked clearly, often with arrows guiding you. Head towards the large MEG sign, pass through the newly opened gate, and follow the linear path downwards to complete Level 9. This level can be quite challenging due to its size and the constant threat of entities, so a methodical approach is key.
+
+<Callout type="success" title="Congratulations!">
+Successfully completing Level 9 is a significant achievement in **Escape the Backrooms Quarantine**. Take a moment to appreciate your strategic thinking and resilience!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the main objective in Escape the Backrooms Quarantine Level 9?",
+    answer: "The main objective is to locate and interact with several computers hidden within red-dotted houses on the map. Successfully downloading from these computers unlocks the final exit gate."
+  },
+  {
+    question: "How do I avoid the 'Neighborhood Watch' entity?",
+    answer: "The 'Neighborhood Watch' is extremely fast and cannot be outrun. Your best strategy is to avoid its line of sight, use buildings for cover, and listen for its heavy footsteps or vibrations to gauge its proximity."
+  },
+  {
+    question: "What happens if I die after downloading from a computer?",
+    answer: "Each successful computer download acts as a checkpoint. If you die, you will respawn, but the progress from that specific computer will be saved, and you won't need to re-download from it."
+  },
+  {
+    question: "Is there a safe place to replenish sanity in Level 9?",
+    answer: "Yes, there is a 'Hub door' located in a specific house (always to the right from the starting cave). This house is free of entities and allows you to replenish your sanity safely."
+  }
+]} />
+
+</Section>

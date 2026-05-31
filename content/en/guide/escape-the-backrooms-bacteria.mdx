@@ -1,0 +1,163 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Bacteria: Survival Guide & Avoidance Tactics",
+  description: "Learn how to survive the Bacteria entity in Escape the Backrooms, including its behavior, locations, and effective avoidance strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Backrooms+Bacteria+Guide",
+  date: "2026-05-31",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Bacteria** is a roaming entity in **Escape the Backrooms** that actively hunts players.
+- Found primarily in Level 0.11 and other specific sub-levels.
+- **Avoidance is key**: Maintain distance and use environmental elements like pools or steam.
+- **Clumps** entity behaves similarly to Bacteria, making these strategies broadly applicable.
+- **Stay alert** and listen for audio cues to detect its presence early.
+</Callout>
+
+<Section icon={Swords} title="Understanding the Bacteria Entity">
+The Bacteria is one of the many menacing entities you'll encounter in *Escape the Backrooms*. Unlike some static threats, Bacteria actively roams levels, relentlessly searching for players. Recognizing its behavior and typical locations is crucial for survival. This guide will help you understand this elusive threat and equip you with the knowledge to escape its grasp.
+
+<Callout type="warning" title="Critical Threat">
+The Bacteria entity is a constant threat that cannot be directly fought. Your only option is **avoidance** and strategic movement.
+</Callout>
+
+### Bacteria Overview
+
+| Characteristic | Description                                         | Threat Level |
+| :------------- | :-------------------------------------------------- | :----------- |
+| **Behavior**   | Roaming, prey-seeking, persistent chase             | ★★★★★        |
+| **Speed**      | Moderate to Fast, depends on player proximity       | High         |
+| **Attack**     | Instant kill upon contact                           | Lethal       |
+| **Detection**  | Primarily visual and audio cues                     | Moderate     |
+| **Vulnerability** | None (cannot be harmed or stunned)                  | N/A          |
+
+</Section>
+
+<Section icon={Map} title="Known Locations and Habitats">
+The Bacteria entity is not confined to a single level but is known to appear in specific areas within the Backrooms. Knowing these locations can help you prepare for its presence and develop an effective escape plan.
+
+**Video Highlights:**
+- Demonstrates typical environments where Bacteria might appear.
+- Shows player reactions to encountering various entities, including potentially Bacteria.
+- Highlights general strategies for navigating dangerous levels.
+
+<YouTubeEmbed videoId="1_712vQzKj0" title="Escape The Backrooms - All Entities and How to Survive Them" />
+
+<Callout type="tip">
+While the main level for Bacteria is often cited as Level 0.11, similar roaming entities like Clumps (found in Level "!~!" and Poolrooms Sublevel "37.2") share its hunting pattern. Strategies for avoiding Bacteria are often effective against these similar threats.
+</Callout>
+
+### Entity Locations Table
+
+| Entity Name | Primary Location(s)              | Key Behavior                                | Related Entities |
+| :---------- | :------------------------------- | :------------------------------------------ | :--------------- |
+| **Bacteria**| Level 0.11                       | Roams, seeks prey, persistent               | Clumps           |
+| **Smilers** | Habitable Zone                   | Avoid by staying in light                   | N/A              |
+| **Clumps**  | Level "!~!", Poolrooms 37.2      | Roams, cannot climb all stairs or enter water | Bacteria         |
+| **Skin Stealers** | Various, humanoid disguise       | Mimics players, runs boldly, avoid rooms    | N/A              |
+
+</Section>
+
+<Section icon={Target} title="Effective Avoidance Strategies">
+Surviving an encounter with Bacteria relies entirely on your ability to avoid detection and escape pursuit. Here are proven strategies to increase your chances of survival.
+
+<Callout type="info" title="Prioritize Stealth">
+Whenever you suspect Bacteria might be present, **stealth** should be your primary mode of movement. Avoid making unnecessary noise or sudden movements.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Maintain Situational Awareness">
+    Continuously scan your surroundings for any signs of movement or changes in the environment. Listen for any distinctive audio cues that might indicate Bacteria's proximity. Early detection is your best defense.
+  </Step>
+  <Step num="2" title="Utilize Environmental Obstacles">
+    Bacteria, like Clumps, has limitations. If you're being chased, look for **pools of water** or **certain staircases** that the entity cannot navigate. Jumping into a pool can temporarily halt its pursuit.
+  </Step>
+  <Step num="3" title="Strategic Movement">
+    If cornered, try to create distance by using tight corridors or obstacles to break line of sight. Do not attempt to outrun it in open areas unless you have a clear path to a safe zone. Crouching can also help reduce your visibility and noise.
+  </Step>
+  <Step num="4" title="Identify Safe Zones">
+    In some levels, specific areas might offer temporary respite. For instance, in the "0.2" sublevel, a Bone Thief can be avoided by not entering a blocked-off area. While not directly for Bacteria, this highlights the importance of recognizing level-specific safe zones.
+  </Step>
+</Steps>
+
+### Survival Checklist
+
+<Checklist
+  id="bacteria-survival"
+  title="Bacteria Encounter Survival Checklist:"
+  items={[
+    "Listen for audio cues",
+    "Stay out of its line of sight",
+    "Utilize water bodies or specific staircases",
+    "Avoid open areas during pursuit",
+    "Remain calm and plan your escape route"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Comparing Bacteria with Similar Entities">
+While Bacteria is unique, other entities in *Escape the Backrooms* share similar roaming or hunting behaviors. Understanding these parallels can help you apply general survival principles across different threats.
+
+### Roaming Entity Comparison
+
+| Entity           | Primary Threat         | Avoidance Method                                  | Can Be Outrun? | Environmental Limitations |
+| :--------------- | :--------------------- | :------------------------------------------------ | :------------- | :------------------------ |
+| **Bacteria**     | Relentless pursuit     | Stealth, water, specific staircases               | Difficult      | Water, some stairs        |
+| **Clumps**       | Direct chase           | Water, specific staircases                        | Difficult      | Water, most stairs        |
+| **Aranea Membri**| Cannot be outran       | Hide in rooms, stay away from doors               | No             | Vents, cannot be outrun   |
+| **Wretch**       | Noise reactive         | Hug walls, crouch when near                       | Yes            | Reacts to noise           |
+| **Neighborhood Watch**| Fast chase once spotted| Hide in cracks, enter unlocked houses             | Extremely Fast | Open roads                |
+
+<Callout type="success" title="Adaptability is Key">
+Many entities in *Escape the Backrooms* require quick thinking and adaptation. By understanding the core mechanics of avoidance, you can apply similar strategies to various threats.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Tips for Long-Term Survival">
+Beyond immediate avoidance, there are general practices that will enhance your overall survival chances against entities like Bacteria in *Escape the Backrooms*.
+
+### Preparation and Awareness
+
+| Aspect           | Recommendation                                                                      | Benefit                                        |
+| :--------------- | :---------------------------------------------------------------------------------- | :--------------------------------------------- |
+| **Audio Settings** | Play with headphones; adjust sound levels to hear subtle cues.                      | Early detection of entities, including Bacteria. |
+| **Map Knowledge**  | Learn level layouts, especially escape routes and environmental obstacles.          | Faster navigation and strategic evasion.       |
+| **Resource Management**| Conserve items like flashlights or stamina if they aid in evasion or detection. | Sustained survival in prolonged encounters.    |
+| **Team Communication**| If playing co-op, communicate entity sightings and escape plans clearly.          | Coordinated avoidance and rescue opportunities. |
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions About Bacteria">
+
+<FAQ items={[
+  {
+    question: "What is the Bacteria entity in Escape the Backrooms?",
+    answer: "The Bacteria is a hostile, roaming entity that actively hunts players in various levels of Escape the Backrooms, known for its persistent pursuit and instant kill capability."
+  },
+  {
+    question: "Where can I find Bacteria in Escape the Backrooms?",
+    answer: "Bacteria is primarily encountered in Level 0.11. Similar entities like Clumps, which share behavioral patterns, are found in Level \"!~!\" and Poolrooms Sublevel \"37.2\"."
+  },
+  {
+    question: "How do I avoid the Bacteria entity?",
+    answer: "To avoid Bacteria, you should prioritize stealth, maintain situational awareness, and utilize environmental obstacles like pools of water or specific staircases that the entity cannot traverse. Do not attempt to fight it directly."
+  },
+  {
+    question: "Can Bacteria be killed or stunned?",
+    answer: "No, the Bacteria entity cannot be killed or stunned. Your only option for survival is to avoid it and escape its pursuit."
+  }
+]} />
+
+</Section>

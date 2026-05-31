@@ -1,0 +1,154 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Quarantine: Guía del Nivel 9 Suburbios Oscurecidos",
+  description: "Navega por el Nivel 9 Suburbios Oscurecidos en Escape the Backrooms, centrándote en la ubicación de los ordenadores, la evasión de entidades y las estrategias de salida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/3498db/fff?text=Backrooms+Quarantine",
+  date: "2026-05-31",
+  author: "Equipo de Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Escape the Backrooms Quarantine**: Concéntrate en encontrar ordenadores en las casas para desbloquear la salida.
+- **Evasión de Entidades**: Agáchate para reducir el rango de detección y usa elementos del entorno como cobertura.
+- **Vigilancia Vecinal**: Evita a la entidad grande de un solo ojo, ya que es extremadamente rápida e imposible de superar.
+- **Sistema de Puntos de Control**: Las descargas de ordenadores completadas sirven como puntos de control, permitiendo retener el progreso incluso después de la muerte.
+- **Puerta del Centro**: Conoce la ubicación de la Puerta del Centro para reponer la cordura y realizar retiradas estratégicas.
+</Callout>
+
+<Section icon={Map} title="Navegando el Nivel 9: Suburbios Oscurecidos">
+
+El Nivel 9, conocido como los Suburbios Oscurecidos, presenta un desafío significativo en **Escape the Backrooms Quarantine** con su vasto mapa y entidades agresivas. Tu objetivo principal es localizar e interactuar con ordenadores específicos escondidos dentro de varias casas. Estos ordenadores, marcados como puntos rojos en tu mapa, son cruciales para desbloquear la puerta de salida final. Comprender el diseño y el comportamiento de las entidades es clave para la supervivencia.
+
+**Puntos destacados del video:**
+- Entrando al Nivel 9 a través de las alcantarillas después de un corto paseo por una cueva.
+- Estrategia inicial: dirigirse hacia el centro del mapa antes de entrar en las casas.
+- Identificar casas con ordenadores usando el mapa del juego.
+- Encontrar entidades dentro de las casas y sus mecánicas de persecución.
+
+<YouTubeEmbed videoId="2H_gneLswtM" title="Nivel 9 Suburbios Oscurecidos | Escape the Backrooms | Guía COMPLETA" />
+
+Al entrar en el Nivel 9, resiste la tentación de explorar casas al azar. Tu primera prioridad debe ser orientarte y encontrar el centro del mapa. Esta área central a menudo sirve como una zona segura para reponer objetos y actúa como punto de reaparición si pereces. El mapa mostrará puntos rojos que indican las casas que contienen los ordenadores necesarios. Estos puntos se aleatorizan con cada partida, añadiendo un elemento de imprevisibilidad a cada intento.
+
+<Callout type="tip" title="Estrategia del Mapa">
+Consulta siempre tu mapa primero para identificar las casas con puntos rojos. Prioriza estas casas y planifica tu ruta para minimizar los encuentros con la entidad **Vigilancia Vecinal**.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Adquisición de Ordenadores y Evasión de Entidades">
+
+Cada casa marcada con un punto rojo en tu mapa contendrá un ordenador con el que necesitas interactuar. Sin embargo, estas casas también albergan entidades agresivas que te cazarán. Descargar datos con éxito de estos ordenadores es esencial, y una vez completado, actúa como un punto de control. Esto significa que si mueres después de una descarga exitosa, no necesitarás volver a descargar de ese ordenador específico.
+
+<Steps>
+  <Step num="1" title="Localiza la Casa Objetivo">
+    Usa tu mapa para identificar la casa con puntos rojos más cercana. Planifica tu aproximación cuidadosamente, vigilando a la entidad **Vigilancia Vecinal**.
+  </Step>
+  <Step num="2" title="Entra y Busca el Ordenador">
+    Una vez dentro, muévete sigilosamente. Agacharse puede reducir tu radio de detección. Los ordenadores pueden estar en cualquier piso, a veces en lugares de fácil acceso, otras veces en ubicaciones más desafiantes.
+  </Step>
+  <Step num="3" title="Inicia la Descarga y Evasión">
+    Pulsa 'F' para iniciar la descarga. Este proceso lleva tiempo, y las entidades dentro de la casa te perseguirán activamente. Si una entidad te detecta, intenta crear distancia, usar obstáculos o retirarte a un área segura.
+  </Step>
+  <Step num="4" title="Utiliza los Puntos de Control">
+    Una vez completada la descarga, ese ordenador queda registrado. Si mueres, no perderás el progreso en esa casa específica. Muévete a la siguiente casa con puntos rojos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Comportamiento de la Entidad">
+Las entidades dentro de las casas son implacables. Aunque algunas pueden 'quedarse atascadas' o exhibir un comportamiento con fallos que permite una evasión temporal, asume que te perseguirán. Ten siempre una ruta de escape planificada, incluso si eso significa correr a otra habitación o salir de la casa.
+</Callout>
+
+### Niveles de Amenaza de las Entidades
+
+| Tipo de Entidad     | Características                                | Estrategia de Evasión                              | Nivel de Amenaza |
+| :------------------ | :--------------------------------------------- | :----------------------------------------------- | :----------- |
+| **Entidad de Casa** | Agresiva, confinada a casas específicas        | Agacharse, usar obstáculos, correr a otras habitaciones | Medio        |
+| **Vigilancia Vecinal** | Grande, de un solo ojo, extremadamente rápida, deambula por el mapa | Mantener la distancia, esconderse detrás de estructuras | Alto         |
+| **Otras Anomalías** | Varía, a menudo ambientales o amenazas menores | Observar y adaptarse                             | Bajo         |
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de Supervivencia y Zonas Seguras">
+
+La supervivencia en los Suburbios Oscurecidos depende en gran medida del movimiento estratégico y la comprensión del entorno. Aunque la mayoría de las casas contienen entidades, hay excepciones y tácticas que explotar.
+
+<CardGrid cols={2}>
+  <Card title="Ventaja de las Casas Pequeñas">
+    Algunas casas más pequeñas en el mapa pueden no contener entidades debido a su tamaño, lo que las hace ideales para descargas seguras de ordenadores. Prioriza siempre estas si tu mapa las muestra.
+  </Card>
+  <Card title="La Puerta del Centro">
+    Ubicada en una casa específica (siempre a la derecha al venir de la cueva inicial), la Puerta del Centro te permite reponer tu cordura. No hay entidades en esta casa, lo que la convierte en un refugio seguro para la recuperación.
+  </Card>
+</CardGrid>
+
+### Lidiando con la Vigilancia Vecinal
+
+La **Vigilancia Vecinal** es una entidad formidable en el Nivel 9. Este monstruo grande de un solo ojo patrulla todo el suburbio y es increíblemente rápido. Si te detecta, superarlo corriendo es casi imposible.
+
+| Aspecto               | Descripción                                                               | Contramedidas                                           |
+| :-------------------- | :------------------------------------------------------------------------ | :-------------------------------------------------------- |
+| **Apariencia**        | Criatura grande, de un solo ojo, a menudo descrita como arácnida.         | Escucha pasos pesados o vibraciones, indicando proximidad. |
+| **Velocidad**         | Extremadamente rápida, capaz de cubrir grandes distancias rápidamente.    | No intentes superarla corriendo si te detecta; concéntrate en la evasión. |
+| **Detección**         | Amplio campo de visión.                                                   | Mantente fuera de su línea de visión, usa edificios como cobertura. |
+| **Ruta de Patrulla**  | Deambula aleatoriamente por todo el mapa de los Suburbios Oscurecidos.    | Observa sus patrones de movimiento desde una distancia segura. |
+
+<Callout type="info" title="Ubicación de la Puerta del Centro">
+Desde la cueva inicial, en lugar de dirigirte hacia el centro, entra en la casa a tu derecha. Sigue un pequeño circuito dentro y encontrarás la Puerta del Centro. Esta es una ubicación crucial para gestionar tu cordura.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Completando el Nivel 9: Pasos Finales">
+
+Una vez que hayas descargado con éxito los datos de todos los ordenadores requeridos, la puerta principal en el área central se desbloqueará. Esto significa tu camino hacia la libertad de los Suburbios Oscurecidos. El tramo final suele ser sencillo, pero aún se requiere vigilancia.
+
+<Checklist
+  id="level9-completion"
+  title="Lista de Verificación de Finalización del Nivel 9:"
+  items={[
+    "Todos los ordenadores de las casas con puntos rojos descargados.",
+    "La puerta principal en el área central está desbloqueada.",
+    "Sigue el camino claro hacia la puerta de salida.",
+    "Evita cualquier entidad restante al salir."
+  ]}
+/>
+
+El camino de salida suele estar claramente marcado, a menudo con flechas que te guían. Dirígete hacia el gran letrero de MEG, pasa por la puerta recién abierta y sigue el camino lineal hacia abajo para completar el Nivel 9. Este nivel puede ser bastante desafiante debido a su tamaño y la constante amenaza de entidades, por lo que un enfoque metódico es clave.
+
+<Callout type="success" title="¡Felicidades!">
+Completar con éxito el Nivel 9 es un logro significativo en **Escape the Backrooms Quarantine**. ¡Tómate un momento para apreciar tu pensamiento estratégico y tu resistencia!
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal en Escape the Backrooms Quarantine Nivel 9?",
+    answer: "El objetivo principal es localizar e interactuar con varios ordenadores escondidos dentro de casas con puntos rojos en el mapa. Descargar con éxito de estos ordenadores desbloquea la puerta de salida final."
+  },
+  {
+    question: "¿Cómo evito a la entidad 'Vigilancia Vecinal'?",
+    answer: "La 'Vigilancia Vecinal' es extremadamente rápida e imposible de superar. Tu mejor estrategia es evitar su línea de visión, usar edificios como cobertura y escuchar sus pasos pesados o vibraciones para medir su proximidad."
+  },
+  {
+    question: "¿Qué sucede si muero después de descargar de un ordenador?",
+    answer: "Cada descarga exitosa de un ordenador actúa como un punto de control. Si mueres, reaparecerás, pero el progreso de ese ordenador específico se guardará y no necesitarás volver a descargar de él."
+  },
+  {
+    question: "¿Hay un lugar seguro para reponer la cordura en el Nivel 9?",
+    answer: "Sí, hay una 'Puerta del Centro' ubicada en una casa específica (siempre a la derecha desde la cueva inicial). Esta casa está libre de entidades y te permite reponer tu cordura de forma segura."
+  }
+]} />
+
+</Section>

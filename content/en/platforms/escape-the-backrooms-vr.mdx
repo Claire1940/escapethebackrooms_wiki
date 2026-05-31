@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms VR: Your Essential Survival Guide",
+  description: "Dive into the terrifying world of Escape the Backrooms in VR. Learn about advantages, disadvantages, and crucial tips for navigating the VR experience.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Escape+Backrooms+VR",
+  date: "2026-05-31",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Escape the Backrooms VR** offers an immersive but challenging experience.
+- Be prepared for **nausea**; VR is not recommended for newcomers.
+- **Multiplayer** with VR requires third-party launchers for full functionality.
+- Key items like **Chainsaws and Walkie Talkies** can be buggy in VR.
+- The **VR mode** was delisted but can still be accessed via local files or third-party launchers.
+</Callout>
+
+<Section icon={Map} title="Understanding Escape the Backrooms VR">
+**Escape the Backrooms VR** plunges players into a horrifying virtual reality experience, offering a unique perspective on the game's eerie levels and terrifying entities. While it provides unparalleled immersion, it also comes with its own set of challenges and quirks. Originally delisted due to bugs, the VR mode is still accessible through specific methods and is confirmed to make a return in a future update.
+
+**Video Highlights:**
+- Players often spawn separately, increasing initial tension and the need for communication.
+- The VR experience intensifies the fear and disorientation of the Backrooms.
+- Navigating puzzles and interacting with objects can be challenging with VR controls.
+
+<YouTubeEmbed videoId="lQ8tVQD03bY" title="Escape The Backrooms in VR - With Friends." />
+
+<Callout type="warning" title="Motion Sickness Alert">
+The VR experience in *Escape the Backrooms* is known to be very **nauseating**. If you are new to virtual reality or prone to motion sickness, proceed with caution. Adjusting VR settings and taking breaks can help.
+</Callout>
+
+### VR Mode Status and Access
+The VR mode for *Escape the Backrooms* was officially delisted on January 31st, 2024, due to numerous bugs. However, it is still possible to play the game in VR.
+
+| Method of Access | Singleplayer | Multiplayer | Recommended For |
+| :--------------- | :----------- | :---------- | :---------------- |
+| Local Files      | **Yes**      | No          | Solo explorers    |
+| Third-Party Launcher | **Yes**      | **Yes**     | Group play        |
+| Official Steam Client | No           | No          | Not currently     |
+
+</Section>
+
+<Section icon={Target} title="Advantages and Disadvantages of VR Gameplay">
+Playing *Escape the Backrooms* in VR significantly alters the gameplay experience. It enhances the horror and immersion but introduces several technical and gameplay drawbacks that players should be aware of.
+
+### VR Specifics at a Glance
+
+| Aspect             | Desktop Mode                                    | VR Mode (as of Part 4)                                   |
+| :----------------- | :---------------------------------------------- | :------------------------------------------------------- |
+| **Immersion**      | High, but limited by screen                     | **Extreme**, truly "inside" the game                      |
+| **Nausea**         | Minimal                                         | **Very High**, especially for new VR users                |
+| **Controls**       | Precise keyboard/mouse or gamepad               | Controller tracking issues, hand breaking with items      |
+| **Interactables**  | Seamless                                        | Locks head in place when used                             |
+| **Hiding Spots**   | Free camera movement                            | Locks head in place                                       |
+| **Optimization**   | Generally good                                  | **Unoptimized**, requires beefy PC, prone to crashes     |
+| **Multiplayer Chat** | Fully functional                                | **Unavailable** for VR players                            |
+| **Spectating**     | Full spectate mode                              | Bright white screen on death                              |
+| **Glitches**       | Minor                                           | Frequent, including UI breaks, infinite sprint, position tracking |
+
+<Callout type="tip">
+For an optimal VR experience, ensure your PC meets the recommended specifications for VR gaming. A powerful graphics card and processor will help mitigate performance issues and reduce potential motion sickness.
+</Callout>
+
+### Key Gameplay Differences in VR
+
+<CardGrid cols={2}>
+  <Card title="VR Advantages">
+    - **Enhanced Immersion**: Truly feel the scale and terror of the Backrooms.
+    - **Level Skips**: In Level 0, balancing in Pitfalls is not added, allowing free movement.
+    - **Puzzle Skips**: The Security Terminal puzzle at The M.E.G Base is skipped.
+    - **Door Glitch**: Can sometimes bypass locked doors in The Hub, skipping parts of the game.
+  </Card>
+  <Card title="VR Disadvantages">
+    - **Nauseating Experience**: Not recommended for VR beginners.
+    - **Control Issues**: Incorrect controller tracking, "broken hands" with certain items.
+    - **Entity Behavior**: Roaming Smilers do not disappear when flashed (bug), making some levels harder.
+    - **Multiplayer Limitations**: Cannot read chat, forced bright white screen upon death.
+    - **Performance**: Unoptimized, requires a powerful PC, frequent crashes.
+    - **Aiming**: Harder to aim fireworks due to lack of crosshair.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Swords} title="Navigating Common VR Challenges">
+The unique nature of VR introduces specific hurdles when trying to escape the Backrooms. Understanding these challenges and how to mitigate them is crucial for survival.
+
+### Overcoming Control and Item Bugs
+Players often encounter issues with controller tracking and item functionality in VR.
+
+<Steps>
+  <Step num="1" title="Recalibrate Controllers">
+    If your controller position is tracked incorrectly, **recenter your VR headset and controllers** frequently. This can often resolve temporary tracking glitches.
+  </Step>
+  <Step num="2" title="Be Mindful of Interactables">
+    When using interactive objects or hiding, your head will be locked in place. **Plan your movements carefully** around entities, as this restriction can leave you vulnerable.
+  </Step>
+  <Step num="3" title="Adjust Item Usage">
+    Items like Chainsaws, Walkie Talkies, and Bug Spray can cause your virtual hands to "break." While usable, be aware of this visual bug and **practice using them in safer areas** if possible. Aiming fireworks without a crosshair requires more intuitive aiming.
+  </Step>
+</Steps>
+
+<Callout type="info">
+The "broken hands" visual bug with certain items is a known issue in the VR mode. While it doesn't always prevent functionality, it can be disorienting.
+</Callout>
+
+### Multiplayer Considerations
+Multiplayer in VR has significant limitations that affect communication and gameplay.
+
+<Checklist
+  id="multiplayer-vr-prep"
+  title="Multiplayer VR Checklist:"
+  items={[
+    "Use a third-party launcher for multiplayer access",
+    "Establish external voice communication (e.g., Discord)",
+    "Be aware that you cannot read in-game chat",
+    "Prepare for potential UI breaks and softlocks upon joining lobbies",
+    "Utilize the infinite sprint bug if it occurs by spamming sprint"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Shield} title="Future of Escape the Backrooms VR">
+Despite its current delisted status and known issues, the developers have plans to reintroduce a more polished VR experience.
+
+<Callout type="success" title="VR Relaunch Confirmed">
+Fancy, one of the developers, has confirmed that the VR mode will make a comeback in an update after Part 5. This indicates a commitment to improving the VR experience and addressing the existing bugs.
+</Callout>
+
+### Preparing for the Relaunch
+While waiting for the official VR relaunch, here's how you can stay updated and prepare:
+
+| Action                 | Description                                                   | Benefit                                                 |
+| :--------------------- | :------------------------------------------------------------ | :------------------------------------------------------ |
+| **Monitor Steam News** | Follow the official [Escape the Backrooms Steam News](https://store.steampowered.com/news/app/1943950/view/3728457570832903527) for announcements. | Stay informed about release dates and patch notes.      |
+| **Optimize PC Setup**  | Ensure your PC meets or exceeds recommended VR specifications. | Smoother gameplay, reduced crashes, less motion sickness. |
+| **Practice VR Basics** | Play other less intense VR games to get accustomed to VR movement. | Build "VR legs" to combat motion sickness.             |
+| **Join Community Forums** | Engage with other players on forums or Discord for tips and updates. | Learn workarounds and share experiences.                |
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ: Escape the Backrooms VR">
+
+<FAQ items={[
+  {
+    question: "Is Escape the Backrooms VR still officially supported?",
+    answer: "No, the VR mode was delisted on January 31st, 2024, due to bugs. However, it is confirmed to return in an update after Part 5."
+  },
+  {
+    question: "How can I play Escape the Backrooms in VR right now?",
+    answer: "You can play by opening the game directly from its local files or by using a third-party launcher with Steam compatibility. For multiplayer, a third-party launcher is currently the only way."
+  },
+  {
+    question: "What are the main issues with the current VR version?",
+    answer: "The current VR version is unoptimized, very nauseating, prone to crashing, has issues with controller tracking, and certain items can cause visual bugs. Multiplayer also lacks in-game chat for VR players."
+  },
+  {
+    question: "Are there any advantages to playing Escape the Backrooms in VR?",
+    answer: "Yes, VR offers significantly enhanced immersion and can sometimes allow players to bypass certain level mechanics or even locked doors due to glitches, effectively skipping parts of the game."
+  }
+]} />
+
+</Section>

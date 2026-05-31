@@ -1,0 +1,182 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Footprints, Search } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Nivel 0: Guía Completa y de Supervivencia",
+  description: "Domina Escape the Backrooms Nivel 0 con nuestra guía de 2026. Aprende a encontrar las piezas de la escalera, escapar de la entidad y navegar por el Lobby de manera eficiente.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/facc15/000?text=Level+0+Walkthrough",
+  date: "2026-05-31",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Escape the Backrooms Nivel 0** es principalmente un nivel de puzles y navegación conocido como "El Lobby".
+- **Objetivo Principal**: Localizar cuatro piezas de escalera para obtener la llave, luego navegar hasta la salida de ventilación.
+- **Mecánica Clave**: Usa el sistema de equilibrio (Q/E) o el deslizamiento por el borde para cruzar tuberías estrechas en la zona del foso.
+- **Consejo de Supervivencia**: Escucha los sonidos de golpes en las puertas, que indican que una entidad está cerca en las secciones inferiores.
+- **Beneficio Multijugador**: Solo un jugador necesita recoger la llave para que todo el equipo progrese.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Nivel 0: Navegando por el Lobby">
+
+El Nivel 0, famoso como "El Lobby", sirve como la experiencia introductoria en Escape the Backrooms. Captura perfectamente la estética del espacio liminal con su papel tapiz amarillo repetitivo, alfombras húmedas y el zumbido constante de las luces fluorescentes. Aunque al principio pueda parecer vacío, el nivel está diseñado para desorientar a los jugadores a través de geometría no euclidiana y puntos de aparición aleatorios.
+
+**Puntos Destacados del Video:**
+- Identificación de puntos de referencia como la habitación oscura con pilares.
+- Localización de las cuatro piezas de la escalera en la Sala de la Escalera.
+- Demostración de la técnica de deslizamiento para la sección de tuberías.
+- Navegación de la ruta alternativa usando flechas negras.
+
+<YouTubeEmbed videoId="62aMd7DrSu4" title="Nivel 0 | Escape the Backrooms [ACTUALIZACIÓN 3] Guía COMPLETA" />
+
+Al aparecer, tu primera prioridad es orientarte. Debido a que la ubicación de aparición es aleatoria, busca la "habitación oscura con pilares", que actúa como un punto de referencia principal. Desde esta ubicación, dirigirse a la izquierda es generalmente la forma más fiable de encontrar el camino crítico que conduce a la Sala de la Escalera.
+
+| Característica | Descripción | Nivel de Peligro |
+| :--- | :--- | :--- |
+| **Papel tapiz** | Amarillo monocromático, patrones repetitivos | Bajo (Desorientación) |
+| **Iluminación** | Tubos fluorescentes parpadeantes | Bajo |
+| **Sonido** | Zumbido eléctrico constante / golpes distantes | Medio |
+| **Entidades** | Raras en los pisos superiores, comunes en los fosos | Alto |
+
+<Callout type="tip" title="Secreto de Navegación">
+Si te sientes completamente perdido, busca papeles esparcidos por el suelo. Aunque a menudo contienen información, su ubicación a veces insinúa caminos que los jugadores han explorado previamente.
+</Callout>
+
+</Section>
+
+<Section icon={Search} title="La Sala de la Escalera y Recolección de la Llave">
+
+El primer gran puzle en Escape the Backrooms Nivel 0 implica reparar una escalera rota para alcanzar un área de almacenamiento en altura. Esta habitación es distinta del resto de los pasillos amarillos y es esencial para la progresión. En sesiones multijugador, la coordinación es clave; aunque todo el equipo puede buscar, solo una persona necesita interactuar con la escalera final para otorgar la llave a todos.
+
+| Objeto | Propósito | Ubicación |
+| :--- | :--- | :--- |
+| **Pieza de Escalera (x4)** | Repara la escalera de acceso | Dispersas dentro de la Sala de la Escalera |
+| **Llave de Almacenamiento** | Abre la puerta de salida | Estante superior de la Sala de la Escalera |
+| **Cuerda** | Salva a compañeros caídos | Cerca de la entrada del foso/ventilación |
+
+<Steps>
+  <Step num="1" title="Localiza la Sala de la Escalera">
+    Navega desde el punto de referencia de la sala de pilares hasta que encuentres una habitación con una escalera alta y rota apoyada contra una pared.
+  </Step>
+  <Step num="2" title="Busca las Piezas">
+    Busca en las esquinas inmediatas y detrás de las cajas en esta habitación. Hay cuatro piezas de madera en total. Pulsa **F** para recogerlas.
+  </Step>
+  <Step num="3" title="Ensambla y Sube">
+    Interactúa con la base de la escalera para activar la animación de reparación. Sube a la cima para coger la llave plateada.
+  </Step>
+  <Step num="4" title="Desbloquea el Camino">
+    Regresa a los pasillos y busca la pesada puerta metálica. Usa la llave para desbloquearla y procede a la sección del foso.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Sincronización Multijugador">
+Asegúrate de que todos los jugadores estén cerca cuando se recoja la llave. Si bien la llave es "compartida", algunas actualizaciones pueden requerir que los jugadores estén en la misma zona para que la interacción con la puerta se active correctamente para todos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="La Sección del Foso y Mecánicas de Equilibrio">
+
+Después de pasar por la puerta cerrada, te encontrarás con la parte mecánicamente más desafiante del Nivel 0: el Foso. Esta área requiere que cruces tuberías estrechas sobre un abismo oscuro. Caer no es una muerte instantánea, pero conduce a un subárea mucho más peligrosa llena de entidades.
+
+<CardGrid cols={2}>
+  <Card title="El Método del Equilibrio">
+    - Usa **Q** y **E** para inclinar tu cuerpo.
+    - Muévete lentamente y observa el balanceo.
+    - Mejor para jugadores con alta precisión de ratón.
+  </Card>
+  <Card title="El Método del Deslizamiento">
+    - Pégate completamente a la pared izquierda.
+    - Muévete de lado sin mirar hacia abajo.
+    - Generalmente considerada la estrategia "pro" más segura.
+  </Card>
+</CardGrid>
+
+Si estás jugando en equipo y alguien cae, la **Cuerda** se convierte en tu herramienta más valiosa. La persona que se quedó arriba puede soltar la cuerda manteniendo presionado el botón izquierdo del ratón. El jugador en el foso debe mirar hacia arriba, encontrar la cuerda y presionar **F** para ser jalado de nuevo a un lugar seguro.
+
+| Acción | Control | Resultado |
+| :--- | :--- | :--- |
+| **Inclinarse a la Izquierda** | Q | Contrarresta el balanceo hacia la derecha |
+| **Inclinarse a la Derecha** | E | Contrarresta el balanceo hacia la izquierda |
+| **Soltar Cuerda** | Clic Izquierdo (Mantener) | Baja la cuerda al foso |
+| **Agacharse/Ventilación** | Ctrl | Entra en el camino de salida final |
+
+<Callout type="success" title="Paso Seguro">
+Si estás luchando contra el efecto de mareo (sonido de latidos del corazón), deja de moverte durante 3 segundos. Esto permite que tu personaje se "calme", reduciendo significativamente el balanceo de la cámara.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Supervivencia en los Niveles Inferiores">
+
+Caer al foso en Escape the Backrooms Nivel 0 no es el final de la partida, pero inicia una fase de "survival horror". Los niveles inferiores están tenuemente iluminados y albergan a la única entidad activa del nivel. Esta criatura es rápida y reacciona al sonido, haciendo que el sigilo sea obligatorio si te encuentras debajo de las ventilaciones.
+
+**Cómo Escapar del Foso:**
+1. **Sigue las Flechas**: Busca flechas negras pintadas en las paredes. Estas son tu única guía de regreso a la salida.
+2. **Escucha el Golpe**: Un sonido distintivo de "golpe de puerta" indica que la entidad ha aparecido y te está buscando.
+3. **Sigue Moviéndote**: El patrón de movimiento de la entidad es algo predecible, pero eventualmente te acorralará si te quedas en una habitación demasiado tiempo.
+4. **La Escalera**: Las flechas negras eventualmente conducen a una escalera. Subir estas escaleras te llevará de vuelta al área de la ventilación de salida.
+
+| Pista de Entidad | Significado | Acción Recomendada |
+| :--- | :--- | :--- |
+| **Golpes Distantes** | Entidad Aparecida | Deja de correr, muévete a una habitación lateral |
+| **Pasos Rápidos** | Entidad Agredida | Corre hacia la flecha negra más cercana |
+| **Distorsión Visual** | Entidad muy cerca | Escóndete detrás de pilares o cajas inmediatamente |
+
+<Callout type="warning" title="Peligro de Entidad">
+En dificultad "Difícil" o "Pesadilla", la entidad en el foso es significativamente más rápida. No intentes el piso del foso a menos que sea absolutamente necesario en estas configuraciones.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación de Progresión y Dominio">
+
+Para completar con éxito el Nivel 0 y pasar al Nivel 1, debes llegar a la ventilación final y subir las escaleras. En dificultades más altas, la salida no se activará hasta que cada miembro vivo del equipo haya llegado al área de la escalera final.
+
+<Checklist
+  id="level-0-completion"
+  title="Objetivos de Completación del Nivel 0:"
+  items={[
+    "Identifica el punto de referencia de la Sala de Pilares desde el inicio",
+    "Recoge las 4 piezas de escalera en la Sala de la Escalera",
+    "Adquiere la Llave de Almacenamiento del estante superior",
+    "Cruza la sección de tuberías o navega por el camino de flechas",
+    "Llega a la escalera final para la transición al Nivel 1"
+  ]}
+/>
+
+<Callout type="info" title="Escalado de Dificultad">
+En dificultad **Fácil**, llegar a las escaleras termina el nivel instantáneamente. En **Normal** o superior, debes esperar a tus compañeros de equipo en la "zona de salida" designada antes de que ocurra la transición.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es la forma más rápida de encontrar la Sala de la Escalera en Escape the Backrooms Nivel 0?",
+    answer: "El método más consistente es encontrar primero la 'Sala Oscura de los Pilares'. Desde allí, mantén las paredes más oscuras a tu derecha y navega por los pasillos de la izquierda. La mayoría de los puntos de aparición sitúan la Sala de la Escalera aproximadamente a 2-3 minutos de este punto de referencia."
+  },
+  {
+    question: "¿Pueden varias personas tener la llave a la vez?",
+    answer: "La llave es un objeto de inventario compartido. Una vez que un jugador la recoge, el icono de 'Llave' aparecerá para todos en el grupo, permitiendo que cualquiera interactúe con la puerta cerrada."
+  },
+  {
+    question: "¿Qué sucede si todos caen al foso?",
+    answer: "Si todo el equipo cae, la cuerda es inútil. Todos deben seguir las flechas negras en las paredes para encontrar la salida alternativa por la escalera. Ten cuidado, ya que aquí es donde reside la entidad."
+  },
+  {
+    question: "¿Hay un susto al final del Nivel 0?",
+    answer: "La salida en sí es segura. Sin embargo, si tomas la ruta inferior (el foso), hay un evento guionizado en el que la entidad puede golpear puertas o aparecer de repente si te demoras demasiado."
+  }
+]} />
+
+</Section>
