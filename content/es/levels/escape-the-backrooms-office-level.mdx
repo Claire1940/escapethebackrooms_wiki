@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Nivel de la Oficina de Escape the Backrooms: Guía de Speedrun y Estrategia de Salida",
+  description: "Navega por el nivel de la Oficina Abandonada en Escape the Backrooms con esta guía de speedrun, que cubre acertijos, evasión de entidades y la ruta de salida más rápida para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Backrooms+Office+Level+Guide",
+  date: "2026-06-01",
+  author: "Equipo de la Wiki de Escape the Backrooms",
+  keywords: "escape the backrooms, nivel de oficina, oficina abandonada, guía de speedrun, acertijo de flujo de agua, reinicio de cuchilla de seguridad"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Para **escapar del nivel de la Oficina de los Backrooms**, prioriza la velocidad y el movimiento directo.
+- **Evita desvíos innecesarios** a través de puertas a menos que sea específicamente requerido para un acertijo.
+- El **acertijo del flujo de agua** consiste en contar los flujos de agua visibles para determinar la entrada correcta.
+- Si la salida está cerrada, localiza el **reinicio de la cuchilla de seguridad** para abrirla.
+- Dominar el diseño de la **Oficina Abandonada** es clave para completar el nivel de manera eficiente.
+</Callout>
+
+<Section icon={Map} title="Navegando por el Nivel de la Oficina Abandonada">
+La Oficina Abandonada, a menudo referida como el Nivel 4, presenta un desafío único en *Escape the Backrooms*. Este nivel combina acertijos ambientales con la amenaza constante de entidades, exigiendo una mezcla de pensamiento rápido y navegación precisa. Tu objetivo principal es encontrar la salida lo más rápido posible, minimizando los encuentros y resolviendo los acertijos necesarios de manera eficiente.
+
+**Puntos Destacados del Video:**
+- Enfócate en caminos directos y evita explorar habitaciones innecesarias.
+- El acertijo del flujo de agua es crucial; cuenta los flujos visibles con cuidado.
+- Si la salida está cerrada inicialmente, deberás reiniciar la cuchilla de seguridad.
+
+<YouTubeEmbed videoId="_g7fmZxkLY8" title="guía de speedrun de la oficina abandonada (Escape the backrooms)" />
+
+El diseño puede ser desorientador, pero algunos puntos de referencia y estrategias clave te guiarán. Recuerda, cada segundo cuenta, especialmente en los intentos de speedrun.
+
+<Callout type="tip" title="Esencial para Speedrun">
+Para un speedrun exitoso del **Nivel de la Oficina de Escape the Backrooms**, siempre prioriza el impulso hacia adelante. La exploración innecesaria no solo hace perder tiempo, sino que también aumenta el riesgo de encontrar entidades hostiles. Cíñete a las rutas conocidas y a las soluciones de los acertijos.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Resolviendo el Acertijo del Flujo de Agua">
+Uno de los principales obstáculos en la Oficina Abandonada es el acertijo del flujo de agua. Este acertijo requiere observación y un conteo simple para proceder. Las entradas incorrectas pueden provocar retrasos o activar trampas, por lo que la precisión es vital.
+
+<Steps>
+  <Step num="1" title="Localiza el Área del Acertijo">
+    Navega por la oficina hasta encontrar la sección con tuberías de agua visibles y un panel de control. Esta área suele presentar varias válvulas o indicadores.
+  </Step>
+  <Step num="2" title="Cuenta los Flujos de Agua Activos">
+    Observa cuidadosamente las tuberías. Tu objetivo es contar cuántos flujos de agua distintos están actualmente activos o visibles. Esto podría implicar buscar pistas visuales como agua corriendo o indicadores activados.
+  </Step>
+  <Step num="3" title="Ingresa el Número Correcto">
+    Una vez que tengas tu conteo, interactúa con el panel de control. Ingresa el número de flujos de agua activos que observaste. Esta acción debería desbloquear la siguiente sección o completar el acertijo.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Reinicio del Acertijo">
+Si cometes un error en el acertijo del flujo de agua, es posible que se reinicie, obligándote a volver a contar y a ingresar la solución. Sé paciente y verifica dos veces tu conteo antes de ingresarlo para evitar retrasos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Evasión de Entidades y Paso Seguro">
+Aunque la Oficina Abandonada pueda parecer vacía, sigue siendo parte de los Backrooms, lo que significa que las entidades son una amenaza constante. Saber cómo evitarlas es crucial para la supervivencia y para mantener la velocidad.
+
+<CardGrid cols={2}>
+  <Card title="Estrategia de Camino Directo">
+    - **Muévete con propósito**: Evita demorarte en áreas abiertas.
+    - **Mantente alerta**: Escucha las señales de audio que indican la presencia de una entidad.
+    - **Usa cobertura**: Utiliza los muebles de oficina y los cubículos para ocultarte temporalmente.
+  </Card>
+  <Card title="Cuándo Correr">
+    - **Amenaza inmediata**: Si ves una entidad, corre en la dirección opuesta.
+    - **Rutas conocidas**: Ten una ruta de escape planeada de antemano.
+    - **No luches**: Pelear rara vez es una opción y casi siempre resulta en fracaso.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="office-survival"
+  title="Lista de Verificación de Supervivencia en el Nivel de la Oficina:"
+  items={[
+    "Mantener una alta conciencia del entorno",
+    "Conservar la resistencia para los sprints",
+    "Evitar habitaciones sin salida",
+    "Priorizar la resolución de acertijos sobre la exploración"
+  ]}
+/>
+
+<Callout type="success" title="Movimiento Optimizado">
+La forma más efectiva de lidiar con las entidades en el **nivel de la Oficina de Escape the Backrooms** es evitar la detección por completo. Si te mueves con rapidez y deliberación, a menudo puedes evitar áreas donde las entidades podrían aparecer o patrullar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Llegar a la Salida y Reinicio de la Cuchilla de Seguridad">
+El objetivo final de la Oficina Abandonada es encontrar la salida. A veces, esta salida no es accesible de inmediato y requiere un paso adicional: reiniciar la cuchilla de seguridad.
+
+| Estado de la Salida | Acción Requerida | Pista de Ubicación |
+| :------------------ | :--------------- | :----------------- |
+| **Abierta**         | Proceder directamente | Final del camino principal |
+| **Cerrada**         | Reiniciar Cuchilla de Seguridad | Panel de control cercano |
+
+<Steps>
+  <Step num="1" title="Localiza la Salida">
+    Sigue el camino principal del nivel de la oficina. La salida se encuentra típicamente en el punto más alejado del área accesible después de completar el acertijo del agua.
+  </Step>
+  <Step num="2" title="Verifica el Estado de la Salida">
+    Al llegar a la salida, observa si está abierta o cerrada. Si está abierta, simplemente puedes proceder.
+  </Step>
+  <Step num="3" title="Encuentra el Reinicio de la Cuchilla de Seguridad">
+    Si la salida está cerrada, necesitarás encontrar un pequeño panel de control o palanca etiquetada como "Security Blade Reset". Esto suele estar ubicado cerca de la salida misma o a una corta distancia.
+  </Step>
+  <Step num="4" title="Activa el Reinicio y Regresa">
+    Activa el reinicio de la cuchilla de seguridad. Una vez hecho esto, regresa rápidamente a la salida, que ahora debería estar abierta, permitiéndote **escapar con éxito del Nivel de la Oficina de los Backrooms**.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Estrategia de Salida">
+El camino hacia la salida en el **Nivel de la Oficina de Escape the Backrooms** suele ser lineal una vez resuelto el acertijo del agua. Prepárate para una carrera rápida de regreso a la salida después de reiniciar la cuchilla de seguridad si está cerrada.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Consejos Avanzados para el Dominio del Nivel de la Oficina">
+Para dominar verdaderamente la Oficina Abandonada, considera estas estrategias avanzadas que pueden restar valiosos segundos a tu tiempo y mejorar tu tasa de supervivencia general.
+
+| Estrategia | Beneficio | Implementación |
+| :--------- | :-------- | :------------- |
+| **Pistas de Sonido** | Detección temprana de entidades | Juega con auriculares; escucha gruñidos o pasos distantes. |
+| **Memoria del Mapa** | Navegación más rápida | Memoriza diseños comunes y puntos de estrangulamiento. |
+| **Gestión de Resistencia** | Movimiento constante | Corre solo cuando sea necesario; camina para regenerar. |
+| **Giros Rápidos** | Evasión en espacios reducidos | Practica giros cerrados para perder a las entidades que te persiguen. |
+
+<Callout type="tip" title="La Práctica Hace al Maestro">
+Los intentos repetidos en el **Nivel de la Oficina de Escape the Backrooms** te familiarizarán con sus matices. Cada partida ofrece una oportunidad para refinar tu ruta, mejorar la velocidad de resolución de acertijos y anticipar mejor los movimientos de las entidades.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el objetivo principal en el Nivel de la Oficina de Escape the Backrooms?",
+    answer: "El objetivo principal es navegar a través de la Oficina Abandonada, resolver el acertijo del flujo de agua, evitar entidades y encontrar la salida, lo cual puede requerir un reinicio de la cuchilla de seguridad."
+  },
+  {
+    question: "¿Cómo resuelvo el acertijo del flujo de agua en el nivel de la oficina?",
+    answer: "Debes contar el número de flujos de agua activos que ves en el área designada del acertijo e ingresar ese número en el panel de control."
+  },
+  {
+    question: "¿Qué debo hacer si la salida está cerrada?",
+    answer: "Si la salida está cerrada, debes localizar y activar el panel de 'Security Blade Reset' (Reinicio de la Cuchilla de Seguridad), que generalmente se encuentra cerca de la salida, y luego regresar a la salida que ahora estará abierta."
+  },
+  {
+    question: "¿Hay entidades en el nivel de la Oficina de Escape the Backrooms?",
+    answer: "Sí, hay entidades presentes. La mejor estrategia es evitar la detección moviéndose rápida y decididamente, y correr si te descubren."
+  }
+]} />
+
+</Section>

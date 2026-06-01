@@ -1,0 +1,162 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Anchor } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms 水中レベル: Level 7 Thalassophobia 攻略ガイド",
+  description: "Escape the BackroomsのLevel 7（通称：Thalassophobia）の攻略法を解説。水中レベルでの目的、エンティティ、脱出方法について詳しく紹介します。",
+  category: "ガイド",
+  image: "https://placehold.co/800x400/2A2A2A/fff?text=Backrooms+Underwater",
+  date: "2026-06-01",
+  author: "Escape the Backrooms Wiki チーム",
+  keywords: "Escape the Backrooms, Level 7, Thalassophobia, 海洋恐怖症, 攻略, 水中レベル"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Level 7**（通称：**Thalassophobia/海洋恐怖症**）は、広大な**水中レベル**の環境が特徴です。
+- 主な目的は、浸水した家を探索し、ボートで海を渡り、その後**サメの水槽**に飛び込むことです。
+- プレイヤーはLevel 8に進むために、海底にある**洞窟の入り口**を見つける必要があります。
+- 主に遭遇するエンティティは、恐ろしい水中生物である「**The Thing on Level 7**」です。
+- 海に点在する家々では、**アーモンドウォーター**や**ジュース**などのアイテムを見つけることができます。
+</Callout>
+
+<Section icon={Anchor} title="Level 7: Thalassophobia について">
+Level 7は、その名の通り「**Thalassophobia（海洋恐怖症）**」をテーマにしており、プレイヤーは放棄された家々が点在する広大で不気味な海へと放り出されます。Escape the Backroomsにおけるこのユニークな**水中レベル**は、独特の環境と、たった一体の恐ろしいエンティティによってプレイヤーを苦しめます。レベルは一部が浸水した家から始まり、これからの水中での旅の幕開けを告げます。
+
+**ビデオハイライト:**
+- 最初の家とボートの操縦に関するビジュアルウォークスルー。
+- さまざまな家でアイテムを見つけるデモンストレーション。
+- 灯台の起動と霧の効果の様子。
+
+<Callout type="tip" title="環境への注意">
+外洋セクションの霧は視界を大幅に遮ります。灯台が起動したら、次のステージへの主要な道標となる灯台の光を常に注視してください。
+</Callout>
+
+このレベルは、没入感のある雰囲気と、それがもたらす孤立感で知られています。一見普通の家から、怪物が潜む果てしない海へと変化していく様子は、この体験の核心部分です。
+
+</Section>
+
+<Section icon={Map} title="海洋と水中深部の探索">
+Level 7の旅は、海面を移動するセクションと、深い水中を探索するセクションの2つに分かれています。バックルームから無事に脱出するためには、それぞれのパートにおける課題と目的を理解することが不可欠です。
+
+<Steps>
+  <Step num="1" title="最初の家から脱出する">
+    スポーンすると、1階が浸水した家の中にいます。唯一の出口は、海へと通じる1階の窓です。利用可能なアイテムがあればすべて回収しましょう。
+  </Step>
+  <Step num="2" title="ボートで海を渡る">
+    最初の家の近くには通常4つのボートがあります。1つを選び、他の家々の間を移動して、**フレアガン**などの物資を集め始めます。
+  </Step>
+  <Step num="3" title="灯台を追う">
+    やがて霧が立ち込め、最後の家にある灯台が起動します。その光を頼りに、その家までたどり着いてください。
+  </Step>
+  <Step num="4" title="サメの水槽に入る">
+    最後の家の中で、サメの水槽の隣にある4つの**潜水ヘルメット**を見つけます。1つ装備して、水槽の中に入ってください。
+  </Step>
+  <Step num="5" title="水中の洞窟を見つける">
+    海に入ると、**The Thing on Level 7**が水槽を襲い、泳ぐことを余儀なくされます。海底の岩場にある、光る洞窟の入り口を探してください。そこに入るとLevel 8に到達します。
+  </Step>
+</Steps>
+
+<Callout type="warning" title="「アレ」に注意">
+水中を降下している間、**The Thing on Level 7**が執拗に追いかけてきます。水槽が壊され、むき出しの海に放り出された後の突然の遭遇に備えてください。
+</Callout>
+
+海に点在する家々には、重要な資源があります。生存率を最大限に高めるために、霧が出る前に優先的に探索しましょう。
+
+| アイテムの種類 | 場所 | 目的 |
+|---------------|-----------------|----------------------------------------|
+| **アーモンドウォーター** | 各所の家 | 体力/正気度の回復 |
+| **ジュース** | 各所の家 | わずかなブースト効果 |
+| **フレアガン** | 初盤の家 | ユーティリティ、信号や注意を引くために使用 |
+| **潜水ヘルメット** | 最後の家 | 水中での呼吸に必須 |
+
+</Section>
+
+<Section icon={Swords} title="Level 7のエンティティとアイテム">
+Level 7には主に1体の強力なエンティティと、生存に役立ついくつかの必須アイテムが登場します。これらの要素を理解することが、この**水中レベル**の危険を乗り越える鍵となります。
+
+**The Thing on Level 7**は、このレベルで遭遇する唯一のエンティティです。この生物は、特に外洋に放り出された後に大きな脅威となります。その存在は、水中探索に絶え間ない恐怖と緊迫感を与えます。
+
+<CardGrid cols={2}>
+  <Card title="The Thing on Level 7">
+    - **脅威レベル**: 高
+    - **遭遇場所**: 主に水中セクション。
+    - **行動**: 攻撃的で、サメの水槽を襲撃する。
+    - **戦略**: 直接の対決は避け、脱出に集中すること。
+  </Card>
+  <Card title="必須アイテム">
+    - **アーモンドウォーター**: 体力回復に不可欠。
+    - **ジュース**: 軽微なバフや回復。
+    - **フレアガン**: 序盤で見つかり、信号弾として有用。
+    - **潜水ヘルメット**: 水中での生存に義務付けられている。
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="リソース管理">
+潜水する前に、家々からできるだけ多くのアーモンドウォーターとジュースを集めてください。これらの資源は、危険な水中旅行中の命綱となります。
+</Callout>
+
+インベントリを適切に管理し、エンティティの行動を理解することは、Level 7を生き延び、Escape the Backroomsの次のステージへ進むために最も重要です。
+
+</Section>
+
+<Section icon={Trophy} title="出口、実績、トリビア">
+Level 7をクリアするには、特定の出口を見つける必要があり、それによって実績を獲得できます。また、この**水中レベル**には、開発やゲームの歴史に関する興味深いトリビアもあります。
+
+<Checklist
+  id="level7-objectives"
+  title="Level 7 クリアチェックリスト:"
+  items={[
+    "最初の浸水した家を探索する。",
+    "ボートで海を渡る。",
+    "灯台の光を見つけて追う。",
+    "潜水ヘルメットを装備してサメの水槽に入る。",
+    "The Thing on Level 7の攻撃を生き延びる。",
+    "水中で光る洞窟の入り口を見つける。",
+    "洞窟に入ってLevel 8に到達する。"
+  ]}
+/>
+
+Level 7には2つの主な出口があります：
+- **The Hub（ハブ）へ**: 最初の家の2階に行き、The Hubに通じるドアを見つける。
+- **Level 8へ**: 水中で洞窟の入り口を見つける。
+
+| 実績アイコン | 実績名 | 説明 |
+|------------------|------------------|--------------------------------------------|
+| ![Level 7 Icon](https://placehold.co/32x32/FFD700/000?text=L7) | **Escape Level 7** | シングルプレイヤーでThalassophobiaの出口を見つける。 |
+
+<Callout type="info" title="トリビア">
+Level 7は、かつてゲームの「Part 2」の最終レベルでした。元々は、最初の家で1階に降りてボートに触れると、プレイヤーが漕ぎ出すカットシーンが流れ、その後にクレジットが表示されていました。
+</Callout>
+
+このレベルの複雑さとユニークな水中メカニクスは、Escape the Backroomsの中でも印象的なものとなり、公開時には多くのプレイヤーを驚かせました。
+
+</Section>
+
+<Section icon={Sparkles} title="よくある質問 (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Escape the Backroomsの水中レベルの正式名称は何ですか？",
+    answer: "Escape the Backroomsの**水中レベル**の正式名称はLevel 7で、「Thalassophobia（海洋恐怖症）」としても知られています。"
+  },
+  {
+    question: "Level 7からLevel 8へはどうやって行きますか？",
+    answer: "Level 7からLevel 8へ行くには、海を渡り、サメの水槽に潜り、The Thing on Level 7との遭遇を生き延びた後、海底にある光る洞窟の入り口を見つける必要があります。"
+  },
+  {
+    question: "Level 7で役立つアイテムは何ですか？",
+    answer: "Level 7では回復用の**アーモンドウォーター**や**ジュース**、そして一部の家で見つかる**フレアガン**が役立ちます。水中セクションでは**潜水ヘルメット**が必須です。"
+  },
+  {
+    question: "Level 7の水中レベルにはエンティティは1体だけですか？",
+    answer: "はい、Level 7の主要なエンティティは「**The Thing on Level 7**」の1体のみです。水中セクションにおいて非常に大きな脅威となります。"
+  }
+]} />
+
+</Section>

@@ -1,0 +1,165 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Office Level: Speedrun Guide & Exit Strategy",
+  description: "Navigate the Abandoned Office Level in Escape the Backrooms with this speedrun guide, covering puzzles, entity avoidance, and the fastest exit route for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Backrooms+Office+Level+Guide",
+  date: "2026-06-01",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- To **escape the Backrooms Office level**, prioritize speed and direct movement.
+- **Avoid unnecessary detours** through doors unless specifically required for a puzzle.
+- The **water flow puzzle** involves counting visible water flows to determine the correct input.
+- If the exit is closed, locate the **security blade reset** to open it.
+- Mastering the layout for the **Abandoned Office** is key to efficient completion.
+</Callout>
+
+<Section icon={Map} title="Navigating the Abandoned Office Level">
+The Abandoned Office, often referred to as Level 4, presents a unique challenge in *Escape the Backrooms*. This level combines environmental puzzles with the constant threat of entities, demanding a blend of quick thinking and precise navigation. Your primary goal is to find the exit as quickly as possible, minimizing encounters and solving the necessary puzzles efficiently.
+
+**Video Highlights:**
+- Focus on direct paths and avoid exploring unnecessary rooms.
+- The water flow puzzle is crucial; count the visible flows carefully.
+- If the exit is initially closed, you'll need to reset the security blade.
+
+<YouTubeEmbed videoId="_g7fmZxkLY8" title="speedrun abandoned office guide (Escape the backrooms)" />
+
+The layout can be disorienting, but a few key landmarks and strategies will guide you. Remember, every second counts, especially in speedrun attempts.
+
+<Callout type="tip" title="Speedrun Essential">
+For a successful speedrun of the **Escape the Backrooms Office Level**, always prioritize forward momentum. Unnecessary exploration not only wastes time but also increases your risk of encountering hostile entities. Stick to the known routes and puzzle solutions.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solving the Water Flow Puzzle">
+One of the main obstacles in the Abandoned Office is the water flow puzzle. This puzzle requires observation and a simple count to proceed. Incorrect inputs can lead to delays or trigger traps, so accuracy is vital.
+
+<Steps>
+  <Step num="1" title="Locate the Puzzle Area">
+    Navigate through the office until you find the section with visible water pipes and a control panel. This area typically features several valves or indicators.
+  </Step>
+  <Step num="2" title="Count Active Water Flows">
+    Carefully observe the pipes. Your objective is to count how many distinct water flows are currently active or visible. This might involve looking for visual cues like running water or activated indicators.
+  </Step>
+  <Step num="3" title="Input the Correct Number">
+    Once you have your count, interact with the control panel. Input the number of active water flows you observed. This action should unlock the next section or complete the puzzle.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Puzzle Reset">
+If you make a mistake in the water flow puzzle, it might reset, forcing you to recount and re-enter the solution. Be patient and double-check your count before inputting to avoid delays.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Entity Avoidance and Safe Passage">
+While the Abandoned Office might seem empty, it's still part of the Backrooms, meaning entities are a constant threat. Knowing how to avoid them is crucial for survival and maintaining speed.
+
+<CardGrid cols={2}>
+  <Card title="Direct Path Strategy">
+    - **Move with purpose**: Avoid lingering in open areas.
+    - **Stay alert**: Listen for audio cues that indicate an entity's presence.
+    - **Use cover**: Utilize office furniture and cubicles for temporary concealment.
+  </Card>
+  <Card title="When to Run">
+    - **Immediate threat**: If an entity is spotted, run in the opposite direction.
+    - **Known routes**: Have an escape route planned in advance.
+    - **Don't engage**: Fighting is rarely an option and almost always results in failure.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="office-survival"
+  title="Office Level Survival Checklist:"
+  items={[
+    "Maintain high awareness of surroundings",
+    "Conserve stamina for sprints",
+    "Avoid dead-end rooms",
+    "Prioritize puzzle completion over exploration"
+  ]}
+/>
+
+<Callout type="success" title="Optimized Movement">
+The most effective way to handle entities in the **Escape the Backrooms Office level** is to avoid detection entirely. If you move swiftly and deliberately, you can often bypass areas where entities might spawn or patrol.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Reaching the Exit and Security Blade Reset">
+The ultimate goal of the Abandoned Office is to find the exit. Sometimes, this exit is not immediately accessible and requires an additional step: resetting the security blade.
+
+| Exit Status | Action Required | Location Hint |
+| :---------- | :-------------- | :------------ |
+| **Open**    | Proceed directly  | End of main path |
+| **Closed**  | Reset Security Blade | Nearby control panel |
+
+<Steps>
+  <Step num="1" title="Locate the Exit">
+    Follow the primary path of the office level. The exit is typically found at the furthest point of the accessible area after completing the water puzzle.
+  </Step>
+  <Step num="2" title="Check Exit Status">
+    Upon reaching the exit, observe if it is open or closed. If it's open, you can simply proceed.
+  </Step>
+  <Step num="3" title="Find Security Blade Reset">
+    If the exit is closed, you will need to find a small control panel or lever labeled "Security Blade Reset." This is usually located near the exit itself or a short distance away.
+  </Step>
+  <Step num="4" title="Activate Reset and Return">
+    Activate the security blade reset. Once done, quickly return to the exit, which should now be open, allowing you to successfully **escape the Backrooms Office Level**.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Exit Strategy">
+The path to the exit in the **Escape the Backrooms Office Level** is often linear once the water puzzle is solved. Be prepared for a quick dash back to the exit after resetting the security blade if it's closed.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Tips for Office Level Mastery">
+To truly master the Abandoned Office, consider these advanced strategies that can shave precious seconds off your time and enhance your overall survival rate.
+
+| Strategy          | Benefit                     | Implementation                               |
+| :---------------- | :-------------------------- | :------------------------------------------- |
+| **Sound Cues**    | Early entity detection      | Play with headphones; listen for distant growls/footsteps. |
+| **Map Memory**    | Faster navigation           | Memorize common layouts and choke points.    |
+| **Stamina Management** | Consistent movement       | Sprint only when necessary; walk to regenerate. |
+| **Quick Turns**   | Evasion in tight spaces     | Practice sharp turns to lose pursuing entities. |
+
+<Callout type="tip" title="Practice Makes Perfect">
+Repeated attempts at the **Escape the Backrooms Office Level** will familiarize you with its nuances. Each run offers an opportunity to refine your route, improve puzzle-solving speed, and better anticipate entity movements.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "What is the primary objective in the Escape the Backrooms Office Level?",
+    answer: "The primary objective is to navigate through the Abandoned Office, solve the water flow puzzle, avoid entities, and find the exit, which may require a security blade reset."
+  },
+  {
+    question: "How do I solve the water flow puzzle in the office level?",
+    answer: "You need to count the number of active water flows you see in the designated puzzle area and input that number into the control panel."
+  },
+  {
+    question: "What should I do if the exit is closed?",
+    answer: "If the exit is closed, you must locate and activate the 'Security Blade Reset' panel, usually found near the exit itself, and then return to the now-open exit."
+  },
+  {
+    question: "Are there entities in the Escape the Backrooms Office level?",
+    answer: "Yes, entities are present. The best strategy is to avoid detection by moving quickly and purposefully, and running if spotted."
+  }
+]} />
+
+</Section>

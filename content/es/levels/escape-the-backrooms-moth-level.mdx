@@ -1,0 +1,144 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Nivel de la Polilla: Guía de Supervivencia del Nivel 5",
+  description: "Navega por el Nivel 5, el Nivel de la Polilla, en Escape the Backrooms. Aprende cómo evitar a las Polillas de la Muerte Hembra, usar el spray para insectos y encontrar la salida.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Moth+Level+Survival",
+  date: "2026-06-01",
+  author: "Equipo de la Wiki de Escape the Backrooms",
+  keywords: "Escape the Backrooms, Nivel 5, Polilla de la Muerte, guía de supervivencia, cuarto de calderas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Nivel de la Polilla en Escape the Backrooms**: El Nivel 5 está infestado de peligrosas **Polillas de la Muerte Hembra**.
+- **El sigilo es clave**: Siempre **agáchate** (crouch) cuando estés cerca de las polillas para evitar ser detectado.
+- **Las linternas son peligrosas**: No **alumbres directamente** a las polillas grandes; esto las provocará.
+- **Válvulas de Spray para Insectos**: Usa las **válvulas de spray** para repeler a las polillas grandes y despejar tu camino.
+- **Identificación de la salida**: Solo abre las puertas marcadas con un **letrero de salida verde** para evitar los nidos.
+</Callout>
+
+<Section icon={Map} title="Entendiendo el Nivel 5: El Nivel de la Polilla">
+El Nivel 5 en *Escape the Backrooms* es conocido mundialmente como el "Nivel de la Polilla" debido a la presencia generalizada de las Polillas de la Muerte Hembra. Estas entidades masivas de color negro, blanco y gris, con marcas en forma de calavera en sus espaldas, representan una amenaza significativa. Navegar con éxito por este nivel requiere una comprensión profunda de su comportamiento y el uso estratégico de las herramientas del entorno. El nivel suele presentar una ambientación de cuarto de calderas, lo que aumenta la atmósfera opresiva.
+
+**Puntos Destacados del Video:**
+- Demuestra cómo navegar por el Cuarto de Calderas sin necesidad de recoger el termómetro.
+- Muestra la efectividad de agacharse para evitar la detección de las polillas grandes.
+- Explica el uso de las válvulas de vapor (sprays insecticidas) para repeler a las polillas.
+- Resalta la importancia de identificar la puerta de salida correcta.
+
+<YouTubeEmbed videoId="_q_HErkpw3M" title="Guía del Nivel 5 de Escape the Backrooms: Cuarto de Calderas y Persecución de la Polilla de la Muerte" />
+
+<Callout type="warning" title="Advertencia Crítica">
+Nunca abras puertas rojas que no tengan un letrero de salida verde. Estas conducen directamente a los nidos de polillas, los cuales son extremadamente peligrosos y a menudo resultan en una muerte instantánea.
+</Callout>
+
+### Resumen del Comportamiento de la Polilla de la Muerte Hembra
+
+| Rasgo de Comportamiento | Descripción | Nivel de Peligro | Contramedida |
+| :------------- | :---------- | :----------- | :------------- |
+| **Estacionaria** | Se posa en las paredes, aparentemente inactiva. | Bajo | Acércate con precaución, agáchate. |
+| **Agresiva por Proximidad** | Baja de la pared y te persigue si te acercas demasiado estando de pie. | Alto | **Agáchate**, usa la Válvula de Spray. |
+| **Agresiva por Linterna** | Alumbrarlas directamente con la linterna provocará un ataque inmediato. | Extremo | **Nunca uses la linterna** cerca de ellas. |
+| **Agresiva por Contacto** | El contacto directo o ser empujado hacia ellas resulta en la muerte. | Extremo | Mantén la distancia, evita el contacto. |
+| **Reubicación al Nido** | Si te atrapan cerca de un nido, te llevarán allí. | Alto | Evita los nidos a toda costa. |
+
+</Section>
+
+<Section icon={Shield} title="Estrategias de Supervivencia contra las Polillas de la Muerte">
+Sobrevivir al Nivel 5 depende en gran medida del sigilo y las reacciones rápidas. Las Polillas de la Muerte Hembra son increíblemente peligrosas, pero tienen patrones predecibles que pueden ser aprovechados. Tu objetivo principal es evitar la detección y usar el entorno a tu favor.
+
+<Steps>
+  <Step num="1" title="Mantén el Sigilo Agachándote">
+    Cuando sientas que hay una polilla cerca (desenfoque de pantalla, lectura de alta temperatura si tienes un termómetro), **agáchate** inmediatamente. Es menos probable que las Polillas de la Muerte Hembra te detecten mientras estás agachado. Muévete lenta y deliberadamente.
+  </Step>
+  <Step num="2" title="Evita el Uso de la Linterna">
+    Las linternas son el peor enemigo de las polillas, y el tuyo si usas una. **No alumbres con tu linterna** a las polillas grandes en el Nivel 5. Esto activará instantáneamente su agresión y provocará una persecución. Es mejor mantener la linterna apagada por completo en áreas con polillas grandes.
+  </Step>
+  <Step num="3" title="Utiliza las Válvulas de Spray para Insectos">
+    Si una polilla grande te detecta o bloquea tu camino, localiza la **válvula de spray para insectos** más cercana (a menudo válvulas de vapor). Al abrirlas, liberarán una gran ráfaga de insecticida que obligará a la polilla a retirarse a su posición original, despejando tu camino temporalmente.
+  </Step>
+  <Step num="4" title="Lidia con las Polillas Pequeñas">
+    El Nivel 5 también cuenta con polillas más pequeñas. Estas a menudo pueden matarse directamente con botellas pequeñas de insecticida, convirtiéndolas en "Jalea de Polilla" (Moth Jelly). Aunque son menos amenazantes que sus contrapartes grandes, pueden ser una molestia y potencialmente revelar tu posición.
+  </Step>
+  <Step num="5" title="Identifica la Salida Verdadera">
+    El nivel está diseñado para confundir. Muchas puertas son falsas y conducen a un peligro inmediato (nidos). Busca siempre una puerta con un **letrero de salida verde** encima. Esta es tu única vía de escape segura.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Lecturas de Temperatura">
+Un termómetro puede indicar la proximidad de las polillas. Una lectura de **125°F (51.5°C)** sugiere que una Polilla de la Muerte Hembra está cerca, mientras que **140°F (60°C)** significa que hay un nido muy cerca. Si obtienes una lectura de 140°F, abandona el área de inmediato.
+</Callout>
+
+### Mecánicas de Agresión y Repulsión de Polillas
+
+| Tipo de Polilla | Activador de Agresión | Método de Repulsión | Efecto de la Repulsión |
+| :-------- | :------------ | :----------- | :-------------- |
+| **Polilla de la Muerte Hembra (Grande)** | Proximidad (de pie), Linterna, Contacto Directo | Válvula de Spray (Vapor) | Obliga a retirarse al punto original. |
+| **Polillas Pequeñas** | Proximidad | Botella de Insecticida Pequeña | Las mata, otorga Jalea de Polilla. |
+
+</Section>
+
+<Section icon={Target} title="Navegando por las Salas del Nivel 5">
+El Nivel 5 se compone de varias áreas distintas, cada una con desafíos únicos. Aunque un mapa específico no siempre es confiable, entender la progresión general y los tipos de entidades es crucial.
+
+### Estrategia Sala por Sala
+
+| Sección de la Sala | Entidades Principales | Objetivos Clave | Notas Importantes |
+| :----------- | :--------------- | :------------- | :-------------- |
+| **Sala 1 (Inicial)** | Polillas Pequeñas | Resolver el puzle de los cuadros, recoger Jalea de Polilla, obtener la llave. | Usa el spray en enjambres pequeños. Cuadros del más joven al más viejo. |
+| **Sala 2 (Sabueso/Roba-pieles)** | Sabueso (Hound), Roba-pieles (Skinstealer) | Encontrar papeles, resolver el código de la caja fuerte (ej., **89472, 05938, 17564**). | El Sabueso desaparece tras verte una vez. Concéntrate en el Roba-pieles después. |
+| **Sala 3 (Cuarto de Calderas)** | Polillas de la Muerte Hembra | Encontrar la puerta de salida verdadera. | **Agáchate**, evita linternas, usa Válvulas de Spray. El desenfoque de pantalla indica polilla cerca. |
+
+<Callout type="success" title="Puntos de Guardado">
+El Nivel 5 a menudo incluye puntos de guardado. Utilízalos estratégicamente. Si mueres, reaparecerás en el último punto de guardado activado, reduciendo la cantidad de progreso perdido.
+</Callout>
+
+### Qué Hacer y Qué No Hacer (Esencial)
+
+<CardGrid cols={2}>
+  <Card title="Qué Hacer para Sobrevivir">
+    - **Agáchate** si estás en una sala con una Polilla de la Muerte Hembra.
+    - Si te detectan, **corre a la Válvula de Spray más cercana** y actívala.
+    - Si escuchas ruidos de correteo, corre y activa una Válvula de Spray.
+    - Sigue las rutas establecidas, ya que los mapas pueden ser poco fiables.
+  </Card>
+  <Card title="Qué No Hacer para Evitar la Muerte">
+    - **No corras** cerca de las Polillas de la Muerte Hembra, hará que te persigan.
+    - **No dejes que te persigan** sin conocer la ubicación de una Válvula de Spray.
+    - **No te agaches demasiado cerca** de ellas, la proximidad sigue importando.
+    - **No uses la linterna** contra ellas en el Nivel 5.
+    - **No abras puertas rojas** sin un letrero de salida verde.
+  </Card>
+</CardGrid>
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes (FAQ)">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el peligro principal en el Nivel de la Polilla de Escape the Backrooms?",
+    answer: "El peligro principal en el Nivel 5, el Nivel de la Polilla, es la presencia de las Polillas de la Muerte Hembra. Estas grandes entidades son altamente agresivas si se las provoca y pueden causar la muerte instantánea o la captura por un nido."
+  },
+  {
+    question: "¿Cómo evito que me maten las Polillas de la Muerte Hembra?",
+    answer: "Para evitar morir a manos de las Polillas de la Muerte Hembra, debes usar principalmente el sigilo agachándote cuando estés cerca de ellas. Evita absolutamente el uso de linternas en su vecindad y utiliza las Válvulas de Spray para insectos para repelerlas si te detectan."
+  },
+  {
+    question: "¿Puedo matar a las polillas grandes en el Nivel 5?",
+    answer: "No, no puedes matar a las Polillas de la Muerte Hembra grandes en el Nivel 5. Solo pueden ser repelidas usando las Válvulas de Spray, lo que las obliga a retirarse a su posición original. Sin embargo, las polillas pequeñas sí pueden matarse con botellas pequeñas de insecticida."
+  },
+  {
+    question: "¿Qué debo hacer si mi pantalla se desenfoca en el Nivel 5?",
+    answer: "Si tu pantalla se desenfoca en el Nivel 5, es una indicación clara de que una Polilla de la Muerte Hembra está cerca. Debes apagar inmediatamente tu linterna (si está encendida) y agacharte para evitar ser detectado."
+  }
+]} />
+
+</Section>

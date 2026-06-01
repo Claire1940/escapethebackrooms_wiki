@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Overgrowth: Death Slides（死のスライダー）攻略ガイド",
+  description: "Escape the BackroomsのOvergrowthレベルを攻略。Death Slides（死のスライダー）のパズルを中心に、The Grassroomsへ安全に到達する方法を解説します。",
+  category: "攻略ガイド",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Overgrowth+Death+Slides",
+  date: "2026-06-01",
+  author: "Escape the Backrooms Wiki チーム",
+  keywords: "Escape the Backrooms, Overgrowth, Death Slides, 攻略, 探索者, ハエラー, 正気度"
+}
+
+<Callout type="info" title="クイックガイド">
+- **Escape the Backrooms Overgrowth**（オーバーグロウス）には、危険な **Death Slides**（死のスライダー）パズルが登場します。
+- 先へ進むには、**4人のExplorer（探索者）**を見つけ、Death Slidesへと導く必要があります。
+- このレベルでは、正気度（Sanity）を管理するために **Almond Water**（アーモンドウォーター）が極めて重要です。
+- Overgrowthの主なエンティティである **Howlers（Bacteria）** に注意してください。
+- すべてのスライダーを解除することに成功すると、**The Grassrooms** レベルへと進めます。
+</Callout>
+
+<Section icon={Map} title="Overgrowthレベルの理解">
+**Escape the Backrooms** のOvergrowthレベルは、悪名高いDeath Slidesを中心とした難解な迷宮です。このエリアを生き延びて進むには、慎重なナビゲーション、リソース管理、そして戦略的なエンティティ回避が求められます。主な目的は、4つの「Death Slides」を解除してThe Grassroomsへのアクセス権を得ることです。
+
+**動画のハイライト:**
+- 1.0アップデートと、Death Slidesを含む新レベルのデモンストレーション。
+- 安全地帯を含むDeath Slides迷宮の詳細なマップ。
+- Explorerを見つけ、送り届けるための場所と戦略。
+
+<YouTubeEmbed videoId="DqK6c_tVPwE" title="Overgrowth (Death Slides) | Escape the Backrooms | FULL Walkthrough" />
+
+<Callout type="warning" title="最初の危険">
+レベルの開始時に、Death Slidesを滑り降りてはいけません。スライダーには致命的なファンが設置されており、即死します。最初のステップは、スライダーの近くにあるレバーを引くことです。
+</Callout>
+
+<CardGrid cols={2}>
+  <Card title="レベルの特徴">
+    - **迷宮のような構造:** マップや優れた記憶力を必要とする複雑な迷路。
+    - **正気度の減少:** 正気度が低下し続けるため、Almond Waterが不可欠。
+    - **Howlers (Bacteria):** 遭遇することになる主な敵対的エンティティ。
+  </Card>
+  <Card title="目的">
+    - **Death Slidesの解除:** 4人のExplorerを見つけ、各スライダーに1人ずつ誘導する。
+    - **The Grassroomsへのアクセス:** すべてのスライダーが解除されると、安全に次のレベルへ進める。
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Death Slidesパズルの攻略">
+**Escape the Backrooms Overgrowth** 体験の核心は、Death Slidesパズルを解くことにあります。これには、迷路のあちこちに散らばっている4人の特定のExplorerを見つけ出し、スライダーまで連れて行く作業が含まれます。
+
+<Callout type="tip" title="Explorerとのインタラクション">
+Explorerを拾うには、「F」キー（PC）を押します。スプリント（全力疾走）するか、再度「F」を押すとExplorerを落とします。エンティティはExplorerを攻撃しないため、見つかった場合はExplorerをその場に置いて逃げることができます。
+</Callout>
+
+### エンティティとの遭遇: Howlers
+
+| エンティティ名 | 行動 | 脅威レベル | 回避戦略 |
+| :---------- | :------- | :----------- | :----------------- |
+| **Howler (Bacteria)** | パトロール、プレイヤーを発見すると叫ぶ | 高 | 視界に入らないようにし、角を利用する。必要な時だけ走る |
+| **Explorer** | 受動的、誘導が必要 | なし | 「F」で拾い、追いかけられたら落とす |
+
+### ステップ別：Explorerの回収手順
+
+<Steps>
+  <Step num="1" title="最初のExplorer（最易）">
+    - 開始エリアから見てマップの**左側**へ向かいます。
+    - このExplorerは通常、パトロールが少ないエリアにいるため、比較的安全に回収できます。
+    - 4つのDeath Slidesのいずれかへ誘導します。アニメーションが再生され、スライダーの「DANGER（危険）」サインが消灯します。
+  </Step>
+  <Step num="2" title="2人目のExplorer（右側）">
+    - エンティティに注意しながら、マップの**右側**へと回り込みます。
+    - 遭遇した階段（一部のマップでは赤いバーでマークされています）を上ります。
+    - このExplorerを回収し、まだ稼働しているDeath Slideに戻します。
+  </Step>
+  <Step num="3" title="3人目のExplorer（中央の迷宮）">
+    - このExplorerは迷宮のより深い場所にいるため、エンティティに遭遇する可能性が高くなります。
+    - 左、右、または中央のルートを選択します。外周を通る方が安全な場合が多いです。
+    - Howlerに見つかった場合は、Explorerを落として隠れる準備をしておきましょう。立ち去るのを待ってから再開します。
+  </Step>
+  <Step num="4" title="4人目のExplorer（最難）">
+    - 最後のExplorerは通常、最も厳重にパトロールされているエリアにいます。
+    - 正気度が低くなっているはずなので、常にAlmond Waterを使えるようにしておきましょう。
+    - ランドマークを頼りに進み、回避やスピードが必要な場合は、素早くExplorerを拾ったり落としたりできるように準備してください。
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Shield} title="生存戦略とリソース管理">
+**Escape the Backrooms Overgrowth** を生き抜くには、単にExplorerを見つけるだけでなく、効果的なリソース管理とスマートな回避戦術が必要です。
+
+<Callout type="success" title="Almond Waterが鍵">
+常に数本のAlmond Waterを持ち歩きましょう。Overgrowthでは正気度が絶えず減少しており、低正気度は視界を悪化させ、エンティティの攻撃性を高めます。Almond Waterはスライダーの近くにランダムにスポーンするため、見つけたら必ず拾っておきましょう。
+</Callout>
+
+### 正気度管理表
+
+| 正気度レベル | 効果 | 推奨されるアクション |
+| :----------- | :------ | :----------------- |
+| **高 (75%以上)** | 正常な視界、悪影響なし | 目的を継続し、ついでにAlmond Waterを回収する |
+| **中 (25-75%)** | わずかな視界の歪み、パラノイアの増加 | 50%を下回るか、危険なエリアに入る前に使用する |
+| **低 (0-25%)** | 深刻な視界の歪み、エンティティの囁き声 | すぐにAlmond Waterを使用し、安全な場所を探す |
+
+### 回避戦術チェックリスト
+
+<Checklist
+  id="overgrowth-survival"
+  title="生存に不可欠な要素:"
+  items={[
+    "進む前にすべての角を確認する",
+    "Howlerから十分な距離を保つ",
+    "エンティティに見つかったらスプリントしてExplorerを落とす",
+    "エンティティが侵入できないマップ上の緑色の安全地帯を活用する",
+    "エンティティのおおよその位置がわかっている場合は引き返す"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Overgrowthの脱出とThe Grassroomsへの到達">
+4人のExplorer全員をDeath Slidesへ誘導すると、各スライダーの上の「DANGER」サインが消え、すべて緑色で「ON」と表示されます。これは、The Grassroomsへの道が開かれたことを意味します。
+
+<Callout type="info" title="最終ステップ">
+4つのDeath Slidesすべてを解除した後は、どのスライダーを滑り降りても安全です。死ぬ代わりに、**Escape the Backrooms** の次のレベルである **The Grassrooms** へと転送されます。
+</Callout>
+
+### 進行ルート
+
+| アクション | 結果 | 次の目的地 |
+| :----- | :------ | :--------------- |
+| **スライダーが有効（危険）** | ファンによるプレイヤーの死亡 | ゲームオーバー |
+| **Explorerによって解除されたスライダー** | Explorerが消滅し、スライダーが「ON」になる | 該当なし（単体スライダー） |
+| **プレイヤーが解除しようとしたスライダー** | プレイヤーがBone Thief（骨泥棒）のエリアへ送られる（確定死） | ゲームオーバー |
+| **4つすべてのスライダーが解除された状態** | すべてのスライダーが「ON」、安全な通行 | **The Grassrooms** |
+
+</Section>
+
+<Section icon={Trophy} title="スピードランナーと効率化のための高度なヒント">
+**Escape the Backrooms Overgrowth** のランを最適化したいプレイヤーのために、時間を短縮しリスクを軽減するいくつかの高度なテクニックを紹介します。
+
+<CardGrid cols={3}>
+  <Card title="ルートの最適化">
+    - **事前計画:** マップを学習し、Explorerの場所と安全な経路を特定しておく。
+    - **外周優先:** 中央のエンティティ密集地帯を避けるため、外壁に沿って進む方が安全なことが多い。
+    - **メンタルマップ:** 頻繁にマップを確認しなくて済むよう、主要なランドマークを覚える。
+  </Card>
+  <Card title="クイックドロップ・マニューバ">
+    - **スプリント・ピックアップ・ドロップ:** エンティティが近い場合、スプリントして素早くExplorerを拾い、隠れたり逃げたりする必要がある時はすぐに落とす。危険なエリアを短距離ダッシュで抜ける際に有効。
+  </Card>
+  <Card title="Almond Waterの戦略">
+    - **予防的な使用:** 正気度が危機的状況になるまで待たない。既知の高リスクエリアに入る前にAlmond Waterを使用する。
+    - **スポーン地点:** スライダー周辺に落ちている無料のAlmond Waterを常にチェックする。
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Sparkles} title="FAQ">
+
+<FAQ items={[
+  {
+    question: "Escape the Backrooms OvergrowthのDeath Slidesとは何ですか？",
+    answer: "Death Slides（死のスライダー）はOvergrowthレベルにあるオブジェクトで、最初は致命的なファンがあるため、滑り降りたプレイヤーを殺してしまいます。目的は、Explorerを誘導して4つすべてのスライダーを解除し、The Grassroomsへ安全に進むことです。"
+  },
+  {
+    question: "Death Slidesを解除するにはどうすればよいですか？",
+    answer: "OvergrowthでDeath Slidesを解除するには、レベルの迷宮内に散らばっている4人の「Explorer」を見つける必要があります。彼らを拾い、4つのスライダーそれぞれに誘導してください。Explorerがスライダーを降りると、そのスライダーは解除されます。"
+  },
+  {
+    question: "解除される前にDeath Slidesを滑り降りるとどうなりますか？",
+    answer: "Explorerによって解除される前に滑り降りると、底にあるファンで即死します。また、Explorerによって解除された後でも、プレイヤーが単独で（4つ揃う前に）降りようとすると、Bone Thiefのエリアに送られ、確定で死亡します。"
+  },
+  {
+    question: "Overgrowthレベルではどのようなエンティティに遭遇しますか？",
+    answer: "主に遭遇するのはHowlers（ハエラー）、別名Bacteria（バクテリア）です。これらはLevel 0で見られるエンティティに似ており、プレイヤーを発見すると叫び声を上げます。その隙にExplorerを置いて隠れることができます。"
+  }
+]} />
+
+</Section>
