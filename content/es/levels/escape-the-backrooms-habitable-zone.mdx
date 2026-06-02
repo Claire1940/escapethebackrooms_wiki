@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Escape the Backrooms Habitable Zone: Guía y Consejos del Nivel 1",
+  description: "Domina la Zona Habitable de Escape the Backrooms con nuestra guía de 2026. Aprende puzles para los 4 pisos, estrategias de entidades y pasos para desbloquear el Hub.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Habitable+Zone+Guide",
+  date: "2026-06-02",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Escape the Backrooms Habitable Zone** es el segundo nivel principal, con la forma de un enorme garaje de estacionamiento de hormigón.
+- La **Gestión de la Cordura** se vuelve crítica aquí; este es el primer nivel donde tu cordura comienza a agotarse con el tiempo.
+- **Cuatro Pisos Distintos** componen el nivel, cada uno requiriendo una solución de puzle específica o una estrategia de navegación para progresar.
+- Se introducen **Nuevas Entidades** como los Skin-Stealers y los Smilers, que requieren sigilo y sincronización para sobrevivir.
+- El **Acceso al Hub** es obligatorio en el Piso 4 para anular las puertas de seguridad y avanzar al Nivel 2.
+</Callout>
+
+<Section icon={Map} title="Descripción General del Nivel 1: La Zona Habitable">
+
+El Nivel 1, ampliamente conocido como la **zona habitable de escape de las trastiendas**, marca un cambio significativo en la jugabilidad con respecto a la monotonía de paredes amarillas del Nivel 0. Este nivel se caracteriza por su vasta estética industrial, que se asemeja a un interminable garaje de estacionamiento construido con hormigón frío. A diferencia del nivel anterior, el Nivel 1 introduce peligros ambientales que afectan directamente el estado mental de tu personaje.
+
+La atmósfera es densa con el zumbido de las luces fluorescentes parpadeantes y el sonido distante del goteo de agua. Si bien se titula "Zona Habitable", el nombre es algo irónico; aunque contiene más recursos que el Nivel 0, también alberga entidades agresivas que te cazarán a través de las sombras. La supervivencia depende de tu capacidad para gestionar tu cordura mientras resuelves complejos puzles mecánicos.
+
+| Atributo | Detalle |
+|---|---|
+| **Tipo de Nivel** | Garaje de Estacionamiento Industrial |
+| **Nivel de Peligro** | Medio (Entidades Presentes) |
+| **Peligro Principal** | Drenaje de Cordura / Skin-Stealers |
+| **Objetos Primarios** | Agua de Almendras, Linterna |
+| **Pisos Totales** | 4 Áreas Secuenciales |
+
+<Callout type="warning" title="Advertencia de Cordura">
+El Nivel 1 es la primera área donde tu medidor de Cordura se agotará activamente. Ten siempre al menos dos botellas de Agua de Almendras en tu inventario para evitar alucinaciones o la muerte instantánea por baja cordura.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Pisos 1 y 2: Puzles y Llaves">
+
+Al entrar en la **zona habitable de escape de las trastiendas**, te encontrarás en el Piso 1. Tu objetivo principal aquí es desbloquear el ascensor central. Esto requiere una secuencia específica codificada por colores que se encuentra en otro lugar del nivel. Una vez que desciendas al Piso 2, la dificultad aumenta a medida que el área se expande y aparecen las primeras entidades hostiles.
+
+<Steps>
+  <Step num="1" title="El Código de Color del Coche">
+    Localiza la puerta roja en el Piso 1. Dentro, encontrarás cuatro coches de diferentes colores. Anota los colores y la cantidad de cada uno. Regresa al ascensor e introduce los colores como código (por ejemplo, si hay 2 coches azules y 1 coche rojo, pulsa el botón azul dos veces y el botón rojo una vez).
+  </Step>
+  <Step num="2" title="Exploración del Piso 2">
+    El Piso 2 es significativamente más grande. Debes buscar en las oficinas, escritorios y abrir cajones para encontrar 4 Llaves ocultas. Ten cuidado, ya que un Skin-Stealer deambula por esta área.
+  </Step>
+  <Step num="3" title="La Puerta de la Bóveda">
+    Encuentra la habitación con la puerta de la bóveda y cuatro cerraduras. Las cuatro llaves deben insertarse y girarse casi simultáneamente. En el modo multijugador, coordínate con tu equipo; en el modo de un solo jugador, debes moverte rápidamente entre las cerraduras antes de que se reinicien.
+  </Step>
+</Steps>
+
+| Elemento del Puzle | Piso | Tipo de Solución |
+|---|---|---|
+| **Bloqueo del Ascensor** | Piso 1 | Conteo de coches codificado por colores |
+| **Puerta de la Bóveda** | Piso 2 | 4 llaves físicas |
+| **Ubicaciones de las Llaves** | Piso 2 | Escritorios, armarios, cajones |
+| **Amenaza de Entidad** | Piso 2 | 1 Skin-Stealer (2 en Co-op) |
+
+<Callout type="tip" title="Escala Multijugador">
+En sesiones multijugador con 3 o más jugadores, aparecerá un segundo Skin-Stealer en el Piso 2. Asigna a un jugador para que distraiga a la entidad mientras los demás buscan las llaves para maximizar la eficiencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Estrategia de Supervivencia: Objetos y Entidades">
+
+Sobrevivir a la **zona habitable de escape de las trastiendas** requiere una profunda comprensión de los objetos a tu disposición y los comportamientos de las criaturas que acechan en los pasillos de hormigón. Este nivel introduce al Skin-Stealer, una entidad humanoide que puede imitar a los jugadores, y al Smiler, una criatura que prospera en la oscuridad total.
+
+<CardGrid cols={3}>
+  <Card title="Agua de Almendras">
+    - **Uso**: Restaura la Cordura
+    - **Ubicación**: Oficinas, estanterías
+    - **Prioridad**: Alta (Esencial para la supervivencia)
+  </Card>
+  <Card title="Linterna">
+    - **Uso**: Navegación en zonas oscuras
+    - **Batería**: Limitada (Debe encenderse/apagarse)
+    - **Prioridad**: Media (Enfoque en los Pisos 3 y 4)
+  </Card>
+  <Card title="Estrategia Skin-Stealer">
+    - **Comportamiento**: Deambula y persigue
+    - **Contramedida**: Romper la línea de visión
+    - **Consejo**: Escucha pasos pesados y húmedos
+  </Card>
+</CardGrid>
+
+| Entidad | Apariencia | Comportamiento | Contramedida |
+|---|---|---|---|
+| **Skin-Stealer** | Pálido, humanoide | Persecución agresiva | Esconderse en taquillas o huir |
+| **Smiler** | Dientes/ojos brillantes | Ataca en la oscuridad | Permanecer en fuentes de luz |
+| **Ghost Smiler** | Piso 4 (Legado) | Muerte instantánea | Evitar las áreas de rampa superior |
+
+<Callout type="success" title="Gestión del Inventario">
+Prioriza el Agua de Almendras sobre las Linternas adicionales. Aunque la visibilidad es importante, el agotamiento de la cordura es una amenaza constante que no se puede evitar simplemente jugando con habilidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Pisos 3 y 4: El Empuje Final">
+
+El Piso 3 de la **zona habitable de escape de las trastiendas** es un laberinto vertical tenuemente iluminado. Consiste en tres sub-pisos individuales con diseños cambiantes. Después de navegar con éxito por las escaleras y encontrar el ascensor que aparece aleatoriamente, llegarás al Piso 4, la sección más peligrosa del nivel.
+
+El Piso 4 requiere interacción con "El Hub", un área de transición central en la tradición de las Backrooms. No puedes abrir la puerta final sin antes entrar al Hub y usar las computadoras del M.E.G. (Major Explorer Group) para anular el bloqueo de seguridad.
+
+<Checklist
+  id="floor-4-tasks"
+  title="Lista de Verificación de Completación del Piso 4:"
+  items={[
+    "Localiza la puerta de El Hub en el lado izquierdo de la habitación",
+    "Entra a El Hub y encuentra las computadoras de la Base M.E.G.",
+    "Interactúa con la computadora para anular la puerta de seguridad",
+    "Regresa al Nivel 1 y acciona el interruptor de la puerta",
+    "Sobrevive a la carrera del Smiler permaneciendo en la luz"
+  ]}
+/>
+
+| Mecánica del Piso 4 | Detalle |
+|---|---|
+| **Interruptor de la Puerta** | Requiere anulación del Hub |
+| **Intervalos de Luz** | 5 a 20 segundos de seguridad |
+| **Zonas Seguras** | Puertas dobles/pasillos azules |
+| **Objetivo de Salida** | Pasillo que lleva al Nivel 2 |
+
+<Callout type="warning" title="Carrera del Smiler">
+Una vez que la puerta esté abierta, las luces parpadearán. Solo debes moverte cuando las luces estén ENCENDIDAS. Si las luces se apagan mientras estás a la intemperie, los Smilers te matarán instantáneamente. Usa los pasillos laterales como puntos de control.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Salidas y Secretos">
+
+La conclusión de la **zona habitable de escape de las trastiendas** ofrece múltiples caminos, aunque solo uno conduce a la progresión estándar del Nivel 2. Los exploradores deben estar al tanto del "Final de la Puerta Equivocada", que es un camino secreto que requiere una Tarjeta de Identificación encontrada en niveles posteriores para acceder al Nivel 9223372036854775807.
+
+Para la mayoría de los jugadores, el objetivo es llegar al pasillo que se asemeja a los corredores llenos de tuberías del Nivel 2. Esta salida se aleatoriza entre las puertas azules que se encuentran durante la sección de carrera del Smiler.
+
+| Tipo de Salida | Destino | Requisito |
+|---|---|---|
+| **Salida Estándar** | Nivel 2 (Pipe Dreams) | Navegar por la carrera del Piso 4 |
+| **La Puerta del Hub** | El Hub | Se encuentra en el Piso 4 (Obligatorio) |
+| **Puerta M.E.G.** | Nivel 9223372036854775807 | Requiere tarjeta de identificación |
+| **Salida de Incendios** | El Hub (Acceso permanente) | Desbloqueada después de la primera entrada |
+
+<Callout type="info" title="Logro Desbloqueado">
+Encontrar la salida en la Zona Habitable otorga el logro "Escape de la Zona Habitable". Esto marca tu transición oficial de las fases de "tutorial" a las capas más complejas de las Backrooms.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo evito que mi cordura se agote en la zona habitable de escape de las trastiendas?",
+    answer: "El agotamiento de la cordura es una mecánica pasiva en el Nivel 1. No puedes detenerlo por completo, pero puedes restaurar tu medidor consumiendo Agua de Almendras, que se encuentra en las oficinas y en los estantes de los cuatro pisos."
+  },
+  {
+    question: "¿Cuál es el código del ascensor en el Piso 1?",
+    answer: "El código se aleatoriza en cada partida. Debes encontrar la puerta roja en el Piso 1 y contar el número de coches de cada color. El número de coches corresponde a cuántas veces debes presionar el botón del color correspondiente en el panel del ascensor."
+  },
+  {
+    question: "¿Por qué no se abre la puerta en el Piso 4?",
+    answer: "La puerta requiere una anulación de seguridad. Debes entrar por la puerta a El Hub (ubicada en el lado izquierdo del Piso 4), encontrar el terminal de computadora M.E.G. y activar la anulación. Solo entonces podrás regresar al Nivel 1 y accionar el interruptor junto a la puerta."
+  },
+  {
+    question: "¿Puedo matar al Skin-Stealer en el Piso 2?",
+    answer: "No, las entidades en el Nivel 1 no pueden ser eliminadas con los objetos actualmente disponibles. Tus únicas opciones son pasar sigilosamente, usar taquillas para esconderte o huir rompiendo su línea de visión."
+  }
+]} />
+
+</Section>

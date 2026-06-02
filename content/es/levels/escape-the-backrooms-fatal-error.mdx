@@ -1,0 +1,153 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Error Fatal: Solución de Problemas y Arreglos",
+  description: "¿Encuentras un error fatal en Escape the Backrooms? Esta guía proporciona soluciones paso a paso a problemas comunes, desde actualizaciones de controladores hasta configuraciones de compatibilidad, asegurando que puedas regresar a las inquietantes profundidades de los Backrooms.",
+  category: "Solución de Problemas",
+  image: "https://placehold.co/800x400/8B0000/fff?text=Backrooms+Fatal+Error",
+  date: "2026-06-02",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **errores fatales** en Escape the Backrooms a menudo se resuelven actualizando los controladores gráficos y Windows.
+- Ejecuta siempre el juego como **administrador** y verifica la configuración de compatibilidad para versiones anteriores de Windows.
+- Verifica la **integridad de los archivos del juego** a través de Steam para corregir instalaciones corruptas.
+- Asegúrate de que **Microsoft Visual C++** y **DirectX** estén actualizados para un rendimiento óptimo del juego.
+- Desactiva temporalmente el **antivirus/firewall** o agrega exclusiones del juego para evitar interferencias.
+</Callout>
+
+<Section icon={Shield} title="Comprendiendo los Errores Fatales en Escape the Backrooms">
+Encontrar un error fatal al intentar adentrarse en el inquietante mundo de Escape the Backrooms puede ser increíblemente frustrante. Estos errores a menudo indican un problema crítico que impide que el juego se inicie o se ejecute correctamente. Si bien la causa exacta puede variar, suelen deberse a conflictos de software, controladores desactualizados, archivos de juego corruptos o incompatibilidades a nivel del sistema. Abordar estos problemas de manera sistemática es clave para una experiencia de juego fluida.
+
+**Puntos Clave del Video:**
+- Tipos de errores comunes y sus posibles causas en Escape the Backrooms.
+- Pasos iniciales de solución de problemas para un alivio inmediato.
+- Importancia de las actualizaciones del sistema y los controladores para la estabilidad del juego.
+
+<YouTubeEmbed videoId="6GCNTD4ZdUY" title="Escape the Backrooms – Cómo Solucionar Todos los Errores – Tutorial Completo" />
+
+Antes de sumergirte en soluciones complejas, asegúrate siempre de que tu sistema operativo y el juego estén completamente actualizados. Muchos errores fatales se resuelven simplemente con los últimos parches y correcciones.
+
+<Callout type="warning" title="Nota Importante sobre los Requisitos del Sistema">
+Asegúrate de que tu PC cumpla con los requisitos mínimos del sistema para Escape the Backrooms. Ejecutar el juego en hardware por debajo de las especificaciones recomendadas puede provocar errores fatales frecuentes y problemas de rendimiento. El juego requiere un sistema operativo de 64 bits, al menos un procesador Intel Core i3, 8 GB de RAM, 23 GB de almacenamiento y una GPU GeForce GTX 650 (compatible con DirectX 11).
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Actualizaciones Esenciales de Controladores y Software">
+Los controladores desactualizados, especialmente para tu tarjeta gráfica, son una causa principal de errores fatales en muchos juegos, incluido Escape the Backrooms. Mantener el software de tu sistema actualizado es crucial para la estabilidad y el rendimiento del juego.
+
+<Steps>
+  <Step num="1" title="Actualizar Controladores de la Tarjeta Gráfica">
+    Abre el **Administrador de dispositivos** escribiéndolo en la barra de búsqueda de Windows. Expande "Adaptadores de pantalla", haz clic derecho en tu tarjeta gráfica (por ejemplo, NVIDIA, AMD, Intel) y selecciona "Actualizar controlador". Elige "Buscar controladores automáticamente". Si esto no encuentra la última versión, visita el sitio web del fabricante de tu GPU (NVIDIA, AMD, Intel) para descargar e instalar los controladores más recientes manualmente.
+  </Step>
+  <Step num="2" title="Actualizar el Sistema Operativo Windows">
+    Navega a **Configuración > Actualización y seguridad > Windows Update**. Haz clic en "Buscar actualizaciones" e instala las actualizaciones pendientes. Reinicia tu PC una vez completada la instalación. Mantener tu sistema operativo Windows actualizado garantiza la compatibilidad con las últimas tecnologías de juego y correcciones de errores.
+  </Step>
+  <Step num="3" title="Instalar/Actualizar Microsoft Visual C++ y DirectX">
+    Muchos juegos dependen de versiones específicas de los redistribuibles de Microsoft Visual C++ y DirectX. Si estos faltan o están corruptos, pueden ocurrir errores fatales. Descarga las últimas versiones desde el sitio web oficial de Microsoft. Instala los tres archivos de Visual C++ disponibles (x86 y x64 para diferentes años) si se te solicita, y ejecuta el Instalador web de DirectX para asegurarte de que todos los componentes necesarios estén presentes.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Lista de Verificación de Actualización de Controladores">
+Después de actualizar los controladores, siempre reinicia tu computadora. Esto asegura que los nuevos controladores se inicialicen correctamente y puede prevenir conflictos futuros.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Solución de Problemas Específicos del Juego para la Estabilidad">
+Más allá del mantenimiento general del sistema, acciones específicas dentro de la configuración o los archivos del juego pueden resolver errores fatales. Estos pasos se centran en asegurar que el juego esté configurado correctamente y que sus archivos estén intactos.
+
+| Paso de Solución de Problemas | Descripción | Resultado Esperado |
+| :------------------- | :------------------------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------- |
+| **Verificar Archivos del Juego** | En Steam, haz clic derecho en Escape the Backrooms, ve a **Propiedades > Archivos instalados**, y haz clic en "Verificar integridad de los archivos del juego". | Steam verificará si hay archivos del juego corruptos o faltantes y volverá a descargar los componentes necesarios, corrigiendo errores comunes relacionados con la instalación. |
+| **Ejecutar como Administrador** | Haz clic derecho en el ejecutable o acceso directo del juego, ve a **Propiedades > Compatibilidad**, y marca "Ejecutar este programa como administrador". | Eleva los privilegios del juego, previniendo problemas causados por permisos insuficientes, especialmente con el acceso a archivos o recursos del sistema.     |
+| **Modo de Compatibilidad** | En la misma pestaña de Compatibilidad, intenta ejecutar el juego en modo de compatibilidad para **Windows 7** o **Windows 8**.             | Puede resolver problemas en versiones más nuevas de Windows si el juego tiene problemas de compatibilidad con las últimas características del sistema operativo.                          |
+| **Deshabilitar Optimización de Pantalla Completa** | También en la pestaña de Compatibilidad, marca "Deshabilitar optimizaciones de pantalla completa".                                                                | Puede prevenir fallos relacionados con la pantalla o problemas de rendimiento cuando el juego se ejecuta en modo de pantalla completa.                                          |
+| **Ajustar Configuración Gráfica** | Dentro del juego o a través del panel de control de tu tarjeta gráfica, configura el juego en modo de **Alto Rendimiento**.                                    | Prioriza el rendimiento del juego sobre otras aplicaciones, reduciendo la probabilidad de errores fatales relacionados con los recursos.                        |
+
+</Section>
+
+<Section icon={Swords} title="Resolución de Conflictos a Nivel de Sistema">
+A veces, otras aplicaciones o configuraciones del sistema pueden interferir con Escape the Backrooms, provocando errores fatales. Identificar y mitigar estos conflictos es crucial.
+
+<CardGrid cols={2}>
+  <Card title="Administrar Procesos en Segundo Plano">
+    - Abre el **Administrador de tareas** (Ctrl+Shift+Esc).
+    - Ve a la pestaña "Procesos".
+    - Finaliza cualquier aplicación en segundo plano innecesaria que consuma una cantidad significativa de CPU o RAM.
+    - Verifica específicamente si hay procesos de "Escape the Backrooms" que puedan estar atascados.
+  </Card>
+  <Card title="Exclusiones de Antivirus y Firewall">
+    - Abre la **Seguridad de Windows** (o tu antivirus de terceros).
+    - Ve a "Protección contra virus y amenazas" > "Administrar la configuración" > "Agregar o quitar exclusiones".
+    - Agrega la carpeta completa del juego Escape the Backrooms como una exclusión.
+    - Para el Firewall, busca "Permitir una aplicación a través del Firewall de Windows", haz clic en "Cambiar configuración" y asegúrate de que Escape the Backrooms esté permitido tanto para redes Privadas como Públicas.
+  </Card>
+</CardGrid>
+
+<Callout type="info">
+**Consejo:** Deshabilitar temporalmente tu antivirus o firewall *antes* de iniciar el juego puede ayudar a identificar si son la causa del error fatal. Recuerda volver a habilitarlos después por seguridad.
+</Callout>
+
+### Verificaciones Avanzadas del Sistema
+
+| Verificación | Método | Propósito |
+| :---- | :----- | :------ |
+| **Escaneo SFC** | Abre el Símbolo del sistema como administrador, escribe `sfc /scannow`, y presiona Enter. | Escanea y restaura archivos del sistema de Windows corruptos que podrían estar causando inestabilidad. |
+| **Arranque Limpio** | Usa MSConfig para realizar un arranque limpio, deshabilitando todos los servicios y elementos de inicio que no sean de Microsoft. | Ayuda a aislar conflictos de software iniciando Windows con un conjunto mínimo de controladores y programas. |
+| **Verificación de Disco** | Haz clic derecho en la unidad de tu juego, ve a **Propiedades > Herramientas > Comprobar**. | Identifica y corrige sectores defectuosos o errores del sistema de archivos que podrían corromper los datos del juego. |
+
+</Section>
+
+<Section icon={Trophy} title="Verificaciones Finales y Próximos Pasos">
+Si has agotado los pasos comunes de solución de problemas y sigues enfrentando errores fatales en Escape the Backrooms, considera estas acciones finales.
+
+<Checklist
+  id="final-checks"
+  title="Lista de Verificación Post-Solución de Problemas:"
+  items={[
+    "Reinicia tu PC después de aplicar todas las correcciones.",
+    "Intenta iniciar el juego directamente desde su ejecutable, no solo desde Steam.",
+    "Monitorea los foros del juego o el Discord oficial para conocer problemas y soluciones conocidas.",
+    "Considera una reinstalación limpia del juego como último recurso.",
+    "Asegúrate de que no haya software en conflicto como VPNs o superposiciones ejecutándose."
+  ]}
+/>
+
+<Callout type="success" title="¡Éxito! Estás de Vuelta en los Backrooms">
+Al trabajar sistemáticamente a través de estos pasos de solución de problemas, deberías poder resolver la mayoría de los errores fatales encontrados en Escape the Backrooms. Recuerda mantener tu sistema y el juego actualizados para prevenir problemas futuros.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes sobre Errores en Escape the Backrooms">
+
+<FAQ items={[
+  {
+    question: "¿Por qué Escape the Backrooms sigue pidiendo Microsoft Visual C++ incluso después de instalarlo?",
+    answer: "Esto suele ocurrir si estás instalando la versión incorrecta (por ejemplo, 32 bits en lugar de 64 bits) o si una instalación existente está corrupta. Intenta descargar e instalar todas las versiones disponibles (x86 y x64) desde el sitio web oficial de Microsoft, y asegúrate de que tu Windows esté completamente actualizado."
+  },
+  {
+    question: "¿Puede una conexión a internet lenta causar errores fatales en Escape the Backrooms?",
+    answer: "Si bien una conexión lenta puede causar retrasos o desconexiones en el modo multijugador, es poco probable que cause directamente un 'error fatal', que típicamente apunta a un problema local del sistema o de los archivos del juego. Sin embargo, una internet inestable podría interferir con la verificación o las actualizaciones en línea, lo que indirectamente podría llevar a problemas."
+  },
+  {
+    question: "Mi juego se bloquea al iniciar incluso con una PC de gama alta. ¿Qué podría estar mal?",
+    answer: "Incluso las PC de gama alta pueden experimentar errores fatales debido a conflictos de software, controladores desactualizados o archivos de juego corruptos. Asegúrate de que tus controladores gráficos sean los más recientes, verifica la integridad de los archivos del juego a través de Steam y busca cualquier aplicación en segundo plano (como superposiciones o antivirus) que pueda estar interfiriendo."
+  },
+  {
+    question: "¿Ejecutar Escape the Backrooms en modo de compatibilidad afecta el rendimiento?",
+    answer: "Ejecutarlo en modo de compatibilidad (por ejemplo, Windows 7 u 8) podría reducir ligeramente el rendimiento en sistemas muy nuevos, pero a menudo es una compensación necesaria para lograr estabilidad si el juego tiene problemas con las últimas características de Windows. Se recomienda probarlo si otras soluciones fallan y luego deshabilitarlo si no resuelve el problema o afecta significativamente el rendimiento."
+  }
+]} />
+
+</Section>

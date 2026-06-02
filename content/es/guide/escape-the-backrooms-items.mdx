@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Objetos de Escape the Backrooms: Lista de Niveles y Guía de Utilidad 2026",
+  description: "Domina cada objeto en Escape the Backrooms con nuestra guía de 2026. Aprende dónde encontrar Agua de Almendras, cómo usar el Escáner Lidar y consejos de supervivencia de primer nivel.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/ffffff?text=Backrooms+Items+Guide",
+  date: "2026-06-02",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **objetos de Escape the Backrooms** son esenciales para manejar la cordura, la resistencia y la evasión contra las entidades.
+- El **Agua de Almendras** es el recurso de supervivencia más crítico, utilizado para restaurar la cordura y prevenir la muerte inducida por alucinaciones.
+- La **Gelatina de Polilla** proporciona el mayor aumento de estadísticas en el juego, otorgando aumentos masivos temporales tanto en velocidad como en resistencia.
+- Las **Linternas** tienen un doble propósito: navegar por niveles completamente oscuros y aturdir a los Sabuesos para facilitar un escape.
+- Las **Herramientas de Utilidad** como la Palanca y el Escáner Lidar son específicas de nivel pero obligatorias para la progresión en entornos complejos.
+</Callout>
+
+<Section icon={Shield} title="Supervivencia Básica: Objetos Esenciales de Escape the Backrooms">
+
+Navegar por los espacios liminales de las Backrooms requiere más que solo coraje; requiere una comprensión profunda de los **objetos de Escape the Backrooms** que se encuentran dispersos por los niveles. La supervivencia depende de dos factores principales: mantener tu cordura y gestionar tu resistencia física. Sin las herramientas adecuadas, entidades como los Sabuesos o los Sonrientes acabarán rápidamente con tu partida.
+
+**Puntos Destacados del Video:**
+- Desglose detallado de la gestión de la cordura usando Agua de Almendras.
+- Cómo usar la Linterna para aturdir eficazmente a los Sabuesos.
+- Localización de la Cuerda al final de los pozos del Nivel 0.
+- Uso de Repelente de Insectos para recolectar Gelatina de Polilla de las Polillas de la Muerte Macho.
+
+<YouTubeEmbed videoId="VbHWjX20nhE" title="Escape the Backrooms: Guía de Objetos" />
+
+La Linterna es, posiblemente, la herramienta más versátil de tu inventario. Aunque su función principal es la iluminación, su uso táctico contra los Sabuesos no puede subestimarse. Al enfocar el haz de luz sobre un Sabueso, puedes aturdirlo, haciendo que la entidad retroceda después de varios aturdimientos exitosos, dependiendo de tu configuración de dificultad.
+
+| Objeto | Función Principal | Mejor Caso de Uso | Utilidad de Evasión |
+| :--- | :--- | :--- | :--- |
+| **Linterna** | Iluminación | Niveles oscuros como el Nivel 6 / Nivel 0 | Aturde Sabuesos / Disipa Sonrientes |
+| **Agua de Almendras** | Restauración de Cordura | Cuando aparecen alertas de cordura | Previene alucinaciones |
+| **Cuerda** | Recuperación de Compañeros | Pozos del final del Nivel 0 | Saca a aliados caídos |
+| **Walkie-Talkie** | Comunicación | Coordinación multijugador | Coordinación de distracciones de entidades |
+
+<Callout type="warning" title="Alerta de Cordura">
+No bebas el Agua de Almendras inmediatamente. Espera hasta recibir tu primera alerta de cordura baja, bebe una lata y espera la siguiente alerta. Esto maximiza la eficiencia de tu suministro limitado.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Consumibles y Potenciadores de Rendimiento">
+
+Para superar a las diversas entidades que acechan en los pasillos, debes utilizar consumibles que mejoren temporalmente tus capacidades físicas. Estos **objetos de Escape the Backrooms** a menudo se encuentran en máquinas expendedoras o se recolectan del propio entorno. Comprender la diferencia entre un aumento de velocidad y un aumento de resistencia es vital para las persecuciones de alta intensidad.
+
+<CardGrid cols={3}>
+  <Card title="Barra Energética">
+    - **Aumento de Resistencia**: Otorga un aumento temporal a la duración de tu sprint.
+    - **Cordura**: Proporciona una recuperación menor de cordura al consumirla.
+    - **Disponibilidad**: Común en el Nivel 0 y Nivel 4.
+  </Card>
+  <Card title="Zumo">
+    - **Aumento de Velocidad**: Aumenta tu velocidad de movimiento base por un corto tiempo.
+    - **Cordura**: Restaura ligeramente el medidor de cordura.
+    - **Estrategia**: Mejor utilizado cuando necesitas crear distancia de una entidad rápida.
+  </Card>
+  <Card title="Gelatina de Polilla">
+    - **Doble Mejora**: Otorga aumentos masivos tanto en velocidad como en resistencia simultáneamente.
+    - **Adquisición**: Se obtiene matando Polillas de la Muerte Macho con Repelente de Insectos.
+    - **Nivel**: Ampliamente considerado el mejor objeto del juego.
+  </Card>
+</CardGrid>
+
+| Consumible | Multiplicador de Velocidad | Duración de Resistencia | Ganancia de Cordura |
+| :--- | :--- | :--- | :--- |
+| **Barra Energética** | Ninguno | Aumento Moderado | Bajo |
+| **Zumo** | Aumento Moderado | Ninguno | Bajo |
+| **Gelatina de Polilla** | Aumento Alto | Aumento Alto | Ninguno |
+| **Dolor Líquido** | Ninguno | Ninguno | Muerte Instantánea |
+
+<Callout type="tip" title="Estrategia de Gelatina de Polilla">
+La Gelatina de Polilla es la carta definitiva para "salir de la cárcel gratis". Guárdala para la Sala de Calderas o la Carrera de Nivel donde el movimiento a alta velocidad es obligatorio para la supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Wrench} title="Herramientas de Utilidad y Equipo Específico de Nivel">
+
+Algunos objetos en las Backrooms no están destinados al consumo, sino que son necesarios para interactuar con el entorno o resolver acertijos. Estos **objetos de Escape the Backrooms** de utilidad a menudo tienen usos ilimitados, pero ocupan un valioso espacio en el inventario.
+
+La Palanca, por ejemplo, es esencial en el nivel Oficina. Permite a los jugadores reiniciar las cámaras de seguridad interactuando con las rejillas de ventilación fuera de la sala de seguridad. Mientras tanto, el Escáner Lidar es la única forma de navegar por la oscuridad absoluta del Nivel 6. Cuenta con dos modos: detección de movimiento para rastrear entidades y proyección de puntos para mapear el diseño físico de la sala.
+
+<Steps>
+  <Step num="1" title="Adquirir Repelente de Insectos">
+    Encuentra Repelente de Insectos en el Nivel 5 o Nivel 9. Tiene usos ilimitados y es necesario para recolectar recursos.
+  </Step>
+  <Step num="2" title="Identificar Polillas de la Muerte Macho">
+    Localiza Polillas de la Muerte Macho (generalmente cerca de fuentes de luz). No las confundas con las Polillas de la Muerte Hembra, mucho más grandes y mortíferas.
+  </Step>
+  <Step num="3" title="Recolectar Gelatina de Polilla">
+    Rocía a la Polilla de la Muerte Macho para matarla instantáneamente. Interactúa con los restos para recolectar Gelatina de Polilla.
+  </Step>
+  <Step num="4" title="Navegar por la Sala de Calderas">
+    Usa el Termómetro para monitorear los niveles de calor. El aumento de las temperaturas indica que hay una Polilla de la Muerte Hembra cerca; úsalo para evitar la detección.
+  </Step>
+</Steps>
+
+| Herramienta | Nivel Encontrado | Uso Específico | Mecánica |
+| :--- | :--- | :--- | :--- |
+| **Palanca** | Nivel 4 / Hub | Reiniciar cámaras / Abrir rejillas de ventilación | Interacción Ambiental |
+| **Escáner Lidar**| Nivel 6 | Navegación en oscuridad total | Proyección de puntos / Sensor de movimiento |
+| **Termómetro** | Sala de Calderas | Detectar Polillas de la Muerte Hembra | Detección de calor |
+| **Repelente de Insectos** | Nivel 5 / Nivel 9 | Matar Polillas de la Muerte Macho | Proyectil químico |
+
+<Callout type="warning" title="Limitación de Equipo">
+Cuando llevas Equipo de Buceo o sostienes ciertos objetos grandes, no puedes recoger otros objetos. Asegúrate siempre de tener las manos libres antes de intentar tomar recursos críticos como el Agua de Almendras.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Niveles de Objetos 2026: Clasificaciones de Utilidad">
+
+Basándonos en el meta actual y la eficiencia de supervivencia, hemos clasificado los **objetos de Escape the Backrooms** para ayudarte a priorizar tu espacio de inventario. Los objetos de Nivel S cambian el juego, mientras que los objetos de Nivel E son muy situacionales o generalmente inútiles.
+
+| Nivel | Objetos | Justificación |
+| :--- | :--- | :--- |
+| **Nivel S** | Gelatina de Polilla, Agua de Almendras, Motosierra, Fuegos Artificiales | Esencial para la supervivencia / Alto nivel de poder |
+| **Nivel A** | Linterna, Barra Energética, Zumo, Pistola de Bengalas, Barras Luminosas | Utilidad fiable / Rendimiento constante |
+| **Nivel B** | Repelente de Insectos, Palanca, Equipo de Buceo, Walkie-Talkie | Necesario para la progresión / Utilidad de nicho |
+| **Nivel C** | Escáner Lidar, Dolor Líquido, Ticket de Arcade | Específico de nivel / Puramente situacional |
+| **Nivel E** | Cuerda, Termómetro | Uso extremadamente limitado / Casi inútil |
+
+<CardGrid cols={2}>
+  <Card title="La Motosierra (Nivel S)">
+    Encontrada en el Nivel 0.11, la Motosierra es una herramienta potente para despejar caminos. Encaja perfectamente con la naturaleza caótica del nivel y permite una progresión agresiva a través de áreas bloqueadas.
+  </Card>
+  <Card title="Fuegos Artificiales (Nivel S)">
+    Uno de los objetos más divertidos y efectivos. Los fuegos artificiales se pueden lanzar para aturdir a los Anfitriones de Fiesta o incluso usarse para molestar a amigos en el modo multijugador, presentando físicas realistas y alto impacto.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Recomendación Profesional">
+Mantén siempre al menos dos espacios abiertos para Agua de Almendras y un espacio para una Linterna. Estos son innegociables para cualquier partida profunda en las Backrooms.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Lista de Verificación de Cordura y Gestión de Inventario">
+
+Gestionar tus recursos es tan importante como evitar a las entidades. Usa esta lista de verificación para asegurarte de que estás preparado para los desafíos de los niveles más profundos.
+
+<Checklist
+  id="survival-prep"
+  title="Lista de Verificación Pre-Nivel:"
+  items={[
+    "Al menos 3 latas de Agua de Almendras por jugador",
+    "Batería de la linterna completamente cargada (si aplica)",
+    "Palanca asegurada para la Oficina o navegación por conductos",
+    "Gelatina de Polilla reservada para escapes de emergencia",
+    "Walkie-Talkies sincronizados con el equipo"
+  ]}
+/>
+
+<Callout type="info" title="Consejo del Escáner Lidar">
+Cada vez que cambias del Escáner Lidar (por ejemplo, para beber agua) y vuelves a él, el color de los puntos cambia. Usa esto para rastrear qué áreas ya has mapeado.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál es el mejor objeto para escapar de las entidades en Escape the Backrooms?",
+    answer: "La Gelatina de Polilla es el mejor objeto para escapar de las entidades. Proporciona un impulso temporal masivo tanto a tu velocidad como a tu resistencia, permitiéndote superar casi cualquier amenaza en el juego."
+  },
+  {
+    question: "¿El Repelente de Insectos funciona en todas las Polillas de la Muerte?",
+    answer: "No. El Repelente de Insectos solo funciona en las Polillas de la Muerte Macho. Intentar usarlo en una Polilla de la Muerte Hembra no la matará y probablemente resultará en tu muerte."
+  },
+  {
+    question: "¿Cómo uso el Escáner Lidar de forma efectiva?",
+    answer: "Usa el modo de proyección de puntos para visualizar paredes y obstáculos en la oscuridad. Usa el modo de detección de movimiento con moderación para ver si una entidad se está moviendo cerca. Encender y apagar el objeto cambia el color de los puntos, lo que ayuda con la navegación."
+  },
+  {
+    question: "¿Qué hace el Dolor Líquido?",
+    answer: "El Dolor Líquido es un objeto de broma/trol. Beberlo causa un dolor inmenso y mata al jugador poco después. Solo es útil para reiniciar si estás atascado o para trolear a amigos."
+  }
+]} />
+
+</Section>

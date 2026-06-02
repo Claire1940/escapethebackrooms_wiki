@@ -1,0 +1,178 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Enemigos de Escape the Backrooms: Guía de Estrategia y Evasión 2026",
+  description: "Domina las tácticas de supervivencia para cada entidad en Escape the Backrooms. Aprende a evadir a Smilers, Hounds y jefes específicos de nivel con nuestra guía de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/facc15?text=Backrooms+Enemies+Guide",
+  date: "2026-06-02",
+  author: "Equipo Wiki de Escape the Backrooms"
+}
+
+<Callout type="info" title="Guía Rápida">
+- Los **enemigos de Escape the Backrooms** se conocen oficialmente como **Entidades**, cada una con patrones de comportamiento y desencadenantes únicos.
+- El **sigilo es obligatorio** para criaturas de alta amenaza como las Polillas de la Muerte Hembra y los Desgraciados para evitar persecuciones innecesarias.
+- La **gestión de la luz** es una mecánica central; usa linternas para disuadir al Rey Animado pero mantenlas apagadas para evitar atraer a los Smilers.
+- Las **zonas seguras** como taquillas, conductos de ventilación y espacios debajo de la cama proporcionan inmunidad total contra la mayoría de las entidades que patrullan.
+- Las **señales de sonido** son tu mejor sistema de alerta temprana; escucha gruñidos, raspados metálicos o pasos húmedos.
+</Callout>
+
+<Section icon={Map} title="Clasificación de los Enemigos de Escape the Backrooms">
+
+Sobrevivir en los espacios liminales requiere un profundo conocimiento de los diversos **enemigos de Escape the Backrooms** que acechan en cada nivel. Estas entidades no son meros obstáculos; son depredadores inteligentes con desencadenantes sensoriales específicos. Algunos cazan por la vista, otros por el sonido, y algunos están ligados a las mecánicas específicas del nivel en el que habitan. Comprender la jerarquía de estas amenazas es el primer paso para llegar a la salida.
+
+En la meta de 2026, los jugadores clasifican a las entidades según su estilo de interacción: Acechadores, Perseguidores y Peligros Ambientales. Los Acechadores como el Faceling te seguirán desde la distancia, mientras que los Perseguidores como el Howler o el Clump iniciarán persecuciones a alta velocidad en el momento en que seas detectado.
+
+| Nombre de la Entidad | Nivel Primario | Nivel de Amenaza | Mejor Defensa |
+| :--- | :--- | :--- | :--- |
+| **Smiler** | Nivel 1, 2, ! | **Extremo** | Mantente en la luz / Evita el contacto visual |
+| **Hound** | Nivel 3, 5 | **Alto** | Aturdimiento con linterna / Contacto visual |
+| **Polilla de la Muerte Hembra** | Nivel 5, 8 | **Extremo** | Agacharse / Sigilo |
+| **Howler** | Nivel 0, 0.11 | **Moderado** | Correr / Esconderse en conductos de ventilación |
+| **Faceling** | Nivel 10 | **Bajo/Moderado** | Revisión constante / Superar corriendo |
+| **Partypooper** | Nivel 52 | **Ninguno** | Síguelo para obtener orientación |
+
+<Callout type="tip" title="Consejo Profesional">
+Prioriza siempre tu barra de resistencia. La mayoría de las entidades pueden ser superadas corriendo si gestionas tu sprint de manera efectiva, pero quedarte sin aliento en un pasillo con un Smiler es un game over inmediato.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Entidades de Alta Amenaza y Tácticas de Evasión">
+
+Al lidiar con los **enemigos de Escape the Backrooms** más peligrosos, un enfoque directo rara vez tiene éxito. Debes adaptar tu movimiento según la debilidad específica de la entidad. Por ejemplo, el Smiler es un maestro de la oscuridad, pero está físicamente atado a las sombras. Por el contrario, el Rey Animado requiere una interacción activa con tu linterna para mantenerlo a raya.
+
+<CardGrid cols={3}>
+  <Card title="El Smiler">
+    - **Comportamiento**: Reside en áreas completamente oscuras.
+    - **Debilidad**: No puede entrar en zonas bien iluminadas.
+    - **Estrategia**: Mantén tu linterna apagada cuando esté cerca para evitar la detección, pero retírate a fuentes de luz fijas si te persigue.
+  </Card>
+  <Card title="El Hound">
+    - **Comportamiento**: Humanoide con forma de perro que persigue a cuatro patas.
+    - **Debilidad**: Intimidado por el contacto visual directo y la luz brillante.
+    - **Estrategia**: Dirige tu linterna directamente hacia ellos para aturdirlos momentáneamente, luego rompe la línea de visión.
+  </Card>
+  <Card title="Polilla de la Muerte Hembra">
+    - **Comportamiento**: Insectos voladores grandes que son altamente agresivos.
+    - **Debilidad**: Pobre seguimiento vertical.
+    - **Estrategia**: Camina agachado para minimizar el ruido. Usa las tuberías de vapor en el Nivel 5 para crear una barrera entre tú y la polilla.
+  </Card>
+</CardGrid>
+
+La interacción con estas entidades es a menudo un juego de "Luz Roja, Luz Verde". Para el **Rey Animado** en el Nivel 94, las reglas cambian por completo. Debes iluminarlo para disuadir su ataque mientras navegas por el castillo oscuro. Si miras hacia otro lado, desaparece y se prepara para atacar desde un ángulo diferente.
+
+| Acción | Efectiva Contra | Ineficaz Contra |
+| :--- | :--- | :--- |
+| **Linterna Encendida** | Hounds, Rey Animado | Smilers, Polillas de la Muerte |
+| **Caminar Agachado** | Polillas de la Muerte, Desgraciados | Smilers, Clump |
+| **Sprintar** | Howlers, Facelings | Hounds (son más rápidos) |
+| **Esconderse (debajo de la cama)** | Animaciones, Scratcher | Plaga de Hidrolitis |
+
+<Callout type="warning" title="Zona de Peligro">
+En el Nivel !, la secuencia "Corre por tu vida", el sigilo es imposible. Debes mantener un sprint perfecto y evitar obstáculos, ya que el Clump detrás de ti no tiene límite de velocidad y te atrapará si tropiezas incluso una vez.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Supervivencia Paso a Paso para el Nivel 94">
+
+El Nivel 94 presenta un desafío único porque cuenta con dos tipos distintos de **enemigos de Escape the Backrooms**: las Animaciones y el Rey Animado. El ciclo día/noche de este nivel dicta tu estrategia de supervivencia. Durante el día, las casas son seguras, pero al caer la noche, los títeres (Animaciones) comienzan su caza.
+
+<Steps>
+  <Step num="1" title="Preparación Diurna">
+    Explora el área exterior durante el ciclo diurno. Identifica qué casas tienen camas o armarios donde puedas esconderte. Recoge cualquier agua de almendras o suministros encontrados en las áreas de la cocina.
+  </Step>
+  <Step num="2" title="Sobreviviendo la Noche">
+    Cuando se ponga el sol, entra inmediatamente en una casa. No te quedes en los pasillos. Escóndete debajo de una cama o dentro de un armario. Las Animaciones pueden entrar en las casas si te ven, así que mantente escondido hasta que la música cambie o salga el sol.
+  </Step>
+  <Step num="3" title="La Infiltración del Castillo">
+    Una vez que llegues al castillo, prepárate para el Rey Animado. Aparece como un payaso y te acechará en la oscuridad. Mantén la batería de tu linterna cargada.
+  </Step>
+  <Step num="4" title="Disuadiendo al Rey">
+    Mientras navegas por el castillo hacia la salida de la montaña rusa, gira con frecuencia. Si ves al Rey, ilumínalo con tu luz. Se congelará o desaparecerá, dándote unos segundos para avanzar.
+  </Step>
+  <Step num="5" title="El Escape Final">
+    Sube a la montaña rusa tan pronto como llegues al final de la sala. El Rey no puede seguirte en el paseo, que sirve como salida para el Nivel 94.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Refugio Seguro">
+El Partypooper en el Nivel 52 es una de las pocas entidades no hostiles. No huyas de él; en su lugar, síguelo, ya que te llevará directamente a la salida del nivel, evitando varios pasillos peligrosos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Entidades Ambientales y Mecánicas de Sigilo">
+
+No todas las amenazas en los Backrooms son humanoides. Algunas, como la **Plaga de Hidrolitis**, son peligros basados en líquidos que se encuentran en los Poolrooms (Nivel 37). Otras, como la **Aranea Membri**, son criaturas masivas parecidas a arañas que dominan pasillos específicos. Sobrevivir a estas requiere conciencia ambiental en lugar de solo combate o huida.
+
+El **Scratcher** en el nivel "The End" es un excelente ejemplo de una entidad sensible al sonido. Patrulla la biblioteca con extremidades largas y delgadas. Si haces demasiado ruido o permaneces en su línea de visión durante demasiado tiempo, cargará. Sin embargo, la biblioteca está llena de alarmas contra incendios. Estas se pueden usar como señuelos para atraer al Scratcher al lado opuesto de la habitación, lo que te permite buscar las cintas requeridas en paz.
+
+| Entidad | Mecánica Única | Contramedida Ambiental |
+| :--- | :--- | :--- |
+| **Ladrón de Huesos** | Se esconde en pozos oscuros | Activa las puertas para bloquear su camino |
+| **La Cosa** | Depredador acuático (L7) | Quédate dentro del bote en todo momento |
+| **Aranea Membri** | Patrullador de pasillos | Métete en habitaciones laterales y cierra las puertas |
+| **Plaga de Hidrolitis** | Líquido sensible | Evita el contacto; escóndete debajo de las mesas |
+
+<Callout type="info" title="Actualización de Mecánica">
+A partir de las actualizaciones de 2026, las entidades han mejorado la búsqueda de rutas. Ahora revisarán con más frecuencia debajo de las camas si te vieron entrar en la habitación. Asegúrate siempre de estar completamente escondido antes de que la entidad entre por la puerta.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Lista de Verificación Esencial para la Supervivencia">
+
+Antes de aventurarte más profundamente en los niveles, asegúrate de estar equipado para manejar a los diversos **enemigos de Escape the Backrooms**. La gestión de tu inventario es tan importante como tus reflejos.
+
+<Checklist
+  id="survival-kit"
+  title="Lista de Verificación Pre-Exploración:"
+  items={[
+    "Linterna con al menos 2 baterías de repuesto",
+    "Dos botellas de Agua de Almendras para la gestión de la cordura",
+    "Identifica la 'Habitación Segura' o conducto de ventilación más cercano en tu nivel actual",
+    "Memoriza la señal de sonido del Smiler (zumbido/gruñido bajo)",
+    "Confirma que tu atajo de teclado para 'Agacharse' sea de fácil acceso"
+  ]}
+/>
+
+<Callout type="tip" title="Advertencia de Cordura">
+La baja cordura no solo hace que la pantalla se tambalee; causa alucinaciones de Smilers que pueden enmascarar la presencia de los reales. Mantén tu cordura alta para asegurarte de que puedes distinguir entre una amenaza falsa y un depredador real.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuál de los enemigos de Escape the Backrooms es el más rápido?",
+    answer: "El Clump durante la secuencia de persecución del Nivel ! es técnicamente el más rápido, ya que está diseñado para quedarse justo detrás del jugador. En la exploración normal, el Hound es el perseguidor más rápido."
+  },
+  {
+    question: "¿Se puede matar a alguna de las entidades en el juego?",
+    answer: "Generalmente, no. Escape the Backrooms se centra en la evasión y la supervivencia. Aunque puedes aturdir a entidades como los Hounds o disuadir al Rey Animado, no hay un sistema de combate para eliminarlos permanentemente."
+  },
+  {
+    question: "¿Los Smilers alguna vez abandonan las áreas oscuras?",
+    answer: "No, los Smilers están físicamente ligados a entornos de poca luz. Si puedes llegar a una habitación con luces fluorescentes que funcionen, el Smiler se detendrá en el umbral."
+  },
+  {
+    question: "¿Qué debo hacer si un Faceling comienza a seguirme en el Nivel 10?",
+    answer: "Continúa caminando y revisa con frecuencia detrás de ti. Si se acerca demasiado, corre hacia el molino de viento o la Sala de Juegos. El Faceling es un acosador y se disuade fácilmente con un jugador que lo vigila."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final">
+La experiencia es el mejor maestro en los Backrooms. Cada muerte proporciona información sobre los caminos de patrulla de las entidades y las distancias de activación. Mantén la calma, gestiona tu luz y ten siempre una estrategia de escape.
+</Callout>
+
+</Section>

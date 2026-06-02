@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Oficina Abandonada de Escape the Backrooms: Guía del Nivel 4 y Consejos",
+  description: "Domina el Nivel 4 con nuestra guía de la oficina abandonada de Escape the Backrooms. Aprende soluciones de acertijos, reinicios de seguridad y las rutas más rápidas hacia la salida de forma segura.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Abandoned+Office+Guide",
+  date: "2026-06-02",
+  author: "Equipo de la Wiki de Escape the Backrooms",
+  keywords: "oficina abandonada, nivel 4, escape the backrooms, guía, acertijo de agua, reinicio de seguridad"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La oficina abandonada de Escape the Backrooms** está designada oficialmente como el Nivel 4, caracterizado por su arquitectura corporativa infinita.
+- **Mecánica Principal**: Los jugadores deben resolver acertijos ambientales que involucran el flujo de agua y reinicios de terminales de seguridad para progresar.
+- **Advertencia Crítica**: Evita entrar en la secuencia de las "Tres Puertas" a menos que ya hayas recorrido los pasillos requeridos previamente.
+- **Estrategia Principal**: Los speedrunners recomiendan omitir habitaciones no esenciales e ir directamente al reinicio de la cuchilla de seguridad si la salida está bloqueada.
+- **Recursos Clave**: Busca suministros cerca de las áreas de "agujeros pequeños" para mantener la cordura y el aguante durante el recorrido.
+</Callout>
+
+<Section icon={Map} title="Resumen del Nivel 4: Navegando por la Oficina Abandonada">
+
+La **oficina abandonada de escape the backrooms**, también conocida como Nivel 4, representa un cambio significativo en la atmósfera del juego. A diferencia de los claustrofóbicos pasillos amarillos del Nivel 0, este entorno consiste en vastos espacios de oficina vacíos, salas de conferencias y largos pasillos llenos de muebles desechados. Aunque a menudo se considera uno de los niveles más seguros en términos de encuentros con entidades, la complejidad de su diseño y los requisitos específicos de los acertijos pueden causar confusión fácilmente a los supervivientes que no estén preparados.
+
+**Puntos destacados del video:**
+- **Lógica del Acertijo**: Entender cómo contar los flujos de agua para resolver el mecanismo de la puerta principal.
+- **Atajos de Navegación**: Identificar el método del "camino recto" para llegar a la salida rápidamente.
+- **Reinicio de Seguridad**: Cómo manejar la cuchilla de seguridad si encuentras la puerta de salida final cerrada.
+- **Evitación de Peligros**: Qué puertas evitar para prevenir retrocesos innecesarios o trampas.
+
+<YouTubeEmbed videoId="_g7fmZxkLY8" title="guía speedrun oficina abandonada (Escape the backrooms)" />
+
+| Característica | Descripción | Nivel de Peligro |
+| :--- | :--- | :--- |
+| **Entorno** | Oficina corporativa abandonada con paredes beige e iluminación fluorescente | Bajo |
+| **Objetivo Principal** | Localizar y reiniciar la terminal de seguridad para desbloquear la salida | Moderado |
+| **Acertijo Principal** | Sincronización del flujo de agua y ajuste de válvulas | Moderado |
+| **Objetos Clave** | Agua de Almendras, Pastillas de Cordura y Tarjetas de Seguridad | Prioridad Alta |
+| **Punto de Salida** | Una puerta de metal pesada ubicada típicamente al final del pasillo final | N/A |
+
+<Callout type="tip" title="Consejo Pro">
+El Nivel 4 es un lugar excelente para abastecerse de Agua de Almendras. Revisa las máquinas expendedoras y los escritorios de oficina con frecuencia, ya que estos suministros son vitales para los niveles más peligrosos que vendrán en 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Acertijos Principales y Mecánicas Ambientales">
+
+Para completar con éxito la **oficina abandonada de escape the backrooms**, los jugadores deben interactuar con el entorno en una secuencia específica. El obstáculo más destacado es el acertijo del flujo de agua, que requiere una observación aguda de los sistemas de tuberías visibles a través de las paredes y techos.
+
+<CardGrid cols={3}>
+  <Card title="Acertijo del Flujo de Agua">
+    - **Cuenta los flujos**: Observa cuántas tuberías de agua están activas (por ejemplo, una o dos).
+    - **Entrada de Válvula**: Haz coincidir la entrada de la terminal con el número de flujos activos.
+    - **Progresión**: Desbloquea el camino hacia las cámaras internas de la oficina.
+  </Card>
+  <Card title="Reinicio de la Cuchilla de Seguridad">
+    - **Activador**: Ocurre si la puerta de salida final permanece bloqueada.
+    - **Acción**: Localiza la terminal de seguridad e interactúa con el interruptor de la "cuchilla".
+    - **Resultado**: Reinicia el estado de cierre y abre el camino de salida.
+  </Card>
+  <Card title="El Agujero Pequeño">
+    - **Ubicación**: Se encuentra en la sección media de la oficina.
+    - **Utilidad**: A menudo contiene suministros ocultos o sirve como atajo.
+    - **Precaución**: Asegúrate de que no haya entidades cerca antes de entrar en espacios confinados.
+  </Card>
+</CardGrid>
+
+| Tipo de Acertijo | Acción Requerida | Error Común |
+| :--- | :--- | :--- |
+| **Válvula de Agua** | Contar flujos e introducir el dígito correcto | Contar mal los flujos detrás de las paredes |
+| **Reinicio de Seguridad** | Accionar el interruptor de la cuchilla de seguridad | Olvidar revisar la salida primero |
+| **Secuencia de Puertas** | Seguir la lógica del camino "recorrido" | Entrar en las "Tres Puertas" demasiado pronto |
+| **Recolección de Suministros** | Buscar en escritorios y casilleros | Ignorar los agujeros pequeños en las paredes |
+
+<Callout type="warning" title="Advertencia Crítica">
+No intentes entrar en la secuencia de tres puertas ubicada cerca del centro principal a menos que hayas explorado completamente los pasillos precedentes. Entrar en estas puertas fuera de orden puede reiniciar tu progreso o llevarte a un bucle.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Guía Paso a Paso del Nivel 4">
+
+Seguir una ruta estructurada es la forma más eficiente de manejar la **oficina abandonada de escape the backrooms**. Ya sea que estés jugando de forma casual o intentando un speedrun, estos pasos aseguran que no te pierdas el reinicio de seguridad crítico.
+
+<Steps>
+  <Step num="1" title="Entrada Inicial y Recolección">
+    Al entrar al Nivel 4, comienza inmediatamente a buscar en los escritorios cercanos. Tu objetivo principal aquí es reunir suficiente Agua de Almendras para mantener tu cordura. El diseño de la oficina es amplio, así que mantén una nota mental de tu punto de partida.
+  </Step>
+  <Step num="2" title="El Desafío del Flujo de Agua">
+    Localiza la habitación con las tuberías visibles. Observa de cerca los flujos de agua; generalmente hay una o dos corrientes distintas. Introduce el número correspondiente en el teclado o terminal cercano para abrir el siguiente conjunto de puertas dobles.
+  </Step>
+  <Step num="3" title="Navegando por el Centro">
+    Muévete hacia el centro de la oficina. Si encuentras el "agujero pequeño" en la pared, revísalo para obtener suministros de alto nivel. Evita la trampa de las tres puertas asegurándote de haber "viajado" primero por las habitaciones periféricas.
+  </Step>
+  <Step num="4" title="Activación de la Cuchilla de Seguridad">
+    Avanza hasta el final del nivel. Si la puerta de salida está cerrada, debes retroceder un poco hasta la estación de seguridad. Interactúa con la cuchilla de seguridad para reiniciar el sistema. Este es un requisito común en la versión 2026 del juego.
+  </Step>
+  <Step num="5" title="El Sprint Final">
+    Una vez que el sistema de seguridad esté reiniciado, ve directamente por el pasillo principal. No te desvíes a las habitaciones laterales en esta etapa. La puerta de salida debería estar ahora desbloqueada, permitiéndote pasar al siguiente nivel.
+  </Step>
+</Steps>
+
+| Sección | Objetivo Clave | Dificultad de Navegación |
+| :--- | :--- | :--- |
+| **Zona de Inicio** | Recolección de suministros | Baja |
+| **Sala de Válvulas** | Sincronización de flujo | Moderada |
+| **Centro Principal** | Búsqueda de camino / Evitar trampas | Moderada |
+| **Estación de Seguridad** | Reinicio del sistema | Alta |
+| **Pasillo de Salida** | Escape final | Baja |
+
+<Callout type="success" title="Estrategia de Speedrun">
+Para obtener el tiempo más rápido, omite la fase de recolección y dirígete directamente al acertijo del agua. Si confías en tus movimientos, puedes llegar a la terminal de seguridad en menos de dos minutos ignorando todas las habitaciones laterales y yendo "recto" como se indica en las guías modernas de speedrun.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Supervivencia y Gestión de Peligros">
+
+Aunque las entidades son raras en la **oficina abandonada de escape the backrooms**, el entorno en sí plantea riesgos para tu cordura y aguante. Gestionar tus recursos es tan importante como resolver los acertijos.
+
+<Checklist
+  id="office-survival-kit"
+  title="Lista de Verificación Esencial del Nivel 4:"
+  items={[
+    "Al menos 3 botellas de Agua de Almendras",
+    "2 juegos de Pastillas de Cordura para caídas de emergencia",
+    "Linterna con al menos un 50% de batería",
+    "Conocimiento de la ubicación de la cuchilla de seguridad",
+    "Conciencia de la secuencia trampa de las 'Tres Puertas'"
+  ]}
+/>
+
+| Peligro | Efecto | Estrategia de Mitigación |
+| :--- | :--- | :--- |
+| **Drenaje de Cordura** | Distorsiones visuales y alucinaciones auditivas | Consumir Agua de Almendras regularmente |
+| **Salida Bloqueada** | Impide completar el nivel | Localizar y reiniciar la cuchilla de seguridad |
+| **Pasillos en Bucle** | Confusión y agotamiento de recursos | Usar marcas en las paredes o seguir la regla de 'ir recto' |
+| **Puertas Trampa** | Obliga a retroceder al inicio | Evitar las tres puertas hasta cumplir los prerrequisitos |
+
+<Callout type="info" title="Nota Ambiental">
+El "agujero pequeño" mencionado por exploradores experimentados a menudo contiene el botín más valioso del nivel. Aunque parezca sospechoso, es un depósito de suministros programado diseñado para ayudar a los jugadores a prepararse para el aumento de dificultad en los siguientes niveles.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Por qué está bloqueada la puerta de salida en la oficina abandonada?",
+    answer: "La puerta de salida en la oficina abandonada de escape the backrooms a menudo requiere un reinicio de seguridad. Debes encontrar la terminal de seguridad y accionar el interruptor de la cuchilla de seguridad para desbloquear el camino final."
+  },
+  {
+    question: "¿Cómo resuelvo el acertijo del flujo de agua en el Nivel 4?",
+    answer: "Debes contar el número de flujos de agua activos visibles en las tuberías (generalmente 1 o 2) y luego introducir ese número en el panel de control cercano para abrir la compuerta."
+  },
+  {
+    question: "¿Hay entidades en la oficina abandonada?",
+    answer: "El Nivel 4 generalmente se considera un nivel 'seguro' con muy pocas apariciones de entidades. Sin embargo, aún debes gestionar tus niveles de cordura usando Agua de Almendras para evitar peligros ambientales."
+  },
+  {
+    question: "¿Qué es la trampa de las 'Tres Puertas'?",
+    answer: "Es una secuencia de puertas que puede llevarte a un bucle o reiniciar tu posición si entras antes de haber explorado las partes necesarias del nivel. Asegúrate siempre de haber recorrido primero el camino principal."
+  }
+]} />
+
+</Section>

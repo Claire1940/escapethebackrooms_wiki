@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Escape the Backrooms Habitable Zone: Level 1 Walkthrough & Tips",
+  description: "Master the Escape the Backrooms Habitable Zone with our 2026 guide. Learn puzzles for all 4 floors, entity strategies, and Hub unlock steps.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2c3e50/ffffff?text=Habitable+Zone+Guide",
+  date: "2026-06-02",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Escape the Backrooms Habitable Zone** is the second major level, taking the form of a massive concrete parking garage.
+- **Sanity Management** becomes critical here; this is the first level where your sanity begins to drain over time.
+- **Four Distinct Floors** comprise the level, each requiring a specific puzzle solution or navigation strategy to progress.
+- **New Entities** like Skin-Stealers and Smilers are introduced, requiring stealth and timing to survive.
+- **The Hub Access** is mandatory in Floor 4 to override security gates and proceed to Level 2.
+</Callout>
+
+<Section icon={Map} title="Level 1 Overview: The Habitable Zone">
+
+Level 1, widely known as the **escape the backrooms habitable zone**, marks a significant shift in gameplay from the yellow-walled monotony of Level 0. This level is characterized by its vast, industrial aesthetic, resembling an endless parking garage constructed from cold concrete. Unlike the previous level, Level 1 introduces environmental hazards that directly affect your character's mental state.
+
+The atmosphere is heavy with the hum of flickering fluorescent lights and the distant sound of dripping water. While it is titled the "Habitable Zone," the name is somewhat ironic; while it contains more resources than Level 0, it is also home to aggressive entities that will hunt you through the shadows. Survival depends on your ability to manage your sanity while solving complex mechanical puzzles.
+
+| Attribute | Detail |
+|---|---|
+| **Level Type** | Industrial Parking Garage |
+| **Danger Level** | Medium (Entities Present) |
+| **Main Hazard** | Sanity Drain / Skin-Stealers |
+| **Primary Items** | Almond Water, Flashlight |
+| **Total Floors** | 4 Sequential Areas |
+
+<Callout type="warning" title="Sanity Warning">
+Level 1 is the first area where your Sanity meter will actively deplete. Always keep at least two bottles of Almond Water in your inventory to prevent hallucinations or instant death from low sanity.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Floor 1 & 2: Puzzles and Keys">
+
+Upon entering the **escape the backrooms habitable zone**, you will find yourself on Floor 1. Your primary objective here is to unlock the central elevator. This requires a specific color-coded sequence found elsewhere in the level. Once you descend to Floor 2, the difficulty spikes as the area expands and the first hostile entities appear.
+
+<Steps>
+  <Step num="1" title="The Car Color Code">
+    Locate the red door on Floor 1. Inside, you will find four cars of different colors. Note the colors and the quantity of each. Return to the elevator and input the colors as the code (e.g., if there are 2 blue cars and 1 red car, press the blue button twice and the red button once).
+  </Step>
+  <Step num="2" title="Floor 2 Exploration">
+    Floor 2 is significantly larger. You must search office rooms, desks, and open drawers to find 4 hidden Keys. Be cautious, as a Skin-Stealer roams this area.
+  </Step>
+  <Step num="3" title="The Vault Door">
+    Find the room with the vault door and four keyholes. All four keys must be inserted and turned nearly simultaneously. In multiplayer, coordinate with your team; in single-player, you must move quickly between the keyholes before they reset.
+  </Step>
+</Steps>
+
+| Puzzle Element | Floor | Solution Type |
+|---|---|---|
+| **Elevator Lock** | Floor 1 | Color-coded car count |
+| **Vault Door** | Floor 2 | 4 Physical keys |
+| **Key Locations** | Floor 2 | Desks, closets, drawers |
+| **Entity Threat** | Floor 2 | 1 Skin-Stealer (2 in Co-op) |
+
+<Callout type="tip" title="Multiplayer Scaling">
+In multiplayer sessions with 3 or more players, a second Skin-Stealer will spawn on Floor 2. Assign one player to distract the entity while the others search for keys to maximize efficiency.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Strategy: Items and Entities">
+
+Surviving the **escape the backrooms habitable zone** requires a deep understanding of the items at your disposal and the behaviors of the creatures lurking in the concrete corridors. This level introduces the Skin-Stealer, a humanoid entity that can mimic players, and the Smiler, a creature that thrives in total darkness.
+
+<CardGrid cols={3}>
+  <Card title="Almond Water">
+    - **Usage**: Restores Sanity
+    - **Location**: Office rooms, shelves
+    - **Priority**: High (Essential for survival)
+  </Card>
+  <Card title="Flashlight">
+    - **Usage**: Navigating dark zones
+    - **Battery**: Limited (Must be toggled)
+    - **Priority**: Medium (Floor 3 and 4 focus)
+  </Card>
+  <Card title="Skin-Stealer Strategy">
+    - **Behavior**: Wanders and chases
+    - **Counter**: Break line of sight
+    - **Tip**: Listen for heavy, wet footsteps
+  </Card>
+</CardGrid>
+
+| Entity | Appearance | Behavior | Counter |
+|---|---|---|---|
+| **Skin-Stealer** | Pale, humanoid | Aggressive pursuit | Hide in lockers or outrun |
+| **Smiler** | Glowing teeth/eyes | Attacks in darkness | Stay in light sources |
+| **Ghost Smiler** | Floor 4 (Legacy) | Instant kill | Avoid upper ramp areas |
+
+<Callout type="success" title="Inventory Management">
+Prioritize Almond Water over extra Flashlights. While visibility is important, Sanity drain is a constant threat that cannot be avoided simply by playing skillfully.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Floor 3 & 4: The Final Push">
+
+Floor 3 of the **escape the backrooms habitable zone** is a dimly lit vertical maze. It consists of three individual sub-floors with shifting layouts. After successfully navigating the stairs and finding the randomly spawned elevator, you will reach Floor 4, the most dangerous section of the level.
+
+Floor 4 requires interaction with "The Hub," a central transition area in the Backrooms lore. You cannot open the final gate without first entering the Hub and using the M.E.G. (Major Explorer Group) computers to override the security lock.
+
+<Checklist
+  id="floor-4-tasks"
+  title="Floor 4 Completion Checklist:"
+  items={[
+    "Locate the door to The Hub on the left side of the room",
+    "Enter The Hub and find the M.E.G. Base computers",
+    "Interact with the computer to override the security gate",
+    "Return to Level 1 and flip the gate switch",
+    "Survive the Smiler sprint by staying in the light"
+  ]}
+/>
+
+| Floor 4 Mechanic | Detail |
+|---|---|
+| **Gate Switch** | Requires Hub override |
+| **Light Intervals** | 5 to 20 seconds of safety |
+| **Safety Zones** | Blue double doors/hallways |
+| **Exit Goal** | Hallway leading to Level 2 |
+
+<Callout type="warning" title="Smiler Sprint">
+Once the gate is open, the lights will flicker. You must only move when the lights are ON. If the lights go out while you are in the open, Smilers will instantly kill you. Use the side hallways as checkpoints.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Exits and Secrets">
+
+The conclusion of the **escape the backrooms habitable zone** offers multiple paths, though only one leads to the standard progression of Level 2. Explorers should be aware of the "Wrong Door Ending," which is a secret path requiring an ID Card found in later levels to access Level 9223372036854775807.
+
+For most players, the goal is to reach the hallway that resembles the pipe-filled corridors of Level 2. This exit is randomized among the blue doors found during the Smiler sprint section.
+
+| Exit Type | Destination | Requirement |
+|---|---|---|
+| **Standard Exit** | Level 2 (Pipe Dreams) | Navigate Floor 4 sprint |
+| **The Hub Door** | The Hub | Found on Floor 4 (Mandatory) |
+| **M.E.G. Door** | Level 9223372036854775807 | Requires ID Card |
+| **Fire Exit** | The Hub (Permanent access) | Unlocked after first entry |
+
+<Callout type="info" title="Achievement Unlocked">
+Finding the exit in the Habitable Zone grants the "Escape the Habitable Zone" achievement. This marks your official transition from the "tutorial" phases into the more complex layers of the Backrooms.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How do I stop my sanity from draining in the escape the backrooms habitable zone?",
+    answer: "Sanity drain is a passive mechanic in Level 1. You cannot stop it entirely, but you can restore your meter by consuming Almond Water, which is found in office rooms and on shelves throughout all four floors."
+  },
+  {
+    question: "What is the code for the elevator on Floor 1?",
+    answer: "The code is randomized for every playthrough. You must find the red door on Floor 1 and count the number of cars of each color. The number of cars corresponds to how many times you must press the matching colored button on the elevator panel."
+  },
+  {
+    question: "Why won't the gate on Floor 4 open?",
+    answer: "The gate requires a security override. You must enter the door to The Hub (located on the left side of Floor 4), find the M.E.G. computer terminal, and activate the override. Only then can you return to Level 1 and flip the switch next to the gate."
+  },
+  {
+    question: "Can I kill the Skin-Stealer on Floor 2?",
+    answer: "No, entities in Level 1 cannot be killed with the items currently available to you. Your only options are to sneak past them, use lockers to hide, or outrun them by breaking their line of sight."
+  }
+]} />
+
+</Section>

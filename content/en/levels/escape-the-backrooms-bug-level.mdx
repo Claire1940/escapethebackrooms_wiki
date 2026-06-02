@@ -1,0 +1,213 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Bug } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Bug Level: Navigating Level 5's Moth Infestation",
+  description: "A comprehensive guide to surviving and escaping Level 5, the Bug Level, in Escape the Backrooms, focusing on strategies against the giant moths and environmental hazards.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8B4513/fff?text=Bug+Level+Survival",
+  date: "2026-06-02",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Escape the Backrooms Bug Level** (Level 5) is characterized by giant moths and extreme heat.
+- Use a **thermometer** to detect moth proximity; temperatures above 100°F indicate danger.
+- **Crouching** is crucial; giant moths cannot harm you while you are crouched.
+- Utilize **red valves** to create heat barriers, deterring chasing moths.
+- Sanity drops quickly; follow efficient routes to minimize exposure and stress.
+</Callout>
+
+<Section icon={Bug} title="Understanding the Bug Level (Level 5) Environment">
+Level 5, often referred to as the "Bug Level," is a challenging area in *Escape the Backrooms* filled with treacherous boiler rooms, extreme temperatures, and menacing giant moths. Navigating this labyrinthine environment requires keen observation and strategic movement to avoid becoming a meal for its inhabitants. The level's oppressive heat and the constant threat of entities rapidly deplete your sanity, making quick and decisive action paramount.
+
+**Video Highlights:**
+- The thermometer is vital for detecting moth locations.
+- Temperatures above 100°F indicate a giant moth nearby.
+- A specific route helps avoid getting lost in the labyrinthine boiler rooms.
+- Red valves can be pressed to deter chasing moths with heat.
+- Crouching makes you immune to giant moths.
+
+<YouTubeEmbed videoId="xh1858hDUWs" title="Boiler Room Level 5 | Escape the Backrooms FULL Walkthrough" />
+
+The primary challenge of Level 5 is managing your sanity while evading the giant moths. These creatures are deadly, but they have a critical weakness: they cannot detect or harm you if you are crouching. However, the level also features smaller, harmless moths that can be distracting. Knowing the difference and reacting appropriately is key to survival.
+
+<Callout type="warning" title="Sanity Warning">
+Your sanity decreases dramatically in Level 5 due to the oppressive heat and the presence of giant moths. Prolonged exposure can lead to visual distortions and impaired judgment, making it harder to navigate and react to threats. Prioritize efficient movement through the level.
+</Callout>
+
+### Entity Behavior Overview
+
+| Entity Type | Danger Level | Detection Method | Avoidance Strategy | Notes |
+|:------------|:-------------|:-----------------|:-------------------|:------|
+| **Giant Moth** | High         | Thermometer (100°F+) | Crouch, Red Valves | Cannot harm while crouching. |
+| Small Moth | Low          | Visual           | Ignore             | Harmless, often found in swarms. |
+| Hound      | Medium       | Sight, Sound     | Break line of sight, run | Appears in Room 2, will disappear if it sees you and runs away. |
+| Skinstealer | High         | Sight, Sound     | Stealth, avoid direct confrontation | Appears in Room 2, persistent threat. |
+
+</Section>
+
+<Section icon={Target} title="Navigating Level 5: Room-by-Room Strategy">
+Level 5 is divided into distinct sections, each with its own set of challenges. Understanding the layout and specific instructions for each room is essential for a successful escape.
+
+### Room 1: The Painting Puzzle and Moth Jelly
+
+The first room introduces you to the level's mechanics. You'll need to solve a painting puzzle and collect Moth Jelly.
+
+<Steps>
+  <Step num="1" title="Equip Bug Spray">
+    Upon spawning, locate the desk and equip the Bug Spray. This item is crucial for interacting with the small moth swarms.
+  </Step>
+  <Step num="2" title="Solve the Painting Puzzle">
+    Identify four paintings on the walls, each with an arrow underneath. Click them in order from the youngest to the oldest person depicted:
+    1.  Girl with two hair loops
+    2.  Man with a fancy suit and serious face
+    3.  Man with a fancy suit looking directly at the viewer
+    4.  Man with a wrinkled face
+    Solving this puzzle will open a door.
+  </Step>
+  <Step num="3" title="Collect Moth Jelly">
+    Use the Bug Spray on a small moth swarm to obtain Moth Jelly.
+  </Step>
+  <Step num="4" title="Retrieve the Key">
+    Place the Moth Jelly in a wooden box located at the end of the hall on the left. This action will grant you a key.
+  </Step>
+  <Step num="5" title="Unlock the Door">
+    Use the key to unlock the door and proceed to the next room.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Puzzle Hint">
+The painting puzzle relies on visual cues. Pay close attention to the details of each person's appearance to correctly identify their age.
+</Callout>
+
+### Room 2: Hounds, Skinstealers, and Safe Codes
+
+This room presents a different kind of threat with the introduction of Hounds and Skinstealers, requiring careful navigation and code-breaking.
+
+<Checklist
+  id="room2-objectives"
+  title="Room 2 Objectives:"
+  items={[
+    "Locate safes and corresponding rooms",
+    "Find all hidden papers",
+    "Identify the ceiling code",
+    "Input the code into the lock",
+    "Avoid Hound and Skinstealer entities"
+  ]}
+/>
+
+| Safe Code Options | Location | Threat Level | Notes |
+|:------------------|:---------|:-------------|:------|
+| **89472**         | Various  | High         | One of three possible codes. |
+| **05938**         | Various  | High         | One of three possible codes. |
+| **17564**         | Various  | High         | One of three possible codes. |
+| Hound             | Right side | Medium       | Disappears after spotting you and running away. |
+| Skinstealer       | Left side | High         | Remains a threat after Hound leaves. |
+
+<Callout type="info">
+The Hound entity in Room 2 will disappear after it sees you and runs away, leaving only the Skinstealer as a persistent threat. Focus on stealth and quick movement to avoid the Skinstealer while collecting papers.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Surviving Room 3: The Giant Moth Gauntlet">
+Room 3 is the core of the **escape the backrooms bug level**, featuring numerous giant moths. This section demands vigilance and precise execution of avoidance tactics.
+
+### Giant Moth Avoidance Tactics
+
+The key to surviving Room 3 lies in understanding and exploiting the giant moths' limitations.
+
+<Steps>
+  <Step num="1" title="Monitor Temperature with Thermometer">
+    Always have your thermometer equipped. A sudden jump to 100°F or higher indicates a giant moth is in your immediate vicinity.
+  </Step>
+  <Step num="2" title="Crouch Immediately">
+    If the temperature rises or your screen blurs (a sign of an approaching moth), immediately crouch. Giant moths cannot harm you while you are in a crouched position. Maintain crouching until you are out of the danger zone.
+  </Step>
+  <Step num="3" title="Turn Off Flashlight">
+    It is generally safer to keep your flashlight off in areas with moths, as light can attract them. If your screen blurs, definitely turn it off.
+  </Step>
+  <Step num="4" title="Utilize Red Valves">
+    If a moth is chasing you, locate and press a red valve. These valves release heat that blocks moths from advancing, giving you a temporary reprieve or allowing you to escape.
+  </Step>
+  <Step num="5" title="Identify Safe Paths">
+    Follow the guidance of pipes and established routes. Getting lost increases your exposure to moths and depletes sanity. A common landmark for correct paths involves following distinct pipe formations.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Hive Alert">
+Do NOT open any red doors without a green exit sign above them. These doors lead to hives, which are extremely dangerous and will result in immediate death.
+</Callout>
+
+### Optimal Route for Room 3
+
+While the "Bug Level" can feel like a maze, there are efficient paths to minimize encounters and stress.
+
+| Landmark | Action | Notes |
+|:---------|:-------|:------|
+| **Initial Spawn** | Head straight, then right | Avoid immediate left turn. |
+| **Red Valves** | Interact if chased | Provides temporary safety. |
+| **Pipes** | Follow them | Indicates the correct path. |
+| **Dark Rooms** | Crouch, move slowly | Moths are often present. |
+| **Container Area** | Turn right behind it | Leads to a shorter route. |
+| **Checkpoint Areas** | Observe thermometer | Often signal moth presence. |
+
+</Section>
+
+<Section icon={Sparkles} title="Advanced Tips for the Escape the Backrooms Bug Level">
+Mastering Level 5 goes beyond basic survival; these advanced tips can help you navigate the "Bug Level" with greater efficiency and less stress.
+
+### Sanity Management and Speedrunning
+
+Speed is an ally in Level 5. The faster you move through, the less your sanity is affected by the environment and entities.
+
+<CardGrid cols={2}>
+  <Card title="Prioritize Speed">
+    Learn the optimal routes to minimize the time spent in each section. This directly combats sanity drain and reduces the chance of encounters.
+  </Card>
+  <Card title="Crouch as Default">
+    In known moth-infested areas, consider crouching as your default movement. This preemptively protects you and allows for quicker reactions if a moth appears.
+  </Card>
+  <Card title="Flashlight Discipline">
+    Only use your flashlight when absolutely necessary for navigation. Keeping it off reduces visibility to entities in darker areas.
+  </Card>
+  <Card title="Listen Carefully">
+    While visual cues like the thermometer are important, listen for audio cues. The presence of a giant moth can sometimes be heard before it's seen.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Checkpoint Strategy">
+If you die, you might respawn at a checkpoint. Familiarize yourself with the paths from these checkpoints to quickly get back on track without losing too much progress.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions about Escape the Backrooms Bug Level">
+
+<FAQ items={[
+  {
+    question: "What is the primary threat in the Escape the Backrooms Bug Level?",
+    answer: "The primary threats are the giant moths that patrol the level. These creatures can instantly kill you if you are standing, but they cannot harm you while you are crouching."
+  },
+  {
+    question: "How do I know if a giant moth is nearby in Level 5?",
+    answer: "You can detect giant moths using the thermometer. If the temperature jumps to 100°F or higher, it indicates a moth is close. Additionally, your screen might blur as a visual warning."
+  },
+  {
+    question: "Can I fight the giant moths in the Bug Level?",
+    answer: "No, direct confrontation with giant moths is not possible or advisable. Your best strategy is to avoid them by crouching or using red valves to create heat barriers."
+  },
+  {
+    question: "What should I do if I get lost in Level 5?",
+    answer: "If you get lost, try to retrace your steps or look for landmarks like pipes or distinct container arrangements. Following specific routes shown in guides can help prevent getting disoriented."
+  }
+]} />
+
+</Section>
