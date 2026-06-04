@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Wrench, Settings, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms crashing: PC Stability & Setup Guide",
+  description: "Fix Escape the Backrooms crashing, freezing, and launch errors on PC with our 2026 troubleshooting guide. Steps for Steam, drivers, and system settings.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Crashing+Fix+Guide",
+  date: "2026-06-04",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: Resolve **Escape the Backrooms crashing** by verifying Steam game files and updating GPU drivers.
+- **Key mechanic**: Corrupted files or outdated DirectX 11 drivers are the primary causes of stability issues.
+- **Best strategy**: Perform a clean installation of graphics drivers and disable background overlays like SteamVR.
+- **Critical tip**: Ensure your hardware meets the minimum 8GB RAM and GTX 650 requirements for 2026 builds.
+- **Top choice**: Use the Steam "Verify Integrity" tool as your first line of defense against startup errors.
+</Callout>
+
+<Section icon={Shield} title="Immediate Stability Fixes and Video Guide">
+
+Experiencing **Escape the Backrooms crashing** can be a frustrating hurdle when you are trying to navigate the liminal spaces of the game. Most stability issues on PC stem from interrupted downloads, corrupted local data, or hardware drivers that are no longer compatible with the latest 2026 game updates. Before diving into deeper system registry changes, it is essential to follow the foundational steps that resolve nearly 90% of launch errors and mid-game freezes.
+
+**Video Highlights:**
+- **File Verification**: How to use the built-in Steam tool to repair corrupted assets.
+- **Driver Updates**: Identifying the correct website for NVIDIA and AMD driver downloads.
+- **System Restart**: Why a clean reboot is necessary after applying technical changes.
+- **Performance Optimization**: Adjusting settings to prevent GPU-related crashes.
+
+<YouTubeEmbed videoId="E7X-dUdUVyk" title="Fix Escape the Backrooms Crashing / Not Launching / Freezing on PC" />
+
+<Callout type="warning" title="Critical Warning">
+Always ensure the game is completely closed via the Task Manager (Ctrl + Shift + Esc) before attempting to verify files or update drivers, as active processes can lock files and prevent successful repairs.
+</Callout>
+
+| Issue Type | Symptom | Primary Solution |
+| --- | --- | --- |
+| **Startup Crash** | Game closes immediately after launch | Verify Steam integrity / Update DirectX |
+| **Mid-Game Freeze** | Screen locks while exploring levels | Update GPU drivers / Lower shadows |
+| **Black Screen** | Audio plays but no visual output | Toggle Windowed mode / Update drivers |
+| **Launch Error** | Steam displays "Application Error" | Clear download cache / Reinstall game |
+
+</Section>
+
+<Section icon={Target} title="Steam Integrity Verification and File Repair">
+
+One of the most common reasons for **Escape the Backrooms crashing** is a set of missing or corrupted game files. This often happens during an update or if the PC shuts down unexpectedly while the game is running. Steam provides a robust tool to scan your local installation against the official server files and replace any discrepancies automatically.
+
+<Steps>
+  <Step num="1" title="Access Steam Library">
+    Launch the Steam client and navigate to your "Library" tab. Locate Escape the Backrooms in your list of installed games.
+  </Step>
+  <Step num="2" title="Open Game Properties">
+    Right-click on the game title and select "Properties" from the dropdown menu. This opens the technical configuration panel.
+  </Step>
+  <Step num="3" title="Locate Installed Files">
+    Navigate to the "Installed Files" tab on the left-hand sidebar. This section manages all local data on your hard drive or SSD.
+  </Step>
+  <Step num="4" title="Verify Integrity">
+    Click the button labeled "Verify integrity of game files." Steam will initiate a scan. Depending on your drive speed, this may take 5 to 10 minutes.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Pro Tip">
+If Steam finds more than 100 corrupted files, it may be faster to perform a full uninstallation and reinstall the game on an SSD to prevent future data fragmentation.
+</Callout>
+
+| File Category | Windows Location | Purpose |
+| --- | --- | --- |
+| **Config Files** | %LOCALAPPDATA%\EscapeTheBackrooms\Saved\Config | Graphics and input settings |
+| **Save Games** | %LOCALAPPDATA%\EscapeTheBackrooms\Saved\SaveGames | Character progress and level data |
+| **Game Executable** | SteamLibrary\steamapps\common\Escape the Backrooms | Main application file |
+| **Shader Cache** | %LOCALAPPDATA%\NVIDIA\DXCache | Pre-compiled graphics assets |
+
+</Section>
+
+<Section icon={Sparkles} title="Driver Optimization and GPU Management">
+
+Outdated or "soldered" graphics drivers are a leading cause of instability in Unreal Engine-based games. Keeping your GPU software current ensures that your system can handle the specific rendering calls and PhysX calculations required by the game's environments. For **Escape the Backrooms crashing** fixes in 2026, you should avoid using Windows Update for drivers and instead use the manufacturer's dedicated portals.
+
+<CardGrid cols={3}>
+  <Card title="NVIDIA Users">
+    - **Download**: GeForce Experience or Official Site
+    - **Optimization**: Use "Clean Install" option
+    - **Feature**: Enable DLSS for better stability
+  </Card>
+  <Card title="AMD Users">
+    - **Download**: Adrenalin Edition Software
+    - **Optimization**: Disable "Radeon Anti-Lag"
+    - **Feature**: Use FSR to reduce GPU load
+  </Card>
+  <Card title="Intel Users">
+    - **Download**: Intel Arc & Iris Graphics
+    - **Optimization**: Update to latest 2026 WHQL
+    - **Feature**: Ensure DirectX 11 compatibility
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="System Requirement Check">
+The game requires a minimum of a GeForce GTX 650. If you are using an integrated GPU (like Intel UHD), you may experience frequent crashes due to insufficient VRAM.
+</Callout>
+
+| GPU Manufacturer | Official Download URL | Update Frequency |
+| --- | --- | --- |
+| **NVIDIA** | nvidia.com/download | Monthly (Game Ready) |
+| **AMD** | amd.com/en/support | Monthly (Adrenalin) |
+| **Intel** | intel.com/content/www/us/en/download | As needed |
+
+</Section>
+
+<Section icon={Map} title="Resolving Audio and VR Compatibility Issues">
+
+Even with a high-end PC, specific software conflicts can cause **Escape the Backrooms crashing** or functional errors like missing audio. A documented issue involves the game incorrectly triggering SteamVR even when playing in flat-screen mode. This consumes unnecessary system resources and can lead to a "Low Memory" crash.
+
+**Known Issues and Fixes:**
+- **No Audio Playback**: This can occur regardless of output settings. Ensure your default playback device in Windows is set to 48000Hz (DVD Quality) in the Sound Control Panel.
+- **Ghost SteamVR Launch**: VR is currently disabled by developers due to bugs, but the game may still attempt to render to a headset. Disconnect any VR hardware before launching the game.
+- **PhysX Errors**: Ensure you have the latest NVIDIA PhysX middleware installed, even if you are using an AMD card, as the game uses this for physics calculations.
+
+| Feature | Status | Workaround |
+| --- | --- | --- |
+| **VR Mode** | Disabled | Unplug headset / Disable SteamVR |
+| **Audio** | Buggy | Reset output to 48kHz / Update drivers |
+| **DirectX** | v11 Required | Use -dx11 launch option in Steam |
+| **Multiplayer** | Stable | Ensure firewall allows PhysX ports |
+
+<Callout type="warning" title="Developer Notice">
+As of April 2026, additional caching and rate limiting have been applied to game servers. If you crash specifically during multiplayer matchmaking, it may be a network-side rate limit rather than a local hardware failure.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Advanced Stability Checklist">
+
+If you have followed the standard procedures and still face **Escape the Backrooms crashing**, use this checklist to ensure your Windows environment is optimized for gaming. Background applications and power settings can often interfere with the game's ability to access CPU cycles.
+
+<Checklist
+  id="stability-checklist"
+  title="Final Optimization Steps:"
+  items={[
+    "Set Windows Power Plan to 'High Performance'",
+    "Disable Discord and Steam Overlays",
+    "Add the game folder to Antivirus exclusions",
+    "Close background browsers (Chrome/Edge) to free up RAM",
+    "Ensure 23GB of free space is available on your drive",
+    "Install the latest Visual C++ Redistributable packages"
+  ]}
+/>
+
+<Callout type="success" title="Success Tip">
+Running the game as an Administrator can bypass many permission-related crashes. Right-click the game .exe in the installation folder and select 'Run as Administrator'.
+</Callout>
+
+| Requirement | Minimum Spec | Recommended Spec (2026) |
+| --- | --- | --- |
+| **OS** | Windows 8 / 10 / 11 (64-bit) | Windows 11 (64-bit) |
+| **Processor** | Intel Core i3 | Intel Core i5 / Ryzen 5 |
+| **Memory** | 8 GB RAM | 16 GB RAM |
+| **Graphics** | GeForce GTX 650 | GeForce GTX 1060 or higher |
+| **DirectX** | Version 11 | Version 11 |
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Why does Escape the Backrooms keep crashing on startup?",
+    answer: "The most common reason is corrupted game files or an outdated graphics driver. Use the Steam 'Verify Integrity' tool and update your GPU drivers from the official NVIDIA or AMD websites to fix this."
+  },
+  {
+    question: "How do I fix the black screen error in Escape the Backrooms?",
+    answer: "Try pressing Alt + Enter to toggle between Windowed and Fullscreen modes. If the issue persists, ensure your monitor resolution matches the game's configuration file settings in %LOCALAPPDATA%."
+  },
+  {
+    question: "Does the game support VR in 2026?",
+    answer: "While the game may attempt to launch SteamVR, the developers have officially disabled VR support due to persistent bugs. It is recommended to disconnect VR hardware to prevent crashing."
+  },
+  {
+    question: "What should I do if there is no audio in the game?",
+    answer: "Check your Windows Sound Control Panel and ensure your output device is set to 16-bit or 24-bit, 48000Hz. Also, verify that the game is not muted in the Volume Mixer."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+If none of these steps resolve your **Escape the Backrooms crashing** issues, consider checking the official Discord or Steam community hubs for any server-wide outages or specific 2026 patch notes that may address your hardware configuration.
+</Callout>
+
+</Section>

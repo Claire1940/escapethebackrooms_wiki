@@ -1,0 +1,141 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, AlertTriangle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Escape the Backrooms Aranea Membri: Survival Guide & Tactics",
+  description: "Master survival against the Aranea Membri in Escape the Backrooms. Learn behavior patterns, hiding strategies, and tips to avoid this deadly entity.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/8b0000/fff?text=Aranea+Membri+Survival",
+  date: "2026-06-04",
+  author: "Escape the Backrooms Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- The **Escape the Backrooms Aranea Membri** is a lethal spider-like entity found in Level 188.
+- **Stealth and speed** are your primary defenses; always keep nearby doors accessible for quick exits.
+- **Ventilation awareness** is crucial, as this entity frequently ambushes players from ceiling vents.
+- **Strategic movement** involves peeking around corners to track its patrol patterns before advancing.
+- **Avoid lingering** in hallways, as the creature's high mobility makes it nearly impossible to outrun in open spaces.
+</Callout>
+
+<Section icon={Map} title="Understanding the Aranea Membri">
+
+The Aranea Membri represents one of the most terrifying threats within the hotel-themed corridors of Level 188. This spider-like predator utilizes its four powerful legs to navigate the environment with lethal speed. Unlike other entities, it possesses a unique aesthetic feature: the skull of an unknown creature serves as its head, making it easily identifiable even from a distance.
+
+**Video Highlights:**
+- Identifying the Aranea Membri's patrol patterns in Level 188.
+- Demonstrating effective hiding spots within hotel rooms.
+- Visualizing the danger zones near ceiling vents.
+
+<YouTubeEmbed videoId="NW5LzSpzBZQ" title="Windows And Aranea Membri | Escape The Backrooms Update 4 Part 2" />
+
+<Callout type="warning" title="Entity Profile">
+The Aranea Membri is classified as a "Deadly" threat level entity. Its primary ability is an instant-death attack triggered upon catching a player, making direct confrontation impossible.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Survival Tactics and Behavior">
+
+Surviving an encounter with the Aranea Membri requires a disciplined approach to movement. Because this entity is faster than the player, attempting to outrun it in a long corridor will almost certainly result in a game-over screen. Instead, players must rely on environmental awareness and quick decision-making.
+
+| Feature | Description |
+| :--- | :--- |
+| **Danger Level** | Deadly |
+| **Primary Habitat** | Level 188 (Hotel) |
+| **Main Weakness** | None known |
+| **Detection Range** | High |
+
+<CardGrid cols={3}>
+  <Card title="Room Access">
+    - Always keep doors open.
+    - Closets provide temporary safety.
+    - Corner rooms are optimal hiding spots.
+  </Card>
+  <Card title="Vent Awareness">
+    - Listen for audio cues.
+    - Avoid standing under vents.
+    - Watch for ceiling movement.
+  </Card>
+  <Card title="Movement Tips">
+    - Peek before turning corners.
+    - Avoid long hallway travel.
+    - Sprint only when spotted.
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Strategic Advice">
+Always maintain a clear line of sight to the nearest door. If you hear the specific audio cue of the creature emerging from a vent, do not turn back; head immediately into the nearest room and close the door behind you.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Evasion Guide">
+
+When you realize the Aranea Membri is stalking you, follow these steps to maximize your chances of survival.
+
+<Steps>
+  <Step num="1" title="Maintain Situational Awareness">
+    Constantly monitor the ceiling vents and the far end of corridors. Early detection is the only way to gain the distance needed to find a secure room.
+  </Step>
+  <Step num="2" title="Identify Safe Zones">
+    Always know where the nearest open hotel room is. Never enter a dead-end hallway without checking for potential exits or hiding spots first.
+  </Step>
+  <Step num="3" title="Execute Evasion">
+    If spotted, sprint directly to the nearest door. Close and hold the door if possible. Do not linger in the hallway to look back, as the creature's speed is superior.
+  </Step>
+  <Step num="4" title="Wait for Patrol Departure">
+    Stay silent and wait until the audio cues of the Aranea Membri fade. Avoid interacting with loud objects while hiding to prevent drawing attention.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Survival Checklist">
+- [ ] Keep doors open in explored areas.
+- [ ] Listen for the specific "WAV_UI_Danger_With_Caw_04" audio cue.
+- [ ] Avoid long-duration hallway traversal.
+- [ ] Use the hotel rooms as your primary shelter.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Entity Data and Trivia">
+
+Understanding the lore and technical aspects of the Aranea Membri provides context for its behavior. While it was added in later updates, it has quickly become a staple of the [Escape the Backrooms](https://escapethebackrooms.fandom.com/wiki/Aranea_Membri) experience.
+
+| Audio Type | Description | File Identifier |
+| :--- | :--- | :--- |
+| Vent Ambush | Sound of creature emerging | WAV_UI_Danger_With_Caw_04 |
+| Attack | The entity's signature jumpscare | WAV_UI_Attack_Normal_With_Caw_02 |
+
+<Callout type="info" title="Trivia Highlights">
+- The Aranea Membri encountered in-game is female; lore suggests males possess deer-like antlers.
+- This entity was originally created by the creator Frag 2, rather than being a standard community-made Backrooms entity.
+- It was teased in developer logs as early as 2022 but did not officially join the game's roster until the 2024 updates.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I kill the Aranea Membri?",
+    answer: "No, the Aranea Membri cannot be killed. Players must focus entirely on evasion and stealth to survive encounters with this entity."
+  },
+  {
+    question: "What is the best way to avoid the Aranea Membri in Level 188?",
+    answer: "The best strategy is to stay in rooms and only move through hallways when necessary. Always keep nearby doors open to ensure you have a quick escape route."
+  },
+  {
+    question: "How do I know if the Aranea Membri is nearby?",
+    answer: "Listen for distinct audio cues, specifically the sound of the creature crawling out of ceiling vents. If you hear this, seek cover immediately."
+  }
+]} />
+
+</Section>
