@@ -1,0 +1,1334 @@
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "Escape-the-Backrooms-code",
+        "file": "Escape-the-Backrooms-code"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Escape-the-Backrooms-all-levels",
+        "file": "Escape-the-Backrooms-all-levels"
+      },
+      {
+        "slug": "Escape-the-Backrooms-aranea-membri",
+        "file": "Escape-the-Backrooms-aranea-membri"
+      },
+      {
+        "slug": "Escape-the-Backrooms-beginner-guide",
+        "file": "Escape-the-Backrooms-beginner-guide"
+      },
+      {
+        "slug": "Escape-the-Backrooms-crashing",
+        "file": "Escape-the-Backrooms-crashing"
+      },
+      {
+        "slug": "Escape-the-Backrooms-guide",
+        "file": "Escape-the-Backrooms-guide"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-long-to-beat",
+        "file": "Escape-the-Backrooms-how-long-to-beat"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-many-levels",
+        "file": "Escape-the-Backrooms-how-many-levels"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-to-escape",
+        "file": "Escape-the-Backrooms-how-to-escape"
+      },
+      {
+        "slug": "Escape-the-Backrooms-levels-in-order",
+        "file": "Escape-the-Backrooms-levels-in-order"
+      },
+      {
+        "slug": "Escape-the-Backrooms-walkthrough",
+        "file": "Escape-the-Backrooms-walkthrough"
+      },
+      {
+        "slug": "escape-the-backrooms-all-achievements",
+        "file": "escape-the-backrooms-all-achievements"
+      },
+      {
+        "slug": "escape-the-backrooms-all-endings",
+        "file": "escape-the-backrooms-all-endings"
+      },
+      {
+        "slug": "escape-the-backrooms-bacteria",
+        "file": "escape-the-backrooms-bacteria"
+      },
+      {
+        "slug": "escape-the-backrooms-dog",
+        "file": "escape-the-backrooms-dog"
+      },
+      {
+        "slug": "escape-the-backrooms-enemies",
+        "file": "escape-the-backrooms-enemies"
+      },
+      {
+        "slug": "escape-the-backrooms-entities",
+        "file": "escape-the-backrooms-entities"
+      },
+      {
+        "slug": "escape-the-backrooms-items",
+        "file": "escape-the-backrooms-items"
+      },
+      {
+        "slug": "escape-the-backrooms-kitty",
+        "file": "escape-the-backrooms-kitty"
+      },
+      {
+        "slug": "escape-the-backrooms-nightmare-mode",
+        "file": "escape-the-backrooms-nightmare-mode"
+      },
+      {
+        "slug": "escape-the-backrooms-speedrun",
+        "file": "escape-the-backrooms-speedrun"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "Escape-the-Backrooms-hotel-level",
+        "file": "Escape-the-Backrooms-hotel-level"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-1",
+        "file": "Escape-the-Backrooms-level-1"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-2",
+        "file": "Escape-the-Backrooms-level-2"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-4",
+        "file": "Escape-the-Backrooms-level-4"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-5",
+        "file": "Escape-the-Backrooms-level-5"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-6",
+        "file": "Escape-the-Backrooms-level-6"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-9",
+        "file": "Escape-the-Backrooms-level-9"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-94",
+        "file": "Escape-the-Backrooms-level-94"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-fun",
+        "file": "Escape-the-Backrooms-level-fun"
+      },
+      {
+        "slug": "Escape-the-Backrooms-levels",
+        "file": "Escape-the-Backrooms-levels"
+      },
+      {
+        "slug": "escape-the-backrooms-abandoned-office",
+        "file": "escape-the-backrooms-abandoned-office"
+      },
+      {
+        "slug": "escape-the-backrooms-boiler-room",
+        "file": "escape-the-backrooms-boiler-room"
+      },
+      {
+        "slug": "escape-the-backrooms-bug-level",
+        "file": "escape-the-backrooms-bug-level"
+      },
+      {
+        "slug": "escape-the-backrooms-cave-level",
+        "file": "escape-the-backrooms-cave-level"
+      },
+      {
+        "slug": "escape-the-backrooms-clown-level",
+        "file": "escape-the-backrooms-clown-level"
+      },
+      {
+        "slug": "escape-the-backrooms-danger-zone",
+        "file": "escape-the-backrooms-danger-zone"
+      },
+      {
+        "slug": "escape-the-backrooms-fatal-error",
+        "file": "escape-the-backrooms-fatal-error"
+      },
+      {
+        "slug": "escape-the-backrooms-garage",
+        "file": "escape-the-backrooms-garage"
+      },
+      {
+        "slug": "escape-the-backrooms-grassrooms",
+        "file": "escape-the-backrooms-grassrooms"
+      },
+      {
+        "slug": "escape-the-backrooms-habitable-zone",
+        "file": "escape-the-backrooms-habitable-zone"
+      },
+      {
+        "slug": "escape-the-backrooms-house-level",
+        "file": "escape-the-backrooms-house-level"
+      },
+      {
+        "slug": "escape-the-backrooms-infinite-staircase",
+        "file": "escape-the-backrooms-infinite-staircase"
+      },
+      {
+        "slug": "escape-the-backrooms-insect-level",
+        "file": "escape-the-backrooms-insect-level"
+      },
+      {
+        "slug": "escape-the-backrooms-level-0",
+        "file": "escape-the-backrooms-level-0"
+      },
+      {
+        "slug": "escape-the-backrooms-level-3",
+        "file": "escape-the-backrooms-level-3"
+      },
+      {
+        "slug": "escape-the-backrooms-level-7",
+        "file": "escape-the-backrooms-level-7"
+      },
+      {
+        "slug": "escape-the-backrooms-moth-level",
+        "file": "escape-the-backrooms-moth-level"
+      },
+      {
+        "slug": "escape-the-backrooms-neighborhood",
+        "file": "escape-the-backrooms-neighborhood"
+      },
+      {
+        "slug": "escape-the-backrooms-office-level",
+        "file": "escape-the-backrooms-office-level"
+      },
+      {
+        "slug": "escape-the-backrooms-overgrowth",
+        "file": "escape-the-backrooms-overgrowth"
+      },
+      {
+        "slug": "escape-the-backrooms-poolrooms",
+        "file": "escape-the-backrooms-poolrooms"
+      },
+      {
+        "slug": "escape-the-backrooms-quarantine",
+        "file": "escape-the-backrooms-quarantine"
+      },
+      {
+        "slug": "escape-the-backrooms-road-level",
+        "file": "escape-the-backrooms-road-level"
+      },
+      {
+        "slug": "escape-the-backrooms-underwater-level",
+        "file": "escape-the-backrooms-underwater-level"
+      },
+      {
+        "slug": "escape-the-backrooms-upside-down-level",
+        "file": "escape-the-backrooms-upside-down-level"
+      },
+      {
+        "slug": "escape-the-backrooms-winter-wanderer",
+        "file": "escape-the-backrooms-winter-wanderer"
+      },
+      {
+        "slug": "escape-the-backrooms-you-cheated-level",
+        "file": "escape-the-backrooms-you-cheated-level"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Escape-the-Backrooms-crossplay-pc-xbox",
+        "file": "Escape-the-Backrooms-crossplay-pc-xbox"
+      },
+      {
+        "slug": "Escape-the-Backrooms-crossplay",
+        "file": "Escape-the-Backrooms-crossplay"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-many-players",
+        "file": "Escape-the-Backrooms-how-many-players"
+      },
+      {
+        "slug": "Escape-the-Backrooms-max-players",
+        "file": "Escape-the-Backrooms-max-players"
+      },
+      {
+        "slug": "Escape-the-Backrooms-multiplayer",
+        "file": "Escape-the-Backrooms-multiplayer"
+      },
+      {
+        "slug": "Escape-the-Backrooms-voice-chat-not-working",
+        "file": "Escape-the-Backrooms-voice-chat-not-working"
+      },
+      {
+        "slug": "Escape-the-Backrooms-with-friends",
+        "file": "Escape-the-Backrooms-with-friends"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Escape-the-Backrooms-android",
+        "file": "Escape-the-Backrooms-android"
+      },
+      {
+        "slug": "Escape-the-Backrooms-console",
+        "file": "Escape-the-Backrooms-console"
+      },
+      {
+        "slug": "Escape-the-Backrooms-gamepass",
+        "file": "Escape-the-Backrooms-gamepass"
+      },
+      {
+        "slug": "Escape-the-Backrooms-mac-download",
+        "file": "Escape-the-Backrooms-mac-download"
+      },
+      {
+        "slug": "Escape-the-Backrooms-pc",
+        "file": "Escape-the-Backrooms-pc"
+      },
+      {
+        "slug": "Escape-the-Backrooms-ps5",
+        "file": "Escape-the-Backrooms-ps5"
+      },
+      {
+        "slug": "Escape-the-Backrooms-steam",
+        "file": "Escape-the-Backrooms-steam"
+      },
+      {
+        "slug": "Escape-the-Backrooms-switch",
+        "file": "Escape-the-Backrooms-switch"
+      },
+      {
+        "slug": "Escape-the-Backrooms-xbox",
+        "file": "Escape-the-Backrooms-xbox"
+      },
+      {
+        "slug": "escape-the-backrooms-epic-games",
+        "file": "escape-the-backrooms-epic-games"
+      },
+      {
+        "slug": "escape-the-backrooms-vr",
+        "file": "escape-the-backrooms-vr"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Escape-the-Backrooms-elevator-code",
+        "file": "Escape-the-Backrooms-elevator-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-hotel-codes",
+        "file": "Escape-the-Backrooms-hotel-codes"
+      },
+      {
+        "slug": "Escape-the-Backrooms-keypad-code",
+        "file": "Escape-the-Backrooms-keypad-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-4-code",
+        "file": "Escape-the-Backrooms-level-4-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-security-override-needed",
+        "file": "Escape-the-Backrooms-security-override-needed"
+      },
+      {
+        "slug": "Escape-the-Backrooms-water-valve-puzzle",
+        "file": "Escape-the-Backrooms-water-valve-puzzle"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "Escape-the-Backrooms-code",
+        "file": "Escape-the-Backrooms-code"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Escape-the-Backrooms-all-levels",
+        "file": "Escape-the-Backrooms-all-levels"
+      },
+      {
+        "slug": "Escape-the-Backrooms-beginner-guide",
+        "file": "Escape-the-Backrooms-beginner-guide"
+      },
+      {
+        "slug": "Escape-the-Backrooms-guide",
+        "file": "Escape-the-Backrooms-guide"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-long-to-beat",
+        "file": "Escape-the-Backrooms-how-long-to-beat"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-many-levels",
+        "file": "Escape-the-Backrooms-how-many-levels"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-to-escape",
+        "file": "Escape-the-Backrooms-how-to-escape"
+      },
+      {
+        "slug": "Escape-the-Backrooms-levels-in-order",
+        "file": "Escape-the-Backrooms-levels-in-order"
+      },
+      {
+        "slug": "Escape-the-Backrooms-walkthrough",
+        "file": "Escape-the-Backrooms-walkthrough"
+      },
+      {
+        "slug": "escape-the-backrooms-all-achievements",
+        "file": "escape-the-backrooms-all-achievements"
+      },
+      {
+        "slug": "escape-the-backrooms-all-endings",
+        "file": "escape-the-backrooms-all-endings"
+      },
+      {
+        "slug": "escape-the-backrooms-bacteria",
+        "file": "escape-the-backrooms-bacteria"
+      },
+      {
+        "slug": "escape-the-backrooms-dog",
+        "file": "escape-the-backrooms-dog"
+      },
+      {
+        "slug": "escape-the-backrooms-enemies",
+        "file": "escape-the-backrooms-enemies"
+      },
+      {
+        "slug": "escape-the-backrooms-entities",
+        "file": "escape-the-backrooms-entities"
+      },
+      {
+        "slug": "escape-the-backrooms-items",
+        "file": "escape-the-backrooms-items"
+      },
+      {
+        "slug": "escape-the-backrooms-kitty",
+        "file": "escape-the-backrooms-kitty"
+      },
+      {
+        "slug": "escape-the-backrooms-nightmare-mode",
+        "file": "escape-the-backrooms-nightmare-mode"
+      },
+      {
+        "slug": "escape-the-backrooms-speedrun",
+        "file": "escape-the-backrooms-speedrun"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "Escape-the-Backrooms-hotel-level",
+        "file": "Escape-the-Backrooms-hotel-level"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-1",
+        "file": "Escape-the-Backrooms-level-1"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-2",
+        "file": "Escape-the-Backrooms-level-2"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-4",
+        "file": "Escape-the-Backrooms-level-4"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-5",
+        "file": "Escape-the-Backrooms-level-5"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-6",
+        "file": "Escape-the-Backrooms-level-6"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-9",
+        "file": "Escape-the-Backrooms-level-9"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-94",
+        "file": "Escape-the-Backrooms-level-94"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-fun",
+        "file": "Escape-the-Backrooms-level-fun"
+      },
+      {
+        "slug": "Escape-the-Backrooms-levels",
+        "file": "Escape-the-Backrooms-levels"
+      },
+      {
+        "slug": "escape-the-backrooms-abandoned-office",
+        "file": "escape-the-backrooms-abandoned-office"
+      },
+      {
+        "slug": "escape-the-backrooms-boiler-room",
+        "file": "escape-the-backrooms-boiler-room"
+      },
+      {
+        "slug": "escape-the-backrooms-bug-level",
+        "file": "escape-the-backrooms-bug-level"
+      },
+      {
+        "slug": "escape-the-backrooms-cave-level",
+        "file": "escape-the-backrooms-cave-level"
+      },
+      {
+        "slug": "escape-the-backrooms-clown-level",
+        "file": "escape-the-backrooms-clown-level"
+      },
+      {
+        "slug": "escape-the-backrooms-danger-zone",
+        "file": "escape-the-backrooms-danger-zone"
+      },
+      {
+        "slug": "escape-the-backrooms-fatal-error",
+        "file": "escape-the-backrooms-fatal-error"
+      },
+      {
+        "slug": "escape-the-backrooms-garage",
+        "file": "escape-the-backrooms-garage"
+      },
+      {
+        "slug": "escape-the-backrooms-grassrooms",
+        "file": "escape-the-backrooms-grassrooms"
+      },
+      {
+        "slug": "escape-the-backrooms-habitable-zone",
+        "file": "escape-the-backrooms-habitable-zone"
+      },
+      {
+        "slug": "escape-the-backrooms-house-level",
+        "file": "escape-the-backrooms-house-level"
+      },
+      {
+        "slug": "escape-the-backrooms-infinite-staircase",
+        "file": "escape-the-backrooms-infinite-staircase"
+      },
+      {
+        "slug": "escape-the-backrooms-insect-level",
+        "file": "escape-the-backrooms-insect-level"
+      },
+      {
+        "slug": "escape-the-backrooms-level-0",
+        "file": "escape-the-backrooms-level-0"
+      },
+      {
+        "slug": "escape-the-backrooms-level-3",
+        "file": "escape-the-backrooms-level-3"
+      },
+      {
+        "slug": "escape-the-backrooms-level-7",
+        "file": "escape-the-backrooms-level-7"
+      },
+      {
+        "slug": "escape-the-backrooms-moth-level",
+        "file": "escape-the-backrooms-moth-level"
+      },
+      {
+        "slug": "escape-the-backrooms-neighborhood",
+        "file": "escape-the-backrooms-neighborhood"
+      },
+      {
+        "slug": "escape-the-backrooms-office-level",
+        "file": "escape-the-backrooms-office-level"
+      },
+      {
+        "slug": "escape-the-backrooms-overgrowth",
+        "file": "escape-the-backrooms-overgrowth"
+      },
+      {
+        "slug": "escape-the-backrooms-poolrooms",
+        "file": "escape-the-backrooms-poolrooms"
+      },
+      {
+        "slug": "escape-the-backrooms-quarantine",
+        "file": "escape-the-backrooms-quarantine"
+      },
+      {
+        "slug": "escape-the-backrooms-road-level",
+        "file": "escape-the-backrooms-road-level"
+      },
+      {
+        "slug": "escape-the-backrooms-underwater-level",
+        "file": "escape-the-backrooms-underwater-level"
+      },
+      {
+        "slug": "escape-the-backrooms-upside-down-level",
+        "file": "escape-the-backrooms-upside-down-level"
+      },
+      {
+        "slug": "escape-the-backrooms-winter-wanderer",
+        "file": "escape-the-backrooms-winter-wanderer"
+      },
+      {
+        "slug": "escape-the-backrooms-you-cheated-level",
+        "file": "escape-the-backrooms-you-cheated-level"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Escape-the-Backrooms-crossplay-pc-xbox",
+        "file": "Escape-the-Backrooms-crossplay-pc-xbox"
+      },
+      {
+        "slug": "Escape-the-Backrooms-crossplay",
+        "file": "Escape-the-Backrooms-crossplay"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-many-players",
+        "file": "Escape-the-Backrooms-how-many-players"
+      },
+      {
+        "slug": "Escape-the-Backrooms-max-players",
+        "file": "Escape-the-Backrooms-max-players"
+      },
+      {
+        "slug": "Escape-the-Backrooms-multiplayer",
+        "file": "Escape-the-Backrooms-multiplayer"
+      },
+      {
+        "slug": "Escape-the-Backrooms-voice-chat-not-working",
+        "file": "Escape-the-Backrooms-voice-chat-not-working"
+      },
+      {
+        "slug": "Escape-the-Backrooms-with-friends",
+        "file": "Escape-the-Backrooms-with-friends"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Escape-the-Backrooms-console",
+        "file": "Escape-the-Backrooms-console"
+      },
+      {
+        "slug": "Escape-the-Backrooms-gamepass",
+        "file": "Escape-the-Backrooms-gamepass"
+      },
+      {
+        "slug": "Escape-the-Backrooms-mac-download",
+        "file": "Escape-the-Backrooms-mac-download"
+      },
+      {
+        "slug": "Escape-the-Backrooms-pc",
+        "file": "Escape-the-Backrooms-pc"
+      },
+      {
+        "slug": "Escape-the-Backrooms-ps5",
+        "file": "Escape-the-Backrooms-ps5"
+      },
+      {
+        "slug": "Escape-the-Backrooms-steam",
+        "file": "Escape-the-Backrooms-steam"
+      },
+      {
+        "slug": "Escape-the-Backrooms-switch",
+        "file": "Escape-the-Backrooms-switch"
+      },
+      {
+        "slug": "Escape-the-Backrooms-xbox",
+        "file": "Escape-the-Backrooms-xbox"
+      },
+      {
+        "slug": "escape-the-backrooms-epic-games",
+        "file": "escape-the-backrooms-epic-games"
+      },
+      {
+        "slug": "escape-the-backrooms-vr",
+        "file": "escape-the-backrooms-vr"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Escape-the-Backrooms-elevator-code",
+        "file": "Escape-the-Backrooms-elevator-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-hotel-codes",
+        "file": "Escape-the-Backrooms-hotel-codes"
+      },
+      {
+        "slug": "Escape-the-Backrooms-keypad-code",
+        "file": "Escape-the-Backrooms-keypad-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-4-code",
+        "file": "Escape-the-Backrooms-level-4-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-security-override-needed",
+        "file": "Escape-the-Backrooms-security-override-needed"
+      },
+      {
+        "slug": "Escape-the-Backrooms-water-valve-puzzle",
+        "file": "Escape-the-Backrooms-water-valve-puzzle"
+      }
+    ]
+  },
+  "ja": {
+    "codes": [
+      {
+        "slug": "Escape-the-Backrooms-code",
+        "file": "Escape-the-Backrooms-code"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Escape-the-Backrooms-all-levels",
+        "file": "Escape-the-Backrooms-all-levels"
+      },
+      {
+        "slug": "Escape-the-Backrooms-beginner-guide",
+        "file": "Escape-the-Backrooms-beginner-guide"
+      },
+      {
+        "slug": "Escape-the-Backrooms-guide",
+        "file": "Escape-the-Backrooms-guide"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-long-to-beat",
+        "file": "Escape-the-Backrooms-how-long-to-beat"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-many-levels",
+        "file": "Escape-the-Backrooms-how-many-levels"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-to-escape",
+        "file": "Escape-the-Backrooms-how-to-escape"
+      },
+      {
+        "slug": "Escape-the-Backrooms-levels-in-order",
+        "file": "Escape-the-Backrooms-levels-in-order"
+      },
+      {
+        "slug": "Escape-the-Backrooms-walkthrough",
+        "file": "Escape-the-Backrooms-walkthrough"
+      },
+      {
+        "slug": "escape-the-backrooms-all-achievements",
+        "file": "escape-the-backrooms-all-achievements"
+      },
+      {
+        "slug": "escape-the-backrooms-all-endings",
+        "file": "escape-the-backrooms-all-endings"
+      },
+      {
+        "slug": "escape-the-backrooms-bacteria",
+        "file": "escape-the-backrooms-bacteria"
+      },
+      {
+        "slug": "escape-the-backrooms-dog",
+        "file": "escape-the-backrooms-dog"
+      },
+      {
+        "slug": "escape-the-backrooms-enemies",
+        "file": "escape-the-backrooms-enemies"
+      },
+      {
+        "slug": "escape-the-backrooms-entities",
+        "file": "escape-the-backrooms-entities"
+      },
+      {
+        "slug": "escape-the-backrooms-items",
+        "file": "escape-the-backrooms-items"
+      },
+      {
+        "slug": "escape-the-backrooms-kitty",
+        "file": "escape-the-backrooms-kitty"
+      },
+      {
+        "slug": "escape-the-backrooms-nightmare-mode",
+        "file": "escape-the-backrooms-nightmare-mode"
+      },
+      {
+        "slug": "escape-the-backrooms-speedrun",
+        "file": "escape-the-backrooms-speedrun"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "Escape-the-Backrooms-hotel-level",
+        "file": "Escape-the-Backrooms-hotel-level"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-1",
+        "file": "Escape-the-Backrooms-level-1"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-2",
+        "file": "Escape-the-Backrooms-level-2"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-4",
+        "file": "Escape-the-Backrooms-level-4"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-5",
+        "file": "Escape-the-Backrooms-level-5"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-6",
+        "file": "Escape-the-Backrooms-level-6"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-9",
+        "file": "Escape-the-Backrooms-level-9"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-94",
+        "file": "Escape-the-Backrooms-level-94"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-fun",
+        "file": "Escape-the-Backrooms-level-fun"
+      },
+      {
+        "slug": "Escape-the-Backrooms-levels",
+        "file": "Escape-the-Backrooms-levels"
+      },
+      {
+        "slug": "escape-the-backrooms-abandoned-office",
+        "file": "escape-the-backrooms-abandoned-office"
+      },
+      {
+        "slug": "escape-the-backrooms-boiler-room",
+        "file": "escape-the-backrooms-boiler-room"
+      },
+      {
+        "slug": "escape-the-backrooms-bug-level",
+        "file": "escape-the-backrooms-bug-level"
+      },
+      {
+        "slug": "escape-the-backrooms-cave-level",
+        "file": "escape-the-backrooms-cave-level"
+      },
+      {
+        "slug": "escape-the-backrooms-clown-level",
+        "file": "escape-the-backrooms-clown-level"
+      },
+      {
+        "slug": "escape-the-backrooms-danger-zone",
+        "file": "escape-the-backrooms-danger-zone"
+      },
+      {
+        "slug": "escape-the-backrooms-fatal-error",
+        "file": "escape-the-backrooms-fatal-error"
+      },
+      {
+        "slug": "escape-the-backrooms-garage",
+        "file": "escape-the-backrooms-garage"
+      },
+      {
+        "slug": "escape-the-backrooms-grassrooms",
+        "file": "escape-the-backrooms-grassrooms"
+      },
+      {
+        "slug": "escape-the-backrooms-habitable-zone",
+        "file": "escape-the-backrooms-habitable-zone"
+      },
+      {
+        "slug": "escape-the-backrooms-house-level",
+        "file": "escape-the-backrooms-house-level"
+      },
+      {
+        "slug": "escape-the-backrooms-infinite-staircase",
+        "file": "escape-the-backrooms-infinite-staircase"
+      },
+      {
+        "slug": "escape-the-backrooms-insect-level",
+        "file": "escape-the-backrooms-insect-level"
+      },
+      {
+        "slug": "escape-the-backrooms-level-0",
+        "file": "escape-the-backrooms-level-0"
+      },
+      {
+        "slug": "escape-the-backrooms-level-3",
+        "file": "escape-the-backrooms-level-3"
+      },
+      {
+        "slug": "escape-the-backrooms-level-7",
+        "file": "escape-the-backrooms-level-7"
+      },
+      {
+        "slug": "escape-the-backrooms-moth-level",
+        "file": "escape-the-backrooms-moth-level"
+      },
+      {
+        "slug": "escape-the-backrooms-neighborhood",
+        "file": "escape-the-backrooms-neighborhood"
+      },
+      {
+        "slug": "escape-the-backrooms-office-level",
+        "file": "escape-the-backrooms-office-level"
+      },
+      {
+        "slug": "escape-the-backrooms-overgrowth",
+        "file": "escape-the-backrooms-overgrowth"
+      },
+      {
+        "slug": "escape-the-backrooms-poolrooms",
+        "file": "escape-the-backrooms-poolrooms"
+      },
+      {
+        "slug": "escape-the-backrooms-quarantine",
+        "file": "escape-the-backrooms-quarantine"
+      },
+      {
+        "slug": "escape-the-backrooms-road-level",
+        "file": "escape-the-backrooms-road-level"
+      },
+      {
+        "slug": "escape-the-backrooms-underwater-level",
+        "file": "escape-the-backrooms-underwater-level"
+      },
+      {
+        "slug": "escape-the-backrooms-upside-down-level",
+        "file": "escape-the-backrooms-upside-down-level"
+      },
+      {
+        "slug": "escape-the-backrooms-winter-wanderer",
+        "file": "escape-the-backrooms-winter-wanderer"
+      },
+      {
+        "slug": "escape-the-backrooms-you-cheated-level",
+        "file": "escape-the-backrooms-you-cheated-level"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Escape-the-Backrooms-crossplay-pc-xbox",
+        "file": "Escape-the-Backrooms-crossplay-pc-xbox"
+      },
+      {
+        "slug": "Escape-the-Backrooms-crossplay",
+        "file": "Escape-the-Backrooms-crossplay"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-many-players",
+        "file": "Escape-the-Backrooms-how-many-players"
+      },
+      {
+        "slug": "Escape-the-Backrooms-max-players",
+        "file": "Escape-the-Backrooms-max-players"
+      },
+      {
+        "slug": "Escape-the-Backrooms-multiplayer",
+        "file": "Escape-the-Backrooms-multiplayer"
+      },
+      {
+        "slug": "Escape-the-Backrooms-voice-chat-not-working",
+        "file": "Escape-the-Backrooms-voice-chat-not-working"
+      },
+      {
+        "slug": "Escape-the-Backrooms-with-friends",
+        "file": "Escape-the-Backrooms-with-friends"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Escape-the-Backrooms-console",
+        "file": "Escape-the-Backrooms-console"
+      },
+      {
+        "slug": "Escape-the-Backrooms-gamepass",
+        "file": "Escape-the-Backrooms-gamepass"
+      },
+      {
+        "slug": "Escape-the-Backrooms-mac-download",
+        "file": "Escape-the-Backrooms-mac-download"
+      },
+      {
+        "slug": "Escape-the-Backrooms-pc",
+        "file": "Escape-the-Backrooms-pc"
+      },
+      {
+        "slug": "Escape-the-Backrooms-ps5",
+        "file": "Escape-the-Backrooms-ps5"
+      },
+      {
+        "slug": "Escape-the-Backrooms-steam",
+        "file": "Escape-the-Backrooms-steam"
+      },
+      {
+        "slug": "Escape-the-Backrooms-switch",
+        "file": "Escape-the-Backrooms-switch"
+      },
+      {
+        "slug": "Escape-the-Backrooms-xbox",
+        "file": "Escape-the-Backrooms-xbox"
+      },
+      {
+        "slug": "escape-the-backrooms-epic-games",
+        "file": "escape-the-backrooms-epic-games"
+      },
+      {
+        "slug": "escape-the-backrooms-vr",
+        "file": "escape-the-backrooms-vr"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Escape-the-Backrooms-elevator-code",
+        "file": "Escape-the-Backrooms-elevator-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-hotel-codes",
+        "file": "Escape-the-Backrooms-hotel-codes"
+      },
+      {
+        "slug": "Escape-the-Backrooms-keypad-code",
+        "file": "Escape-the-Backrooms-keypad-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-4-code",
+        "file": "Escape-the-Backrooms-level-4-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-security-override-needed",
+        "file": "Escape-the-Backrooms-security-override-needed"
+      },
+      {
+        "slug": "Escape-the-Backrooms-water-valve-puzzle",
+        "file": "Escape-the-Backrooms-water-valve-puzzle"
+      }
+    ]
+  },
+  "ru": {
+    "codes": [
+      {
+        "slug": "Escape-the-Backrooms-code",
+        "file": "Escape-the-Backrooms-code"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Escape-the-Backrooms-all-levels",
+        "file": "Escape-the-Backrooms-all-levels"
+      },
+      {
+        "slug": "Escape-the-Backrooms-beginner-guide",
+        "file": "Escape-the-Backrooms-beginner-guide"
+      },
+      {
+        "slug": "Escape-the-Backrooms-guide",
+        "file": "Escape-the-Backrooms-guide"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-long-to-beat",
+        "file": "Escape-the-Backrooms-how-long-to-beat"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-many-levels",
+        "file": "Escape-the-Backrooms-how-many-levels"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-to-escape",
+        "file": "Escape-the-Backrooms-how-to-escape"
+      },
+      {
+        "slug": "Escape-the-Backrooms-levels-in-order",
+        "file": "Escape-the-Backrooms-levels-in-order"
+      },
+      {
+        "slug": "Escape-the-Backrooms-walkthrough",
+        "file": "Escape-the-Backrooms-walkthrough"
+      },
+      {
+        "slug": "escape-the-backrooms-all-achievements",
+        "file": "escape-the-backrooms-all-achievements"
+      },
+      {
+        "slug": "escape-the-backrooms-all-endings",
+        "file": "escape-the-backrooms-all-endings"
+      },
+      {
+        "slug": "escape-the-backrooms-bacteria",
+        "file": "escape-the-backrooms-bacteria"
+      },
+      {
+        "slug": "escape-the-backrooms-dog",
+        "file": "escape-the-backrooms-dog"
+      },
+      {
+        "slug": "escape-the-backrooms-enemies",
+        "file": "escape-the-backrooms-enemies"
+      },
+      {
+        "slug": "escape-the-backrooms-entities",
+        "file": "escape-the-backrooms-entities"
+      },
+      {
+        "slug": "escape-the-backrooms-items",
+        "file": "escape-the-backrooms-items"
+      },
+      {
+        "slug": "escape-the-backrooms-kitty",
+        "file": "escape-the-backrooms-kitty"
+      },
+      {
+        "slug": "escape-the-backrooms-nightmare-mode",
+        "file": "escape-the-backrooms-nightmare-mode"
+      },
+      {
+        "slug": "escape-the-backrooms-speedrun",
+        "file": "escape-the-backrooms-speedrun"
+      }
+    ],
+    "levels": [
+      {
+        "slug": "Escape-the-Backrooms-hotel-level",
+        "file": "Escape-the-Backrooms-hotel-level"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-1",
+        "file": "Escape-the-Backrooms-level-1"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-2",
+        "file": "Escape-the-Backrooms-level-2"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-4",
+        "file": "Escape-the-Backrooms-level-4"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-5",
+        "file": "Escape-the-Backrooms-level-5"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-6",
+        "file": "Escape-the-Backrooms-level-6"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-9",
+        "file": "Escape-the-Backrooms-level-9"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-94",
+        "file": "Escape-the-Backrooms-level-94"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-fun",
+        "file": "Escape-the-Backrooms-level-fun"
+      },
+      {
+        "slug": "Escape-the-Backrooms-levels",
+        "file": "Escape-the-Backrooms-levels"
+      },
+      {
+        "slug": "escape-the-backrooms-abandoned-office",
+        "file": "escape-the-backrooms-abandoned-office"
+      },
+      {
+        "slug": "escape-the-backrooms-boiler-room",
+        "file": "escape-the-backrooms-boiler-room"
+      },
+      {
+        "slug": "escape-the-backrooms-bug-level",
+        "file": "escape-the-backrooms-bug-level"
+      },
+      {
+        "slug": "escape-the-backrooms-cave-level",
+        "file": "escape-the-backrooms-cave-level"
+      },
+      {
+        "slug": "escape-the-backrooms-clown-level",
+        "file": "escape-the-backrooms-clown-level"
+      },
+      {
+        "slug": "escape-the-backrooms-danger-zone",
+        "file": "escape-the-backrooms-danger-zone"
+      },
+      {
+        "slug": "escape-the-backrooms-fatal-error",
+        "file": "escape-the-backrooms-fatal-error"
+      },
+      {
+        "slug": "escape-the-backrooms-garage",
+        "file": "escape-the-backrooms-garage"
+      },
+      {
+        "slug": "escape-the-backrooms-grassrooms",
+        "file": "escape-the-backrooms-grassrooms"
+      },
+      {
+        "slug": "escape-the-backrooms-habitable-zone",
+        "file": "escape-the-backrooms-habitable-zone"
+      },
+      {
+        "slug": "escape-the-backrooms-house-level",
+        "file": "escape-the-backrooms-house-level"
+      },
+      {
+        "slug": "escape-the-backrooms-infinite-staircase",
+        "file": "escape-the-backrooms-infinite-staircase"
+      },
+      {
+        "slug": "escape-the-backrooms-insect-level",
+        "file": "escape-the-backrooms-insect-level"
+      },
+      {
+        "slug": "escape-the-backrooms-level-0",
+        "file": "escape-the-backrooms-level-0"
+      },
+      {
+        "slug": "escape-the-backrooms-level-3",
+        "file": "escape-the-backrooms-level-3"
+      },
+      {
+        "slug": "escape-the-backrooms-level-7",
+        "file": "escape-the-backrooms-level-7"
+      },
+      {
+        "slug": "escape-the-backrooms-moth-level",
+        "file": "escape-the-backrooms-moth-level"
+      },
+      {
+        "slug": "escape-the-backrooms-neighborhood",
+        "file": "escape-the-backrooms-neighborhood"
+      },
+      {
+        "slug": "escape-the-backrooms-office-level",
+        "file": "escape-the-backrooms-office-level"
+      },
+      {
+        "slug": "escape-the-backrooms-overgrowth",
+        "file": "escape-the-backrooms-overgrowth"
+      },
+      {
+        "slug": "escape-the-backrooms-poolrooms",
+        "file": "escape-the-backrooms-poolrooms"
+      },
+      {
+        "slug": "escape-the-backrooms-quarantine",
+        "file": "escape-the-backrooms-quarantine"
+      },
+      {
+        "slug": "escape-the-backrooms-road-level",
+        "file": "escape-the-backrooms-road-level"
+      },
+      {
+        "slug": "escape-the-backrooms-underwater-level",
+        "file": "escape-the-backrooms-underwater-level"
+      },
+      {
+        "slug": "escape-the-backrooms-upside-down-level",
+        "file": "escape-the-backrooms-upside-down-level"
+      },
+      {
+        "slug": "escape-the-backrooms-winter-wanderer",
+        "file": "escape-the-backrooms-winter-wanderer"
+      },
+      {
+        "slug": "escape-the-backrooms-you-cheated-level",
+        "file": "escape-the-backrooms-you-cheated-level"
+      }
+    ],
+    "multiplayer": [
+      {
+        "slug": "Escape-the-Backrooms-crossplay-pc-xbox",
+        "file": "Escape-the-Backrooms-crossplay-pc-xbox"
+      },
+      {
+        "slug": "Escape-the-Backrooms-crossplay",
+        "file": "Escape-the-Backrooms-crossplay"
+      },
+      {
+        "slug": "Escape-the-Backrooms-how-many-players",
+        "file": "Escape-the-Backrooms-how-many-players"
+      },
+      {
+        "slug": "Escape-the-Backrooms-max-players",
+        "file": "Escape-the-Backrooms-max-players"
+      },
+      {
+        "slug": "Escape-the-Backrooms-multiplayer",
+        "file": "Escape-the-Backrooms-multiplayer"
+      },
+      {
+        "slug": "Escape-the-Backrooms-voice-chat-not-working",
+        "file": "Escape-the-Backrooms-voice-chat-not-working"
+      },
+      {
+        "slug": "Escape-the-Backrooms-with-friends",
+        "file": "Escape-the-Backrooms-with-friends"
+      }
+    ],
+    "platforms": [
+      {
+        "slug": "Escape-the-Backrooms-console",
+        "file": "Escape-the-Backrooms-console"
+      },
+      {
+        "slug": "Escape-the-Backrooms-gamepass",
+        "file": "Escape-the-Backrooms-gamepass"
+      },
+      {
+        "slug": "Escape-the-Backrooms-mac-download",
+        "file": "Escape-the-Backrooms-mac-download"
+      },
+      {
+        "slug": "Escape-the-Backrooms-pc",
+        "file": "Escape-the-Backrooms-pc"
+      },
+      {
+        "slug": "Escape-the-Backrooms-ps5",
+        "file": "Escape-the-Backrooms-ps5"
+      },
+      {
+        "slug": "Escape-the-Backrooms-steam",
+        "file": "Escape-the-Backrooms-steam"
+      },
+      {
+        "slug": "Escape-the-Backrooms-switch",
+        "file": "Escape-the-Backrooms-switch"
+      },
+      {
+        "slug": "Escape-the-Backrooms-xbox",
+        "file": "Escape-the-Backrooms-xbox"
+      },
+      {
+        "slug": "escape-the-backrooms-epic-games",
+        "file": "escape-the-backrooms-epic-games"
+      },
+      {
+        "slug": "escape-the-backrooms-vr",
+        "file": "escape-the-backrooms-vr"
+      }
+    ],
+    "puzzles": [
+      {
+        "slug": "Escape-the-Backrooms-elevator-code",
+        "file": "Escape-the-Backrooms-elevator-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-hotel-codes",
+        "file": "Escape-the-Backrooms-hotel-codes"
+      },
+      {
+        "slug": "Escape-the-Backrooms-keypad-code",
+        "file": "Escape-the-Backrooms-keypad-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-level-4-code",
+        "file": "Escape-the-Backrooms-level-4-code"
+      },
+      {
+        "slug": "Escape-the-Backrooms-security-override-needed",
+        "file": "Escape-the-Backrooms-security-override-needed"
+      },
+      {
+        "slug": "Escape-the-Backrooms-water-valve-puzzle",
+        "file": "Escape-the-Backrooms-water-valve-puzzle"
+      }
+    ]
+  }
+}
