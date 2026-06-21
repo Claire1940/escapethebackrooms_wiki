@@ -1,3 +1,4 @@
+import { setRequestLocale } from 'next-intl/server'
 import { getLatestArticles } from '@/lib/getLatestArticles'
 import type { Language } from '@/lib/content'
 import HomePageClient from './HomePageClient'
@@ -8,6 +9,7 @@ interface PageProps {
 
 export default async function HomePage({ params }: PageProps) {
   const { locale } = await params
+  setRequestLocale(locale)
   const latestArticles = await getLatestArticles(locale as Language, 30)
   return <HomePageClient latestArticles={latestArticles} locale={locale} />
 }
